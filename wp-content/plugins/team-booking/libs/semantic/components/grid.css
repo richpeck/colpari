@@ -1,0 +1,1880 @@
+/*!
+ * # Semantic UI 2.0.0 - Grid
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2015 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+            Standard
+*******************************/
+
+.ui.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0em;
+}
+
+/*----------------------
+      Remove Gutters
+-----------------------*/
+
+.ui.grid {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.ui.relaxed.grid {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+.ui[class*="very relaxed"].grid {
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
+}
+
+/* Preserve Rows Spacing on Consecutive Grids */
+.ui.grid + .grid {
+  margin-top: 1rem;
+}
+
+/*-------------------
+       Columns
+--------------------*/
+
+
+/* Standard 16 column */
+.ui.grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > .tbk-cal-row > .tbk-cal-column {
+  position: relative;
+  display: inline-block;
+  width: 6.25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  vertical-align: top;
+}
+.ui.grid > * {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*-------------------
+        Rows
+--------------------*/
+
+.ui.grid > .tbk-cal-row {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: inherit;
+  -webkit-justify-content: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 100% !important;
+  padding: 0rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*-------------------
+       Columns
+--------------------*/
+
+
+/* Vertical padding when no rows */
+.ui.grid > .tbk-cal-column:not(.tbk-cal-row) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.ui.grid > .tbk-cal-row > .tbk-cal-column {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/*-------------------
+      Content
+--------------------*/
+
+.ui.grid > .tbk-cal-row > img,
+.ui.grid > .tbk-cal-row > .tbk-cal-column > img {
+  max-width: 100%;
+}
+
+/*-------------------
+    Loose Coupling
+--------------------*/
+
+
+/* Collapse Margin on Consecutive Grid */
+.ui.grid > .ui.grid:first-child {
+  margin-top: 0em;
+}
+.ui.grid > .ui.grid:last-child {
+  margin-bottom: 0em;
+}
+
+/* Segment inside Aligned Grid */
+.ui.grid .aligned.tbk-cal-row > .tbk-cal-column > .segment:not(.compact),
+.ui.aligned.grid .tbk-cal-column > .segment:not(.compact) {
+  width: 100%;
+}
+
+/* Align Dividers with Gutter */
+.ui.grid .tbk-cal-row + .ui.divider {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 1rem 1rem;
+}
+.ui.grid .tbk-cal-column + .ui.vertical.divider {
+  height: calc(50% -  1rem );
+}
+
+/* Remove Border on Last Horizontal Segment */
+.ui.grid > .tbk-cal-row > .tbk-cal-column:last-child > .horizontal.segment,
+.ui.grid > .tbk-cal-column:last-child > .horizontal.segment {
+  box-shadow: none;
+}
+
+
+/*******************************
+           Variations
+*******************************/
+
+
+/*-----------------------
+       Page Grid
+-------------------------*/
+
+@media only screen and (max-width: 767px) {
+  .ui.page.grid {
+    width: auto;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .ui.page.grid {
+    width: auto;
+    margin-left: 0em;
+    margin-right: 0em;
+    padding-left: 23%;
+    padding-right: 23%;
+  }
+}
+
+/*-------------------
+     Column Count
+--------------------*/
+
+
+/* Assume full width with one column */
+.ui.grid > .tbk-cal-column:only-child,
+.ui.grid > .tbk-cal-row > .tbk-cal-column:only-child {
+  width: 100%;
+}
+
+/* Grid Based */
+.ui[class*="one tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="one tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 100%;
+}
+.ui[class*="two tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="two tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 50%;
+}
+.ui[class*="three tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="three tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 33.33333333%;
+}
+.ui[class*="four tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="four tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 25%;
+}
+.ui[class*="five tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="five tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 20%;
+}
+.ui[class*="six tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="six tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 16.66666667%;
+}
+.ui[class*="seven tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="seven tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 14.28571429%;
+}
+.ui[class*="eight tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="eight tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 12.5%;
+}
+.ui[class*="nine tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="nine tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 11.11111111%;
+}
+.ui[class*="ten tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="ten tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 10%;
+}
+.ui[class*="eleven tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="eleven tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 9.09090909%;
+}
+.ui[class*="twelve tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="twelve tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 8.33333333%;
+}
+.ui[class*="thirteen tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="thirteen tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 7.69230769%;
+}
+.ui[class*="fourteen tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="fourteen tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 7.14285714%;
+}
+.ui[class*="fifteen tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="fifteen tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 6.66666667%;
+}
+.ui[class*="sixteen tbk-cal-column"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui[class*="sixteen tbk-cal-column"].grid > .tbk-cal-column:not(.tbk-cal-row) {
+  width: 6.25%;
+}
+
+/* Row Based Overrides */
+.ui.grid > [class*="one tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 100% !important;
+}
+.ui.grid > [class*="two tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 50% !important;
+}
+.ui.grid > [class*="three tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 33.33333333% !important;
+}
+.ui.grid > [class*="four tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 25% !important;
+}
+.ui.grid > [class*="five tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 20% !important;
+}
+.ui.grid > [class*="six tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 16.66666667% !important;
+}
+.ui.grid > [class*="seven tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 14.28571429% !important;
+}
+.ui.grid > [class*="eight tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 12.5% !important;
+}
+.ui.grid > [class*="nine tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 11.11111111% !important;
+}
+.ui.grid > [class*="ten tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 10% !important;
+}
+.ui.grid > [class*="eleven tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 9.09090909% !important;
+}
+.ui.grid > [class*="twelve tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 8.33333333% !important;
+}
+.ui.grid > [class*="thirteen tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 7.69230769% !important;
+}
+.ui.grid > [class*="fourteen tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 7.14285714% !important;
+}
+.ui.grid > [class*="fifteen tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 6.66666667% !important;
+}
+.ui.grid > [class*="sixteen tbk-cal-column"].tbk-cal-row > .tbk-cal-column {
+  width: 6.25% !important;
+}
+
+/*-------------------
+    Column Width
+--------------------*/
+
+
+/* Sizing Combinations */
+.ui.grid > .tbk-cal-row > [class*="one wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="one wide"].tbk-cal-column,
+.ui.grid > [class*="one wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="one wide"].tbk-cal-column {
+  width: 6.25% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="two wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="two wide"].tbk-cal-column,
+.ui.grid > [class*="two wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="two wide"].tbk-cal-column {
+  width: 12.5% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="three wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="three wide"].tbk-cal-column,
+.ui.grid > [class*="three wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="three wide"].tbk-cal-column {
+  width: 18.75% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="four wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="four wide"].tbk-cal-column,
+.ui.grid > [class*="four wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="four wide"].tbk-cal-column {
+  width: 25% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="five wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="five wide"].tbk-cal-column,
+.ui.grid > [class*="five wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="five wide"].tbk-cal-column {
+  width: 31.25% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="six wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="six wide"].tbk-cal-column,
+.ui.grid > [class*="six wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="six wide"].tbk-cal-column {
+  width: 37.5% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="seven wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="seven wide"].tbk-cal-column,
+.ui.grid > [class*="seven wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="seven wide"].tbk-cal-column {
+  width: 43.75% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="eight wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eight wide"].tbk-cal-column,
+.ui.grid > [class*="eight wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="eight wide"].tbk-cal-column {
+  width: 50% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="nine wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="nine wide"].tbk-cal-column,
+.ui.grid > [class*="nine wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="nine wide"].tbk-cal-column {
+  width: 56.25% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="ten wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="ten wide"].tbk-cal-column,
+.ui.grid > [class*="ten wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="ten wide"].tbk-cal-column {
+  width: 62.5% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="eleven wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eleven wide"].tbk-cal-column,
+.ui.grid > [class*="eleven wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="eleven wide"].tbk-cal-column {
+  width: 68.75% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="twelve wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="twelve wide"].tbk-cal-column,
+.ui.grid > [class*="twelve wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="twelve wide"].tbk-cal-column {
+  width: 75% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="thirteen wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="thirteen wide"].tbk-cal-column,
+.ui.grid > [class*="thirteen wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="thirteen wide"].tbk-cal-column {
+  width: 81.25% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="fourteen wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fourteen wide"].tbk-cal-column,
+.ui.grid > [class*="fourteen wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="fourteen wide"].tbk-cal-column {
+  width: 87.5% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="fifteen wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fifteen wide"].tbk-cal-column,
+.ui.grid > [class*="fifteen wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="fifteen wide"].tbk-cal-column {
+  width: 93.75% !important;
+}
+.ui.grid > .tbk-cal-row > [class*="sixteen wide"].tbk-cal-column,
+.ui.grid > .tbk-cal-column.tbk-cal-row > [class*="sixteen wide"].tbk-cal-column,
+.ui.grid > [class*="sixteen wide"].tbk-cal-column,
+.ui.tbk-cal-column.grid > [class*="sixteen wide"].tbk-cal-column {
+  width: 100% !important;
+}
+
+/*----------------------
+    Width per Device
+-----------------------*/
+
+
+/* Mobile Sizing Combinations */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .ui.grid > .tbk-cal-row > [class*="one wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="one wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="one wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="one wide mobile"].tbk-cal-column {
+    width: 6.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="two wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="two wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="two wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="two wide mobile"].tbk-cal-column {
+    width: 12.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="three wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="three wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="three wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="three wide mobile"].tbk-cal-column {
+    width: 18.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="four wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="four wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="four wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="four wide mobile"].tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="five wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="five wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="five wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="five wide mobile"].tbk-cal-column {
+    width: 31.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="six wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="six wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="six wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="six wide mobile"].tbk-cal-column {
+    width: 37.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="seven wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="seven wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="seven wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="seven wide mobile"].tbk-cal-column {
+    width: 43.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eight wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eight wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="eight wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eight wide mobile"].tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="nine wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="nine wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="nine wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="nine wide mobile"].tbk-cal-column {
+    width: 56.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="ten wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="ten wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="ten wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="ten wide mobile"].tbk-cal-column {
+    width: 62.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eleven wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eleven wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="eleven wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eleven wide mobile"].tbk-cal-column {
+    width: 68.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="twelve wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="twelve wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="twelve wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="twelve wide mobile"].tbk-cal-column {
+    width: 75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="thirteen wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="thirteen wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="thirteen wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="thirteen wide mobile"].tbk-cal-column {
+    width: 81.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fourteen wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fourteen wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="fourteen wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fourteen wide mobile"].tbk-cal-column {
+    width: 87.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fifteen wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fifteen wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="fifteen wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fifteen wide mobile"].tbk-cal-column {
+    width: 93.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="sixteen wide mobile"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="sixteen wide mobile"].tbk-cal-column,
+  .ui.grid > [class*="sixteen wide mobile"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="sixteen wide mobile"].tbk-cal-column {
+    width: 100% !important;
+  }
+}
+
+/* Tablet Sizing Combinations */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.grid > .tbk-cal-row > [class*="one wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="one wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="one wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="one wide tablet"].tbk-cal-column {
+    width: 6.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="two wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="two wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="two wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="two wide tablet"].tbk-cal-column {
+    width: 12.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="three wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="three wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="three wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="three wide tablet"].tbk-cal-column {
+    width: 18.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="four wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="four wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="four wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="four wide tablet"].tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="five wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="five wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="five wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="five wide tablet"].tbk-cal-column {
+    width: 31.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="six wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="six wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="six wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="six wide tablet"].tbk-cal-column {
+    width: 37.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="seven wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="seven wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="seven wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="seven wide tablet"].tbk-cal-column {
+    width: 43.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eight wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eight wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="eight wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eight wide tablet"].tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="nine wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="nine wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="nine wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="nine wide tablet"].tbk-cal-column {
+    width: 56.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="ten wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="ten wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="ten wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="ten wide tablet"].tbk-cal-column {
+    width: 62.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eleven wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eleven wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="eleven wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eleven wide tablet"].tbk-cal-column {
+    width: 68.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="twelve wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="twelve wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="twelve wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="twelve wide tablet"].tbk-cal-column {
+    width: 75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="thirteen wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="thirteen wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="thirteen wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="thirteen wide tablet"].tbk-cal-column {
+    width: 81.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fourteen wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fourteen wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="fourteen wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fourteen wide tablet"].tbk-cal-column {
+    width: 87.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fifteen wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fifteen wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="fifteen wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fifteen wide tablet"].tbk-cal-column {
+    width: 93.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="sixteen wide tablet"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="sixteen wide tablet"].tbk-cal-column,
+  .ui.grid > [class*="sixteen wide tablet"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="sixteen wide tablet"].tbk-cal-column {
+    width: 100% !important;
+  }
+}
+
+/* Computer/Desktop Sizing Combinations */
+@media only screen and (min-width: 992px) {
+  .ui.grid > .tbk-cal-row > [class*="one wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="one wide computer"].tbk-cal-column,
+  .ui.grid > [class*="one wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="one wide computer"].tbk-cal-column {
+    width: 6.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="two wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="two wide computer"].tbk-cal-column,
+  .ui.grid > [class*="two wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="two wide computer"].tbk-cal-column {
+    width: 12.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="three wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="three wide computer"].tbk-cal-column,
+  .ui.grid > [class*="three wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="three wide computer"].tbk-cal-column {
+    width: 18.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="four wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="four wide computer"].tbk-cal-column,
+  .ui.grid > [class*="four wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="four wide computer"].tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="five wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="five wide computer"].tbk-cal-column,
+  .ui.grid > [class*="five wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="five wide computer"].tbk-cal-column {
+    width: 31.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="six wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="six wide computer"].tbk-cal-column,
+  .ui.grid > [class*="six wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="six wide computer"].tbk-cal-column {
+    width: 37.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="seven wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="seven wide computer"].tbk-cal-column,
+  .ui.grid > [class*="seven wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="seven wide computer"].tbk-cal-column {
+    width: 43.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eight wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eight wide computer"].tbk-cal-column,
+  .ui.grid > [class*="eight wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eight wide computer"].tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="nine wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="nine wide computer"].tbk-cal-column,
+  .ui.grid > [class*="nine wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="nine wide computer"].tbk-cal-column {
+    width: 56.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="ten wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="ten wide computer"].tbk-cal-column,
+  .ui.grid > [class*="ten wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="ten wide computer"].tbk-cal-column {
+    width: 62.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eleven wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eleven wide computer"].tbk-cal-column,
+  .ui.grid > [class*="eleven wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eleven wide computer"].tbk-cal-column {
+    width: 68.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="twelve wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="twelve wide computer"].tbk-cal-column,
+  .ui.grid > [class*="twelve wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="twelve wide computer"].tbk-cal-column {
+    width: 75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="thirteen wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="thirteen wide computer"].tbk-cal-column,
+  .ui.grid > [class*="thirteen wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="thirteen wide computer"].tbk-cal-column {
+    width: 81.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fourteen wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fourteen wide computer"].tbk-cal-column,
+  .ui.grid > [class*="fourteen wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fourteen wide computer"].tbk-cal-column {
+    width: 87.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fifteen wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fifteen wide computer"].tbk-cal-column,
+  .ui.grid > [class*="fifteen wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fifteen wide computer"].tbk-cal-column {
+    width: 93.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="sixteen wide computer"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="sixteen wide computer"].tbk-cal-column,
+  .ui.grid > [class*="sixteen wide computer"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="sixteen wide computer"].tbk-cal-column {
+    width: 100% !important;
+  }
+}
+
+/* Large Monitor Sizing Combinations */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  .ui.grid > .tbk-cal-row > [class*="one wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="one wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="one wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="one wide large screen"].tbk-cal-column {
+    width: 6.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="two wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="two wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="two wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="two wide large screen"].tbk-cal-column {
+    width: 12.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="three wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="three wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="three wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="three wide large screen"].tbk-cal-column {
+    width: 18.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="four wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="four wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="four wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="four wide large screen"].tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="five wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="five wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="five wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="five wide large screen"].tbk-cal-column {
+    width: 31.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="six wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="six wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="six wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="six wide large screen"].tbk-cal-column {
+    width: 37.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="seven wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="seven wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="seven wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="seven wide large screen"].tbk-cal-column {
+    width: 43.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eight wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eight wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="eight wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eight wide large screen"].tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="nine wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="nine wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="nine wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="nine wide large screen"].tbk-cal-column {
+    width: 56.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="ten wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="ten wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="ten wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="ten wide large screen"].tbk-cal-column {
+    width: 62.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eleven wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eleven wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="eleven wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eleven wide large screen"].tbk-cal-column {
+    width: 68.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="twelve wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="twelve wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="twelve wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="twelve wide large screen"].tbk-cal-column {
+    width: 75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="thirteen wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="thirteen wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="thirteen wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="thirteen wide large screen"].tbk-cal-column {
+    width: 81.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fourteen wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fourteen wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="fourteen wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fourteen wide large screen"].tbk-cal-column {
+    width: 87.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fifteen wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fifteen wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="fifteen wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fifteen wide large screen"].tbk-cal-column {
+    width: 93.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="sixteen wide large screen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="sixteen wide large screen"].tbk-cal-column,
+  .ui.grid > [class*="sixteen wide large screen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="sixteen wide large screen"].tbk-cal-column {
+    width: 100% !important;
+  }
+}
+
+/* Widescreen Sizing Combinations */
+@media only screen and (min-width: 1920px) {
+  .ui.grid > .tbk-cal-row > [class*="one wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="one wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="one wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="one wide widescreen"].tbk-cal-column {
+    width: 6.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="two wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="two wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="two wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="two wide widescreen"].tbk-cal-column {
+    width: 12.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="three wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="three wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="three wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="three wide widescreen"].tbk-cal-column {
+    width: 18.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="four wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="four wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="four wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="four wide widescreen"].tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="five wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="five wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="five wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="five wide widescreen"].tbk-cal-column {
+    width: 31.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="six wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="six wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="six wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="six wide widescreen"].tbk-cal-column {
+    width: 37.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="seven wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="seven wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="seven wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="seven wide widescreen"].tbk-cal-column {
+    width: 43.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eight wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eight wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="eight wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eight wide widescreen"].tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="nine wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="nine wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="nine wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="nine wide widescreen"].tbk-cal-column {
+    width: 56.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="ten wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="ten wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="ten wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="ten wide widescreen"].tbk-cal-column {
+    width: 62.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="eleven wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="eleven wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="eleven wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="eleven wide widescreen"].tbk-cal-column {
+    width: 68.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="twelve wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="twelve wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="twelve wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="twelve wide widescreen"].tbk-cal-column {
+    width: 75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="thirteen wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="thirteen wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="thirteen wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="thirteen wide widescreen"].tbk-cal-column {
+    width: 81.25% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fourteen wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fourteen wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="fourteen wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fourteen wide widescreen"].tbk-cal-column {
+    width: 87.5% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="fifteen wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="fifteen wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="fifteen wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="fifteen wide widescreen"].tbk-cal-column {
+    width: 93.75% !important;
+  }
+  .ui.grid > .tbk-cal-row > [class*="sixteen wide widescreen"].tbk-cal-column,
+  .ui.grid > .tbk-cal-column.tbk-cal-row > [class*="sixteen wide widescreen"].tbk-cal-column,
+  .ui.grid > [class*="sixteen wide widescreen"].tbk-cal-column,
+  .ui.tbk-cal-column.grid > [class*="sixteen wide widescreen"].tbk-cal-column {
+    width: 100% !important;
+  }
+}
+
+/*----------------------
+        Centered
+-----------------------*/
+
+.ui.centered.grid,
+.ui.centered.grid > .tbk-cal-row,
+.ui.grid > .centered.tbk-cal-row {
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.ui.centered.grid > .tbk-cal-column:not(.aligned):not(.tbk-cal-row),
+.ui.centered.grid > .tbk-cal-row > .tbk-cal-column:not(.aligned),
+.ui.grid .centered.tbk-cal-row > .tbk-cal-column:not(.aligned) {
+  text-align: left;
+}
+.ui.grid > .centered.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .centered.tbk-cal-column {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*----------------------
+        Relaxed
+-----------------------*/
+
+.ui.relaxed.grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui.relaxed.grid > .tbk-cal-row > .tbk-cal-column,
+.ui.grid > .relaxed.tbk-cal-row > .tbk-cal-column {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.ui[class*="very relaxed"].grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui[class*="very relaxed"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="very relaxed"].tbk-cal-row > .tbk-cal-column {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* Coupling with UI Divider */
+.ui.relaxed.grid .tbk-cal-row + .ui.divider,
+.ui.grid .relaxed.tbk-cal-row + .ui.divider {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.ui[class*="very relaxed"].grid .tbk-cal-row + .ui.divider,
+.ui.grid [class*="very relaxed"].tbk-cal-row + .ui.divider {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+/*----------------------
+        Padded
+-----------------------*/
+
+.ui.padded.grid:not(.vertically):not(.horizontally) {
+  margin: 0em !important;
+}
+[class*="horizontally padded"].ui.grid {
+  margin-left: 0em !important;
+  margin-right: 0em !important;
+}
+[class*="vertically padded"].ui.grid {
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+/*----------------------
+       "Floated"
+-----------------------*/
+
+.ui.grid [class*="left floated"].tbk-cal-column {
+  margin-right: auto;
+}
+.ui.grid [class*="right floated"].tbk-cal-column {
+  margin-left: auto;
+}
+
+/*----------------------
+        Divided
+-----------------------*/
+
+.ui.divided.grid:not([class*="vertically divided"]) > .tbk-cal-column:not(.tbk-cal-row),
+.ui.divided.grid:not([class*="vertically divided"]) > .tbk-cal-row > .tbk-cal-column {
+  box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
+}
+
+/* Swap from padding to margin on columns to have dividers align */
+.ui[class*="vertically divided"].grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui[class*="vertically divided"].grid > .tbk-cal-row > .tbk-cal-column {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.ui[class*="vertically divided"].grid > .tbk-cal-row {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* No divider on first column on row */
+.ui.divided.grid:not([class*="vertically divided"]) > .tbk-cal-column:first-child,
+.ui.divided.grid:not([class*="vertically divided"]) > .tbk-cal-row > .tbk-cal-column:first-child {
+  box-shadow: none;
+}
+
+/* Divided Row */
+.ui.grid > .divided.tbk-cal-row > .tbk-cal-column {
+  box-shadow: -1px 0px 0px 0px rgba(34, 36, 38, 0.15);
+}
+.ui.grid > .divided.tbk-cal-row > .tbk-cal-column:first-child {
+  box-shadow: none;
+}
+
+/* Vertically Divided */
+.ui[class*="vertically divided"].grid > .tbk-cal-row {
+  position: relative;
+}
+.ui[class*="vertically divided"].grid > .tbk-cal-row:before {
+  position: absolute;
+  content: "";
+  top: 0em;
+  left: 0px;
+  width: calc(100% -  2rem );
+  height: 1px;
+  margin: 0% 1rem;
+  box-shadow: 0px -1px 0px 0px rgba(34, 36, 38, 0.15);
+}
+
+/* Padded Horizontally Divided */
+[class*="horizontally padded"].ui.divided.grid,
+.ui.padded.divided.grid:not(.vertically):not(.horizontally) {
+  width: 100%;
+}
+
+/* First Row Vertically Divided */
+.ui[class*="vertically divided"].grid > .tbk-cal-row:first-child:before {
+  box-shadow: none;
+}
+
+/* Inverted Divided */
+.ui.inverted.divided.grid:not([class*="vertically divided"]) > .tbk-cal-column:not(.tbk-cal-row),
+.ui.inverted.divided.grid:not([class*="vertically divided"]) > .tbk-cal-row > .tbk-cal-column {
+  box-shadow: -1px 0px 0px 0px rgba(255, 255, 255, 0.1);
+}
+.ui.inverted.divided.grid:not([class*="vertically divided"]) > .tbk-cal-column:not(.tbk-cal-row):first-child,
+.ui.inverted.divided.grid:not([class*="vertically divided"]) > .tbk-cal-row > .tbk-cal-column:first-child {
+  box-shadow: none;
+}
+.ui.inverted[class*="vertically divided"].grid > .tbk-cal-row:before {
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+/* Relaxed */
+.ui.relaxed[class*="vertically divided"].grid > .tbk-cal-row:before {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: calc(100% -  3rem );
+}
+.ui[class*="very relaxed"][class*="vertically divided"].grid > .tbk-cal-row:before {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: calc(100% -  5rem );
+}
+
+/*----------------------
+         Celled
+-----------------------*/
+
+.ui.celled.grid {
+  width: 100%;
+  margin: 1em 0em;
+  box-shadow: 0px 0px 0px 1px #d4d4d5;
+}
+.ui.celled.grid > .tbk-cal-row,
+.ui.celled.grid > .tbk-cal-column.tbk-cal-row,
+.ui.celled.grid > .tbk-cal-column.tbk-cal-row:first-child {
+  width: 100% !important;
+  margin: 0em;
+  padding: 0em;
+  box-shadow: 0px -1px 0px 0px #d4d4d5;
+}
+.ui.celled.grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui.celled.grid > .tbk-cal-row > .tbk-cal-column {
+  box-shadow: -1px 0px 0px 0px #d4d4d5;
+}
+.ui.celled.grid > .tbk-cal-column:first-child,
+.ui.celled.grid > .tbk-cal-row > .tbk-cal-column:first-child {
+  box-shadow: none;
+}
+.ui.celled.page.grid {
+  box-shadow: none;
+}
+.ui.celled.grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui.celled.grid > .tbk-cal-row > .tbk-cal-column {
+  padding: 1em;
+}
+.ui.relaxed.celled.grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui.relaxed.celled.grid > .tbk-cal-row > .tbk-cal-column {
+  padding: 1.5em;
+}
+.ui[class*="very relaxed"].celled.grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui[class*="very relaxed"].celled.grid > .tbk-cal-row > .tbk-cal-column {
+  padding: 2em;
+}
+
+/* Internally Celled */
+.ui[class*="internally celled"].grid {
+  box-shadow: none;
+  margin: 0em;
+}
+.ui[class*="internally celled"].grid > .tbk-cal-row:first-child {
+  box-shadow: none;
+}
+.ui[class*="internally celled"].grid > .tbk-cal-row > .tbk-cal-column:first-child {
+  box-shadow: none;
+}
+
+/*----------------------
+   Vertically Aligned
+-----------------------*/
+
+
+/* Top Aligned */
+.ui[class*="top aligned"].grid .tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > [class*="top aligned"].tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="top aligned"].tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > .tbk-cal-row > [class*="top aligned"].tbk-cal-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: top;
+  -webkit-align-self: flex-start !important;
+      -ms-flex-item-align: start !important;
+          align-self: flex-start !important;
+}
+
+/* Middle Aligned */
+.ui[class*="middle aligned"].grid .tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > [class*="middle aligned"].tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="middle aligned"].tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > .tbk-cal-row > [class*="middle aligned"].tbk-cal-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: middle;
+  -webkit-align-self: center !important;
+      -ms-flex-item-align: center !important;
+          align-self: center !important;
+}
+
+/* Bottom Aligned */
+.ui[class*="bottom aligned"].grid .tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > [class*="bottom aligned"].tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="bottom aligned"].tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > .tbk-cal-row > [class*="bottom aligned"].tbk-cal-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  vertical-align: bottom;
+  -webkit-align-self: flex-end !important;
+      -ms-flex-item-align: end !important;
+          align-self: flex-end !important;
+}
+
+/* Stretched */
+.ui.stretched.grid > .tbk-cal-row > .tbk-cal-column,
+.ui.stretched.grid > .tbk-cal-column,
+.ui.grid > .stretched.tbk-cal-row > .tbk-cal-column,
+.ui.grid > .stretched.tbk-cal-column:not(.tbk-cal-row),
+.ui.grid > .tbk-cal-row > .stretched.tbk-cal-column {
+  display: -webkit-inline-box !important;
+  display: -webkit-inline-flex !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.ui.stretched.grid > .tbk-cal-row > .tbk-cal-column > *,
+.ui.stretched.grid > .tbk-cal-column > *,
+.ui.grid > .stretched.tbk-cal-row > .tbk-cal-column > *,
+.ui.grid > .stretched.tbk-cal-column:not(.tbk-cal-row) > *,
+.ui.grid > .tbk-cal-row > .stretched.tbk-cal-column > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+/*----------------------
+  Horizontally Centered
+-----------------------*/
+
+
+/* Left Aligned */
+.ui[class*="left aligned"].grid .tbk-cal-column,
+.ui.grid > [class*="left aligned"].tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="left aligned"].tbk-cal-column.tbk-cal-column,
+.ui.grid > .tbk-cal-row > [class*="left aligned"].tbk-cal-column {
+  text-align: left;
+  -webkit-align-self: inherit;
+      -ms-flex-item-align: inherit;
+          align-self: inherit;
+}
+
+/* Center Aligned */
+.ui[class*="center aligned"].grid .tbk-cal-column,
+.ui.grid > [class*="center aligned"].tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="center aligned"].tbk-cal-column.tbk-cal-column,
+.ui.grid > .tbk-cal-row > [class*="center aligned"].tbk-cal-column {
+  text-align: center;
+  -webkit-align-self: inherit;
+      -ms-flex-item-align: inherit;
+          align-self: inherit;
+}
+.ui[class*="center aligned"].grid {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Right Aligned */
+.ui[class*="right aligned"].grid .tbk-cal-column,
+.ui.grid > [class*="right aligned"].tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="right aligned"].tbk-cal-column.tbk-cal-column,
+.ui.grid > .tbk-cal-row > [class*="right aligned"].tbk-cal-column {
+  text-align: right;
+  -webkit-align-self: inherit;
+      -ms-flex-item-align: inherit;
+          align-self: inherit;
+}
+
+/* Justified */
+.ui.justified.grid,
+.ui.justified.grid > .tbk-cal-row > .tbk-cal-column,
+.ui.justified.grid > .tbk-cal-column,
+.ui.grid .justified.tbk-cal-column,
+.ui.grid > .justified.tbk-cal-row > .tbk-cal-column {
+  text-align: justify;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+.ui.grid .justified.tbk-cal-column {
+  text-align: justify !important;
+  -webkit-hyphens: auto !important;
+     -moz-hyphens: auto !important;
+      -ms-hyphens: auto !important;
+          hyphens: auto !important;
+}
+
+/*----------------------
+         Colored
+-----------------------*/
+
+.ui.grid > .tbk-cal-row > .red.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .orange.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .yellow.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .olive.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .green.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .teal.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .blue.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .violet.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .purple.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .pink.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .brown.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .grey.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .black.tbk-cal-column {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Red */
+.ui.grid > .red.tbk-cal-row,
+.ui.grid > .red.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .red.tbk-cal-column {
+  background-color: #db2828 !important;
+  color: #ffffff;
+}
+
+/* Orange */
+.ui.grid > .orange.tbk-cal-row,
+.ui.grid > .orange.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .orange.tbk-cal-column {
+  background-color: #f2711c !important;
+  color: #ffffff;
+}
+
+/* Yellow */
+.ui.grid > .yellow.tbk-cal-row,
+.ui.grid > .yellow.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .yellow.tbk-cal-column {
+  background-color: #fbbd08 !important;
+  color: #ffffff;
+}
+
+/* Olive */
+.ui.grid > .olive.tbk-cal-row,
+.ui.grid > .olive.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .olive.tbk-cal-column {
+  background-color: #b5cc18 !important;
+  color: #ffffff;
+}
+
+/* Green */
+.ui.grid > .green.tbk-cal-row,
+.ui.grid > .green.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .green.tbk-cal-column {
+  background-color: #21ba45 !important;
+  color: #ffffff;
+}
+
+/* Teal */
+.ui.grid > .teal.tbk-cal-row,
+.ui.grid > .teal.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .teal.tbk-cal-column {
+  background-color: #00b5ad !important;
+  color: #ffffff;
+}
+
+/* Blue */
+.ui.grid > .blue.tbk-cal-row,
+.ui.grid > .blue.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .blue.tbk-cal-column {
+  background-color: #2185d0 !important;
+  color: #ffffff;
+}
+
+/* Violet */
+.ui.grid > .violet.tbk-cal-row,
+.ui.grid > .violet.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .violet.tbk-cal-column {
+  background-color: #6435c9 !important;
+  color: #ffffff;
+}
+
+/* Purple */
+.ui.grid > .purple.tbk-cal-row,
+.ui.grid > .purple.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .purple.tbk-cal-column {
+  background-color: #a333c8 !important;
+  color: #ffffff;
+}
+
+/* Pink */
+.ui.grid > .pink.tbk-cal-row,
+.ui.grid > .pink.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .pink.tbk-cal-column {
+  background-color: #e03997 !important;
+  color: #ffffff;
+}
+
+/* Brown */
+.ui.grid > .brown.tbk-cal-row,
+.ui.grid > .brown.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .brown.tbk-cal-column {
+  background-color: #a5673f !important;
+  color: #ffffff;
+}
+
+/* Grey */
+.ui.grid > .grey.tbk-cal-row,
+.ui.grid > .grey.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .grey.tbk-cal-column {
+  background-color: #767676 !important;
+  color: #ffffff;
+}
+
+/* Black */
+.ui.grid > .black.tbk-cal-row,
+.ui.grid > .black.tbk-cal-column,
+.ui.grid > .tbk-cal-row > .black.tbk-cal-column {
+  background-color: #1b1c1d !important;
+  color: #ffffff;
+}
+
+/*----------------------
+      Equal Width
+-----------------------*/
+
+.ui[class*="equal width"].grid > .tbk-cal-column:not(.tbk-cal-row),
+.ui[class*="equal width"].grid > .tbk-cal-row > .tbk-cal-column,
+.ui.grid > [class*="equal width"].tbk-cal-row > .tbk-cal-column {
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.ui[class*="equal width"].grid > .wide.tbk-cal-column,
+.ui[class*="equal width"].grid > .tbk-cal-row > .wide.tbk-cal-column,
+.ui.grid > [class*="equal width"].tbk-cal-row > .wide.tbk-cal-column {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+/*-------------------
+      Doubling
+--------------------*/
+
+
+/* Tablet Only */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.doubling.grid {
+    width: auto;
+  }
+  .ui.grid > .doubling.tbk-cal-row,
+  .ui.doubling.grid > .tbk-cal-row {
+    margin: 0em !important;
+    padding: 0em !important;
+  }
+  .ui.grid > .doubling.tbk-cal-row > .tbk-cal-column,
+  .ui.doubling.grid > .tbk-cal-row > .tbk-cal-column {
+    display: inline-block !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    box-shadow: none !important;
+    margin: 0em;
+  }
+  .ui[class*="two tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="two tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="two tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 100% !important;
+  }
+  .ui[class*="three tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="three tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="three tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="four tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="four tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="four tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="five tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="five tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="five tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="six tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="six tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="six tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="seven tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="seven tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="seven tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="eight tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="eight tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="eight tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui[class*="nine tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="nine tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="nine tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui[class*="ten tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="ten tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="ten tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 20% !important;
+  }
+  .ui[class*="eleven tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="eleven tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="eleven tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 20% !important;
+  }
+  .ui[class*="twelve tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="twelve tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="twelve tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 16.66666667% !important;
+  }
+  .ui[class*="thirteen tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="thirteen tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="thirteen tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 16.66666667% !important;
+  }
+  .ui[class*="fourteen tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="fourteen tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="fourteen tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 14.28571429% !important;
+  }
+  .ui[class*="fifteen tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="fifteen tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="fifteen tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 14.28571429% !important;
+  }
+  .ui[class*="sixteen tbk-cal-column"].doubling.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="sixteen tbk-cal-column"].doubling.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="sixteen tbk-cal-column"].doubling.tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 12.5% !important;
+  }
+}
+
+/* Mobily Only */
+@media only screen and (max-width: 767px) {
+  .ui.grid > .doubling.tbk-cal-row,
+  .ui.doubling.grid > .tbk-cal-row {
+    margin: 0em !important;
+    padding: 0em !important;
+  }
+  .ui.grid > .doubling.tbk-cal-row > .tbk-cal-column,
+  .ui.doubling.grid > .tbk-cal-row > .tbk-cal-column {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    margin: 0em !important;
+    box-shadow: none !important;
+  }
+  .ui[class*="two tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="two tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="two tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 100% !important;
+  }
+  .ui[class*="three tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="three tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="three tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="four tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="four tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="four tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="five tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="five tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="five tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="six tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="six tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="six tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="seven tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="seven tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="seven tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="eight tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="eight tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="eight tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 50% !important;
+  }
+  .ui[class*="nine tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="nine tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="nine tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="ten tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="ten tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="ten tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="eleven tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="eleven tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="eleven tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="twelve tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="twelve tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="twelve tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="thirteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="thirteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="thirteen tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 33.33333333% !important;
+  }
+  .ui[class*="fourteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="fourteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="fourteen tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui[class*="fifteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="fifteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="fifteen tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 25% !important;
+  }
+  .ui[class*="sixteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-row > .tbk-cal-column,
+  .ui[class*="sixteen tbk-cal-column"].doubling:not(.stackable).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > [class*="sixteen tbk-cal-column"].doubling:not(.stackable).tbk-cal-row.tbk-cal-row > .tbk-cal-column {
+    width: 25% !important;
+  }
+}
+
+/*-------------------
+      Stackable
+--------------------*/
+
+@media only screen and (max-width: 767px) {
+  .ui.stackable.grid {
+    width: auto;
+  }
+  .ui.stackable.grid > .tbk-cal-row > .wide.tbk-cal-column,
+  .ui.stackable.grid > .wide.tbk-cal-column,
+  .ui.stackable.grid > .tbk-cal-column.grid > .tbk-cal-column,
+  .ui.stackable.grid > .tbk-cal-column.tbk-cal-row > .tbk-cal-column,
+  .ui.stackable.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui.stackable.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.grid > .stackable.stackable.tbk-cal-row > .tbk-cal-column {
+    width: 100% !important;
+    margin: 0em 0em !important;
+    box-shadow: none !important;
+    padding: 1rem 1rem !important;
+  }
+  .ui.stackable.grid:not(.vertically) > .tbk-cal-row {
+    margin: 0em;
+    padding: 0em;
+  }
+  
+/* Coupling */
+  .ui.container > .ui.stackable.grid > .tbk-cal-column,
+  .ui.container > .ui.stackable.grid > .tbk-cal-row > .tbk-cal-column {
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+  }
+  
+/* Don't pad inside segment or nested grid */
+  .ui.grid .ui.stackable.grid,
+  .ui.segment:not(.vertical) .ui.stackable.page.grid {
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+  }
+  
+/* Divided Stackable */
+  .ui.stackable.divided.grid > .tbk-cal-row:first-child > .tbk-cal-column:first-child,
+  .ui.stackable.celled.grid > .tbk-cal-row:first-child > .tbk-cal-column:first-child,
+  .ui.stackable.divided.grid > .tbk-cal-column:not(.tbk-cal-row):first-child,
+  .ui.stackable.celled.grid > .tbk-cal-column:not(.tbk-cal-row):first-child {
+    border-top: none !important;
+  }
+  .ui.inverted.stackable.celled.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.inverted.stackable.divided.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.inverted.stackable.celled.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui.inverted.stackable.divided.grid > .tbk-cal-row > .tbk-cal-column {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .ui.stackable.celled.grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.stackable.divided:not(.vertically).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.stackable.celled.grid > .tbk-cal-row > .tbk-cal-column,
+  .ui.stackable.divided:not(.vertically).grid > .tbk-cal-row > .tbk-cal-column {
+    border-top: 1px solid rgba(34, 36, 38, 0.15);
+    box-shadow: none !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .ui.stackable.divided:not(.vertically).grid > .tbk-cal-column:not(.tbk-cal-row),
+  .ui.stackable.divided:not(.vertically).grid > .tbk-cal-row > .tbk-cal-column {
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+  }
+}
+
+/*----------------------
+     Only (Device)
+-----------------------*/
+
+
+/* These include arbitrary class repetitions for forced specificity */
+
+/* Mobile Only Hide */
+@media only screen and (max-width: 767px) {
+  .ui.tablet:not(.mobile).only.grid.grid.grid,
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="tablet only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+  .ui[class*="computer only"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="computer only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="computer only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="computer only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+  .ui[class*="large screen only"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="large screen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+  .ui[class*="widescreen"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="large screen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Tablet Only Hide */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui[class*="mobile only"].grid.grid.grid:not(.tablet),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-row:not(.tablet),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-column:not(.tablet),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="mobile only"].tbk-cal-column:not(.tablet) {
+    display: none !important;
+  }
+  .ui[class*="computer only"].grid.grid.grid:not(.tablet),
+  .ui.grid.grid.grid > [class*="computer only"].tbk-cal-row:not(.tablet),
+  .ui.grid.grid.grid > [class*="computer only"].tbk-cal-column:not(.tablet),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="computer only"].tbk-cal-column:not(.tablet) {
+    display: none !important;
+  }
+  .ui[class*="large screen only"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="large screen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+  .ui[class*="widescreen"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="widescreen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="widescreen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="widescreen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Computer Only Hide */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .ui[class*="mobile only"].grid.grid.grid:not(.computer),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-row:not(.computer),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-column:not(.computer),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="mobile only"].tbk-cal-column:not(.computer) {
+    display: none !important;
+  }
+  .ui[class*="tablet only"].grid.grid.grid:not(.computer),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-row:not(.computer),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-column:not(.computer),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="tablet only"].tbk-cal-column:not(.computer) {
+    display: none !important;
+  }
+  .ui[class*="large screen only"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="large screen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="large screen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+  .ui[class*="widescreen"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="widescreen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="widescreen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="widescreen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Large Screen Only Hide */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) {
+  .ui[class*="mobile only"].grid.grid.grid:not(.computer),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-row:not(.computer),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-column:not(.computer),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="mobile only"].tbk-cal-column:not(.computer) {
+    display: none !important;
+  }
+  .ui[class*="tablet only"].grid.grid.grid:not(.computer),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-row:not(.computer),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-column:not(.computer),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="tablet only"].tbk-cal-column:not(.computer) {
+    display: none !important;
+  }
+  .ui[class*="widescreen"].grid.grid.grid:not(.mobile),
+  .ui.grid.grid.grid > [class*="widescreen only"].tbk-cal-row:not(.mobile),
+  .ui.grid.grid.grid > [class*="widescreen only"].tbk-cal-column:not(.mobile),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="widescreen only"].tbk-cal-column:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Widescreen Only Hide */
+@media only screen and (min-width: 1920px) {
+  .ui[class*="mobile only"].grid.grid.grid:not(.computer),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-row:not(.computer),
+  .ui.grid.grid.grid > [class*="mobile only"].tbk-cal-column:not(.computer),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="mobile only"].tbk-cal-column:not(.computer) {
+    display: none !important;
+  }
+  .ui[class*="tablet only"].grid.grid.grid:not(.computer),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-row:not(.computer),
+  .ui.grid.grid.grid > [class*="tablet only"].tbk-cal-column:not(.computer),
+  .ui.grid.grid.grid > .tbk-cal-row > [class*="tablet only"].tbk-cal-column:not(.computer) {
+    display: none !important;
+  }
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+

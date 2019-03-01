@@ -1,0 +1,201 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Awesome Support: Private Credentials\n"
+"POT-Creation-Date: 2018-05-21 14:14-0500\n"
+"PO-Revision-Date: 2018-05-21 15:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: awesome-support-private-credentials.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: awesome-support-private-credentials.php:181
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: awesome-support-private-credentials.php:202
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core plugin "
+"first."
+msgstr ""
+
+#: awesome-support-private-credentials.php:206
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: awesome-support-private-credentials.php:210
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the core "
+"plugin first."
+msgstr ""
+
+#: awesome-support-private-credentials.php:481
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, "
+"your copy of Awesome Support: Private Credentials <strong>will never be "
+"updated</strong>."
+msgstr ""
+
+#: awesome-support-private-credentials.php:507
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. "
+"<a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: class-private-credentials.php:232 class-private-credentials.php:557
+#: class-private-credentials.php:558
+#: includes/metaboxes/private-credentials.php:18
+#: includes/views/credentials.php:9
+msgid "Private Credentials"
+msgstr ""
+
+#: class-private-credentials.php:258
+msgid ""
+"An error occured while registering this metabox. Please contact the support."
+msgstr ""
+
+#: class-private-credentials.php:264
+msgid ""
+"An error occured while loading this metabox. Please contact the support."
+msgstr ""
+
+#: class-private-credentials.php:570
+msgid "Credentials"
+msgstr ""
+
+#: class-private-credentials.php:596
+#, php-format
+msgid "<span>%s</span>"
+msgstr ""
+
+#: class-private-credentials.php:599
+msgid "—"
+msgstr ""
+
+#: class-private-credentials.php:727
+msgid "Error"
+msgstr ""
+
+#: class-private-credentials.php:749 class-private-credentials.php:780
+msgid ""
+"Your credentials could not be saved. System, Password and Username are "
+"required fields."
+msgstr ""
+
+#: includes/metaboxes/private-credentials.php:22
+msgid "View Private Credentials"
+msgstr ""
+
+#: includes/metaboxes/private-credentials.php:25
+msgid "Enter Private Credentials"
+msgstr ""
+
+#: includes/views/add_credentials.php:9
+msgid "Add Private Credentials"
+msgstr ""
+
+#: includes/views/add_credentials.php:18 includes/views/edit_credentials.php:32
+msgid "System"
+msgstr ""
+
+#: includes/views/add_credentials.php:19 includes/views/edit_credentials.php:33
+msgid "cPanel, WordPress, FTP, ..."
+msgstr ""
+
+#: includes/views/add_credentials.php:22 includes/views/credentials.php:24
+#: includes/views/edit_credentials.php:36
+msgid "Username"
+msgstr ""
+
+#: includes/views/add_credentials.php:26 includes/views/credentials.php:30
+#: includes/views/edit_credentials.php:40
+msgid "Password"
+msgstr ""
+
+#: includes/views/add_credentials.php:30 includes/views/credentials.php:36
+#: includes/views/edit_credentials.php:44
+msgid "URL"
+msgstr ""
+
+#: includes/views/add_credentials.php:35 includes/views/credentials.php:42
+#: includes/views/edit_credentials.php:49
+msgid "Note"
+msgstr ""
+
+#: includes/views/add_credentials.php:43 includes/views/edit_credentials.php:57
+msgid "Reset encryption key on Save"
+msgstr ""
+
+#: includes/views/add_credentials.php:54 includes/views/edit_credentials.php:68
+msgid "Save"
+msgstr ""
+
+#: includes/views/add_credentials.php:55 includes/views/edit_credentials.php:69
+msgid "Cancel"
+msgstr ""
+
+#: includes/views/credentials.php:51
+msgid "Edit"
+msgstr ""
+
+#: includes/views/credentials.php:54
+msgid "Delete"
+msgstr ""
+
+#: includes/views/credentials.php:64
+msgid "You dont have any saved credentials"
+msgstr ""
+
+#: includes/views/credentials.php:72
+msgid "Add credentials"
+msgstr ""
+
+#: includes/views/credentials.php:73
+msgid "Close"
+msgstr ""
+
+#: includes/views/edit_credentials.php:22
+msgid "Edit Private Credentials"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Awesome Support: Private Credentials"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.getawesomesupport.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provides a dedicated facility for encrypting and storing sensitive data "
+"(such as passwords and other credentials) directly on an Awesome Support "
+"ticket. The stored data is automatically deleted when the ticket is closed."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Awesome Support"
+msgstr ""

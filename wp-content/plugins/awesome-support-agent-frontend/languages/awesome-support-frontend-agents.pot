@@ -1,0 +1,382 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Awesome Support: Agent Front-end\n"
+"POT-Creation-Date: 2018-06-18 21:10+0200\n"
+"PO-Revision-Date: 2018-06-18 21:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: awesome-support-agent-front-end.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: awesome-support-agent-front-end.php:45
+#, php-format
+msgid ""
+"The LATEST version of Awesome Support needs to be installed in order to "
+"activate the PINS add-on for Awesome Support. Please <a href=\"%s\" target="
+"\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: includes/classes/frontend-agents.php:165
+msgid "Front-end Agents"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:168
+msgid "Enable Front-end Agents"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:172
+msgid "Enable Front-end Agents add-on"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:175
+msgid "Shortcode"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:180
+msgid "Clean Front-end Agents template"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:184
+msgid "Clean template desktop"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:190
+msgid "Clean template mobile"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:196
+msgid "Display custom fields"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:212
+msgid "Mobile View Options"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:213
+msgid "Desktop View Options"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:218
+msgid "Show in ticket list 2nd row"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:219
+msgid "Show in ticket list status row"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:220
+msgid "Show in ticket list 3rd row"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:221
+#: includes/classes/frontend-agents.php:228
+msgid "Show at the top of the ticket"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:222
+#: includes/classes/frontend-agents.php:229
+msgid "Show in the ticket side-bar"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:223
+msgid "Roles allowed to edit"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:227
+msgid "Show in ticket list"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:450 includes/views/login_form.php:4
+#: includes/views/login_form.php:12
+msgid "Login"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:451
+msgid "You can't submit an empty reply"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:452
+msgid "Display _MENU_ records per page"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:453
+#: includes/classes/frontend-agents.php:455
+msgid "No data available in table"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:454
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:456
+msgid "(filtered from _MAX_ total records)"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:457
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:458
+msgid "Search"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:459
+msgid "First"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:460
+msgid "Last"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:461
+msgid "Next"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:462
+msgid "Previous"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:803
+#: includes/views/mobile/ticket_list_item.php:66
+#: includes/views/mobile/view_closed_ticket.php:14
+#: includes/views/tickets_table.php:40 includes/views/view_closed_ticket.php:40
+msgid "Closed"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:811
+#: includes/views/mobile/ticket_list_item.php:103
+msgid "Open"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:1248
+#: includes/classes/frontend-agents.php:1384
+#, php-format
+msgid "You can only upload a maximum of %s files"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:1265
+#: includes/classes/frontend-agents.php:1401
+#, php-format
+msgid "File extension %s is not allowed"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:1517
+msgid "Wrong username or password"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:1538
+msgid "Success"
+msgstr ""
+
+#: includes/classes/frontend-agents.php:1551
+msgid "You don't have permission to access this page"
+msgstr ""
+
+#: includes/views/interface.php:8 includes/views/mobile/interface.php:22
+#: includes/views/mobile/interface.php:37
+#: includes/views/mobile/interface.php:38
+msgid "Open tickets"
+msgstr ""
+
+#: includes/views/interface.php:13 includes/views/mobile/interface.php:42
+#: includes/views/mobile/interface.php:43
+msgid "Closed tickets"
+msgstr ""
+
+#: includes/views/interface.php:29 includes/views/mobile/interface.php:48
+msgid "Logout"
+msgstr ""
+
+#: includes/views/login_form.php:6
+msgid "Username"
+msgstr ""
+
+#: includes/views/login_form.php:8
+msgid "Password"
+msgstr ""
+
+#: includes/views/login_form.php:10
+msgid "Remember Me"
+msgstr ""
+
+#: includes/views/mobile/ticket_list_item.php:46
+#: includes/views/tickets_table.php:90
+#, php-format
+msgid "%s reply."
+msgid_plural "%s replies."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/views/mobile/ticket_list_item.php:47
+#: includes/views/tickets_table.php:91
+#, php-format
+msgctxt "Last reply ago"
+msgid "Last replied %s ago by %s"
+msgstr ""
+
+#: includes/views/mobile/ticket_list_item.php:51
+#: includes/views/mobile/view_closed_ticket.php:118
+#: includes/views/mobile/view_open_ticket.php:129
+#: includes/views/tickets_table.php:95
+#: includes/views/view_closed_ticket.php:223
+#: includes/views/view_open_ticket.php:230
+msgctxt "No last reply"
+msgid "No reply yet."
+msgstr ""
+
+#: includes/views/mobile/ticket_list_item.php:76
+#: includes/views/mobile/view_open_ticket.php:23
+msgid "Awaiting Support Reply"
+msgstr ""
+
+#: includes/views/mobile/ticket_list_item.php:107
+msgid "Close"
+msgstr ""
+
+#: includes/views/mobile/ticket_list_item.php:115
+#: includes/views/mobile/ticket_reply.php:42
+#: includes/views/mobile/view_open_ticket.php:13
+#: includes/views/view_open_ticket.php:275
+msgid "Reply"
+msgstr ""
+
+#: includes/views/mobile/ticket_reply.php:7
+#: includes/views/mobile/view_open_ticket.php:149
+#: includes/views/view_closed_ticket.php:231
+#: includes/views/view_open_ticket.php:239
+msgid "Write a reply"
+msgstr ""
+
+#: includes/views/mobile/ticket_reply.php:7
+msgid "Ticket"
+msgstr ""
+
+#: includes/views/mobile/ticket_reply.php:16
+#: includes/views/view_open_ticket.php:245
+msgid "Attachments"
+msgstr ""
+
+#: includes/views/mobile/ticket_reply.php:36
+#: includes/views/view_open_ticket.php:265
+#, php-format
+msgid ""
+" You can upload up to %d files (maximum %d MB each) of the following types: "
+"%s"
+msgstr ""
+
+#: includes/views/mobile/ticket_reply.php:43
+#: includes/views/view_open_ticket.php:276
+msgid "Reply & Close"
+msgstr ""
+
+#: includes/views/mobile/ticket_reply.php:44
+msgid "Cancel"
+msgstr ""
+
+#: includes/views/mobile/tickets_list.php:20
+msgid "There is no tickets at this time"
+msgstr ""
+
+#: includes/views/mobile/view_closed_ticket.php:57
+#: includes/views/mobile/view_open_ticket.php:68
+#: includes/views/view_closed_ticket.php:147
+#: includes/views/view_open_ticket.php:154
+msgid "Anonymous"
+msgstr ""
+
+#: includes/views/mobile/view_closed_ticket.php:137
+#: includes/views/view_closed_ticket.php:18
+#: includes/views/view_closed_ticket.php:65
+msgid "Re-open Ticket"
+msgstr ""
+
+#: includes/views/mobile/view_open_ticket.php:155
+#: includes/views/view_open_ticket.php:19
+#: includes/views/view_open_ticket.php:72
+msgid "Close Ticket"
+msgstr ""
+
+#: includes/views/mobile/view_open_ticket.php:160
+#: includes/views/view_open_ticket.php:18
+#: includes/views/view_open_ticket.php:62
+msgid "Change Status"
+msgstr ""
+
+#: includes/views/tickets_table.php:7 includes/views/view_closed_ticket.php:13
+#: includes/views/view_closed_ticket.php:36
+#: includes/views/view_open_ticket.php:13
+#: includes/views/view_open_ticket.php:36
+msgid "Status"
+msgstr ""
+
+#: includes/views/tickets_table.php:8
+msgid "Title"
+msgstr ""
+
+#: includes/views/tickets_table.php:9
+msgid "Ticket ID"
+msgstr ""
+
+#: includes/views/tickets_table.php:15
+msgid "Created by"
+msgstr ""
+
+#: includes/views/tickets_table.php:16
+msgid "Activity"
+msgstr ""
+
+#: includes/views/view_closed_ticket.php:14
+#: includes/views/view_closed_ticket.php:45
+#: includes/views/view_open_ticket.php:14
+#: includes/views/view_open_ticket.php:40
+msgid "Date"
+msgstr ""
+
+#: includes/views/view_closed_ticket.php:66
+#: includes/views/view_closed_ticket.php:237
+msgid "Re-open ticket"
+msgstr ""
+
+#: includes/views/view_closed_ticket.php:117
+#: includes/views/view_closed_ticket.php:150
+#: includes/views/view_open_ticket.php:124
+#: includes/views/view_open_ticket.php:157
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/views/view_closed_ticket.php:234
+msgid "The ticket has been closed"
+msgstr ""
+
+#: includes/views/view_open_ticket.php:73
+msgid "Close ticket"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Awesome Support: Agent Front-end"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This add-on to the Awesome Support WordPress Helpdesk Plugin provides a "
+"simple interface that your agents can use to respond to existing tickets on "
+"the front-end of the site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "The Awesome Support Team"
+msgstr ""

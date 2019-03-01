@@ -1,0 +1,68 @@
+Awesome Support WooCommerce - Changelog
+
+1.5.0 - 2017-08-08
+Performance improvements throughout the plugin
+Better custom order status support
+
+1.4.1 - 2017-07-01
+Add link on order page for creating a new ticket with the order ID set
+
+1.4.0 - 2017-06-13
+Add customer stats to ticket profile area
+
+1.3.4 - 2017-04-24
+Remove unused purchase note area in order info
+
+1.3.3 - 2017-03-28
+WooCommerce 3.0 compatibility
+
+1.3.2 - 2017-01-23
+Load Awesome Support styles/scripts on WC My Account pages
+Remove un-needed frontend styling
+
+1.3.1 - 2017-01-19
+Fix issue with 1.3.0 and older PHP versions / missing function argument
+
+1.3.0 - 2017-01-18
+WooCommerce 2.7 compatibility
+Design and UX tweaks
+Show customer/order data even if no order selected
+
+1.2.0 - 2016-06-24
+WooCommerce 2.6 my account menu tab support
+
+1.1.0 - 2015-01-12
+Only show the 'Get Help' button for completed, processing and on-hold orders. This can be filtered - see the docs.
+Only show orders in the order custom field that are completed, processing and on-hold. This can be filtered - see the docs.
+
+1.0.10 - 2015-12-08
+Only show current ticket author’s other tickets in sidebar
+
+1.0.9 - 2015-11-23
+Filter for order # count
+
+1.0.8 - 2015-11-12
+Fix bug causing all orders to show in admin ticket's order select dropdown
+
+1.0.7 - 2015-11-11
+Slow query fix that was causing timeouts
+
+1.0.6 - 2015-09-18
+Compatibility update for Awesome Support 3.2
+
+1.0.5 - 2015-08-21
+Filter for having a ‘general’ option in additional to just orders
+
+1.0.4 - 2015-08-19
+Better sequential order number support
+Show other orders for ticket owner in ticket admin view
+Further WooCommerce 2.4 Compatibility fixes
+
+1.0.3 - 2015-08-18
+WooCommerce 2.4 Compatibility fix
+
+1.0.2 - 2015-05-22
+Fix undefined index bug
+
+1.0.0 - 2015-04-13
+Initial release

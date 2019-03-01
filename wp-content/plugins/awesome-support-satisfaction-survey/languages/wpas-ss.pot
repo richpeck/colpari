@@ -1,0 +1,681 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Awesome Support: Satisfaction Survey\n"
+"POT-Creation-Date: 2017-06-07 00:50-0500\n"
+"PO-Revision-Date: 2016-09-05 16:08-0500\n"
+"Last-Translator: Robert W. Kramer III <rwkramer.iii@customdesigns.com>\n"
+"Language-Team: Robert W. Kramer III <support@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: awesome-support-satisfaction-survey.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-satisfaction-survey.php:109
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: class-satisfaction-survey.php:146
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core plugin "
+"first."
+msgstr ""
+
+#: class-satisfaction-survey.php:150
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: class-satisfaction-survey.php:154
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the core "
+"plugin first."
+msgstr ""
+
+#: class-satisfaction-survey.php:202
+msgid "Settings"
+msgstr ""
+
+#: class-satisfaction-survey.php:220 class-satisfaction-survey.php:505
+#: class-satisfaction-survey.php:1156 includes/settings.php:26
+msgid "Satisfaction Survey"
+msgstr ""
+
+#: class-satisfaction-survey.php:428
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, "
+"your copy of the plugin <strong>will never be updated</strong>."
+msgstr ""
+
+#: class-satisfaction-survey.php:452
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. "
+"<a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: class-satisfaction-survey.php:531
+msgid ""
+"An error occured while registering this metabox. Please contact the support."
+msgstr ""
+
+#: class-satisfaction-survey.php:537
+msgid ""
+"An error occured while loading this metabox. Please contact the support."
+msgstr ""
+
+#: class-satisfaction-survey.php:559
+#: includes/metaboxes/satisfaction-survey.php:82
+msgid "Rating"
+msgstr ""
+
+#: class-satisfaction-survey.php:594
+#, php-format
+msgid "<span style=\"color:%s\">%s</span>"
+msgstr ""
+
+#: class-satisfaction-survey.php:597
+msgid "—"
+msgstr ""
+
+#: class-satisfaction-survey.php:880
+msgid "How would you rate the support you received:"
+msgstr ""
+
+#: class-satisfaction-survey.php:1051
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual html link) to the "
+"survey"
+msgstr ""
+
+#: class-satisfaction-survey.php:1055
+msgid "Displays a link to satisfaction survey"
+msgstr ""
+
+#: class-satisfaction-survey.php:1059
+msgid "Displays a graphical link to satisfaction survey"
+msgstr ""
+
+#: class-satisfaction-survey.php:1064
+#, php-format
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual html link) that, when "
+"clicked, will assign a thumbs up 100% satisfaction rating."
+msgstr ""
+
+#: class-satisfaction-survey.php:1068
+#, php-format
+msgid ""
+"Displays a link that, when clicked, will assign a 100% satisfaction rating "
+"for the survey"
+msgstr ""
+
+#: class-satisfaction-survey.php:1072 class-satisfaction-survey.php:1098
+#, php-format
+msgid ""
+"Displays a graphical link for a 100% satisfaction rating (for future use "
+"only!)"
+msgstr ""
+
+#: class-satisfaction-survey.php:1077
+#, php-format
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual html link) that, when "
+"clicked, will assign a thumbs down 0% satisfaction rating to the ticket."
+msgstr ""
+
+#: class-satisfaction-survey.php:1081
+#, php-format
+msgid ""
+"Displays a link  that, when clicked, will assign a thumbs down "
+"0% satisfaction rating to the ticket"
+msgstr ""
+
+#: class-satisfaction-survey.php:1085 class-satisfaction-survey.php:1111
+#, php-format
+msgid ""
+"Displays a graphical link for a 0% satisfaction rating (for future use only!)"
+msgstr ""
+
+#: class-satisfaction-survey.php:1090
+#, php-format
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual html link) that will "
+"close a ticket and assign a 100% satisfaction rating. Suitable for use on "
+"ALL emails from agents."
+msgstr ""
+
+#: class-satisfaction-survey.php:1094
+#, php-format
+msgid ""
+"Displays a link that will close a ticket and assign a 100% satisfaction "
+"rating for the survey. Suitable for use on ALL emails from agents."
+msgstr ""
+
+#: class-satisfaction-survey.php:1103
+#, php-format
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual html link) that will "
+"close a ticket and assign a 0% satisfaction rating. Suitable for use on ALL "
+"emails from agents."
+msgstr ""
+
+#: class-satisfaction-survey.php:1107
+#, php-format
+msgid ""
+"Displays a link that will close a ticket and assign a 0% satisfaction rating "
+"for the survey. Suitable for use on ALL emails from agents."
+msgstr ""
+
+#: class-satisfaction-survey.php:1169
+#, php-format
+msgid "Thumbs Up - I am 100% satisified!"
+msgstr ""
+
+#: class-satisfaction-survey.php:1182
+msgid "Thumbs Down - I am not satisified!"
+msgstr ""
+
+#: class-satisfaction-survey.php:1195
+#, php-format
+msgid "Close ticket - I am 100% satisfied"
+msgstr ""
+
+#: class-satisfaction-survey.php:1208
+msgid "Close ticket - I am not satisified with your service"
+msgstr ""
+
+#: includes/functions-rewrite.php:77 includes/functions-rewrite.php:160
+#: includes/functions-rewrite.php:213
+msgid "You cannot review a ticket that is still open."
+msgstr ""
+
+#: includes/functions-rewrite.php:83 includes/functions-rewrite.php:166
+#: includes/functions-rewrite.php:219
+msgid ""
+"Your survey response has been recorded. Thank you for taking the time to let "
+"us know how we are doing."
+msgstr ""
+
+#: includes/functions-rewrite.php:98
+msgid "Please tell us the main reason you are unsatisfied:<br/>"
+msgstr ""
+
+#: includes/functions-rewrite.php:104
+msgid "Select the main reason ..."
+msgstr ""
+
+#: includes/functions-rewrite.php:114
+msgid "Comment (optional):<br/>"
+msgstr ""
+
+#: includes/functions-rewrite.php:118
+msgid "Submit"
+msgstr ""
+
+#: includes/functions-rewrite.php:121
+msgid "This survey relates to the ticket with this topic: "
+msgstr ""
+
+#: includes/functions-rewrite.php:174
+msgid "Thank you for taking the time to let us know we are doing a good job!"
+msgstr ""
+
+#: includes/functions-rewrite.php:227
+msgid ""
+"Thank you for taking the time to offer your feedback.  We really appreciate "
+"it!"
+msgstr ""
+
+#: includes/functions-rewrite.php:269
+msgid "This is not a valid ticket id!"
+msgstr ""
+
+#: includes/functions-rewrite.php:274
+msgid ""
+"This ticket was already closed - you cannot close it or assign a rating to "
+"it now."
+msgstr ""
+
+#: includes/functions-rewrite.php:289
+msgid ""
+"Security Error: Required hash does not exist - ticket cannot be closed or "
+"rated! Please login to your account and close the ticket there."
+msgstr ""
+
+#: includes/functions-rewrite.php:296
+msgid ""
+"Security Error: Incorrect security hash was passed - ticket cannot be closed "
+"or rated! Please login to your account and close the ticket there."
+msgstr ""
+
+#: includes/functions-rewrite.php:315
+msgid ""
+"Thank you closing your ticket and for taking the time to let us know we are "
+"doing a good job!"
+msgstr ""
+
+#: includes/functions-rewrite.php:326
+msgid ""
+"Thank you closing your ticket and for taking the time to offer your "
+"feedback.  We really appreciate it!"
+msgstr ""
+
+#: includes/functions-rewrite.php:334
+msgid "An unexpected error was encountered while closing this ticket!!"
+msgstr ""
+
+#: includes/functions-survey.php:77
+msgid "Thank you for taking the time to let us know how we are doing."
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:65
+msgid "Client submission pending."
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:89
+msgid "Comment"
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:101
+msgid "Reason"
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:112
+msgid "Not scheduled (or submitted?)."
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:125
+msgid "Reschedule"
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:134
+msgid "Cancel"
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:143
+msgid "Send Now"
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:147
+msgid "Ticket still open."
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:151
+msgid ""
+"If the email is not received by the client then your installation most "
+"likely has issues with wp-cron. Troubleshooting WordPress wp-cron issues is "
+"outside our scope of support."
+msgstr ""
+
+#: includes/metaboxes/satisfaction-survey.php:152
+msgid "Having e-mail issues?"
+msgstr ""
+
+#: includes/settings.php:29
+msgid "Important Configuration Notes"
+msgstr ""
+
+#: includes/settings.php:31
+msgid ""
+"After installation you <b>MUST</b> go to your WordPress <b>SETTINGS-"
+">PERMALINKS</b> page and click the Save button at least once!  Otherwise "
+"users who click your survey links will encounter a 'page not found' error!"
+msgstr ""
+
+#: includes/settings.php:34
+msgid "Survey Behavior"
+msgstr ""
+
+#: includes/settings.php:36
+msgid ""
+"Please select only ONE of the following three options! (We will allow "
+"combinations in a future release.)"
+msgstr ""
+
+#: includes/settings.php:39
+msgid "Send By E-mail"
+msgstr ""
+
+#: includes/settings.php:43
+msgid "Send survey via e-mail after ticket is closed?"
+msgstr ""
+
+#: includes/settings.php:46
+msgid "Pop-up after close"
+msgstr ""
+
+#: includes/settings.php:50
+msgid ""
+"Show the survey immediately after close. <b>Important Note:</b> Not "
+"compatible with the click-to-close template tags in our powerpack/"
+"productivity add-on!"
+msgstr ""
+
+#: includes/settings.php:53
+msgid "Survey Links In Agent Replies"
+msgstr ""
+
+#: includes/settings.php:57
+msgid ""
+"Enable certain quick-survey links in outgoing agent replies (requires you to "
+"also add the proper template tags to the agent reply notifications in "
+"TICKETS->SETTINGS->EMAILS.  Please see the user manual for more information.)"
+msgstr ""
+
+#: includes/settings.php:61
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/settings.php:65
+msgid "Delay"
+msgstr ""
+
+#: includes/settings.php:74
+msgid ""
+"Delay in minutes after ticket is closed before sending Satisfaction Survey "
+"email.<br/>Default is 1440 (24 hours). Maximum is 20160 (14 days).<br/>"
+msgstr ""
+
+#: includes/settings.php:80
+msgid "Delete survey on ticket reopen"
+msgstr ""
+
+#: includes/settings.php:84
+msgid "Delete existing satisfaction survey when ticket is reopened?"
+msgstr ""
+
+#: includes/settings.php:87
+msgid "Display Rating column"
+msgstr ""
+
+#: includes/settings.php:91
+msgid "Display rating column on ticket lists page?"
+msgstr ""
+
+#: includes/settings.php:95
+msgid "Slugs (custom urls)"
+msgstr ""
+
+#: includes/settings.php:97
+msgid ""
+"If you change an item in this section then you must go to your WordPress "
+"SETTINGS->PERMALINKS page and click the Save button at least once!"
+msgstr ""
+
+#: includes/settings.php:100
+msgid "Slug For Main Survey"
+msgstr ""
+
+#: includes/settings.php:104
+msgid ""
+"The slug used to access the Satisfaction Survey. Defaults to satisfaction-"
+"survey"
+msgstr ""
+
+#: includes/settings.php:107
+msgid "Slug For Thumbs Up"
+msgstr ""
+
+#: includes/settings.php:111
+msgid ""
+"The slug used to access the Satisfaction Survey thumbs-up quick-link. "
+"Defaults to satisfaction-survey-thumbs-up"
+msgstr ""
+
+#: includes/settings.php:114
+msgid "Slug For Thumbs Down"
+msgstr ""
+
+#: includes/settings.php:118
+msgid ""
+"The slug used to access the Satisfaction Survey thumbs-down quick-link. "
+"Defaults to satisfaction-survey-thumbs-down"
+msgstr ""
+
+#: includes/settings.php:121
+msgid "Slug For Click-To-Close With Thumbs Up"
+msgstr ""
+
+#: includes/settings.php:125
+msgid ""
+"The slug used to close the ticket assign a rating of 100%. Defaults to "
+"satisfaction-survey-click-to-close-thumbs-up"
+msgstr ""
+
+#: includes/settings.php:128
+msgid "Slug For Click-To-Close With Thumbs Down"
+msgstr ""
+
+#: includes/settings.php:132
+msgid ""
+"The slug used to close the ticket assign a rating of (zero) 0%. Defaults to "
+"satisfaction-survey-click-to-close-thumbs-down"
+msgstr ""
+
+#: includes/settings.php:137
+msgid "Rating Scale"
+msgstr ""
+
+#: includes/settings.php:142
+msgid "Degrees"
+msgstr ""
+
+#: includes/settings.php:147
+msgid "2"
+msgstr ""
+
+#: includes/settings.php:148
+msgid "5"
+msgstr ""
+
+#: includes/settings.php:149
+msgid "10"
+msgstr ""
+
+#: includes/settings.php:151
+msgid "How many degrees of rating presented to client."
+msgstr ""
+
+#: includes/settings.php:154
+msgid "Bad Label"
+msgstr ""
+
+#: includes/settings.php:158
+msgid "Label displayed at bad end of rating scale. Can be blank for no label."
+msgstr ""
+
+#: includes/settings.php:161
+msgid "Good Label"
+msgstr ""
+
+#: includes/settings.php:165
+msgid ""
+"Label displayed at good end of rating scale. Can be blank for no label.<br/"
+"><br/><div><p><strong>CSS Classes and Ids:</strong></"
+"p><p><strong>#rating_form</strong> - <br/><strong>.scale_label_bad</strong> "
+"- <br/><strong>.scale_label_good</strong> - <br/><strong>.scale_input_radio</"
+"strong> - <br/><strong>.scale_unsatisifed_reasons</strong> - <br/><strong>."
+"survey_comment</strong> - <br/><strong>.rating_choices</strong> - <br/"
+"><strong>.scale_2</strong> - <br/><strong>.scale_5</strong> - <br/><strong>."
+"scale_10</strong> - </p></div>"
+msgstr ""
+
+#: includes/settings.php:184 includes/settings.php:200
+msgid "Unsatisfied Reasons"
+msgstr ""
+
+#: includes/settings.php:188
+msgid "Dropdown Trigger"
+msgstr ""
+
+#: includes/settings.php:197
+msgid ""
+"Percentage-based threshold determines when Unsatisified Reasons dropdown is "
+"triggered."
+msgstr ""
+
+#: includes/settings.php:203 includes/settings.php:343
+msgid "The issue took too long to resolve."
+msgstr ""
+
+#: includes/settings.php:211
+msgid "Email Template"
+msgstr ""
+
+#: includes/settings.php:215
+msgid "Subject"
+msgstr ""
+
+#: includes/settings.php:218 includes/settings.php:349
+msgid "Satisfaction Survey: {ticket_title}"
+msgstr ""
+
+#: includes/settings.php:219
+msgid "Subject of Satisfaction Survey email sent to client."
+msgstr ""
+
+#: includes/settings.php:222
+msgid "Content"
+msgstr ""
+
+#: includes/settings.php:225 includes/settings.php:350
+msgid ""
+"<p>Hi <strong><em>{client_name}</em></strong>, the following inquiry has "
+"been closed:</p><p><span style=\"width: 75px; margin: 10px 20px 5px 20px;"
+"\">Ticket ID</span>: <a href=\"{ticket_url}\">#{ticket_id}</a><br/><span "
+"style=\"width: 75px; margin: 10px 20px 5px 20px;\">Ticket Title</span>: <a "
+"href=\"{ticket_url}\">{ticket_title}</a><br/></p><p>Please take a moment to "
+"let us know how well our staff performed in helping you.</p><p><a href="
+"\"{satisfaction_survey_url}\" ><span style=\"color:green;margin:3px 5px;"
+"float:left;line-height:1em;\">Bad</span><input type=\"radio\" name=\"\" "
+"style=\"margin:5px 10px;float:left;line-height:1em;\" /><input type=\"radio"
+"\" name=\"\" style=\"margin:5px 10px;float:left;line-height:1em;\" /><input "
+"type=\"radio\" name=\"\" style=\"margin:5px 10px;float:left;line-height:1em;"
+"\" /><input type=\"radio\" name=\"\" style=\"margin:5px 10px;float:left;line-"
+"height:1em;\" /><input type=\"radio\" name=\"\" style=\"margin:5px 10px;"
+"float:left;line-height:1em;\" /><span style=\"color:red;margin:3px 5px;float:"
+"unset;line-height:1em;\">Good</span></a></p><p><br/></p><p>Regards,</"
+"p><p><br/><br/>{site_name}</p>"
+msgstr ""
+
+#: includes/settings.php:246
+msgid "Message content of Satisfaction Survey email sent to client."
+msgstr ""
+
+#: includes/settings.php:249
+msgid "Valid Template Tags"
+msgstr ""
+
+#: includes/settings.php:252
+msgid ""
+"The valid template tags that can be used in the email above are:<br/><br/"
+"><div><strong>{ticket_id}</strong>, <strong>{site_name}</strong>, "
+"<strong>{agent_name}</strong>, <strong>{agent_email}</strong>, "
+"<strong>{client_name}</strong>, <strong>{client_email}</strong>, "
+"<strong>{ticket_title}</strong>, <strong>{ticket_link}</strong>, "
+"<strong>{ticket_url}</strong>, <strong>{date}</strong>, <strong>{admin_email}"
+"</strong>, <strong>{message}</strong>, <strong>{satisfaction_survey_link}</"
+"strong>, <strong>{satisfaction_survey_url}</strong>, <br/><br/><i>Quick "
+"Rating Links (one-click to rate 0 or 100):</i><br/><br/"
+"><strong>{satisfaction_survey_thumbs_up_link}</strong>, "
+"<strong>{satisfaction_survey_thumbs_up_url}</strong>, "
+"<strong>{satisfaction_survey_thumbs_down_link}</strong>, "
+"<strong>{satisfaction_survey_thumbs_down_url}</strong>,<br/><br/><i>Quick "
+"Links that will close a ticket (these can also be used in agent reply emails "
+"in TICKETS->SETTINGS->EMAILS):</i><br/><br/"
+"><strong>{satisfaction_survey_close_ticket_with_thumbs_up_url}</strong>,"
+"<strong>{satisfaction_survey_close_ticket_with_thumbs_down_url}</strong>,"
+"<strong>{satisfaction_survey_close_ticket_with_thumbs_up_link}</strong>,"
+"<strong>{satisfaction_survey_close_ticket_with_thumbs_down_link}</strong></"
+"p></div>"
+msgstr ""
+
+#: includes/settings.php:288
+msgid "Thank You Confirmation Messages"
+msgstr ""
+
+#: includes/settings.php:293
+msgid "Thank You Message For Primary Survey Form"
+msgstr ""
+
+#: includes/settings.php:296
+msgid "Thank you for your feedback - It is very much appreciated!"
+msgstr ""
+
+#: includes/settings.php:299
+msgid "Thank You Message For Thumbs-up Quick Link"
+msgstr ""
+
+#: includes/settings.php:302
+msgid "Thank you for letting us know we did a great job!"
+msgstr ""
+
+#: includes/settings.php:305
+msgid "Thank You Message For Thumbs-down Quick Link"
+msgstr ""
+
+#: includes/settings.php:308
+msgid ""
+"We apologize for your bad experience and thank you for your feedback - it is "
+"very much appreciated! We will use your input to continue to improve our "
+"support operations."
+msgstr ""
+
+#: includes/settings.php:311
+msgid "Thank You Message For Closing A Ticket With 100% rating"
+msgstr ""
+
+#: includes/settings.php:314
+msgid ""
+"Thank you for closing your ticket and for letting us know we did a great job!"
+msgstr ""
+
+#: includes/settings.php:317
+msgid "Thank You Message For Closing A Ticket With 0% rating"
+msgstr ""
+
+#: includes/settings.php:320
+msgid ""
+"Thank you for closing your ticket - it helps streamline our operations.  We "
+"apologize that you have had a bad experience and thank you for your feedback "
+"- it is very much appreciated! We will use your input to continue to improve "
+"our support operations."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Awesome Support: Satisfaction Survey"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://getawesomesupport.com/addons/satisfaction-survey/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add satisfaction survey support for closed tickets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Awesome Support"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.getawesomesupport.com"
+msgstr ""

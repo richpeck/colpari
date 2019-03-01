@@ -1,0 +1,100 @@
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel{
+    font-size: 15px;
+    color: #34495e;
+
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel h4 {
+    margin-bottom: 48px;
+    color: #34495e;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel h4 .glyphicon{
+    display: block;
+    font-size: 64px;
+    margin-bottom: 18px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_winPass .modal-body {
+    padding-top: 18px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel .form-group,
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_winPass  .form-group{
+    display: inline-block;
+    margin-left: 18px;
+    max-width: 268px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel  .input-group-addon {
+    font-size: 14px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel .btn-circle,
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_winPass .btn-circle {    
+    vertical-align: top;
+    margin-left: 18px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel .form-control,
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_winPass .form-control {
+    max-width: 240px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPassLink {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_passLostConfirmation {
+    text-align: center;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_manBtnsCt a.btn {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel a.btn:not(.btn-circle) .glyphicon {
+    margin-right: 6px;
+} 
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel #lfb_editDataForm,
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel #lfb_delDataForm{
+    padding-top: 24px;    
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel #lfb_editDataForm .form-group{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel #lfb_editDataForm a.btn {
+    margin-top: 24px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel #lfb_editDataForm textarea{
+    height: 120px;    
+    max-width: 600px;
+    width: 100%;
+}
+
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel .alert{
+    font-size: 15px;
+}
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel .modal-header .close {
+    background: transparent;
+    border: 0px;
+    font-size: 38px;
+    margin-top: -18px;
+    margin-right: -8px;
+    padding: 4px;
+    margin-bottom: -28px;
+}
+
+#estimation_popup.wpe_bootstraped.lfb_manageDataPanel .modal-header h4  {
+    font-size: 22px;
+}
+@media (max-width: 480px) {
+    #estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_loginPanel .btn-circle {
+        display: block;
+        width: 42px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 4px;
+    }
+    #estimation_popup.wpe_bootstraped.lfb_manageDataPanel #lfb_manBtnsCt a.btn {
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 40%;
+        margin-bottom: 18px;
+        vertical-align: top;
+    }
+}

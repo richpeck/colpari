@@ -1,0 +1,267 @@
+/**
+ * Layout
+ */
+
+/**
+ * Articles loop
+ */
+
+.mkb-entry-header {
+  z-index: 0;
+}
+
+// simple layout
+.mkb-article-item--simple {
+  .mkb-entry-header {
+    padding: 1em;
+    margin-bottom: 1em;
+    background: #f7f7f7;
+  }
+
+  .mkb-entry-title {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin: 0;
+
+    a {
+      color: #888;
+    }
+  }
+
+  .mkb-article-icon {
+    color: #888;
+    margin-right: 0.5em;
+  }
+}
+
+// detailed layout
+.mkb-article-item--detailed {
+
+  .mkb-entry-header {
+    padding: 0;
+    margin: 0 0 2em 0;
+  }
+
+  .mkb-entry-title-wrap {
+    margin-bottom: 0.3em;
+  }
+
+  .mkb-entry-title {
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0;
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .mkb-article-icon {
+    color: #888;
+    margin-right: 0.3em;
+  }
+
+  .mkb-article-item__meta {
+    margin: 0.2em 0;
+    text-align: left;
+    color: #aaa;
+    font-size: 0.9em;
+  }
+
+  .mkb-article-item__meta-item {
+    display: inline-block;
+    margin-right: 0.8em;
+  }
+
+  .mkb-article-item__meta-icon {
+    margin-right: 0.2em;
+  }
+
+  .mkb-article-item__excerpt {
+    line-height: 1.3em;
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .mkb-article-item__topic {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.5em;
+    font-size: .8em;
+    border-radius: 0.4em;
+
+    a {
+      color: inherit;
+      padding: .3em .7em;
+    }
+  }
+
+  .mkb-article-item__tags {
+    float: right;
+    font-size: 0.9em;
+    color: #888;
+  }
+
+  .mkb-article-item__footer {
+    margin: 2em 0;
+  }
+}
+
+.mkb-search-match {
+  font-weight: 600;
+  color: #000;
+}
+
+/**
+ * Search results filter
+ */
+section.mkb-search-options {
+  margin: 1em 0 2em;
+  text-align: left;
+}
+
+.mkb-search-options ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+
+.mkb-search-options li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mkb-search-filter {
+  padding: 0.5em 1em;
+  display: block;
+  color: #aaa;
+  transition: all 0.1s ease-in;
+  border-bottom: 2px solid transparent;
+}
+
+.mkb-search-filter.mkb-selected,
+.mkb-search-filter:hover {
+  border-color: #007acc;
+  color: #000;
+}
+
+/**
+ * Page header
+ */
+
+.page .mkb-page-header,
+.mkb-archive .mkb-page-header,
+.mkb-search .mkb-page-header {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 3em;
+
+  &:empty {
+    margin-bottom: 0;
+  }
+}
+
+.mkb-shortcode-container {
+  .mkb-entry-header {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 1em;
+
+    a {
+      text-decoration: none;
+      box-shadow: none;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.mkb-taxonomy-description,
+.mkb-page-description {
+  text-align: center;
+  color: #888;
+  font-size: 0.9em;
+}
+
+.kb-topic__description {
+  margin: 1em auto;
+  padding: 0 1em;
+}
+
+.mkb-content-main {
+  &.mkb-content-main--has-sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+  }
+
+  .mkb-sidebar-right & {
+    float: left;
+  }
+
+  .mkb-sidebar-left & {
+    float: right;
+  }
+}
+
+.mkb-sidebar {
+  width: 30%;
+  padding: 0 2em;
+  display: inline-block;
+  vertical-align: top;
+
+  .mkb-sidebar-right & {
+    float: right;
+  }
+
+  .mkb-sidebar-left & {
+    float: left;
+  }
+}
+
+.mkb-root {
+  .mkb-sidebar.mkb-fixed-bottom {
+    top: auto;
+    bottom: 0;
+  }
+}
+.mkb-topic__children + article {
+  margin-top: 2em;
+}
+
+/**
+ * Pagination
+ */
+
+.mkb-pagination {
+  margin: 2em 0;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      background: #f7f7f7;
+      margin: 0 0.5em 0 0;
+
+      &.active {
+        padding: 0.5em 1em;
+      }
+
+      a {
+        display: inline-block;
+        padding: 0.5em 1em;
+        transition: box-shadow 0.1s linear;
+
+        &:hover {
+          box-shadow: 1px 1px 1px rgba(0,0,0,0.08);
+        }
+      }
+    }
+  }
+}

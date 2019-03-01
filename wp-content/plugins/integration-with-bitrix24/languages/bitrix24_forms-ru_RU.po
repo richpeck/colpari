@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Free Live Chat And Web Form Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 16:37+0000\n"
+"PO-Revision-Date: 2016-10-21 16:37+0000\n"
+"Last-Translator: admin <antonds@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bitrix24_forms.php:62
+msgid "Enable CRM connector"
+msgstr "Включить коннектор"
+
+#: bitrix24_forms.php:63
+msgid "Connector URL"
+msgstr "URL коннектора"
+
+#. Author of the plugin
+#: bitrix24_forms.php:43 bitrix24_forms.php:44
+msgid "Bitrix24"
+msgstr "Битрикс24"
+
+#: bitrix24_forms.php:60
+msgid "Enable chat widget"
+msgstr "Включить виджет на сайте"
+
+#: bitrix24_forms.php:61
+msgid "Widget code"
+msgstr "Код виджета"
+
+#: bitrix24_forms.php:64
+msgid "Internetional currency code"
+msgstr "Код валюты"
+
+#. Name of the plugin
+msgid "Free Live Chat And Web Form Widget"
+msgstr "Онлайн коммуникации на сайт"
+
+#. Description of the plugin
+msgid ""
+"This free Bitrix24 widget lets you insert live chat, call back request and "
+"various web forms into your website. All information from chat and forms is "
+"automatically imported into free Bitrix24 CRM. The widget supports up to 12 "
+"agents absolutely free, is easily customizable, and works on mobile, web and "
+"desktop apps."
+msgstr ""
+"Бесплатный виджет для вашего сайта: онлайн консультант + обратный звонок + "
+"форма. Все коммуникации с клиентами вашего сайта в одном виджете. Каждое "
+"обращение клиента автоматически попадает в CRM Битрикс24 и распределяется по "
+"ответственным менеджерам. Менеджеры могут обрабатывать заявки в браузере, "
+"десктопном или мобильном приложении. CRM собирает данные по каждому каналу и "
+"автоматически строит портрет вашего клиента."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.bitrix24.com"
+msgstr "https://www.bitrix24.ru"

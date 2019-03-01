@@ -1,0 +1,128 @@
+.mkb-initial-setup {
+  font-size: 14px;
+  padding: 2em;
+  min-height: 12em;
+  border-radius: .2em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.12);
+  background: #fff;
+  margin-left: 10em;
+  max-width: 72em;
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.mkb-imported-entries-list-description {
+  list-style-type: disc;
+  padding-left: 2em;
+  margin-bottom: 1em;
+}
+
+.mkb-plugin-required-notice {
+  @include label;
+
+  background: indianred;
+}
+
+.mkb-demo-selector {
+  position: relative;
+  margin-top: 3em;
+  padding: 4em 2em;
+  background: #f7f7f7;
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.12);
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  &.mkb-demo-processing{
+    &:after {
+      font-size: 0.9em;
+      color: #888;
+      content: "Please wait, processing...";
+      position: absolute;
+      padding: 1em;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.08);
+      background: rgba(255,255,255,0.25);
+    }
+  }
+}
+
+.mkb-demo-selector-row {
+  margin-bottom: 2em;
+}
+
+.mkb-demo-selector__item {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 0.9em;
+  margin-bottom: 2em;
+
+  &:hover {
+    .mkb-demo-image {
+      background-position: center bottom;
+    }
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+}
+
+.mkb-demo-selector__item-inner {
+  background: #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+  transition: all .3s cubic-bezier(.25,.8,.25,1);
+
+  &:hover {
+    .mkb-demo-image {
+      img {
+        box-shadow: 0 -1px 3px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+      }
+    }
+  }
+}
+
+.mkb-demo-image {
+  width: 100%;
+  height: 12em;
+  background-size: 100% auto;
+  padding: 1em 1em 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  transition: background-position .7s cubic-bezier(.25,.8,.25,1);
+
+  img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px -1px 2px rgba(0,0,0,0.12);
+    position: relative;
+    transition: all .7s cubic-bezier(.25,.8,.25,1);
+    top: 0;
+  }
+}
+
+.mkb-demo-text {
+  padding: .5em 1em 1.5em;
+  text-align: center;
+  box-shadow: 0 -2px 2px rgba(0,0,0,.12);
+  background: #fff;
+  position: relative;
+}
+
+.mkb-demo-link {
+  margin: 0 0.3em;
+  padding: .6em 1em;
+
+  &:hover {
+    box-shadow: 0 2px 3px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+  }
+}

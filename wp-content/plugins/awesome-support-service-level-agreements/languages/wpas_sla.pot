@@ -1,0 +1,614 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Facebook Chat Bot\n"
+"POT-Creation-Date: 2018-03-19 12:04-0500\n"
+"PO-Revision-Date: 2016-11-08 17:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../awesome-support-service-level-agreements.php:175
+#, php-format
+msgid "You need Awesome Support to activate this addon. Please <a href=\"%s\" target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../awesome-support-service-level-agreements.php:247
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: ../awesome-support-service-level-agreements.php:251
+#, php-format
+msgid "Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: ../awesome-support-service-level-agreements.php:255
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: ../awesome-support-service-level-agreements.php:510
+#, php-format
+msgid "Please <a href=\"%s\">fill-in your product license</a> now. If you don't, your copy of Awesome Support: Service Level Agreements <strong>will never be updated</strong>."
+msgstr ""
+
+#: ../awesome-support-service-level-agreements.php:535
+#, php-format
+msgid "You must fill-in your product license in order to get future plugin updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: ../includes/cron_settings.php:17
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: ../includes/cron_settings.php:21
+msgid "Every 10 Minutes"
+msgstr ""
+
+#: ../includes/cron_settings.php:25
+msgid "Every 20 Minutes"
+msgstr ""
+
+#: ../includes/cron_settings.php:29
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: ../includes/cron_settings.php:33
+msgid "Once Hourly"
+msgstr ""
+
+#: ../includes/cron_settings.php:37
+msgid "Every 2nd Hour"
+msgstr ""
+
+#: ../includes/cron_settings.php:41
+msgid "Every 4th Hour"
+msgstr ""
+
+#: ../includes/cron_settings.php:45
+msgid "Every 6th Hour"
+msgstr ""
+
+#: ../includes/cron_settings.php:49
+msgid "Twice Daily"
+msgstr ""
+
+#: ../includes/cron_settings.php:53
+msgid "Once Daily"
+msgstr ""
+
+#: ../includes/functions.php:14
+msgid "Monday"
+msgstr ""
+
+#: ../includes/functions.php:15
+msgid "Tuesday"
+msgstr ""
+
+#: ../includes/functions.php:16
+msgid "Wednesday"
+msgstr ""
+
+#: ../includes/functions.php:17
+msgid "Thursday"
+msgstr ""
+
+#: ../includes/functions.php:18
+msgid "Friday"
+msgstr ""
+
+#: ../includes/functions.php:19
+msgid "Saturday"
+msgstr ""
+
+#: ../includes/functions.php:20
+msgid "Sunday"
+msgstr ""
+
+#: ../includes/functions.php:74 ../includes/functions.php:554
+msgid "Past Due"
+msgstr ""
+
+#: ../includes/functions.php:75
+msgid "Due Today"
+msgstr ""
+
+#: ../includes/functions.php:76
+msgid "Due Tomorrow"
+msgstr ""
+
+#: ../includes/functions.php:116
+msgid "Additional Interested Party Email #1"
+msgstr ""
+
+#: ../includes/functions.php:117
+msgid "Additional Interested Party Email #2"
+msgstr ""
+
+#: ../includes/functions.php:123
+msgid "Primary Agent"
+msgstr ""
+
+#: ../includes/functions.php:124
+msgid "Secondary Agent"
+msgstr ""
+
+#: ../includes/functions.php:125
+msgid "Tertiary Agent"
+msgstr ""
+
+#: ../includes/functions.php:126
+msgid "Additional Emails On Ticket"
+msgstr ""
+
+#: ../includes/functions.php:127
+msgid "Additional users on ticket"
+msgstr ""
+
+#: ../includes/functions.php:128
+msgid "Client/Customer"
+msgstr ""
+
+#: ../includes/functions.php:246 ../includes/functions.php:1221
+#: ../includes/functions.php:1242 ../includes/functions.php:1290
+#: ../includes/functions.php:1314 ../includes/functions.php:1456
+#: ../includes/functions.php:1472
+#: ../includes/templates/ticket_sla_fields.php:35
+msgid "SLA ID"
+msgstr ""
+
+#: ../includes/functions.php:257 ../includes/templates/ticket_sla_fields.php:54
+msgid "Due Date"
+msgstr ""
+
+#: ../includes/functions.php:267
+msgid "Due Date Lock"
+msgstr ""
+
+#: ../includes/functions.php:915
+msgid "Ticket does not exist"
+msgstr ""
+
+#: ../includes/functions.php:917
+msgid "Please select ticket receipt date"
+msgstr ""
+
+#: ../includes/functions.php:933
+msgid "No service level agreement is set in this ticket."
+msgstr ""
+
+#: ../includes/functions.php:935
+msgid "Please add time frame to attached service level agreement."
+msgstr ""
+
+#: ../includes/functions.php:937
+msgid "Please setup workdays to calculate due day."
+msgstr ""
+
+#: ../includes/functions.php:1141
+msgid "Select SLA ID"
+msgstr ""
+
+#: ../includes/functions.php:1163 ../includes/functions.php:1491
+msgid "SLA"
+msgstr ""
+
+#: ../includes/functions.php:1167
+msgid "SLA Test Due Date"
+msgstr ""
+
+#: ../includes/functions.php:1294 ../includes/functions.php:1318
+msgid "Set SLA ID."
+msgstr ""
+
+#: ../includes/functions.php:1398
+msgid "You don't have access to perform this action."
+msgstr ""
+
+#: ../includes/functions.php:1473 ../includes/functions.php:1492
+#: ../includes/post-types/holiday.php:167 ../includes/post-types/sla.php:316
+msgid "Date"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:19 ../includes/post-types/holiday.php:27
+#: ../includes/post-types/holiday.php:55
+msgid "Holidays"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:20
+msgctxt "Post Type General Name"
+msgid "Holidays"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:21
+msgctxt "Post Type Singular Name"
+msgid "Holidays"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:22
+msgid "Add New Holiday"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:23
+msgid "New Holiday"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:24
+msgid "No Holiday found"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:25
+msgid "No Holiday found in Trash"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:26
+msgid "Parent Holiday:"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:28
+msgid "View Holiday"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:29
+msgid "Edit Holiday"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:30
+msgid "Update Holiday"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:31
+msgid "Search Holidays"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:136 ../includes/post-types/sla.php:133
+#: ../includes/settings.php:37
+msgid "Settings"
+msgstr ""
+
+#: ../includes/post-types/holiday.php:211
+msgid "Holiday Date"
+msgstr ""
+
+#: ../includes/post-types/sla.php:19 ../includes/post-types/sla.php:27
+#: ../includes/post-types/sla.php:55
+msgid "Service Level Agreements"
+msgstr ""
+
+#: ../includes/post-types/sla.php:20
+msgctxt "Post Type General Name"
+msgid "Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:21
+msgctxt "Post Type Singular Name"
+msgid "Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:22
+msgid "Add New Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:23
+msgid "New Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:24
+msgid "No Service Level Agreement found"
+msgstr ""
+
+#: ../includes/post-types/sla.php:25
+msgid "No Service Level Agreements found in Trash"
+msgstr ""
+
+#: ../includes/post-types/sla.php:26
+msgid "Parent Service Level Agreement:"
+msgstr ""
+
+#: ../includes/post-types/sla.php:28
+msgid "View Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:29
+msgid "Edit Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:30
+msgid "Update Service Level Agreement"
+msgstr ""
+
+#: ../includes/post-types/sla.php:31
+msgid "Search Service Level Agreements"
+msgstr ""
+
+#: ../includes/post-types/sla.php:134
+#: ../includes/templates/add_email_alert_item.php:50
+#: ../includes/templates/email_alert_item.php:68
+msgid "Content"
+msgstr ""
+
+#: ../includes/post-types/sla.php:135
+msgid "Alerts"
+msgstr ""
+
+#: ../includes/post-types/sla.php:184
+msgid "Recalculate due dates"
+msgstr ""
+
+#: ../includes/post-types/sla.php:188
+msgid "Target Time (Minutes)"
+msgstr ""
+
+#: ../includes/post-types/sla.php:196
+msgid "Time Conversion Calculator"
+msgstr ""
+
+#: ../includes/post-types/sla.php:197
+msgid "Since the time above needs to be set in minutes, here is a handy-dandy calculator to allow you to convert hours and days into minutes."
+msgstr ""
+
+#: ../includes/post-types/sla.php:200
+msgid "Enter hours, days or weeks"
+msgstr ""
+
+#: ../includes/post-types/sla.php:206
+msgid "Hours"
+msgstr ""
+
+#: ../includes/post-types/sla.php:207
+msgid "Days"
+msgstr ""
+
+#: ../includes/post-types/sla.php:208
+msgid "Weeks"
+msgstr ""
+
+#: ../includes/post-types/sla.php:213
+msgid "SET TARGET TIME"
+msgstr ""
+
+#: ../includes/post-types/sla.php:244
+msgid "Add new alert"
+msgstr ""
+
+#: ../includes/post-types/sla.php:287
+msgid "No ticket found."
+msgstr ""
+
+#: ../includes/post-types/sla.php:291
+msgid "There is an error try again later."
+msgstr ""
+
+#: ../includes/post-types/sla.php:297
+msgid "Due dates successfully recalculated."
+msgstr ""
+
+#: ../includes/post-types/sla.php:315
+msgid "Target Time"
+msgstr ""
+
+#: ../includes/post-types/sla.php:337
+msgid "Minutes"
+msgstr ""
+
+#: ../includes/reports.php:12
+msgid "Reports"
+msgstr ""
+
+#: ../includes/settings.php:38
+msgid "SLA Settings"
+msgstr ""
+
+#: ../includes/settings.php:95
+msgid "General"
+msgstr ""
+
+#: ../includes/settings.php:98
+msgid "Use SELECT2 Search For SLA Policy Drop-downs"
+msgstr ""
+
+#: ../includes/settings.php:102
+msgid "Use a select2 search box for the SLA dropdowns - useful if you have a large number of SLAs."
+msgstr ""
+
+#: ../includes/settings.php:106
+msgid "Tickets"
+msgstr ""
+
+#: ../includes/settings.php:110
+msgid "Show SLA Policy in the Ticket List"
+msgstr ""
+
+#: ../includes/settings.php:114
+msgid "This will add a new column that displays the SLA name in the ticket listing page"
+msgstr ""
+
+#: ../includes/settings.php:118
+msgid "SLA Categories"
+msgstr ""
+
+#: ../includes/settings.php:122
+msgid "Enable SLA Categories"
+msgstr ""
+
+#: ../includes/settings.php:126
+msgid "Enable a SLA category taxonomy that can be used to determine which SLA Policy is applied to a ticket"
+msgstr ""
+
+#: ../includes/settings.php:129
+msgid "Allow Users To Select SLA Categories"
+msgstr ""
+
+#: ../includes/settings.php:133
+msgid "Allow end users to submit tickets with a category that can determine which SLA Policy is used for the ticket"
+msgstr ""
+
+#: ../includes/settings.php:174
+msgid "Is Work Day"
+msgstr ""
+
+#: ../includes/settings.php:178
+msgid "Workday"
+msgstr ""
+
+#: ../includes/settings.php:179
+msgid "Holiday"
+msgstr ""
+
+#: ../includes/settings.php:184
+msgid "All day is work day"
+msgstr ""
+
+#: ../includes/settings.php:188
+msgid "Check this if the work day is all day - 24 hours; if checked we don't use the start and end times."
+msgstr ""
+
+#: ../includes/settings.php:192
+msgid "No cutoff time"
+msgstr ""
+
+#: ../includes/settings.php:197
+msgid "Check this if tickets can be accepted all day."
+msgstr ""
+
+#: ../includes/settings.php:201
+msgid "Start Time"
+msgstr ""
+
+#: ../includes/settings.php:210
+msgid "End Time"
+msgstr ""
+
+#: ../includes/settings.php:219
+msgid "Ticket Cutoff Time"
+msgstr ""
+
+#: ../includes/settings.php:230
+msgid "WorkDays"
+msgstr ""
+
+#: ../includes/settings.php:261
+msgid "Cron Setting"
+msgstr ""
+
+#: ../includes/settings.php:267
+msgid "Cron Recurrence"
+msgstr ""
+
+#: ../includes/settings.php:274
+msgid "Enable Log"
+msgstr ""
+
+#: ../includes/settings.php:278
+msgid "Enable cron logs. "
+msgstr ""
+
+#: ../includes/settings.php:283
+msgid "Cron"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:20
+#: ../includes/templates/email_alert_item.php:38
+msgid "Time"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:24
+#: ../includes/templates/email_alert_item.php:42
+msgid "Time in minutes"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:30
+#: ../includes/templates/email_alert_item.php:48
+msgid "Recipient"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:34
+#: ../includes/templates/email_alert_item.php:52
+msgid "Recipients (Comma separated list of emails)"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:40
+#: ../includes/templates/email_alert_item.php:58
+msgid "Subject"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:70
+#: ../includes/templates/email_alert_item.php:78
+msgid "Email Content"
+msgstr ""
+
+#: ../includes/templates/add_email_alert_item.php:77
+#: ../includes/templates/email_alert_item.php:85
+msgid "Who should receive notifications"
+msgstr ""
+
+#: ../includes/templates/email_alert_item.php:32
+msgid "Delete"
+msgstr ""
+
+#: ../includes/templates/report.php:12
+msgid "Day"
+msgstr ""
+
+#: ../includes/templates/report.php:13
+msgid "Week"
+msgstr ""
+
+#: ../includes/templates/report.php:14
+msgid "Month"
+msgstr ""
+
+#: ../includes/templates/report.php:48
+msgid "SLA Report"
+msgstr ""
+
+#: ../includes/templates/report.php:58
+msgid "Start Date"
+msgstr ""
+
+#: ../includes/templates/report.php:62
+msgid "End Date"
+msgstr ""
+
+#: ../includes/templates/report.php:66
+msgid "Group by"
+msgstr ""
+
+#: ../includes/templates/report.php:76
+msgid "Filter"
+msgstr ""
+
+#: ../includes/templates/report.php:87
+msgid "No result found."
+msgstr ""
+
+#: ../includes/templates/report.php:96
+msgid "Tickets closed before due date"
+msgstr ""
+
+#: ../includes/templates/report.php:97
+msgid "Tickets closed after due date"
+msgstr ""
+
+#: ../includes/templates/ticket_sla_fields.php:70
+msgid "Lock Due Date"
+msgstr ""
+
+#: ../includes/templates/ticket_sla_test_metabox.php:15
+msgid "Test Ticket Receipt Date"
+msgstr ""
+
+#: ../includes/templates/ticket_sla_test_metabox.php:24
+msgid "Test Due Date"
+msgstr ""

@@ -1,0 +1,119 @@
+/**
+ * Restricted content
+ */
+
+.mkb-article-restricted-excerpt {
+  position: relative;
+
+  &--overlayed {
+    &:after {
+      content: '';
+      background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30%;
+      max-height: 15em;
+      min-height: 10em;
+    }
+  }
+}
+
+/**
+ * Restricted content message box
+ */
+.mkb-restricted-message {
+  position: relative;
+  margin: 3em 0 1em;
+  padding: 2em 1em;
+  background: #fcf8e3;
+  border: 2px solid #faebcc;
+  color: #333333;
+
+  .mkb-restricted-message__icon {
+    position: absolute;
+    left: 0.2em;
+    top: 0;
+    bottom: 0;
+    width: 2em;
+    height: 1em;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+    vertical-align: middle;
+    margin: auto;
+    color: #8a6d3b;
+  }
+
+  .mkb-restricted-message__content {
+    text-align: left;
+    position: relative;
+    display: block;
+    line-height: 1.5em;
+    top: 0;
+    margin-left: 4em;
+  }
+}
+
+/**
+ * Login form
+ */
+.mkb-restricted-login.mkb-restricted-login--custom {
+  form[name="loginform"] {
+    display: inline-block;
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 2em;
+    padding: 2em;
+
+    label {
+      margin: 0 0 0.1em;
+      display: block;
+    }
+
+    input[type="submit"],
+    .mkb-register-link a {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      border: 0;
+      text-transform: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-family: inherit;
+      line-height: 1.5em;
+      font-size: 1.2em;
+      letter-spacing: 0.05em;
+      padding: 0.7em 1em;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      border: none;
+      height: 3.8em;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 1.1em;
+      padding: 1em 1.5em;
+      box-shadow: inset 1px 1px 3px rgba(0,0,0,0.12);
+    }
+
+    p {
+      margin-bottom: 1em;
+
+      &.login-submit {
+        margin: 0;
+      }
+    }
+
+    .mkb-login-or {
+      color: #bbb;
+      text-transform: uppercase;
+      margin: 1em 0;
+      text-align: center;
+    }
+  }
+}

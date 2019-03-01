@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*
+==========================================================================
+General Scaffolding / Reset
+==========================================================================
+*/
+.wpas {
+	*, *:before, *:after {
+		box-sizing: border-box;
+	}
+}
+.wpas-table {
+	width: 100%;
+	max-width: 100%;
+	text-align: left;
+}
+.wpas-human-date {
+	display: none;
+}
+.wpas-reply-attachements {
+	border-top: 1px solid;
+}
+.wpas-reply-new {
+	textarea {
+		width: 100%;
+	}
+}
+/*
+* Break words when they are too long
+*/
+.wpas-break-words {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/* Avoid TinyMCE overrides */
+.mce-toolbar .mce-btn button:hover {
+	background: inherit;
+	color: #333;
+	padding: 2px 3px;
+}
+
+/*
+==========================================================================
+Notifications
+==========================================================================
+*/
+.wpas-alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+.wpas-alert-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+.wpas-alert-info {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+.wpas-alert-warning {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+.wpas-alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+/*
+==========================================================================
+Credit link under login/register form
+==========================================================================
+*/
+
+.wpas-credit {
+	font-size: 80%;
+	text-align: center;
+	margin-top: 60px;
+}
+
+/*
+==========================================================================
+jQuery Plugins
+==========================================================================
+*/
+
+@import (less) '../vendor/featherlight/featherlight.min.css';
+.featherlight .featherlight-inner {
+	max-width: 800px;
+	padding: 15px;
+}
+.featherlight .featherlight-close-icon {
+	text-indent: -9999em;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAABIklEQVQ4T62T20oDQRBE+9EIGo1/H4gEQd8E74lJvKHiV+mmai7QNdu+ZFNwWKqmpzJhdq3rur0ShkMIwyGoMTsEl+AenDDw62WGmoAFOAcjWRdjdgX+Ck9gDPw6xbIN4MwvmEmHmFzCQRo+H0E6aRHL1sDP3EiHmLx5WQbrBv4Ic3+yuvYAxtIhJusUtKUf4LvJUhnQDm9SkNWe1MPsDhyD/v42SGEWT/oFfBl5BWFZ2huGWWfgB/gy8g7CVyrt7QVZLHsB//1lvoNhqZqstozPN/DZZPX2tUNMXFYvILr9dFLpEGO2KoNtWRVLezPSIcbsogyRWyC3WcTSZ8AZfnpT6RCDDx3MwTU4YuDXywzFUn6WU3Ag697sgzAcQhjuTmdbpLYNJt1Fr50AAAAASUVORK5CYII=) no-repeat 50% 50%;
+	display: block;
+	height: 25px;
+	width: 25px;
+}
+
+/*
+==========================================================================
+Attachments on the front end
+==========================================================================
+*/
+#wpas_files_wrapper #wpas_files {
+        height: auto;
+}
+
+
+.btn_delete_attachment {
+        margin-right: 3px;
+        display: inline-block;
+        color: red;
+        text-decoration: none;
+        box-shadow: none !important;
+        &:hover {
+                font-weight: bold;
+                color: red;
+        }
+}
+
+.wpas-reply-single .wpas-auto-delete-attachments-container label {
+        display: inline;
+}

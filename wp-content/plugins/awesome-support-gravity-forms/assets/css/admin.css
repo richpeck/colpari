@@ -1,0 +1,164 @@
+
+.wpas-gf .contentwrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    display: table-row;
+    padding: 20px 10px;
+}
+
+.wpas-gf .contentcolumn {
+    border: 0 solid red;
+    margin-left: 320px; /*Set left margin to LeftColumnWidth*/
+    margin-right: 20px;
+}
+
+.wpas-gf .leftcolumn {
+    border: 0 solid black;
+    float: left;
+    width: 300px; /*Width of left column*/
+    /*margin-left: -100%;*/
+    background: #f3f3f3;
+}
+
+.wpas-gf .leftcolumn-row {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #d0d0d0;
+    line-height: 1.2em;
+    padding: 5px 2px;
+}
+
+.wpas-gf .delete_mapping,
+.wpas-gf .view_gravity_form {
+    cursor: pointer;
+    font-size: 30px;
+    color: #454545;
+    float: right;
+    display: block;
+}
+
+.wpas-gf .mapping-dropdown-wrapper,
+.wpas-gf .mapping-attributes-wrapper {
+    clear: both;
+    min-width: 375px;
+    float: left;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.wpas-gf .mapping-attributes-wrapper {
+    clear: none;
+    min-width: 300px;
+    border: 0 solid saddlebrown;
+    overflow: hidden;
+}
+
+/* ####### responsive layout CSS ####### */
+@media (max-width: 1024px) {
+    /* responsive layout break point */
+    .wpas-gf .contentwrapper {
+        float: none;
+    }
+
+    .wpas-gf .leftcolumn {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .wpas-gf .contentcolumn {
+        margin-left: 0;
+    }
+}
+
+.ui-accordion-content-active {
+    display: table !important;
+}
+
+.wpas-gf .ui-accordion .ui-accordion-content {
+    overflow: visible;
+    height: auto;
+    width: 100%;
+    /*    display: table;*/
+}
+
+.wpas-gf .dashicons, .wpas-gf .dashicons-before::before {
+    vertical-align: middle;
+}
+
+.wpas-gf .ui-checkboxradio-label {
+    font-size: 0.85em !important;
+    color: #000000 !important;
+}
+
+.wpas-gf .ui-checkboxradio-checked {
+    background: #DDEADD none repeat scroll 0 0 !important;
+    border: 1px solid #aaccaa !important;
+}
+
+.wpas-gf .ui-checkboxradio-label:active {
+    background: #dddddd none repeat scroll 0 0 !important;
+    border: 1px solid #bfbfbf !important;
+}
+
+.wpas-gf .dashicons-before::before {
+    /*line-height: unset !important;*/
+    margin: 0 5px;
+    color: darkgray;
+}
+
+.wpas-gf span.dashicons-before::before {
+    margin: 0 5px;
+}
+
+.wpas-gf button.dashicons-before::before {
+    margin: 0 5px 0 0;
+}
+
+.wpas-gf .ui-visual-focus {
+    box-shadow: unset;
+}
+
+.wpas-gf .ui-tooltip-content {
+    /*padding: 10px 20px;*/
+    color: black;
+    font: normal 13px "Helvetica Neue", Sans-Serif;
+    /*box-shadow: 0 0 3px #9d9d9d;*/
+    white-space: pre-line !important;
+}
+
+.wpas-gf .tabs {
+    display: block;
+    overflow: visible;
+    padding: 0 0 35px;
+    min-height: 300px;
+    margin: 0 0 20px;
+}
+
+.wpas-gf .ui-tabs .ui-tabs-nav {
+    height: 33px;
+}
+
+.wpas-gf .ui-tabs .ui-tabs-panel {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-width: 0;
+    display: block;
+    height: auto !important;
+    margin: 15px 0 30px;
+    padding: .5em;
+}
+
+/* Field Attributes checkbox buttons */
+.wpas-gf .ui-checkboxradio-label.ui-button {
+    padding: 0.25em 0.5em 0.2em 0.35em;
+}
+
+.wpas-gf .ui-selectmenu-button.ui-button {
+    width: 10em;
+}
+
+.wpas-gf .ui-tooltip {
+    max-width: 700px !important;
+}
+

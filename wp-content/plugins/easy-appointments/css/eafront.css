@@ -1,0 +1,211 @@
+.ea-standard {
+	width: 375px;
+	font-size: 1.2em;
+	white-space: nowrap;
+}
+
+.ea-standard .ui-datepicker {
+	width: auto;
+}
+
+.ea-standard .step {
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	position: relative;
+}
+
+.ea-standard .step label {
+	padding-right: 10px;
+	text-align: right;
+	display: inline-block;
+	width: 30%;
+}
+
+.ea-standard .step input {
+	margin-top: 5px;
+	width: 60%;
+}
+
+.ea-standard .step select {
+	width: 60%;
+}
+
+.ea-standard .step textarea {
+	width: 100%;
+	margin-top: 5px;
+	height: 100px;
+}
+
+.ea-standard .step .date .ui-datepicker-week-end {
+
+}
+
+.ea-standard .time-message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.ea-standard .disabled .block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0.6;
+	background-color: white;
+	z-index: 101;
+}
+
+.ea-standard .time {
+	border: 1px solid #ccc;
+	min-height: 100px;
+	white-space: normal;
+}
+
+.ea-standard .time-value {
+	display: inline-block;
+	width: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px dotted #ccc;
+}
+
+.ea-standard .time-disabled {
+	cursor: default;
+	display: inline-block;
+	width: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px dotted #ccc;
+	background-color: #ccc;
+}
+
+.ea-standard .time-value.am-pm, .ea-standard .time-disabled.am-pm {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.ea-standard .time-value.slots, .ea-standard .time-disabled.slots {
+	min-width: 25%;
+}
+
+.ea-standard .selected-time {
+	background-color: green;
+	color: white;
+}
+
+.ea-standard .time-value:hover {
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+.ea-standard .description {
+	margin-bottom: 8px;
+}
+
+.ea-standard .section {
+	color: #008000;
+}
+
+.ea-standard #booking-overview {
+	padding-top: 5px;
+}
+
+.ea-standard #booking-overview td, .ea-standard #booking-overview th {
+	font-size: 0.8em;
+}
+
+.ea-standard #booking-overview .ea-label {
+	opacity: 0.6;
+	width: 40%;
+}
+
+.ea-standard #booking-overview .value {
+	text-align: right;
+}
+
+.ea-standard #booking-overview small {
+	display: block;
+}
+
+.ea-cancel {
+	margin-left: 110px;
+}
+
+label.error {
+	width: 100% !important;
+	color: red;
+}
+
+input.error, textarea.error, select.error {
+	border-color: red;
+}
+
+.final p {
+	margin-bottom: 0;
+}
+
+#ea-loader {
+	background-image: url('../img/ajax-loader.gif');
+	background-position: 50% 50%;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0.1);
+	display: none;
+}
+
+.ea-standard .gdpr, .ea-standard .i-agree {
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	white-space: initial;
+}
+
+.ea-phone-field-group {
+	display: block;
+}
+
+.ea-phone-field-group label {
+	display: none;
+}
+
+.ea-phone-field-group .ea-phone-country-code-part {
+	text-align: center;
+	width: 100%;
+}
+
+.ea-phone-field-group .ea-phone-number-part {
+	width: 100%;
+}
+
+.ea-phone-field-group .ea-phone-number-part::placeholder {
+	color: #cccccc;
+}
+
+.ea-standard td.ui-datepicker-week-col:hover {
+	background-color: inherit;
+	cursor: default;
+}

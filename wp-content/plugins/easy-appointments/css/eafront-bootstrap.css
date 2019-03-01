@@ -1,0 +1,332 @@
+.ui-datepicker {
+	background-color: #fff;
+	border: 1px solid #66AFE9;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(102,175,233,.6);
+	display: none;
+	margin-top: 4px;
+	padding: 10px;
+	/*width: 240px;*/
+}
+
+.ui-datepicker th {
+	border-width: 0px 1px 1px 0px;
+	font-weight: 700;
+}
+.ui-datepicker table {
+	border-width: 1px 0px 0px 1px;
+	margin: 0px 0px 1.6em;
+}
+
+.ui-datepicker table, .ui-datepicker th, .ui-datepicker td {
+	border: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.ui-datepicker a,
+.ui-datepicker a:hover {
+	text-decoration: none;
+}
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+	color: #2A6496;
+	-webkit-transition: color 0.1s ease-in-out;
+	   -moz-transition: color 0.1s ease-in-out;
+	     -o-transition: color 0.1s ease-in-out;
+	        transition: color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-header {
+	margin-bottom: 4px;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title {
+	font-weight: 700;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	cursor: default;
+	font-family: 'Glyphicons Halflings';
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	height: 20px;
+	line-height: 1;
+	margin-top: 2px;
+	width: 30px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	float: left;
+	text-align: left;
+}
+.ui-datepicker .ui-datepicker-next {
+	float: right;
+	text-align: right;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+	content: "\e079";
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-next:before {
+	content: "\e080";
+	cursor: pointer;
+}
+.ui-datepicker .ui-icon {
+	display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  table-layout: fixed;
+	width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 4px 0;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+	border-radius: 4px;
+	-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	   -moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	     -o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	        transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-current-day {
+	background-color: #4289cc;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	color: #fff
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+	background-color: #fff;
+	cursor: default;
+}
+.ui-datepicker .ui-state-disabled {
+	color: #ccc;
+	font-size: 1.5em;
+}
+
+.ui-datepicker a {
+	border-bottom: 0;
+	font-size: 1.5em;
+}
+
+.ea-bootstrap {
+	margin: 0 auto;
+	white-space: nowrap;
+}
+
+.ea-bootstrap .disabled {
+	position: relative;
+}
+
+.ea-bootstrap .disabled .block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0.6;
+	background-color: white;
+	z-index: 101;
+}
+
+.ea-bootstrap .time {
+	text-align: left;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.ea-bootstrap .time-value {
+	display: inline-block;
+	min-width: 25%;
+	max-width: 25%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px dotted #ccc;
+	font-size: 1.1em;
+	background-color: #fff;
+	flex-grow: 4;
+}
+
+.ea-bootstrap .time-value.am-pm, .ea-bootstrap .time-disabled.am-pm {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.ea-bootstrap .time-value.slots, .ea-bootstrap .time-disabled.slots {
+	min-width: 25%;
+}
+
+.ea-bootstrap .time-value:hover {
+	background-color: #EEE;
+	cursor: pointer;
+}
+
+.ea-bootstrap .time-disabled {
+	cursor: default;
+	display: inline-block;
+	min-width: 25%;
+	max-width: 25%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+	font-size: 1.1em;
+	background-color: #ccc;
+	flex-grow: 4;
+}
+
+.ea-bootstrap.ea-bootstrap .selected-time, .ea-bootstrap.ea-bootstrap .selected-time:hover {
+	background-color: green;
+	color: white;
+}
+
+.ea-bootstrap .time-row td {
+	padding-top: 0;
+	padding-bottom: 0;
+	white-space: normal;
+}
+
+.ea-bootstrap .time-row td:hover {
+	background-color: #fff;
+}
+
+.ea-bootstrap .time-row .time {
+	margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+	.ea-bootstrap .time-row .time {
+		padding: 15px 5px;
+		text-align: center;
+	}
+}
+
+.ea-bootstrap h3 {
+	margin-top: 1.1852em;
+	margin-bottom: 0.5926em;
+}
+
+.ea-bootstrap #booking-overview .ea-label {
+	padding: 5px;
+}
+
+.ea-bootstrap #booking-overview .value {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.ea-bootstrap label.error {
+	width: 100% !important;
+	color: red;
+}
+
+.ea-bootstrap input.error, .ea-bootstrap textarea.error, .ea-bootstrap select.error {
+	border-color: red;
+}
+
+#ea-loader {
+	background-image: url('../img/ajax-loader.gif');
+	background-position: 50% 50%;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0.1);
+	display: none;
+}
+
+.ea-bootstrap .ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+	display: none;
+}
+
+.ea-bootstrap .ui-datepicker .free {
+	
+}
+
+.ea-bootstrap .ui-datepicker .no-slots, .ea-bootstrap .ui-datepicker .no-slots:hover {
+	background-color:rgba(163,163,117,0.5);
+	color: #fff;
+	cursor: default;
+}
+
+.ea-bootstrap .ui-datepicker .no-slots a {
+	color: #fff;
+	cursor: default;
+}
+
+.ea-bootstrap .ui-datepicker .busy, .ea-bootstrap .ui-datepicker .busy:hover {
+	background-color:rgba(255,0,0,0.5);
+	color: #fff;
+	cursor: default;
+}
+
+.ea-bootstrap .ui-datepicker .busy a {
+	color: #fff;
+	cursor: default;
+}
+
+.ea-bootstrap .ea-actions-group button, .ea-bootstrap .ea-actions-group a {
+	margin-left: 10px;
+}
+
+.ea-cancel {
+	margin-left: 10px;
+}
+
+.ea-bootstrap .final h3 {
+	white-space: normal;
+}
+
+.ea-bootstrap .gdpr, .ea-bootstrap .i-agree {
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	white-space: initial;
+}
+
+.ea-phone-field-group {
+	display: block;
+}
+
+.ea-phone-field-group label {
+	display: none;
+}
+
+.ea-phone-field-group .ea-phone-country-code-part {
+	text-align: center;
+	width: 100%;
+}
+
+.ea-phone-field-group .ea-phone-number-part {
+	width: 100%;
+}
+
+.ea-phone-field-group .ea-phone-number-part::placeholder {
+	color: #cccccc;
+}
+
+.ea-bootstrap td.ui-datepicker-week-col:hover {
+	background-color: inherit;
+	cursor: default;
+}

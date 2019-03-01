@@ -1,0 +1,173 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Facebook Chat Bot\n"
+"POT-Creation-Date: 2018-07-01 03:04-0500\n"
+"PO-Revision-Date: 2016-11-08 17:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../awesome-support-smart-submit.php:50
+#, php-format
+msgid "The LATEST version of Awesome Support needs to be installed in order to activate the Smart Submit add-on for Awesome Support. Please <a href=\"%s\" target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../includes/functions.php:183
+msgid "Before submitting a ticket, we will help you to browse through our help, faqs and other resources to see if the answer to your question already exists. <br /><br />"
+msgstr ""
+
+#: ../includes/functions.php:184
+msgid "Aw, bummer. Ok, lets do a search then. <br /><br />"
+msgstr ""
+
+#: ../includes/functions.php:185
+msgid "Select A Category"
+msgstr ""
+
+#: ../includes/functions.php:186
+msgid "Select A Topic"
+msgstr ""
+
+#: ../includes/functions.php:187
+msgid "Please select an item"
+msgstr ""
+
+#: ../includes/functions.php:188
+msgid "Yay! This fixed my issue!"
+msgstr ""
+
+#: ../includes/functions.php:189 ../includes/settings.php:139
+msgid "Yes"
+msgstr ""
+
+#: ../includes/functions.php:190
+msgid "No, This did not fix my issue"
+msgstr ""
+
+#: ../includes/functions.php:191 ../includes/functions.php:192
+#: ../includes/settings.php:151
+msgid "Search"
+msgstr ""
+
+#: ../includes/functions.php:193
+msgid "I still need to open a ticket"
+msgstr ""
+
+#: ../includes/functions.php:449
+msgid "We found some related information for you."
+msgstr ""
+
+#: ../includes/settings.php:17 ../includes/settings.php:21
+msgid "Smart Submit"
+msgstr ""
+
+#: ../includes/settings.php:23
+msgid "Smart Submit requires the user to look at categories from FAQ, Documentation or Posts and/or perform a keyword search before submitting a ticket.  It is divided into two stages which can be turned on or off by the administrator."
+msgstr ""
+
+#: ../includes/settings.php:26
+msgid "Enable Smart Submit"
+msgstr ""
+
+#: ../includes/settings.php:33
+msgid "Stage 1"
+msgstr ""
+
+#: ../includes/settings.php:35
+msgid "Stage 1 of the smart submit sequence shows the user a list of categories and topics before allowing the user to proceed to open a new ticket"
+msgstr ""
+
+#: ../includes/settings.php:39
+msgid "Enable Stage 1"
+msgstr ""
+
+#: ../includes/settings.php:46
+msgid "Categories taken from:"
+msgstr ""
+
+#: ../includes/settings.php:57
+msgid "Categories present as:"
+msgstr ""
+
+#: ../includes/settings.php:70
+msgid "Stage 2"
+msgstr ""
+
+#: ../includes/settings.php:72
+msgid "Stage 2 of the smart submit sequence requires that the user perform a keyword search before showing the ticket screen"
+msgstr ""
+
+#: ../includes/settings.php:76
+msgid "Enable Stage 2"
+msgstr ""
+
+#: ../includes/settings.php:82
+msgid "Post Types"
+msgstr ""
+
+#: ../includes/settings.php:87
+msgid "Select the post types to search."
+msgstr ""
+
+#: ../includes/settings.php:91
+msgid "Headers and Footers"
+msgstr ""
+
+#: ../includes/settings.php:95
+msgid "Text Before Stage 1 "
+msgstr ""
+
+#: ../includes/settings.php:99
+msgid "Use this text to let the user know what to expect"
+msgstr ""
+
+#: ../includes/settings.php:102
+msgid "Text Before Stage 2 "
+msgstr ""
+
+#: ../includes/settings.php:106
+msgid "Use this text to let the user know what to expect during stage 2"
+msgstr ""
+
+#: ../includes/settings.php:110
+msgid "Labels and Text"
+msgstr ""
+
+#: ../includes/settings.php:112
+msgid "Set the text and labels used for every stage. If you are using multiple languages then leave these fields blank - the default text will be in your language files where you can translate them."
+msgstr ""
+
+#: ../includes/settings.php:115
+msgid "Select a Category"
+msgstr ""
+
+#: ../includes/settings.php:121
+msgid "Select a Topic"
+msgstr ""
+
+#: ../includes/settings.php:127
+msgid "Please Select"
+msgstr ""
+
+#: ../includes/settings.php:133
+msgid "Did This Fix Your Issue"
+msgstr ""
+
+#: ../includes/settings.php:145
+msgid "No"
+msgstr ""
+
+#: ../includes/settings.php:157 ../includes/settings.php:163
+msgid "Search Button"
+msgstr ""

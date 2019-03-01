@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Filestack\n"
+"POT-Creation-Date: 2016-08-08 12:23+0700\n"
+"PO-Revision-Date: 2016-08-08 12:39+0700\n"
+"Language-Team: Awesome Support <contact@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: class-as-filepicker.php:123
+msgid "Settings"
+msgstr "Paramètres"
+
+#: class-as-filepicker.php:140
+#, php-format
+msgid ""
+"You have enabled Filepicker for uploading attachments but you didn&#39;t "
+"specify your API key. Please <a href=\"%s\">fill-in your API key</a> or "
+"disable the add-on."
+msgstr ""
+"Vous avez activé Filestack sans avoir renseigné votre clé d'API. Merci de <a "
+"href=\"%s\">saisir votre clé d'API</a> ou de désactiver l'addon."
+
+#: class-as-filepicker.php:426
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: class-as-filepicker.php:429
+msgid "This site only allows you to upload 2 files at a time"
+msgstr "Ce site n'autorise que 2 pieces jointes en même temps"
+
+#: class-as-filepicker.php:429
+msgid "Click to upload file(s)"
+msgstr "Cliquez ici pour uploader un fichier"
+
+#: class-as-filepicker.php:430
+#, php-format
+msgid " You can upload up to %s files of the following types: %s"
+msgstr "Vous pouvez uploader jusqu'à %s fichiers de type %s"
+
+#: filepicker.php:157
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+"Vous avez besoin d'Awesome Support pour active cet addon. Merci <a href=\"%s"
+"\" target=\"_blank\">d'installer Awesome Support</a> avant de continuer."
+
+#: filepicker.php:177
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core plugin "
+"first."
+msgstr ""
+"%s nécessite qu'Awesome Support soit active. Merci d'activer le plugin coeur "
+"pour commencer."
+
+#: filepicker.php:181
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+"Malheureusement, %s ne peux pas fonctionner avec une version de PHP "
+"inférieure à %s. Découvrez comment vous pouvez <a href=\"%s\" target=\"_blank"
+"\">mettre à jour votre version</a>."
+
+#: filepicker.php:185
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the core "
+"plugin first."
+msgstr ""
+"%s nécessite Awesome Support version %s ou plus. Merci de mettre à jour le "
+"plugin coeur pour commencer."
+
+#: filepicker.php:438
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, "
+"your copy of the plugin <strong>will never be updated</strong>."
+msgstr ""
+"Merci de <a href=\"%s\">saisir votre numéro de license</a>. Si vous ne le "
+"faites pas, vous ne recevrez jamais les mises à jour de cet addon."
+
+#: filepicker.php:439
+msgid "I do NOT want the updates, dismiss this message"
+msgstr "Je ne veux pas reçevoir les mises à jour. Masquer."
+
+#: filepicker.php:460
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. "
+"<a href=\"%s\">Click here to do it</a>."
+msgstr ""
+"Vous devez renseigner votre numéro de license afin de bénéficier des mises à "
+"jour. <a href=\"%s\">Cliquez ici pour le faire maintenant</a>."
+
+#: settings.php:14
+msgid "Filepicker"
+msgstr "Filepicker"
+
+#: settings.php:18
+msgid "API Key"
+msgstr "Clé d'API"
+
+#: settings.php:22
+#, php-format
+msgid ""
+"In order to get your API key, you need to <a href=\"%s\" target=\"_blank"
+"\">create an application in Filepicker</a>."
+msgstr ""
+"Afin d'obtenir votre clé d'API, vous devez <a href=\"%s\" target=\"_blank"
+"\">créer une application dans Filestack</a>."
+
+#: settings.php:26
+msgid "API Secret"
+msgstr "Clé d'API secrète"
+
+#: settings.php:30
+msgid ""
+"The API secret is optional but recommended. It will enforce security of your "
+"files by limiting how users can interact with them."
+msgstr ""
+"La clé secrete est optionnelle mais recommandée. Cela permet de renforcer la "
+"sécurité de vos fichiers en y limitant l'accès."
+
+#: settings.php:34
+msgid "Enabled Services"
+msgstr "Services activés"
+
+#: settings.php:38
+msgid ""
+"Which services do you want to allow users to pick files from when using "
+"Filepicker? Some of these services may require a paid plan."
+msgstr ""
+"Quels services souhaitez-vous activer pour les utilisateurs ? Certains "
+"services peuvent nécessiter un abonnement payant."

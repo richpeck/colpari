@@ -1,0 +1,203 @@
+.logged-in .wpas-ticket-buttons-top
+{
+	display:block;
+}
+.wpas-ticket-buttons-top
+{
+	display:none;
+}
+.pbtk_main_ticket_container {
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+ul.pbtk_ticket_filter {
+    display: inline-block;
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#pbtk_ticket_filter > li {
+    display: inline-block;
+    float: left;
+}
+#pbtk_ticket_filter li a {
+    background: #222222 none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #ffffff;
+    float: left;
+    font-size: 14px;
+    margin-right: 8px;
+    min-width: 80px;
+    padding: 5px 12px;
+    text-align: center;
+}
+ul.pbtk_ticket_list {
+    float: left;
+    list-style: outside none none;
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+}
+.pbtk_ticket_list li {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px dashed #dddddd;
+    float: left;
+    margin-bottom: 19px;
+    padding: 10px;
+    width: 100%;
+}
+.pbtk_ticket_list li a {
+    color: #292929;
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+}
+.pbtk_ticket_list li:hover {
+    background: #ffffff none repeat scroll 0 0 !important;
+}
+#pbtk_ticket_filter li a i {
+    margin-right: 6px;
+}
+.pbtk_ticket_list.ticket_grid_view li {
+    float: left !important;
+    margin-right: 1%;
+    width: 32%;
+    font-size: 15px;
+}
+.pbtk_ticket_list span {
+    color: #606060;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.pbtk_main_ticket_container .accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";
+    float: right;
+}
+.pbtk_main_ticket_container .accordion-opened .accordion-toggle:after {
+    content: "\f054";
+}
+.pbtk_main_ticket_container .accordion_view {
+    float: left;
+    margin: 20px 0 0 !important;
+    width: 100%;
+}
+.pbtk_main_ticket_container h3.ui-accordion-header {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid #eeeeee;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    text-transform: capitalize !important;
+}
+.pbtk_main_ticket_container .ui-accordion-content {
+    background: #ffffff none repeat scroll 0 0;
+    font-size: 17px !important;
+    height: auto !important;
+}
+.ui-accordion-content p {
+    color: #2f2f2f;
+    font-size: 16px;
+    margin: 0;
+}
+.pbtk_main_ticket_container h3.ui-accordion-header-active {
+    background: #222222 none repeat scroll 0 0;
+    color: #ffffff !important;
+}
+.pbtk_main_ticket_container .ui-accordion-content-active {
+    display: block !important;
+}
+/* aspbtk-pagi */
+
+.pbtk_main_ticket_container .aspbtk-pagi {
+   clear: both;
+  float: left;
+  font-size: 11px;
+  line-height: 13px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+.pbtk_main_ticket_container .aspbtk-pagi span,
+.pbtk_main_ticket_container .aspbtk-pagi a {
+    display: block;
+    float: left;
+    margin: 2px 2px 2px 0;
+    padding: 6px 9px 5px 9px;
+    text-decoration: none;
+    width: auto;
+    color: #fff;
+    /* aspbtk-pagi text color */
+    
+    background: #555;
+    /* aspbtk-pagi non-active background color */
+    
+    -webkit-transition: background .15s ease-in-out;
+    -moz-transition: background .15s ease-in-out;
+    -ms-transition: background .15s ease-in-out;
+    -o-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+}
+.pbtk_main_ticket_container .aspbtk-pagi a:hover {
+    color: #fff;
+    background: #6AAC70;
+    /* aspbtk-pagi background on hover */
+}
+.pbtk_main_ticket_container .aspbtk-pagi .current {
+    padding: 6px 9px 5px 9px;
+    background: #6AAC70;
+    /* Current page background */
+    
+    color: #fff;
+}
+.wpas-reply-meta .wpas-mark-private {
+    float: right;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+.pbtk_top_ticket_area_left {
+    float: left;
+    width: 48%;
+}
+.pbtk_top_ticket_area_right {
+    float: right;
+    width: 48%;
+}
+.aspbtk-submit {
+  background: #000000 url("./images/srch.png") no-repeat scroll center center / 16px auto !important;
+ float: left;
+ height: 38px !important;
+ margin: 0;
+ padding: 0 !important;
+ width: 32px;
+}
+.pbtk_reset[type="button"] {
+    float: right;
+    font-size: 10px;
+    height:38px;
+    width: 50px;
+}
+.pbtk_main_ticket_container .custom-search .aspbtk-search-field {
+  float: left;
+  margin: 0 7px;
+  padding: 5px 10px !important;
+  width: 70%;
+}
+.pbtk_main_ticket_container .custom-search .search-submit {
+    padding: 9px 20px;
+}
+.pbtk_main_ticket_container .custom-search label {
+    margin-bottom: 0px !important;
+}
+.pbtk_checkbox br {
+    display: none;
+}

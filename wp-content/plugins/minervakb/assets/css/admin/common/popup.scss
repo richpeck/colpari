@@ -1,0 +1,120 @@
+/**
+ * Popup
+ */
+.mkb-popup-wrap {
+  box-sizing: border-box;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .wp-color-result {
+    box-sizing: content-box;
+  }
+}
+
+.mkb-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 9999;
+}
+
+.mkb-popup {
+  position: fixed;
+  overflow: hidden;
+  z-index: 10000;
+  background: #fff;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 640px;
+  max-width: 100%;
+  max-height: 90%;
+  height: 90%;
+  top: 5%;
+  bottom: auto;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+}
+
+.mkb-popup__header {
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mkb-popup__header,
+.mkb-popup__footer {
+  text-align: center;
+  background: #f7f7f7;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+  z-index: 2;
+}
+
+.mkb-popup__header-title {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.mkb-popup__header-controls {
+  &--left {
+    float: left;
+  }
+
+  &--right {
+    float: right;
+  }
+}
+
+.mkb-popup__footer-controls {
+  &--left {
+    float: left;
+  }
+
+  &--right {
+    float: right;
+  }
+}
+
+.mkb-popup__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 1px -1px 2px rgba(0,0,0,0.12);
+
+  .mkb-action-button {
+    margin: 1em;
+  }
+}
+
+/**
+ * Body
+ */
+.mkb-popup__body {
+  padding: 2em;
+  position: relative;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  overflow-y: auto;
+
+  .mkb-loader {
+    display: block;
+    width: 3.2em;
+    margin: auto;
+    position: absolute;
+    height: 1em;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}

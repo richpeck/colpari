@@ -1,0 +1,45 @@
+/**
+ * Admin variables
+ */
+
+$minerva-blue: #00a0d2;
+$featured: #F7931E;
+$wp-blue: #0073aa;
+
+$success: #4BB651;
+$danger: #C85C5E;
+
+$switch-on: #42d75c;
+$switch-off: #f1f1f1;
+$switch-bg: #ddd;
+
+$icon-selected: orange;
+
+@mixin icon() {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 0.3em;
+}
+
+@mixin label () {
+  font-size: .8rem;
+  line-height: 0.8rem;
+  padding: .3em .5em .4em;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: .5em;
+  background: #567585;
+  color: #fff;
+
+  &:hover,
+  &:focus,
+  &:visited,
+  &:active {
+    color: #fff;
+  }
+}

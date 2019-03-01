@@ -1,0 +1,845 @@
+# N2Clic Limited
+msgid ""
+msgstr ""
+"Project-Id-Version: Reports and Statistics 3.2.9\n"
+"Report-Msgid-Bugs-To: https://github.com/ThemeAvenue/reports-and-statistics/"
+"issues\n"
+"POT-Creation-Date: 2017-01-04 18:43+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-01-05 14:24+0530\n"
+"Language-Team: ThemeAvenue <hello@themeavenue.net>\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: \n"
+"Language: hi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: logs\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: tests\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+
+#: include/reports.php:6
+#, php-format
+msgid "Reports"
+msgstr "रिपोर्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Toggle Filters"
+msgstr "टॉगल फिल्टर"
+
+#: include/reports.php:9
+#, php-format
+msgid "Last Month"
+msgstr "पिछले महीने"
+
+#: include/reports.php:9
+#, php-format
+msgid "This Month"
+msgstr "इस महीने"
+
+#: include/reports.php:9
+#, php-format
+msgid "Last Week"
+msgstr "पिछले सप्ताह"
+
+#: include/reports.php:9
+#, php-format
+msgid "This Week"
+msgstr "इस सप्ताह"
+
+#: include/reports.php:9
+#, php-format
+msgid "Yesterday"
+msgstr "बिता कल"
+
+#: include/reports.php:9
+#, php-format
+msgid "Today"
+msgstr "आज"
+
+#: include/reports.php:9
+#, php-format
+msgid "Start Date"
+msgstr "आरंभ करने की तिथि"
+
+#: include/reports.php:9
+#, php-format
+msgid "End Date"
+msgstr "अंतिम तिथि"
+
+#: include/reports.php:9
+#, php-format
+msgid "Type of chart"
+msgstr "चार्ट के प्रकार"
+
+#: include/reports.php:9
+#, php-format
+msgid "Bar Charts"
+msgstr "बार चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Column Chart"
+msgstr "स्तंभ रेखा - चित्र"
+
+#: include/reports.php:9
+#, php-format
+msgid "Line Chart"
+msgstr "पंक्ति चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Spline Charts"
+msgstr "तख़्ता चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Pie Charts"
+msgstr "वृत्त चित्र"
+
+#: include/reports.php:9
+#, php-format
+msgid "Doughnut Charts"
+msgstr "डोनट चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Area chart"
+msgstr "क्षेत्र चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Area Spline Chart"
+msgstr "क्षेत्र तख़्ता चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Stacked Column Chart"
+msgstr "स्टैक्ड स्तंभ चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Stacked Area Chart"
+msgstr "स्टैक्ड क्षेत्र चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Stacked Bar Chart"
+msgstr "स्टैक्ड बार चार्ट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Total"
+msgstr "कुल"
+
+#: include/reports.php:9
+#, php-format
+msgid "Ticket Count"
+msgstr "टिकट गणना"
+
+#: include/reports.php:9
+#, php-format
+msgid "Apply Filters"
+msgstr "फिल्टर लागू करें"
+
+#: include/reports.php:9
+#, php-format
+msgid "Second Dimension"
+msgstr "दूसरा आयाम"
+
+#: include/reports.php:9
+#, php-format
+msgid "None"
+msgstr "कोई नहीं"
+
+#: include/reports.php:9
+#, php-format
+msgid "Agent"
+msgstr "एजेंट"
+
+#: include/reports.php:9
+#, php-format
+msgid "Product"
+msgstr "उत्पाद"
+
+#: include/reports.php:9
+#, php-format
+msgid "Tag"
+msgstr "टैग"
+
+#: include/reports.php:9
+#, php-format
+msgid "State"
+msgstr "राज्य"
+
+#: include/reports.php:9
+#, php-format
+msgid "Open"
+msgstr "खुला"
+
+#: include/reports.php:9
+#, php-format
+msgid "Closed"
+msgstr "बन्द है"
+
+#: include/reports.php:9
+#, php-format
+msgid "Status"
+msgstr "स्थिति"
+
+#: include/reports.php:9
+#, php-format
+msgid "Agents"
+msgstr "एजेंटों"
+
+#: include/reports.php:9
+#, php-format
+msgid "No agent found"
+msgstr "कोई एजेंट पाया"
+
+#: include/reports.php:9
+#, php-format
+msgid "Department"
+msgstr "विभाग"
+
+#: include/reports.php:9
+#, php-format
+msgid "No department found"
+msgstr "कोई विभाग पाया"
+
+#: include/reports.php:9
+#, php-format
+msgid "Ticket Tags"
+msgstr "टिकट टैग"
+
+#: include/reports.php:9
+#, php-format
+msgid "No Tag found"
+msgstr "कोई टैग पाया"
+
+#: include/reports.php:9
+#, php-format
+msgid "Products"
+msgstr "उत्पाद"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Reports & Statistics"
+msgstr "रिपोर्ट और सांख्यिकी"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Ticket Count By Status"
+msgstr "टिकट गणना स्थिति से"
+
+#: include/front-page.php:9
+#, php-format
+msgid "General Reports"
+msgstr "जनरल रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Ticket Counts"
+msgstr "टिकट गिनता"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Average Time Report"
+msgstr "औसत समय की रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Report Icon 3"
+msgstr "रिपोर्ट चिह्न 3"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Report Icon 4"
+msgstr "रिपोर्ट चिह्न 4"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Report Icon 5"
+msgstr "रिपोर्ट चिह्न 5"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved Reports"
+msgstr "सहेजी गई रिपोर्टों"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #1"
+msgstr "बचाया उपयोगकर्ता # 1 रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #2"
+msgstr "बचाया उपयोगकर्ता # 2 रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #3"
+msgstr "बचाया उपयोगकर्ता # 3 रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #4"
+msgstr "बचाया उपयोगकर्ता # 4 रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #5"
+msgstr "बचाया उपयोगकर्ता # 5 रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #6"
+msgstr "बचाया उपयोगकर्ता # 6 रिपोर्ट"
+
+#: include/front-page.php:9
+#, php-format
+msgid "Saved user Report #7"
+msgstr "बचाया उपयोगकर्ता # 7 रिपोर्ट"
+
+#: includes/functions-post-type.php:46
+msgid "Parent Ticket:"
+msgstr "जनक टिकट:"
+
+#: includes/functions-post-type.php:47
+msgid "No tickets found."
+msgstr "कोई टिकट नहीं पाया।"
+
+#: includes/functions-post-type.php:48
+msgid "No tickets found in Trash."
+msgstr "कोई टिकट ट्रैश में पाया।"
+
+#: includes/functions-post-type.php:114 includes/functions-post-type.php:117
+msgid "Ticket updated."
+msgstr "टिकट अद्यतन।"
+
+#: includes/functions-post-type.php:115
+msgid "Custom field updated."
+msgstr "कस्टम फ़ील्ड अद्यतन।"
+
+#: includes/functions-post-type.php:116
+msgid "Custom field deleted."
+msgstr "कस्टम क्षेत्र नष्ट कर दिया।"
+
+#: includes/functions-post-type.php:119
+#, php-format
+msgid "Ticket restored to revision from %s"
+msgstr ""
+
+#: includes/functions-post-type.php:120
+msgid "Ticket published."
+msgstr ""
+
+#: includes/functions-post-type.php:121
+msgid "Ticket saved."
+msgstr ""
+
+#: includes/functions-post-type.php:122
+msgid "Ticket submitted."
+msgstr ""
+
+#: includes/functions-post-type.php:124
+#, php-format
+msgid "Ticket scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/functions-post-type.php:126
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/functions-post-type.php:128
+msgid "Ticket draft updated."
+msgstr ""
+
+#: includes/functions-post-type.php:134
+msgid "View ticket"
+msgstr ""
+
+#: includes/functions-post-type.php:140
+msgid "Preview ticket"
+msgstr ""
+
+#: includes/functions-post-type.php:191
+msgctxt "Reply status"
+msgid "Read"
+msgstr ""
+
+#: includes/functions-post-type.php:192
+msgctxt "Reply status"
+msgid "Unread"
+msgstr ""
+
+#: includes/functions-post-type.php:204
+msgctxt "Ticket status"
+msgid "New"
+msgstr ""
+
+#: includes/functions-post-type.php:205
+msgctxt "Ticket status"
+msgid "In Progress"
+msgstr ""
+
+#: includes/functions-post-type.php:206
+msgctxt "Ticket status"
+msgid "On Hold"
+msgstr ""
+
+#: includes/functions-post.php:33
+msgid "You do not have the capacity to open a new ticket."
+msgstr ""
+
+#: includes/functions-post.php:47
+msgid "It is mandatory to provide a title for your issue."
+msgstr ""
+
+#: includes/functions-post.php:60
+msgid "It is mandatory to provide a description for your issue."
+msgstr ""
+
+#: includes/functions-post.php:112
+msgid "Only registered accounts can submit a ticket. Please register first."
+msgstr ""
+
+#: includes/functions-post.php:164
+msgid ""
+"The authenticity of your submission could not be validated. If this ticket "
+"is legitimate please try submitting again."
+msgstr ""
+
+#: includes/functions-post.php:180
+msgid "The ticket couldn't be submitted for an unknown reason."
+msgstr ""
+
+#: includes/functions-post.php:450 includes/functions-post.php:451
+#: includes/functions-post.php:710 includes/functions-post.php:711
+#, php-format
+msgid "Reply to ticket %s"
+msgstr ""
+
+#: includes/functions-post.php:493
+msgid ""
+"Something went wrong. We couldn&#039;t identify your ticket. Please try "
+"again."
+msgstr ""
+
+#: includes/functions-post.php:518
+msgid "The ticket was successfully closed"
+msgstr ""
+
+#: includes/functions-post.php:528
+msgid "Your reply could not be submitted for an unknown reason."
+msgstr ""
+
+#: includes/functions-post.php:534
+msgid "Thanks for your reply. The ticket is now closed."
+msgstr ""
+
+#: includes/functions-post.php:536
+msgid "Your reply has been submitted. Your agent will reply ASAP."
+msgstr ""
+
+#: includes/functions-post.php:1034
+msgid "The given post ID is not a ticket"
+msgstr ""
+
+#: includes/functions-post.php:1042
+msgid ""
+"The chosen agent does not have the sufficient capabilities to be assigned a "
+"ticket"
+msgstr ""
+
+#: includes/functions-post.php:1216
+msgid "You do not have the capacity to close this ticket"
+msgstr ""
+
+#: includes/functions-post.php:1216
+msgid "Can’t close ticket"
+msgstr ""
+
+#: includes/functions-post.php:1231
+msgid "The ticket was closed."
+msgstr ""
+
+#: includes/functions-post.php:1298
+msgid "The ticket was re-opened."
+msgstr ""
+
+#: includes/functions-post.php:1330
+msgid "You are not allowed to re-open this ticket"
+msgstr ""
+
+#: includes/functions-post.php:1336
+msgid "The ticket has been successfully re-opened."
+msgstr ""
+
+#: includes/functions-post.php:1459
+msgid "No ticket ID given"
+msgstr ""
+
+#: includes/functions-post.php:1469
+msgid "Invalid ticket ID"
+msgstr ""
+
+#: includes/functions-post.php:1475
+msgid "Given ID is not a ticket"
+msgstr ""
+
+#: includes/functions-templating.php:65 includes/functions-templating.php:69
+msgid "You are not allowed to view this ticket."
+msgstr ""
+
+#: includes/functions-templating.php:273
+msgid "ID"
+msgstr ""
+
+#: includes/functions-templating.php:275 includes/functions-templating.php:562
+msgid "Date"
+msgstr ""
+
+#: includes/functions-templating.php:375
+#, php-format
+msgid ""
+"The ticket has been closed. If you feel that your issue has not been solved "
+"yet or something new came up in relation to this ticket, <a href=\"%s\">you "
+"can re-open it by clicking this link</a>."
+msgstr ""
+
+#: includes/functions-templating.php:431
+msgid "Type your reply here."
+msgstr ""
+
+#: includes/functions-templating.php:448
+msgid "No reply is required to close"
+msgstr ""
+
+#: includes/functions-templating.php:449
+msgid "Close this ticket"
+msgstr ""
+
+#: includes/functions-templating.php:467
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/functions-templating.php:484
+#, php-format
+msgid ""
+"To reply to this ticket, please <a href=\"%s\">go to your admin panel</a>."
+msgstr ""
+
+#: includes/functions-templating.php:486
+msgid "You are not allowed to reply to this ticket."
+msgstr ""
+
+#: includes/functions-templating.php:560
+msgid "Title"
+msgstr ""
+
+#: includes/functions-templating.php:909
+msgid "Previous Page"
+msgstr ""
+
+#: includes/functions-templating.php:942
+msgid "Next Page"
+msgstr ""
+
+#: includes/functions-templating.php:1027
+#, php-format
+msgid "I accept the %sterms and conditions%s"
+msgstr ""
+
+#: includes/functions-user.php:36 themes/default/registration.php:29
+msgid "Registrations are currently not allowed."
+msgstr ""
+
+#: includes/functions-user.php:60
+msgid "You did not accept the terms and conditions."
+msgstr ""
+
+#: includes/functions-user.php:105
+msgid "Your account has been created. Please log-in."
+msgstr ""
+
+#: includes/functions-user.php:161
+#, php-format
+msgid "The %s field is mandatory for registering an account"
+msgstr ""
+
+#: includes/functions-user.php:344
+msgid "We were unable to log you in for an unknown reason."
+msgstr ""
+
+#: includes/functions-user.php:943
+#, php-format
+msgid "Did you mean %s"
+msgstr ""
+
+#: includes/install.php:149
+msgid "Support Supervisor"
+msgstr ""
+
+#: includes/install.php:150
+msgid "Support Manager"
+msgstr ""
+
+#: includes/install.php:151
+msgid "Support Agent"
+msgstr ""
+
+#: includes/install.php:152
+msgid "Support User"
+msgstr ""
+
+#: includes/install.php:240 includes/install.php:241
+#: themes/default/partials/ticket-navigation.php:2
+msgid "My Tickets"
+msgstr ""
+
+#: includes/install.php:260 includes/install.php:261
+msgid "Submit Ticket"
+msgstr ""
+
+#: includes/install.php:323
+msgid ""
+"Will you be supporting multiple products on this support site? You can "
+"activate multi-products support now. <small>(This setting can be modified "
+"later)</small>"
+msgstr ""
+
+#: includes/install.php:327
+msgid "Single Product"
+msgstr ""
+
+#: includes/integrations/ecommerce.php:67
+#, php-format
+msgid ""
+"You cannot edit this term from here because it is linked to an EDD product. "
+"<a href=\"%s\">Please edit the product directly</a>."
+msgstr ""
+
+#: includes/integrations/ecommerce.php:74
+#, php-format
+msgid ""
+"You cannot edit this term from here because it is linked to a WooCommerce "
+"product. <a href=\"%s\">Please edit the product directly</a>."
+msgstr ""
+
+#: includes/integrations/ecommerce.php:81
+#, php-format
+msgid ""
+"You cannot edit this term from here because it is linked to an Exchange "
+"product. <a href=\"%s\">Please edit the product directly</a>."
+msgstr ""
+
+#: includes/integrations/ecommerce.php:88
+#, php-format
+msgid ""
+"You cannot edit this term from here because it is linked to a Jigoshop "
+"product. <a href=\"%s\">Please edit the product directly</a>."
+msgstr ""
+
+#: includes/integrations/ecommerce.php:95
+#, php-format
+msgid ""
+"You cannot edit this term from here because it is linked to a WP eCommerce "
+"product. <a href=\"%s\">Please edit the product directly</a>."
+msgstr ""
+
+#: includes/scripts.php:70
+msgid "Are you sure you want to delete this reply?"
+msgstr ""
+
+#: includes/scripts.php:71
+msgid ""
+"No instance of TinyMCE found. Please use wp_editor on this page at least "
+"once: http://codex.wordpress.org/Function_Reference/wp_editor"
+msgstr ""
+
+#: includes/scripts.php:72
+msgid "You can't submit an empty reply"
+msgstr ""
+
+#: includes/scripts.php:183
+msgctxt "JavaScript validation error message"
+msgid "You can't submit an empty ticket"
+msgstr ""
+
+#: includes/scripts.php:185
+msgctxt "JavaScript validation error message"
+msgid "You can't submit an empty reply"
+msgstr ""
+
+#: includes/scripts.php:195
+msgid "The following file(s) are too big to be uploaded:"
+msgstr ""
+
+#: includes/scripts.php:196
+#, php-format
+msgid "The maximum file size allowed for one file is %d MB"
+msgstr ""
+
+#: includes/scripts.php:200
+msgctxt "ticket submission button text while submitting"
+msgid "Submitting..."
+msgstr ""
+
+#: includes/shortcodes/shortcode-submit.php:35
+#: includes/shortcodes/shortcode-tickets.php:57
+msgid "You are being redirected..."
+msgstr ""
+
+#: includes/shortcodes/shortcode-submit.php:72
+#, php-format
+msgid "You need to <a href=\"%s\">log-in</a> to submit a ticket."
+msgstr ""
+
+#: includes/shortcodes/shortcode-submit.php:79
+msgid "You are not allowed to submit a ticket."
+msgstr ""
+
+#: includes/shortcodes/shortcode-submit.php:104
+#, php-format
+msgid ""
+"Sorry, support team members cannot submit tickets from here. If you need to "
+"open a ticket, please go to your admin panel or <a href=\"%s\">click here to "
+"open a new ticket</a>."
+msgstr ""
+
+#: themes/default/details.php:129
+msgid "Loading..."
+msgstr ""
+
+#: themes/default/details.php:130
+#, php-format
+msgctxt "Showing X replies out of a total of X replies"
+msgid "Showing %s replies of %s."
+msgstr ""
+
+#: themes/default/details.php:131
+msgid "Load newer replies"
+msgstr ""
+
+#: themes/default/details.php:137
+msgid "Write a reply"
+msgstr ""
+
+#: themes/default/list.php:17
+msgid "Any status"
+msgstr ""
+
+#: themes/default/list.php:22
+msgid "Search tickets..."
+msgstr ""
+
+#: themes/default/list.php:23
+msgid "Clear Filter"
+msgstr ""
+
+#: themes/default/list.php:87
+#, php-format
+msgid ""
+"You haven't submitted a ticket yet. <a href=\"%s\">Click here to submit your "
+"first ticket</a>."
+msgstr ""
+
+#: themes/default/partials/ticket-navigation.php:3
+msgid "Open a ticket"
+msgstr ""
+
+#: themes/default/partials/ticket-navigation.php:4
+msgid "Logout"
+msgstr ""
+
+#: themes/default/partials/ticket-origin.php:28
+msgid "User"
+msgstr ""
+
+#: themes/default/partials/ticket-origin.php:29
+msgid "Message"
+msgstr ""
+
+#: themes/default/partials/ticket-reply.php:35
+#, php-format
+msgid "This reply has been deleted %s ago."
+msgstr ""
+
+#: themes/default/partials/ticket-reply.php:53
+#, php-format
+msgctxt "Time ago (eg. 5 minutes ago)"
+msgid "%s ago"
+msgstr ""
+
+#: themes/default/registration.php:24 themes/default/registration.php:76
+msgid "Log in"
+msgstr ""
+
+#: themes/default/registration.php:37 themes/default/registration.php:38
+msgid "E-mail or username"
+msgstr ""
+
+#: themes/default/registration.php:50 themes/default/registration.php:51
+#: themes/default/registration.php:131
+msgid "Password"
+msgstr ""
+
+#: themes/default/registration.php:69
+msgid "Remember Me"
+msgstr ""
+
+#: themes/default/registration.php:76
+msgid "Logging In..."
+msgstr ""
+
+#: themes/default/registration.php:77
+msgid "Forgot password?"
+msgstr ""
+
+#: themes/default/registration.php:83
+msgid "Register"
+msgstr ""
+
+#: themes/default/registration.php:91 themes/default/registration.php:92
+msgid "First Name"
+msgstr ""
+
+#: themes/default/registration.php:104 themes/default/registration.php:105
+msgid "Last Name"
+msgstr ""
+
+#: themes/default/registration.php:117 themes/default/registration.php:118
+msgid "Email"
+msgstr ""
+
+#: themes/default/registration.php:130
+msgid "Enter a password"
+msgstr ""
+
+#: themes/default/registration.php:144
+msgctxt "Login form"
+msgid "Show Password"
+msgstr ""
+
+#: themes/default/registration.php:158
+msgid "Create Account"
+msgstr ""
+
+#: themes/default/registration.php:158
+msgid "Creating Account..."
+msgstr ""
+
+#: themes/default/submission.php:84
+msgid "Submit ticket"
+msgstr ""

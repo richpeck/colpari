@@ -1,0 +1,56 @@
+#cogSettingsPage {
+
+	&.is-forcing-all {
+		.SK_Box-checkboxGroup:not(.is-immune) {
+			opacity: .5;
+    	pointer-events: none;
+		}
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+  #post-body {
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  .postbox-container:last-child {
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    .block {
+    	display: block;
+    }
+  }
+
+  .form-table {
+    margin-top: 25px;
+  }
+
+  form {
+
+    tr,
+    th,
+    td {
+      display: block;
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  h2 {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .submit {
+    margin-top: 0;
+  }
+}

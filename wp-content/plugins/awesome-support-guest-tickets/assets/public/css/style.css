@@ -1,0 +1,138 @@
+.wpas-form {
+    padding-bottom: 10px;
+}
+
+#wpas_gt_status_div {
+    margin-top: 30px;
+}
+
+.wpas_gt_privacy_div {
+    margin-bottom: 20px;
+}
+
+
+/**
+* Notice window
+*/
+.wpas-gt-notice-box {
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/**
+* Notice window close icon
+*/
+.wpas-gt-close-icon {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/**
+* Notice window content
+*/
+.wpas-gt-notice-box-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    max-width: 40%;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 4px;
+
+}
+
+/**
+* Notice window title
+*/
+.wpas-gt-notice-box-content h3 {
+    padding: 0;
+    margin: 0;
+}
+
+/**
+* Notice content
+*/
+.wpas-gt-notice-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: white;
+    min-height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+
+.wpas-overflow-hidden {
+    overflow: hidden;
+}
+
+
+/**
+* Notice window accept button
+*/
+.wpas-btn.wpas-btn-default.wpas-gt-accept {
+    background-color: rgb(3, 114, 189) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px;
+}
+
+
+/**
+* Responsive
+*/
+@media only screen and (max-width: 640px) {
+
+    /**
+    * Notice window content
+    */
+    .wpas-gt-notice-box-content {
+        border-radius: 0 !important;
+        max-width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    /**
+    * Notice window title
+    */
+    .wpas-gt-notice-box-content h3 {
+        font-size: 17px !important;
+    }
+
+    /**
+    * Notice content
+    */
+    .wpas-gt-notice-content {
+        max-height: 260px;
+        padding: 5px;
+    }
+
+   /**
+    * Notice window close icon
+    */
+    .wpas-gt-close-icon {
+        display: none;
+    }
+
+}
+

@@ -1,0 +1,715 @@
+# N2Clic Limited
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Reports and Statistics 3.2.9\n"
+"Report-Msgid-Bugs-To: https://github.com/ThemeAvenue/reports-and-statistics/issues\n"
+"POT-Creation-Date: 2017-07-27 15:31-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: ThemeAvenue (https://themeavenue.net/)\n"
+"Language-Team: ThemeAvenue <hello@themeavenue.net>\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: logs\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: tests\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+
+#: includes/chart/basic.php:32
+#: includes/reports-and-statistics-functions.php:3113
+msgid "Ticket Count"
+msgstr ""
+
+#: includes/chart/delay.php:32 includes/chart/resolution.php:32
+msgid "Minutes"
+msgstr ""
+
+#: includes/chart/delay.php:37 includes/chart/resolution.php:37
+msgid "Hours"
+msgstr ""
+
+#: includes/chart/delay.php:42 includes/chart/resolution.php:44
+msgid "Days"
+msgstr ""
+
+#: includes/chart/resolution.php:52
+msgid "Ticket Close Time "
+msgstr ""
+
+#: includes/distribution_report.php:24
+#: includes/reports-and-statistics-functions.php:991
+#: includes/reports-and-statistics-functions.php:1790
+#: includes/reports-and-statistics-functions.php:1943
+msgid "Replies"
+msgstr ""
+
+#: includes/distribution_report.php:78 includes/multi_chart_report.php:84
+#: includes/single_chart_report.php:21 includes/single_chart_report.php:49
+#: includes/single_chart_report.php:82 includes/trend_report.php:74
+msgid "Total"
+msgstr ""
+
+#: includes/front-page.php:6
+msgid "Awesome Support Reports & Statistics"
+msgstr ""
+
+#: includes/front-page.php:12
+msgid "All Tickets: Quick Summary By Status"
+msgstr ""
+
+#: includes/front-page.php:35
+msgid "Closed Tickets"
+msgstr ""
+
+#: includes/front-page.php:48
+msgid "Core Reports"
+msgstr ""
+
+#: includes/front-page.php:49
+msgid "You can slice, dice and dissect these reports to create hundreds of custom reports."
+msgstr ""
+
+#: includes/front-page.php:55
+msgid "Ticket Counts"
+msgstr ""
+
+#: includes/front-page.php:57
+msgid "A barchart and table showing a count of tickets by status."
+msgstr ""
+
+#: includes/front-page.php:62
+#: includes/reports-and-statistics-functions.php:3117
+msgid "Productivity Analysis"
+msgstr ""
+
+#: includes/front-page.php:64
+msgid "A series of barcharts and tables that show the average/median/maximum number of replies in a set of tickets."
+msgstr ""
+
+#: includes/front-page.php:68
+#: includes/reports-and-statistics-functions.php:3121
+msgid "Resolution Analysis"
+msgstr ""
+
+#: includes/front-page.php:70
+msgid "A barchart and table that displays the average time it takes to close a ticket."
+msgstr ""
+
+#: includes/front-page.php:74
+msgid "Delay analysis"
+msgstr ""
+
+#: includes/front-page.php:76
+msgid "A barchart and table that show the average time it takes to issue the first reply on a ticket."
+msgstr ""
+
+#: includes/front-page.php:80
+#: includes/reports-and-statistics-functions.php:3129
+msgid "Distribution Analysis"
+msgstr ""
+
+#: includes/front-page.php:82
+msgid "A barchart and table that show the number of tickets with various reply counts. Use this to see how much activity it takes to close out a ticket."
+msgstr ""
+
+#: includes/front-page.php:86
+msgid "Trend  Analysis"
+msgstr ""
+
+#: includes/front-page.php:88
+msgid "A barchart and table showing a the number of tickets opened in the last 7 days/weeks/months. Very useful when filtered for just closed tickets as well."
+msgstr ""
+
+#: includes/front-page.php:103
+msgid "My Saved Reports"
+msgstr ""
+
+#: includes/front-page.php:114
+msgid "Shared Reports (Reports shared by other team members)"
+msgstr ""
+
+#: includes/multi_chart_report.php:24
+msgid "Ticket Reply"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:729
+msgid "Ticket Count For Ticket Status"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:729 includes/reports.php:346
+msgid "Status"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:729
+#: includes/reports-and-statistics-functions.php:1943
+#: includes/reports-and-statistics-functions.php:2416
+#: includes/reports-and-statistics-functions.php:2792
+msgid "Tickets"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:991
+msgid "Average/Median/Maximum"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:991
+#: includes/reports-and-statistics-functions.php:1790
+msgid "Reply"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:1544
+msgid "Average Time In"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:1544
+msgid "To Close A Ticket "
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:1792
+msgid "Average Time For"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:1943
+msgid "Distribution Analysis For"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2416
+msgid "The number of tickets opened last n"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2639
+msgid "Ticket Count Charts and Tables"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2641
+msgid "This report show the number of tickets for each status. By default it shows open ticket counts but you can view closed tickets or both open and closed by adjusting the filter in the filter side-bar."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2643
+#: includes/reports-and-statistics-functions.php:2660
+msgid "You can further break down the data in this report by choosing a 2nd dimension from the filters side-bar."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2645
+msgid "For example, if you choose DEPARTMENT as the 2nd dimension you can see the number of tickets associated with each department."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2647
+msgid "If you choose a second dimension the best chart type to use is the Stacked Column Chart or Stacked Bar Chart."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2654
+msgid "Productivity Analysis Charts and Tables"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2656
+msgid "This report consists of three sub-charts."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2658
+msgid "The first chart and associated table show the average, median and maximum number of ALL replies (count of replies) in a set of tickets.  Control which tickets are included in this analysis by using the filters on the left side of the screen."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2662
+msgid "For example, if you choose ASSIGNEE as the 2nd dimension you can see the average/median/maximum number of replies for each assignee (agent)."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2664
+#: includes/reports-and-statistics-functions.php:2696
+msgid "If you choose a second dimension the best chart type to use is the Column Chart."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2666
+msgid "The second chart and associated table shows the average/median/maximum number of replies (count of replies) from just customers/clients."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2668
+msgid "The third chart and associated table shows the average/median/maximum number of replies (count of replies) from just agents (assignees)."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2675
+msgid "Resolution Analysis Report"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2677
+msgid "This simple report show the average time it takes to close a ticket. Depending on the length of time you might be shown the data in minutes, hours or days."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2679
+msgid "While it might looks simple power of this report lies in the use of the 2nd dimension. You can further break down the data in this report by choosing a 2nd dimension from the filters side-bar."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2680
+msgid "For example, if you choose ASSIGNEE as the 2nd dimension you can quickly see which agents are taking the longest times to close out tickets. Or, if you choose PRODUCT or DEPARTMENT as the 2nd dimension you can get an idea of which products or departments absorb most of your agents time."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2682
+msgid "If you choose a second dimension the best chart type to use is the Column Chart or the Stacked Bar Chart."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2688
+msgid "Delay Analysis Charts and Tables"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2690
+msgid "This report consists of two sub-charts."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2692
+msgid "The first chart show the average time it takes for a ticket to get its first reply by an agent. Depending on the length of time you might be shown the data in minutes, hours or days."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2694
+#: includes/reports-and-statistics-functions.php:2710
+#: includes/reports-and-statistics-functions.php:2726
+msgid "As with other reports you can further break down the data by choosing a 2nd dimension from the filters side-bar."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2704
+msgid "Distribution Analysis Charts and Tables"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2706
+#: includes/reports-and-statistics-functions.php:2722
+msgid "This report consists of three sub-charts showing similar information."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2708
+msgid "The first chart show the number of TICKETS containing a certain number of replies.  So, the first bar on the chart will show the number of tickets containing just one reply. The second bar will show the number of tickets containing two replies and so on."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2712
+#: includes/reports-and-statistics-functions.php:2729
+msgid "If you choose a second dimension the best chart type to use is the Stacked Bar Chart or Stacked Column Chart."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2714
+msgid "The second chart shows the same data but only takes replies from CLIENTS/USERS into consideration. The third chart only includes counts of replies by agents."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2720
+msgid "Trend Analysis Charts and Tables"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2724
+msgid "The first chart show the number of TICKETS opened each day for the last 8 days.  Day 0 is TODAY.  The second chart shows the number of TICKETS opened each week for the last 8 weeks and the third chart shows the number of tickets opened each month for the last 8 months."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2727
+msgid "For example, is you choose ASSIGNEE as the 2nd dimension you can see how many tickets are being assigned to each agent over each day/week/month. If you run multiple products or departments you can get an idea of how the tickets are being distributed among those dimensions."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2734
+msgid "Filters, Settings and 2nd Dimennsions"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2736
+msgid "All reports default to showing data for open tickets. However you can restrict the tickets by using the filter side-bar.  To access this bar use the TOGGLE FILTERS link on the upper left of the screen - under the REPORTS title. Click the APPLY FILTERS button to refresh the charts and tables with your selection."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2737
+msgid "You can select which custom fields show up in the filter-bar under the TICKETS->REPORT SETTINGS menu option."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2739
+msgid "The SECOND DIMENSION sub-panel in the filter side-bar allow you to break down basic reports into additional \"buckets\"."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2741
+msgid "General Guidelines"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2742
+msgid "The interval value field allows you to control the spacing of the grid lines.  Sometimes there are too many grid lines (or too few) which can make the chart look awkward. Change the value and click the APPLY FILTERS button to update the charts."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2744
+msgid "About Time Based Charts"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2745
+msgid "For those charts that show data in minutes/hours/days, you can control when the conversion occurs from minutes to hours or hours to days in the REPORT SETTINGS screen. Just change the field labeled SET MINUTES LIMIT"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2963
+msgid "By: "
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:3108
+#: reports-and-statistics.php:618 settings-reports-and-statistics.php:33
+msgid "Reports"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:3125
+msgid "Delay Analysis"
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:3133
+msgid "Trend Analysis"
+msgstr ""
+
+#: includes/reports.php:21
+msgid "Report"
+msgstr ""
+
+#: includes/reports.php:24
+msgid "Toggle Filters"
+msgstr ""
+
+#: includes/reports.php:25
+msgid "Help"
+msgstr ""
+
+#: includes/reports.php:61
+msgid "Select Date Range"
+msgstr ""
+
+#: includes/reports.php:65
+msgid "Last Month"
+msgstr ""
+
+#: includes/reports.php:66
+msgid "This Month"
+msgstr ""
+
+#: includes/reports.php:67
+msgid "Last Week"
+msgstr ""
+
+#: includes/reports.php:68
+msgid "This Week"
+msgstr ""
+
+#: includes/reports.php:69
+msgid "Yesterday"
+msgstr ""
+
+#: includes/reports.php:70
+msgid "Today"
+msgstr ""
+
+#: includes/reports.php:75 includes/reports.php:77
+msgid "Start Date"
+msgstr ""
+
+#: includes/reports.php:81 includes/reports.php:83
+msgid "End Date"
+msgstr ""
+
+#: includes/reports.php:95
+msgid "Interval Value"
+msgstr ""
+
+#: includes/reports.php:100
+msgid "Type of chart"
+msgstr ""
+
+#: includes/reports.php:104
+msgid "Bar Charts"
+msgstr ""
+
+#: includes/reports.php:107
+msgid "Column Chart"
+msgstr ""
+
+#: includes/reports.php:110
+msgid "Line Chart"
+msgstr ""
+
+#: includes/reports.php:113
+msgid "Spline Charts"
+msgstr ""
+
+#: includes/reports.php:119
+msgid "Pie Charts"
+msgstr ""
+
+#: includes/reports.php:122
+msgid "Doughnut Charts"
+msgstr ""
+
+#: includes/reports.php:131
+msgid "Area chart"
+msgstr ""
+
+#: includes/reports.php:134
+msgid "Area Spline Chart"
+msgstr ""
+
+#: includes/reports.php:137
+msgid "Stacked Column Chart"
+msgstr ""
+
+#: includes/reports.php:140
+msgid "Stacked Area Chart"
+msgstr ""
+
+#: includes/reports.php:143
+msgid "Stacked Bar Chart"
+msgstr ""
+
+#: includes/reports.php:169 includes/reports.php:286
+msgid "Apply Filters"
+msgstr ""
+
+#: includes/reports.php:176
+msgid "Update Report"
+msgstr ""
+
+#: includes/reports.php:184
+msgid "Delete Report"
+msgstr ""
+
+#: includes/reports.php:191 includes/reports.php:546
+msgid "Save Report"
+msgstr ""
+
+#: includes/reports.php:288
+msgid "Second Dimension"
+msgstr ""
+
+#: includes/reports.php:293
+msgid "None"
+msgstr ""
+
+#: includes/reports.php:297 includes/reports.php:361
+msgid "Clients"
+msgstr ""
+
+#: includes/reports.php:319
+msgid "State"
+msgstr ""
+
+#: includes/reports.php:323
+msgid "Open"
+msgstr ""
+
+#: includes/reports.php:327
+msgid "Closed"
+msgstr ""
+
+#: includes/reports.php:331
+msgid "Both"
+msgstr ""
+
+#: includes/reports.php:384
+msgid "Agents"
+msgstr ""
+
+#: includes/reports.php:400
+msgid "No agent found"
+msgstr ""
+
+#: includes/reports.php:496
+msgid "No Tag found"
+msgstr ""
+
+#: includes/reports.php:522
+msgid "About This Report"
+msgstr ""
+
+#: includes/reports.php:552
+msgid "Short Name:"
+msgstr ""
+
+#: includes/reports.php:559
+msgid "Long Name:"
+msgstr ""
+
+#: includes/reports.php:566
+msgid "Description:"
+msgstr ""
+
+#: includes/reports.php:573
+msgid "Sort Order:"
+msgstr ""
+
+#: includes/reports.php:587
+msgid "Which roles can see reports"
+msgstr ""
+
+#: includes/reports_settings.php:6
+msgid "Reports Settings"
+msgstr ""
+
+#: includes/reports_settings.php:15
+msgid "Select Report Filters"
+msgstr ""
+
+#: includes/reports_settings.php:18
+msgid "Items selected here will show up as filter options when creating your reports."
+msgstr ""
+
+#: includes/reports_settings.php:19
+msgid "Please be careful with the number of items you select. The more items you select, the slower your reports will run!"
+msgstr ""
+
+#: includes/reports_settings.php:33
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/reports_settings.php:63
+msgid "Save Changes"
+msgstr ""
+
+#: includes/reports_settings.php:64
+msgid "Reset to Defaults"
+msgstr ""
+
+#: includes/single_chart_report.php:5
+msgid "NO RECORD FOUND."
+msgstr ""
+
+#: reports-and-statistics.php:181
+#, php-format
+msgid "You need Awesome Support to activate this addon. Please <a href=\"%s\" target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: reports-and-statistics.php:226 reports-and-statistics.php:228
+msgid "Saved Report"
+msgstr ""
+
+#: reports-and-statistics.php:258
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: reports-and-statistics.php:262
+#, php-format
+msgid "Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: reports-and-statistics.php:266
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: reports-and-statistics.php:543
+#, php-format
+msgid "Please <a href=\"%s\">fill-in your product license</a> now. If you don't, your copy Advanced Reports And Statistics <strong>will never be updated</strong>."
+msgstr ""
+
+#: reports-and-statistics.php:569
+#, php-format
+msgid "You must fill-in your product license in order to get future plugin updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: reports-and-statistics.php:622
+msgid "Report Settings"
+msgstr ""
+
+#: save-report.php:38
+msgid "Report updated successfully"
+msgstr ""
+
+#: save-report.php:48
+msgid "Report saved successfully"
+msgstr ""
+
+#: settings-reports-and-statistics.php:36
+msgid "Security Roles For Reports"
+msgstr ""
+
+#: settings-reports-and-statistics.php:38
+msgid "Use these options to control who can save, view and delete reports."
+msgstr ""
+
+#: settings-reports-and-statistics.php:43
+#: settings-reports-and-statistics.php:44
+msgid "Which roles can save reports "
+msgstr ""
+
+#: settings-reports-and-statistics.php:51
+#: settings-reports-and-statistics.php:52
+msgid "Which roles can delete reports"
+msgstr ""
+
+#: settings-reports-and-statistics.php:60
+#: settings-reports-and-statistics.php:61
+msgid "Which roles can see report menu"
+msgstr ""
+
+#: settings-reports-and-statistics.php:68
+msgid "General Options"
+msgstr ""
+
+#: settings-reports-and-statistics.php:70
+msgid "These options apply to all reports."
+msgstr ""
+
+#: settings-reports-and-statistics.php:75
+msgid "Set Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:76
+#: settings-reports-and-statistics.php:92
+msgid "The interval range is used to set the size of the chart grid relative to the data being charted.  For example, if the data being charted includes a maximum value of 100, you might set this to be 10 which will result in 10 grids on the chart."
+msgstr ""
+
+#: settings-reports-and-statistics.php:83
+msgid "Minutes Limit"
+msgstr ""
+
+#: settings-reports-and-statistics.php:84
+msgid "This option controls when minutes are switched to hours.  We generally display time based reports in minutes but when the number gets too high its best to switch to hours or days.  This value controls when that happens. By default if the data has bars showing 1000 minutes the time will start to display in hours instead."
+msgstr ""
+
+#: settings-reports-and-statistics.php:90
+msgid "Interval Ranges For Each Report"
+msgstr ""
+
+#: settings-reports-and-statistics.php:97
+msgid "Ticket Count Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:98
+msgid "The interval range for the Ticket Count report"
+msgstr ""
+
+#: settings-reports-and-statistics.php:105
+msgid "Productivity Analysis Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:106
+msgid "The interval range for the Productivity Analysis report"
+msgstr ""
+
+#: settings-reports-and-statistics.php:113
+msgid "Resolution Analysis Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:114
+msgid "The interval range for the Resolution Analysis report"
+msgstr ""
+
+#: settings-reports-and-statistics.php:121
+msgid "Delay Analysis Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:122
+msgid "The interval range for the Delay Analysis report"
+msgstr ""
+
+#: settings-reports-and-statistics.php:129
+msgid "Distribution Analysis Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:130
+msgid "The interval range for the Distribution Analysis report"
+msgstr ""
+
+#: settings-reports-and-statistics.php:137
+msgid "Trend Analysis Interval Range"
+msgstr ""
+
+#: settings-reports-and-statistics.php:138
+msgid "The interval range for the Trend Analysis report"
+msgstr ""

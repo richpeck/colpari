@@ -1,0 +1,295 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Custom FAQ\n"
+"POT-Creation-Date: 2017-07-01 19:17-0500\n"
+"PO-Revision-Date: 2016-08-08 11:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <contact@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: customfaq.php:188
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: customfaq.php:214
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: customfaq.php:218
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: customfaq.php:222
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: customfaq.php:495
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of Awesome Support: Custom FAQ <strong>will never be "
+"updated</strong>."
+msgstr ""
+
+#: customfaq.php:496
+msgid "I do NOT want the updates, dismiss this message"
+msgstr ""
+
+#: customfaq.php:522
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: includes/functions-quick-reply.php:31
+msgid "Quick CUSTOMFAQ Links"
+msgstr ""
+
+#: includes/functions-quick-reply.php:41
+msgid "Select a CUSTOMFAQ"
+msgstr ""
+
+#: includes/functions-quick-reply.php:87
+msgid "Tag"
+msgstr ""
+
+#: includes/functions-quick-reply.php:87
+msgid "Description"
+msgstr ""
+
+#: includes/functions-quick-reply.php:93
+msgid "Converts into the link to the CUSTOMFAQ"
+msgstr ""
+
+#: includes/functions-quick-reply.php:100
+msgid "Template Tags"
+msgstr ""
+
+#: includes/functions-quick-reply.php:101
+#, php-format
+msgid ""
+"<p>When setting up your quick reply, you can use a certain number of "
+"template tags allowing you to dynamically add ticket-related "
+"information at the moment the reply is sent. Here is the list of "
+"available tags:</p>%s"
+msgstr ""
+
+#: includes/functions-search.php:121
+msgid "FAQ: "
+msgstr ""
+
+#: includes/functions-search.php:173
+msgid "Search the CUSTOMFAQs..."
+msgstr ""
+
+#: includes/integrations/awesome-support.php:40
+msgid "Create a new CUSTOMFAQ based on this reply"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:40
+msgid "Create CUSTOMFAQ"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:119
+msgid ""
+"Post the reply and create a CUSTOMFAQ with this reply as the answer"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:119
+msgid "Reply &amp; CUSTOMFAQ"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:157
+#, php-format
+msgid ""
+"The new CUSTOMFAQ has been added. <a href=\"%s\">View CUSTOMFAQ</a>"
+msgstr ""
+
+#: includes/settings.php:29
+msgid "Custom FAQ"
+msgstr ""
+
+#: includes/settings.php:32
+msgid "Custom Post Type"
+msgstr ""
+
+#: includes/settings.php:35
+msgid ""
+"Enter the internal name of the Custom Post Type to use for your FAQs.  "
+"You might need to contact your plugin provider or software developer "
+"to get this name."
+msgstr ""
+
+#: includes/settings.php:40
+msgid "Reply &amp; CUSTOMFAQ Closes"
+msgstr ""
+
+#: includes/settings.php:43
+msgid ""
+"Close tickets when replied using the <em>Reply &amp; CUSTOMFAQ</em> "
+"button."
+msgstr ""
+
+#: includes/settings.php:47
+msgid "Quick CUSTOMFAQ Links Template"
+msgstr ""
+
+#: includes/settings.php:50
+#, php-format
+msgid ""
+"Reply to send to the client for directing him to the CUSTOMFAQ "
+"article. <a %s>Click here</a> to review all available template tags."
+msgstr ""
+
+#: includes/settings.php:54
+msgid "Rewrite Slug"
+msgstr ""
+
+#: includes/settings.php:57
+#, php-format
+msgid ""
+"What should the slug be for CUSTOMFAQs? The slug is the part that "
+"prefixes the question slug. Example: %s. Please refresh your "
+"permalinks if you change this option."
+msgstr ""
+
+#: includes/settings.php:62
+msgid "Live Search"
+msgstr ""
+
+#: includes/settings.php:65
+msgid ""
+"Thse parameters control how the search function works on the front-end "
+"as the user types in characters into the ticket subject field"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "Live Search Elements"
+msgstr ""
+
+#: includes/settings.php:73
+#, php-format
+msgid ""
+"On which elements should the live search trigger? By default, it is "
+"enabled on the ticket submission form title field. You can add more "
+"form elements by specifying their selector. If you use multiple "
+"selectors, they must be separated by a comma (%s). <a %s>Read more "
+"about selectors</a>."
+msgstr ""
+
+#: includes/settings.php:77
+msgid "Delay"
+msgstr ""
+
+#: includes/settings.php:80
+msgid ""
+"Delay (in <code>milliseconds</code>) after which the live search is "
+"triggered when the user types something."
+msgstr ""
+
+#: includes/settings.php:84
+msgid "Characters Min."
+msgstr ""
+
+#: includes/settings.php:87
+msgid "Minimum number of characters required to trigger the live search."
+msgstr ""
+
+#: includes/settings.php:92
+msgid "Link Target"
+msgstr ""
+
+#: includes/settings.php:95
+msgid "Where do you want links to open?"
+msgstr ""
+
+#: includes/settings.php:96
+msgid "New window/tab"
+msgstr ""
+
+#: includes/settings.php:96
+msgid "Same window/tab"
+msgstr ""
+
+#: includes/settings.php:100
+msgid "Sort Results"
+msgstr ""
+
+#: includes/settings.php:103
+msgid "How do you want live search results ot be displayed?"
+msgstr ""
+
+#: includes/settings.php:105
+msgid "Date (ascending)"
+msgstr ""
+
+#: includes/settings.php:106 includes/settings.php:108
+msgid "Date (descending)"
+msgstr ""
+
+#: includes/settings.php:107
+msgid "Title (ascending)"
+msgstr ""
+
+#: includes/settings.php:113
+msgid "Max. Results"
+msgstr ""
+
+#: includes/settings.php:116
+msgid "Maximum number of results to display."
+msgstr ""
+
+#: includes/settings.php:122
+msgid "Live Search Results Styles"
+msgstr ""
+
+#: includes/settings.php:124
+msgid "These options control the look of the live search results"
+msgstr ""
+
+#: includes/settings.php:127
+msgid "Section Background Color"
+msgstr ""
+
+#: includes/settings.php:130
+msgid ""
+"Color of the background on which the live search results are shown"
+msgstr ""
+
+#: includes/settings.php:134
+msgid "Topic Title Color"
+msgstr ""
+
+#: includes/settings.php:137
+msgid "Color of the topics / results that are shown"
+msgstr ""

@@ -1,0 +1,68 @@
+.tbk-api-wrapper table {
+    display: inline-table !important;
+    margin-bottom: 50px;
+    width: auto;
+}
+
+.tbk-api-wrapper table, .wrapper th, .wrapper td {
+    border: none;
+}
+
+.tbk-api-wrapper .tbk-field label {
+    display: block;
+    font-size: 14px;
+}
+
+.tbk-api-wrapper .tbk-fields, .wrapper .tbk-field {
+    display: inline-block;
+}
+
+.tbk-api-wrapper .three.tbk-fields .tbk-field {
+    width: calc(33.333333% - 0.5em);
+    display: inline-block;
+}
+
+.tbk-api-wrapper .button {
+    padding: 10px;
+    display: inline-block;
+    min-width: 100px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tbk-api-wrapper .tbk-submit.tbk-button {
+    width: auto !important;
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tbk-api-wrapper .tbk-error-message-form {
+    color: red;
+    display: block;
+    margin-top: 20px;
+}
+
+.tbk-api-wrapper .tbk-error-message-form .tbk-message-header {
+    display: none;
+}
+
+.tbk-api-wrapper .button.confirm {
+    background: #8BC34A;
+}
+
+.tbk-api-wrapper .button.confirm:hover,
+.tbk-api-wrapper .button.confirm:focus {
+    background: #90d442;
+}
+
+.tbk-api-wrapper .button.deny {
+    background: #dc4a4a;
+}
+
+.tbk-api-wrapper .button.deny:hover,
+.tbk-api-wrapper .button.deny:focus {
+    background: red;
+}

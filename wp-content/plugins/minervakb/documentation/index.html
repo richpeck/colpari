@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Minerva KB - Knowledge Base for WordPress with Analytics</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Minerva KB&rdquo; Documentation by &ldquo;KonstruktStudio&rdquo; v1.4.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">Minerva KB - Knowledge Base with Analytics</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 12/13/2016<br>
+					By: KonstruktStudio<br>
+					Email: <a href="mailto:konstrukteam@gmail.com">konstrukteam@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/KonstruktStudio">here</a>. Thank you so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#features">Features</a></li>
+			<li><a href="#install">Quick start</a></li>
+			<li><a href="#creating-pages">Creating pages</a></li>
+			<li><a href="#add-content">Adding content</a></li>
+			<li><a href="#editing-topics">Editing topics</a></li>
+			<li><a href="#settings">Settings</a></li>
+			<li><a href="#dashboard">Dashboard</a></li>
+			<li><a href="#shortcodes">Shortcodes</a></li>			
+		</ol>
+
+		<h3 id="features"><strong>Features</strong> - <a href="#toc">top</a></h3>
+		<p>
+			<ul>
+				<li>Ajax intuitive Live Search</li>
+				<li>Analytics dashboard, with views, likes and dislikes weekly / monthly graph</li>
+				<li>Home page box or list layout, with 2,3 or 4 columns</li>
+				<li>Dynamic table of contents in articles</li>
+				<li>Optional FancyBox on articles images</li>
+				<li>Custom post type slugs</li>
+				<li>Breadcrumbs on topics and articles pages</li>
+				<li>Nested categories support</li>
+				<li>Multiple sidebars for each page type</li>
+				<li>Optionally can display page content on knowledge base page</li>
+				<li>Icons for topics or articles (600+ icons)</li>
+				<li>Show or hide article views, likes and dislikes buttons and count with custom icons</li>
+				<li>Estimated reading time for articles</li>
+				<li>Enable or disable comments</li>
+				<li>Use our templates or switch to your theme default templates</li>
+				<li>Override plugin templates from theme</li>
+				<li>Topic and articles widgets</li>
+				<li>Topics, articles and search shortcodes</li>
+				<li>Tip, Info and Warning content shortcodes for use in our articles, with custom colors and icons</li>
+				<li>Responsive design</li>
+				<li>Documentation</li>
+				<li>Translation ready</li>
+			</ul>
+		</p>
+		
+		<hr>
+		
+		<h3 id="quick-start"><strong>Quick start</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you're using our plugin for the first time, we highly recommend to watch tutorial videos on <a href="https://www.youtube.com/channel/UCgixjwHOOF0gsVHsESZyWGA" target="_blank">our Youtube channel</a></p>
+
+		<p>First of all, you need to install plugin. Login to your WordPress admin and go to Plugins -> Add new.</p>
+
+		<p><img src="assets/images/install-plugin.png" style="max-width: 480px; height: auto;"/></p>
+
+		<p>Then click <b>Upload Plugin</b> button at the top of the screen, Choose the zip file you have received after purchasing item and press <b>Install now</b></p>
+		
+		<p><img src="assets/images/upload-plugin.png"/></p>
+			
+		<p>After the plugin has installed, press <b>Activate</b>. After that you should see new Knowledge Base section under Post and MinervaKB menu item below Settings. This means you have successfully installed and activated plugin.</p>
+		<p>Next thing you need to do is create a Knowledge Base home page, that will be used as a root of your knowledge base (for example, it will be displayed as top link in KB breadcrumbs). To do that, you need to create new wordpress page. You can also use existing page, but it is recommended that it is not used by any other plugin that manages page content. To create new WordPress page, go to Pages -> Add new, give it some title, for example <b>Knowledge Base</b> and press <b>Publish</b>.</p>
+
+		<p><img src="assets/images/new-page.png"/></p>
+
+		<p>Next, go to MinervaKB -> Settings -> Home Page, select your newly created page from the list and press <b>Save settings</b>.</p>
+
+		<p><img src="assets/images/home-page.png"/></p>
+
+		<p>At this point your Knowledge Base home page is set up, but it has no content, only search. To fix that we need to start adding new content. Let's create a new article to describe the process. Go to Knowledge Base -> Add New, give your article a title and write some content in content editor. You can use some bundled shortcodes here, see more details in <a href="#shortcodes">Shortcodes section</a>.</p>
+
+		<p><img src="assets/images/new-article.png"/></p>
+
+		<p> When you're done with the content, at the right side of the post editor press <b>Add new topic</b> to create a topic this article will be in. Topics are used as containers for Articles. Give your new topic a name, add it and press <b>Publish</b> to publish your article. Please note, that later you will more often select existing topics from the list.</p>
+
+		<p><img src="assets/images/add-new-topic.png" style="max-width: 280px; height: auto;"/></p>
+
+		<p>Great, now we have a topic and an article. Repeat these steps and add some more articles and topics. After you have created enough content, we need to configure how to display it on your home page. Go to MinervaKB -> Settings -> Home Page. Configure the sections according to image below (you can choose your own options, of course) and drag topics from available topics list to selected.</p> 
+
+		<p><img src="assets/images/home-layout.png"/></p>
+
+		<p>You can also keep selected topics list blank to simply display recent topics by date. If you select some topics, you can reorder them by using drag n drop. When you're done with home page configuration, press <b>Save settings</b> and got to your Knowledge Base page to see changes.</p>
+
+		<p><img src="assets/images/quick-start-result.png"/></p>
+
+		<p>If you have followed through all steps, your Knowledge Base home page should look something like the image above. We've tried our best to select appropriate settings defaults, so that you can have workable and good looking Home Page right from the start. Congratulations, you have completed the Quick Start guide!</p>
+
+		<h3 id="creating-pages"><strong>Creating pages</strong> - <a href="#toc">top</a></h3>
+
+		<p>
+			Since version 1.2 it is possible to use Page Builder to creat home pages. Page builder can be enabled on any page by clicking toggle "Make this page a Minerva Home page" under the page and saving page. Page editor is based on sections - each section takes the whole row. Two sections cannot be put side by side currently. You can add Search section, Topics section (you can also add dynamic topics, like recent or most viewed topics) and Page content. You can reorder sections using drag n drop.
+		</p>
+
+		<h3 id="add-content"><strong>Adding Content</strong> - <a href="#toc">top</a></h3>
+
+		<p>
+			Adding articles is as simple, as creating posts in WordPress. To create new Article, just go to Knowledge Base / Add New, edit content, Select (or create new) Topic for it and press publish. After that you article will appear on your home KB page. You can also use our content shortcodes, that were created specifically for Articles content. See <a href="#shortcodes">Shortcodes section</a> for more details.
+		</p>
+
+		<h3 id="editing-topics"><strong>Editing topics</strong> - <a href="#toc">top</a></h3>
+
+		<p>You can customize how topics look on your home page. To do that, go to Knowledge Base -> Topics.</p>
+
+		<p><img src="assets/images/topics-list.png"/></p>
+
+		<p>Click one of the topics - you will be redirected to topic edit page.</p>
+
+		<p><img src="assets/images/edit-topic.png"/></p>
+
+		<p>Notice at the bottom, that you can edit topic color and icon. These settings affect how topcs look on home page. Use them, if you want some topics to look differently. If you want to edit global settings, you should do so in MinervaKB -> Settings instead.</p>
+
+		<h3 id="settings"><strong>Settings</strong> - <a href="#toc">top</a></h3>
+		<p>Minerva KB has many options and settings. Here is an overview of its sections.</p>
+
+		<h6>General</h6>
+		<img src="assets/images/general.png" />
+		<p>In General section you can edit the settings for your Home page, such as layout, number of columns, sidebar position, page to display your Knowledge Base articles and which template to use</p>
+
+		<h6>Post type</h6>
+		<img src="assets/images/post-type.png" />
+		<p>In Post type you can configure custom post type slugs. Note, that you must avoid conflicts, i.e., if you already have a page with slug <b>kb</b>, do not use kb as a slug for your articles or topics, as only the first match will be displayed by WordPress.</p>
+
+		<h6>AJAX Search</h6>
+		<img src="assets/images/search.png" />
+		<p>Here you can configure your Live Search, such as placeholder, icons, colors and text labels.</p>
+
+
+		<h6>Article</h6>
+		<img src="assets/images/article.png" />
+		<p>Settings for Article single page. You can use plugin template, theme single template or you can override plugin template in theme. To do so, create folder <b>minerva-kb</b> in your active theme root directory and copy needed files from <b>plugins/minerva-kb/lib/templates</b>. You can edit them and they will be used instead of plugin templates. Note, that templates might change in future versions and your copies may become outdated.</p>
+
+		<h6>Topics</h6>
+		<img src="assets/images/topics.png" />
+		<p>Settings Topics archive page. You can configure template, sidebar, layout for child categories and other options here. You can also override templates in theme (see Article description).</p>
+
+		<h6>Tags</h6>
+		<img src="assets/images/tags.png" />
+		<p>Settings for tags archive page. You can configure template and sidebar for tags archive page. You can also override templates in theme (see Article description).</p>
+
+		<h6>Breadcrumbs</h6>
+		<img src="assets/images/breadcrumbs.png" />
+		<p>Settings for breadcrumbs.</p>
+
+		<h6>Rating</h6>
+		<img src="assets/images/rating.png" />
+		<p>Settings for rating. Note, that you can use like and dislike buttons separately and show or hide counters.</p>
+
+		<h6>Shortcodes</h6>
+		<img src="assets/images/shortcodes.png" />
+		<p>Content tags settings. You can customize the appearance of bundled Tip, Info and Warning shortcodes in this section.</p>
+
+		<h3 id="dashboard"><strong>Dashboard</strong> - <a href="#toc">top</a></h3>	
+		<img src="assets/images/dashboard.png" />
+		<p>Dashboard is the place, where you can see how your articles perform. You can see the overall system stats, such as articles count, topics count, views, likes and dislikes count. You can also see performance by day for the previous week or month. The red line is dislikes, green is likes and blue is views. You can easily sport problems just by looking at graph, if the red is overlapping the green - something is wrong with your articles.</p>
+		<p>Below the graph you can see the recent and top charts. Here you can easily spot the best and the worst articles and take your actions.</p>
+
+		<h3 id="shortcodes"><strong>Shortcodes</strong> - <a href="#toc">top</a></h3>
+		<p>Minerva KB comes bundled with shortcodes. There are KB shortcodes and Article content shortcodes.</p>
+		<h6>Article content shortcodes</h6>
+		<img src="assets/images/content-shortcodes.png" />
+		<p>Content shortcodes are <b>Info</b>, <b>Tip</b> and <b>Warning</b> The codes to iser them are [mkb-tip], [mkb-info] and [mkb-warning]. See the example below for the source code to get result same as on above screenshot</p>
+
+<pre>
+	[mkb-tip]There are many variations of passages of Lorem Ipsum available, but the majority 
+	have suffered alteration in some form, by injected humour, or randomised words which don’t 
+	look even slightly believable.[/mkb-tip]
+</pre>
+
+<pre>
+	[mkb-info]There are many variations of passages of Lorem Ipsum available, but the majority 
+	have suffered alteration in some form, by injected humour, or randomised words which don’t 
+	look even slightly believable.[/mkb-info]
+</pre>
+
+<pre>
+	[mkb-warning]There are many variations of passages of Lorem Ipsum available, but the majority 
+	have suffered alteration in some form, by injected humour, or randomised words which don’t look 
+	even slightly believable.[/mkb-warning]
+</pre>
+
+		<h6>Table of contents shortcode</h6>
+		<p>You can use dynamic table of contents in your articles. To achieve this, you need to add section titles using [mkb-anchor] shortcode. Then, when the plugin renders your article, it will analyze the content and build a dynamic table of contents based on your sections. See the screenshot below to see how it looks.</p>
+
+		<p><img src="assets/images/article-toc.png" style="max-width: 500px; height: auto;"/></p>
+
+		<p>You should use this shortcode often, as this helps the visitors to get a quick overview of what this article is about. Sometimes the visitora will be able to know if they're on the right page just by looking at article table of contents.</p>
+		<p>Adding section title is simple. Just wrap them with [mkb-anchor], see the example below</p>
+
+<pre>
+	[mkb-anchor]How this works in JaveScript[/mkb-anchor]
+</pre>
+
+		<h6>KB shortcodes</h6>
+		<img src="assets/images/kb-shortcodes.png" />
+		<p>Knowledge Base shortcodes are [mkb-topic], [mkb-topics] and [mkb-search]. Search is used to display live search box anywhere in your site. It has no parameters</p>
+		<p>[mkb-topics] will display your topics, similar to home page. It takes 2 parameters: <b>view</b> and <b>columns</b>. View can be <b>"box"</b> or <b>"list"</b>(default). Columns can be <b>"2col"</b>, <b>"3col"</b>(default) or <b>"4col"</b>.</p>
+		<p>[mkb-topic] will display your topic articles, similar to topic category page. It will also display nested categories, if any. It takes 3 parameters: <b>view</b>, <b>columns</b> and <b>limit</b>. View can be <b>"box"</b> or <b>"list"</b>(default). Columns can be <b>"2col"</b>, <b>"3col"</b>(default) or <b>"4col"</b>. Limit is an integer value, that controls how many articles to display. Use -1 to display all.</p>
+		
+		<hr>
+	
+		
+		<p>Once again, thank you so much for purchasing MinervaKB. We'd be glad to help you if you have any questions relating to this item. No guarantees, and we'll do my best to assist. If you have a more general question relating to the items on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>KonstruktStudio</strong></p>
+		<p><a href="#toc">Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

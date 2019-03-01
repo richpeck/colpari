@@ -1,0 +1,97 @@
+.mkb-sorting-page-tabs {
+  margin: 1em 0 3em;
+  background: #fff;
+  padding: 2em;
+  width: 70em;
+  max-width: 100%;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 1em 0 0;
+      font-size: 1.2em;
+      cursor: pointer;
+
+      &.mkb-active {
+        font-weight: 700;
+        cursor: default;
+      }
+    }
+  }
+}
+
+.mkb-sorting-form {
+  background: #fff;
+  padding: 2em;
+  width: 70em;
+  max-width: 100%;
+}
+
+#mkb-plugin-sorting-save {
+  float: right;
+  margin-left: 0.7em;
+}
+
+.mkb-sorting-tree {
+  margin: 2em 0;
+  padding: 1em 2em;
+  border-radius: 6px;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.12);
+  background: #f7f7f7;
+  max-width: 50em;
+
+  ul {
+    color: #888;
+
+    li {
+      font-size: 1.1rem;
+      margin: 0.5em 0;
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+  }
+}
+
+.mkb-term-posts {
+  padding: 0.2em 0 0.6em;
+}
+
+.mkb-sorting-tree-post,
+.mkb-sorting-content--terms .mkb-sorting-tree-item {
+  padding: 0.6em 0.7em;
+  background: #fff;
+  margin: 0.3em 0;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.12);
+  cursor: move;
+  color: #333;
+  font-size: 1rem;
+  width: 28em;
+
+  i {
+    color: #888;
+    margin-right: 0.2em;
+  }
+}
+
+.mkb-sorting-content--terms {
+  .mkb-sorting-tree-item {
+    display: inline-block;
+    width: auto;
+  }
+
+  .mkb-sorting-tree ul li {
+    margin: 0.1em 0;
+  }
+}
+
+.mkb-sorting-tree--terms {
+  max-width: 30em;
+}
+

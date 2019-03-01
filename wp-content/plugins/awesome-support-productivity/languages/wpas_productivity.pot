@@ -1,0 +1,2055 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Productivity\n"
+"POT-Creation-Date: 2017-08-15 02:41-0500\n"
+"PO-Revision-Date: 2016-11-08 17:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../awesome-support-productivity-functions.php:171
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../awesome-support-productivity-functions.php:225
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: ../awesome-support-productivity-functions.php:229
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: ../awesome-support-productivity-functions.php:233
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: ../awesome-support-productivity-functions.php:485
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of Awesome Support: Productivity <strong>will never "
+"be updated</strong>."
+msgstr ""
+
+#: ../awesome-support-productivity-functions.php:510
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: ../includes/class_ticket_meta.php:152
+#: ../includes/class_user_info.php:135
+msgid "Add"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:183
+#: ../includes/metaboxes.php:52
+msgid "Signatures"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:198
+msgid "Add signature"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:235
+msgid "Add Signature"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:259
+msgid "No signature exist."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:282
+msgid "Save Signature"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:312
+#: ../includes/functions/class_agent_signature.php:490
+msgid "Sorry, you are not allowed to add signature."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:316
+#: ../includes/functions/class_agent_signature.php:382
+#: ../includes/functions/class_agent_signature.php:448
+#: ../includes/functions/class_agent_signature.php:492
+#: ../includes/functions/class_agent_signature.php:541
+#: ../includes/functions/class_personal_note.php:219
+#: ../includes/functions/class_personal_note.php:280
+#: ../includes/functions/class_personal_note.php:342
+#: ../includes/functions/class_personal_note.php:385
+#: ../includes/functions/class_personal_todo.php:277
+#: ../includes/functions/class_personal_todo.php:393
+#: ../includes/functions/class_personal_todo.php:434
+#: ../includes/functions/class_personal_todo.php:477
+#: ../includes/functions/class_support_note.php:208
+#: ../includes/functions/class_support_note.php:271
+#: ../includes/functions/class_support_note.php:335
+#: ../includes/functions/class_support_note.php:379
+#: ../includes/functions/class_ticket_criteria.php:152
+#: ../includes/functions/class_ticket_criteria.php:422
+#: ../includes/functions/class_ticket_notification_email.php:282
+#: ../includes/functions/class_ticket_notification_email.php:330
+#: ../includes/functions/class_ticket_notification_email.php:434
+#: ../includes/functions/class_ticket_user_contact.php:286
+#: ../includes/functions/class_ticket_user_contact.php:334
+#: ../includes/functions/class_ticket_user_contact.php:438
+#: ../includes/functions/class_user_additional_email.php:302
+#: ../includes/functions/class_user_additional_email.php:350
+#: ../includes/functions/class_user_additional_email.php:454
+msgid "Something went wrong, try again later."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:320
+#: ../includes/functions/class_agent_signature.php:390
+msgid "Signature is required."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:348
+msgid "Signature created"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:378
+msgid "Sorry, you are not allowed to edit signature."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:386
+#: ../includes/functions/class_agent_signature.php:452
+#: ../includes/functions/class_agent_signature.php:494
+#: ../includes/functions/class_agent_signature.php:543
+msgid "Signature doesn't exist."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:417
+msgid "Signature Saved"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:444
+msgid "Sorry, you are not allowed to remove signature."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:463
+msgid "Signature delated"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:513
+msgid "Signature duplicated"
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:539
+msgid "Sorry, you are not allowed to change default signature."
+msgstr ""
+
+#: ../includes/functions/class_agent_signature.php:562
+msgid "Signature set as default"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:136
+msgid ""
+"Security Error: Required hash does not exist - ticket cannot be closed!"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:143
+msgid ""
+"Security Error: Incorrect security hash was passed - ticket cannot be "
+"closed!"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:175
+msgid "This ticket was successfully closed!"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:178
+msgid ""
+"Unfortunately this ticket could not be closed - maybe it was already "
+"closed?"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:243
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual link) for the "
+"click-to-close link"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:247
+msgid "Displays a link to the click-to-close page"
+msgstr ""
+
+#: ../includes/functions/class_click_to_close_endpoint.php:300
+msgid ""
+"Click Here To Close This ticket in one step - just one click is "
+"required."
+msgstr ""
+
+#: ../includes/functions/class_click_to_view_endpoint.php:133
+msgid ""
+"Security Error: Required hash does not exist - ticket cannot be viewed!"
+msgstr ""
+
+#: ../includes/functions/class_click_to_view_endpoint.php:144
+msgid ""
+"Security Error: Incorrect security hash was passed - ticket cannot be "
+"viewed!"
+msgstr ""
+
+#: ../includes/functions/class_click_to_view_endpoint.php:218
+msgid ""
+"Displays the URL <strong>only</strong> (not an actual link) for the "
+"click-to-view link"
+msgstr ""
+
+#: ../includes/functions/class_click_to_view_endpoint.php:222
+msgid "Displays a link to the click-to-view page"
+msgstr ""
+
+#: ../includes/functions/class_click_to_view_endpoint.php:275
+msgid "Click Here To view This ticket (no login required)"
+msgstr ""
+
+#: ../includes/functions/class_email_attachment.php:120
+msgid "Add attachments"
+msgstr ""
+
+#: ../includes/functions/class_email_template_tag.php:45
+msgid "Full Ticket"
+msgstr ""
+
+#: ../includes/functions/class_email_template_tag.php:67
+msgid "Ticket Status"
+msgstr ""
+
+#: ../includes/functions/class_email_template_tag.php:78
+msgid "Custom field : "
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:54
+#, php-format
+msgid "The ticket #%s has been added to your favorites list."
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:62
+#, php-format
+msgid "The ticket #%s has been removed from your favorites list."
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:153
+#: ../includes/functions/class_global_favorite_ticket.php:159
+#: ../includes/functions/class_ticket_split.php:330
+#: ../includes/functions/class_ticket_split.php:377
+msgid "Sorry, we can't perform this action, try again later."
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:158
+msgid "Ticket has been added to your favorites list."
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:161
+msgid "Ticket has been removed from your favorites list."
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:191
+msgid "Favorite"
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:194
+msgid "Unfavorite"
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:213
+msgid "Add this ticket to your favorites list"
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:213
+msgid "Remove this ticket from your favorites list"
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:232
+#: ../includes/functions/class_global_favorite_ticket.php:236
+#: ../includes/templates/additional_emails/item.php:18
+#: ../includes/templates/notification_emails/item.php:18
+#: ../includes/templates/personal_todos/item.php:19
+#: ../includes/templates/ticket_filter_options/item.php:19
+#: ../includes/templates/user_contacts/item.php:29
+msgid "Dismiss this notice."
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:253
+msgid "Enable Favorite Tickets for Agents"
+msgstr ""
+
+#: ../includes/functions/class_favorite_ticket.php:256
+msgid "Can an agent make a list of favorite tickets?"
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:68
+#, php-format
+msgid "The ticket #%s has been added to the hotlist."
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:76
+#, php-format
+msgid "The ticket #%s has been removed from the hotlist."
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:164
+msgid "Ticket has been added to the hotlist."
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:167
+msgid "Ticket has been removed from the hotlist."
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:197
+#: ../includes/metaboxes.php:67
+msgid "Hotlist"
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:200
+msgid "Remove Hotlist"
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:219
+msgid "Add this ticket to hotlist"
+msgstr ""
+
+#: ../includes/functions/class_global_favorite_ticket.php:219
+msgid "Remove this ticket from hotlist"
+msgstr ""
+
+#: ../includes/functions/class_misc_options.php:262
+#: ../includes/functions/settings-labels.php:231
+msgid "Attachments"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:94
+#: ../includes/metaboxes.php:30
+msgid "Personal Notes"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:108
+msgid "Add personal note"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:145
+#: ../includes/functions/class_support_note.php:133
+msgid "Add Note"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:165
+msgid "No personal note exist."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:187
+#: ../includes/functions/class_support_note.php:175
+msgid "Save Note"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:215
+#: ../includes/functions/class_personal_note.php:383
+msgid "Sorry, you are not allowed to add personal notes."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:223
+#: ../includes/functions/class_personal_note.php:288
+#: ../includes/functions/class_personal_todo.php:281
+#: ../includes/functions/class_support_note.php:212
+#: ../includes/functions/class_support_note.php:279
+#: ../includes/functions/class_ticket_split.php:332
+msgid "Title is required."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:227
+#: ../includes/functions/class_personal_note.php:292
+#: ../includes/functions/class_personal_todo.php:285
+#: ../includes/functions/class_support_note.php:216
+#: ../includes/functions/class_support_note.php:283
+msgid "Body is required."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:250
+#: ../includes/functions/class_support_note.php:240
+msgid "Note created"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:276
+msgid "Sorry, you are not allowed to edit personal notes."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:284
+#: ../includes/functions/class_personal_note.php:346
+#: ../includes/functions/class_personal_note.php:387
+#: ../includes/functions/class_support_note.php:275
+#: ../includes/functions/class_support_note.php:339
+#: ../includes/functions/class_support_note.php:381
+msgid "Note doesn't exist."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:312
+#: ../includes/functions/class_support_note.php:304
+msgid "Note Saved"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:338
+msgid "Sorry, you are not allowed to remove personal notes."
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:357
+#: ../includes/functions/class_support_note.php:350
+msgid "Note delated"
+msgstr ""
+
+#: ../includes/functions/class_personal_note.php:406
+#: ../includes/functions/class_support_note.php:400
+msgid "Note duplicated"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:43
+msgid "Not Started"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:44
+msgid "In Process"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:45
+msgid "Hold"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:46
+msgid "Completed"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:78
+msgid "Allow Agents to Create Todo Lists"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:81
+msgid "Can an agent create todo lists?"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:138
+msgid "Personal Todos"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:152
+msgid "Add personal todo"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:195
+msgid "Add Todo"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:215
+msgid "No personal todo exist."
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:237
+msgid "Save Todo"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:269
+#: ../includes/functions/class_personal_todo.php:432
+msgid "Sorry, you are not allowed to add personal todos."
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:273
+#: ../includes/functions/class_personal_todo.php:397
+#: ../includes/functions/class_personal_todo.php:436
+#: ../includes/functions/class_personal_todo.php:479
+msgid "Todo doesn't exist."
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:289
+msgid "Select a status."
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:337
+msgid "Toto created"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:365
+msgid "Todo Saved"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:389
+msgid "Sorry, you are not allowed to remove personal todos."
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:408
+msgid "Todo delated"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:453
+msgid "Todo duplicated"
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:475
+msgid "Sorry, you are not allowed to change todo status."
+msgstr ""
+
+#: ../includes/functions/class_personal_todo.php:495
+msgid "Todo marked as completed"
+msgstr ""
+
+#: ../includes/functions/class_role_capability.php:73
+#: ../includes/templates/system-capabilities.php:11
+#: ../includes/templates/system-capabilities.php:43
+msgid "Capabilities"
+msgstr ""
+
+#: ../includes/functions/class_role_capability.php:145
+msgid "Sorry, you are not allowed to update capabilities."
+msgstr ""
+
+#: ../includes/functions/class_role_capability.php:157
+msgid "Sorry, Some thing went wront, try again later."
+msgstr ""
+
+#: ../includes/functions/class_role_capability.php:189
+msgid "Capabilities successfully saved."
+msgstr ""
+
+#: ../includes/functions/class_support_note.php:77
+msgid "Support Notes"
+msgstr ""
+
+#: ../includes/functions/class_support_note.php:90
+msgid "Add support note"
+msgstr ""
+
+#: ../includes/functions/class_support_note.php:153
+msgid "No support note exist."
+msgstr ""
+
+#: ../includes/functions/class_support_note.php:204
+#: ../includes/functions/class_support_note.php:377
+msgid "Sorry, you are not allowed to add support notes."
+msgstr ""
+
+#: ../includes/functions/class_support_note.php:267
+msgid "Sorry, you are not allowed to edit support notes."
+msgstr ""
+
+#: ../includes/functions/class_support_note.php:331
+msgid "Sorry, you are not allowed to remove support notes."
+msgstr ""
+
+#: ../includes/functions/class_ticket.php:177
+msgid "Close Tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket.php:181
+#: ../includes/templates/additional_emails/item.php:36
+#: ../includes/templates/notification_emails/item.php:30
+#: ../includes/templates/personal_todos/item.php:33
+#: ../includes/templates/user_contacts/item.php:41
+msgid "Edit"
+msgstr ""
+
+#: ../includes/functions/class_ticket.php:239
+msgid "Tickets closed"
+msgstr ""
+
+#: ../includes/functions/class_ticket.php:250
+msgid "Ticket close action failed"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:67
+msgid "Saved Filters"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:77
+msgid "Save Filter"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:92
+msgid "Delete Filter"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:120
+msgid "No saved filter  exist."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:148
+msgid "Sorry, you are not allowed to remove saved filters."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:156
+msgid "Filter doesn't exist."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:167
+msgid "Filter delated"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:243
+msgid "Save Ticket Criteria"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:298
+msgid "Load a saved search"
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:418
+msgid "Sorry, you are not allowed to add filter criteria."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:426
+msgid "Name is required."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:430
+msgid "No filter is set."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:434
+msgid "A search is already saved with selected filters."
+msgstr ""
+
+#: ../includes/functions/class_ticket_criteria.php:454
+msgid "Filter options are saved"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:104
+msgid "Security Profile Saved! You can now assign it to any agent"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:117
+#: ../includes/functions/class_ticket_list_security.php:390
+#: ../includes/functions/class_ticket_list_security.php:429
+msgid "Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:391
+msgid "Group"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:392
+msgid "Ticket User Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:393
+msgid "Search Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:394
+msgid "Popular Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:395
+msgid "All Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:396
+msgid "Edit Group"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:397
+msgid "Update Group"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:398
+msgid "Add New Group"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:399
+msgid "New Group Name"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:400
+msgid "Separate Groups with commas"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:401
+msgid "Add or remove Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:402
+msgid "Choose from the most popular Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:447
+msgid "Ticket Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:776
+msgid "Open"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:777
+msgid "Closed"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:787
+#: ../includes/functions/class_ticket_list_security.php:795
+msgid "Security Profiles"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:788
+msgctxt "Post Type General Name"
+msgid "Security Profiles"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:789
+msgctxt "Post Type Singular Name"
+msgid "Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:790
+msgid "Add New Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:791
+msgid "New Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:792
+msgid "No Security Profile found"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:793
+msgid "No Security Profile found in Trash"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:794
+msgid "Parent Security Profile:"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:796
+msgid "View Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:797
+msgid "Edit Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:798
+msgid "Update Security Profile"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:799
+msgid "Search Security Profiles"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:823
+msgid "Ticket security profiles"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:922
+msgid "Departments"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:923
+msgid "All Departments"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:924
+msgid "Selected Departments"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:935
+msgid "Products"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:936
+msgid "All Products"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:937
+msgid "Selected Products"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:949
+msgid "Channels"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:950
+msgid "All Channels"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:951
+msgid "Selected Channels"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:960
+msgid "Priorities"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:961
+msgid "All Priorities"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:962
+msgid "Selected Priorities"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:975
+msgid "Users"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:976
+msgid "All Users"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:977
+msgid "Selected Users"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:989
+msgid "User Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:990
+msgid "All User Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:991
+msgid "Selected User Groups"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1003
+#: ../includes/functions/settings-labels.php:30
+#: ../includes/templates/client_tickets.php:12
+#: ../includes/templates/favorite_tickets.php:13
+#: ../includes/templates/personal_todos/add.php:39
+#: ../includes/templates/recently_closed_tickets.php:12
+msgid "Status"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1004
+msgid "All Status"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1005
+msgid "Selected Status"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1017
+msgid "States"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1018
+msgid "All States"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1019
+msgid "Selected States"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1031
+msgid "Primary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1032
+msgid "All Primary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1033
+msgid "Selected Primary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1051
+msgid "Secondary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1052
+msgid "All Secondary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1053
+msgid "Selected Secondary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1067
+msgid "Tertiary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1068
+msgid "All Tertiary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1069
+msgid "Selected Tertiary Agents"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1093
+msgid "Settings"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1198
+msgid "Just My Tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1199
+msgid "All Tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1205
+msgid "Match Relation"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1208
+msgid "OR"
+msgstr ""
+
+#: ../includes/functions/class_ticket_list_security.php:1209
+msgid "AND"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:53
+msgid "Lock Ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:75
+msgid ""
+"This ticket has been locked and cannot be replied to. Please open a "
+"new ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:109
+msgid "Lock all closed tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:111
+msgid "Lock Tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:112
+msgid ""
+"All closed tickets will be LOCKED - users will not be able to reopen "
+"them."
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:123
+msgid "Unlock all closed tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:125
+msgid "Unlock Tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:126
+msgid ""
+"All closed tickets will be UNLOCKED - users will be able to reopen "
+"them at any time."
+msgstr ""
+
+#: ../includes/functions/class_ticket_lock.php:194
+msgid "Ticket Lock"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:70
+msgid "Merge target id"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:75
+msgid "Merge target ticket's url"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:98
+msgid "Ticket Merged and Closed"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:103
+#: ../includes/functions/class_ticket_merge.php:124
+msgid "Subject"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:106
+msgid "Ticket merged and closed: {ticket_title}"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:110
+#: ../includes/functions/class_ticket_merge.php:131
+#: ../includes/templates/split.php:34
+msgid "Content"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:119
+msgid "Ticket Merged and Reply Added"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:127
+msgid "Ticket merged and new reply added: {ticket_title}"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:178
+msgid "Please select tickets to merge."
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:179
+msgid "Please select target ticket."
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:194
+msgid "Merge Tickets"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:239
+msgid "Select tickets to merge"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:239
+#: ../includes/functions/class_ticket_merge.php:244
+#: ../includes/templates/add_user.php:15
+#: ../includes/templates/add_user.php:23
+#: ../includes/templates/additional_emails/add.php:18
+#: ../includes/templates/notification_emails/add.php:18
+#: ../includes/templates/personal_notes/add.php:18
+#: ../includes/templates/personal_notes/add.php:26
+#: ../includes/templates/personal_todos/add.php:22
+#: ../includes/templates/personal_todos/add.php:30
+#: ../includes/templates/personal_todos/add.php:39
+#: ../includes/templates/personal_todos/add.php:54
+#: ../includes/templates/signatures/add.php:20
+#: ../includes/templates/split.php:26 ../includes/templates/split.php:34
+#: ../includes/templates/support_notes/add.php:18
+#: ../includes/templates/support_notes/add.php:26
+#: ../includes/templates/ticket_filter_options/save.php:12
+#: ../includes/templates/user_contacts/add.php:33
+msgid "(required)"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:244
+msgid "Select target ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:304
+#: ../includes/functions/class_ticket_merge.php:305
+msgid "Merge Reply"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:674
+msgid "Ticket merge failed"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:684
+msgid "Ticket merged"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:694
+msgid "Tickets merge failed"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:704
+msgid "Tickets successfully merged"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:716
+#: ../includes/functions/functions-general.php:163
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:815
+#: ../includes/functions/class_ticket_merge.php:816
+#, php-format
+msgid "Merge Reply %s"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:989
+msgid "Merge Ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:996
+msgid "Merge"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:1032
+#, php-format
+msgid "Note : This entry is being merged from ticket number(s) %s"
+msgstr ""
+
+#: ../includes/functions/class_ticket_merge.php:1054
+#, php-format
+msgid ""
+"Note : This ticket has been merged into ticket number <a href=\"%s\">#"
+"%s</a>"
+msgstr ""
+
+#: ../includes/functions/class_ticket_navigate.php:63
+msgid "Previous Ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_navigate.php:68
+msgid "Next Ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:154
+#: ../includes/functions/class_ticket_notification_email.php:200
+#: ../includes/functions/class_user_additional_email.php:220
+msgid "Add Email"
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:221
+msgid "No email exist."
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:244
+#: ../includes/functions/class_user_additional_email.php:262
+msgid "Save Email"
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:274
+#: ../includes/functions/class_ticket_notification_email.php:326
+#: ../includes/functions/class_user_additional_email.php:294
+#: ../includes/functions/class_user_additional_email.php:346
+msgid "Sorry, you are not allowed to add emails."
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:278
+#: ../includes/functions/class_ticket_notification_email.php:438
+#: ../includes/functions/class_user_additional_email.php:298
+#: ../includes/functions/class_user_additional_email.php:458
+msgid "Email doesn't exist."
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:286
+#: ../includes/functions/class_user_additional_email.php:306
+msgid "Please provide valid email address."
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:347
+#: ../includes/functions/class_ticket_notification_email.php:405
+#: ../includes/functions/class_user_additional_email.php:367
+#: ../includes/functions/class_user_additional_email.php:425
+msgid "Email Saved"
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:376
+#: ../includes/functions/class_user_additional_email.php:396
+msgid "Email added."
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:430
+#: ../includes/functions/class_user_additional_email.php:450
+msgid "Sorry, you are not allowed to remove emails."
+msgstr ""
+
+#: ../includes/functions/class_ticket_notification_email.php:449
+#: ../includes/functions/class_user_additional_email.php:469
+msgid "Email deleted"
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:61
+msgid "A new ticket has been created with the selected reply."
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:69
+msgid "A new ticket has been created from this ticket."
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:100
+#, php-format
+msgid "<a href=\"%s\">#%s</a>"
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:108
+#, php-format
+msgid "Note : New tickets %s have been created from this %s."
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:110
+#, php-format
+msgid "Note : A new ticket %s has been created from this %s."
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:145
+#, php-format
+msgid ""
+"Note : This ticket was been created from %s <a href=\"%s\">#%s</a>."
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:202
+msgid "Copy To New Ticket"
+msgstr ""
+
+#: ../includes/functions/class_ticket_split.php:297
+#, php-format
+msgid "%s : Split %s %s"
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:158
+#: ../includes/functions/class_ticket_user_contact.php:204
+msgid "Add Contact"
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:225
+msgid "No contact exist."
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:248
+msgid "Save Contact"
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:278
+#: ../includes/functions/class_ticket_user_contact.php:330
+msgid "Sorry, you are not allowed to add contacts."
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:282
+#: ../includes/functions/class_ticket_user_contact.php:442
+msgid "Contact doesn't exist."
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:290
+msgid "Please select a contact."
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:351
+#: ../includes/functions/class_ticket_user_contact.php:409
+msgid "Contact Saved"
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:380
+msgid "Contact added."
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:434
+msgid "Sorry, you are not allowed to remove contacts."
+msgstr ""
+
+#: ../includes/functions/class_ticket_user_contact.php:453
+msgid "Contact deleted"
+msgstr ""
+
+#: ../includes/functions/class_user.php:84
+msgid "Sorry, you are not allowed to create users."
+msgstr ""
+
+#: ../includes/functions/class_user.php:166
+msgid "Google recaptcha site key"
+msgstr ""
+
+#: ../includes/functions/class_user.php:172
+msgid "Google recaptcha secret key"
+msgstr ""
+
+#: ../includes/functions/class_user.php:272
+msgid "Recaptcha failed, try again."
+msgstr ""
+
+#: ../includes/functions/class_user_additional_email.php:107
+msgid "Additional Emails"
+msgstr ""
+
+#: ../includes/functions/class_user_additional_email.php:175
+msgid "Add additional email"
+msgstr ""
+
+#: ../includes/functions/class_user_additional_email.php:240
+msgid "No additional email exist."
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:14
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:18
+msgid "Use Custom CSS"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:21
+msgid ""
+"Check this box to enable injecting custom CSS into certain pages as "
+"described below.  Custom CSS MUST be well formed!"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:25
+msgid "Custom CSS For The SUBMIT-TICKET Page"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:28
+msgid "Enter the custom CSS to be used on the ticket page"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:32
+msgid "Custom CSS For Front-End Ticket List"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:35
+msgid "Enter the custom CSS to be used on the front-end ticket list"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:39
+msgid "Custom CSS For Back-end Ticket List"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:42
+msgid "Enter the custom CSS to be used on the main ticket list in admin"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:46
+msgid "Custom CSS For Back-end Ticket Details Screen"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:49
+msgid ""
+"Enter the custom CSS to be used on the ticket detail screen in admin"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:53
+msgid "Custom CSS For Registration Screen"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:56
+msgid ""
+"Enter the custom CSS to be used on the standard registration screen "
+"provided by Awesome Support"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:61
+msgid "CSS Examples"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:62
+msgid "Here are some examples of valid and useful CSS"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:66
+msgid "SUBMIT-TICKET Page Example CSS #1: Hide The Attachments Area"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:71
+msgid "SUBMIT-TICKET Page Example CSS #2: Hide The MY TICKETS button"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:76
+msgid "Front-end Ticket List Example CSS: Hide The Logout Button"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:81
+msgid "Back-end Ticket List Example CSS: Turn the PRIORITY Column Blue"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:86
+msgid ""
+"Back-end Ticket Detail Example CSS: Hide The Ticket Statistics Metabox"
+msgstr ""
+
+#: ../includes/functions/settings-custom-css.php:91
+msgid ""
+"Registration/Login Form Example CSS: Hide The remember-me Checkbox"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:14
+msgid "Labels"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:17
+msgid "Column Only Labels"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:18
+msgid ""
+"These labels affect only the columns in the primary ticket list. They "
+"do NOT affect the labels in the single ticket view!"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:22
+#: ../includes/templates/favorite_tickets.php:12
+msgid "Agent"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:25
+msgid ""
+"Enter the label that will be used for the agent column header in the "
+"main ticket list"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:33
+msgid ""
+"Enter the label that will be used for the status column header in the "
+"main ticket list"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:38
+msgid "List Field Labels (Taxonomy Labels)"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:39
+msgid ""
+"These labels affect BOTH column headers in the main ticket list AND "
+"the labels in the single ticket view!"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:44
+msgid "Tag - Singular"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:47
+#: ../includes/functions/settings-labels.php:55
+msgid ""
+"Enter the label that will be used to identify the TAG field in your "
+"tickets"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:52
+msgid "Tag - Plural"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:60
+msgid "Product - Singular"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:63
+#: ../includes/functions/settings-labels.php:71
+msgid ""
+"Enter the label that will be used to identify the PRODUCT field in "
+"your tickets"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:68
+msgid "Product - Plural"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:76
+msgid "Department - Singular"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:79
+#: ../includes/functions/settings-labels.php:87
+msgid ""
+"Enter the label that will be used to identify the DEPARTMENT field in "
+"your tickets"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:84
+msgid "Department - Plural"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:92
+msgid "Priority - Singular"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:95
+#: ../includes/functions/settings-labels.php:103
+msgid ""
+"Enter the label that will be used to identify the PRIORITY field in "
+"your tickets"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:100
+msgid "Priority - Plural"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:108
+msgid "Channel - Singular"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:111
+#: ../includes/functions/settings-labels.php:119
+msgid ""
+"Enter the label that will be used to identify the CHANNEL field in "
+"your tickets"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:116
+msgid "Channel - Plural"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:124
+msgid "Statistics: Reply Count Labels"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:125
+msgid ""
+"These labels are for the statistics related to reply counts shown in "
+"the ticket screen in the back end.  These will probably be rarely used."
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:130
+msgid "Number of replies by agent"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:137
+msgid "Number of replies by customer"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:144
+msgid "Total replies on ticket"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:151
+msgid "Labels For Time Tracking Fields"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:152
+msgid ""
+"These labels are for the time tracking fields shown in the ticket "
+"screen in the back end."
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:157
+msgid "Gross Time"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:164
+msgid "Time Adjustments"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:171
+msgid "+ive or -ive Adj?"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:178
+msgid "Final Time"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:185
+msgid "Time Notes"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:192
+msgid "Labels For Additional Interested Party Fields Fields"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:193
+msgid ""
+"These labels are for the additional interested parties shown in the "
+"ticket screen in the back end."
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:198
+msgid "Name Of Additional Interested Party #1"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:205
+msgid "Additional Interested Party Email #1"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:212
+msgid "Name Of Additional Interested Party #2"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:219
+msgid "Additional Interested Party Email #2"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:226
+msgid "Other Labels"
+msgstr ""
+
+#: ../includes/functions/settings-labels.php:235
+msgid "Label for the attachment field on the front-end ticket form"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:14
+msgid "PF Options"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:17
+msgid "Front End Ticket Content"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:18
+msgid ""
+"These options allow you to customize what shows up before or after "
+"certain items on the front-end ticket page"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:22
+msgid "Content BEFORE The Submit Button"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:25
+msgid ""
+"Enter the content you want to show just before the Submit Ticket button"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:30
+msgid "Content BEFORE The Subject Line"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:33
+msgid "Enter the content you want to show just before the Subject line."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:38
+msgid "Mandatory Fields"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:39
+msgid "Set certain fields as mandatory"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:43
+msgid "Make Product Mandatory"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:46
+msgid ""
+"Check this box to force the user to always enter a product when "
+"submitting a ticket."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:50
+msgid "Make Department Mandatory"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:53
+msgid ""
+"Check this box to force the user to always enter a department when "
+"submitting a ticket."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:58
+msgid "Ticket Limits"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:59
+msgid "Options to set ticket limits in various areas of the system"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:63
+msgid "Maximum Number Of Open Tickets"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:66
+msgid ""
+"Limit the number of tickets that a user can have open at any one time."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:70
+msgid "Maximum Open Tickets In User Profile Widget"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:73
+msgid ""
+"Limit the number of open tickets that show up in the user profile "
+"widget when an agent or admin is viewing a ticket. Set to -1 for all "
+"tickets; If set to zero it will use the system default of 10."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:78
+msgid "Maximum Closed Tickets In User Profile Widget"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:81
+msgid ""
+"Limit the number of closed tickets that show up in the user profile "
+"widget when an agent or admin is viewing a ticket.  Set to -1 for all "
+"tickets; If set to zero it will use the system default of 10."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:86
+msgid "Maximum Tickets Per User"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:89
+msgid ""
+"Set the maximum number of tickets a user is allowed in their account - "
+"includes both open and closed tickets.  Set to -1 for all tickets. You "
+"can use this option to prevent users from abusing your support system."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:94
+msgid "Message To Show User With Max Tickets"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:97
+msgid ""
+"Enter the message to be displayed to the user when they have hit the "
+"maximum number of tickets allowed in their account."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:98
+msgid ""
+"We apologize for the inconvenience but it looks like you have hit the "
+"maximum number of tickets allowed in your account.  This limit was set "
+"to prevent abuse of our support system.  Please use our contact form "
+"to send us a note instead."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:103
+msgid "One Step Click-To-Close"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:104
+msgid ""
+"Use this section to enable and control the behavior of a single click "
+"click-to-close link that can be embedded in ticket confirmation "
+"emails. <b>Note that if you turn this option on, you must also go to "
+"the WordPress SETTINGS->PERMALINKS screen and click the save button at "
+"least once!</b>"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:108
+msgid "Enable automatic click-to-close email template tag link"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:111
+msgid ""
+"Enabling this will create a new template tag for use in emails  - one "
+"that will allow the user to close a ticket with one click."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:115
+#: ../includes/functions/settings-misc.php:163
+msgid "Slug"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:119
+msgid ""
+"The slug used to access the one step click-to-close page. Defaults to "
+"click-to-close"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:122
+msgid "Success Message"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:126
+msgid ""
+"Please enter a nice message to display to the user when a ticket has "
+"successfully been closed."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:129
+msgid "Failure Message"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:133
+msgid ""
+"The message displayed to the user when an error is enountered or the "
+"ticket could not be closed."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:136
+msgid "Keep user logged in after ticket is closed?"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:139
+msgid ""
+"Enabling this is good for the user experience but bad for security.  "
+"This setting only applies if the user was not already logged in."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:143
+#: ../includes/functions/settings-misc.php:170
+msgid "Clear link after ticket is closed?"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:146
+#: ../includes/functions/settings-misc.php:173
+msgid ""
+"If enabled, the link will not be able to be used again to access the "
+"ticket."
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:151
+msgid "One Step Click-To-View"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:152
+msgid ""
+"Use this section to enable and control the behavior of a single-click "
+"click-to-view link that can be embedded in ticket confirmation emails. "
+"<b>Note that if you turn this option on, you must also go to the "
+"WordPress SETTINGS->PERMALINKS screen and click the save button at "
+"least once!</b>  Also, note that this is a security issue - anyone "
+"with one of the ticket links can log into the users account!"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:156
+msgid "Enable the single-click click-to-view email template tag link"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:159
+msgid ""
+"Enabling this will create a new template tag for use in emails  - one "
+"that will allow the user to click and view a ticket immediately, "
+"bypassing the login screen!"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:167
+msgid ""
+"The slug used to access the one step click-to-view page. Defaults to "
+"click-to-view"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:178
+msgid "Front-end Ticket Defaults"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:179
+msgid "Default values for subject and description fields"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:183
+msgid "Default value for subject"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:186
+msgid ""
+"The default value to be shown in the SUBJECT field in the ticket form"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:189
+msgid "Default value for description"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:192
+msgid ""
+"The default value to be shown in the DESCRIPTION field in the ticket "
+"form"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:197
+msgid "Other"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:198
+msgid "Options with no other place to go!"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:202
+msgid "Automatically Lock Ticket On Close"
+msgstr ""
+
+#: ../includes/functions/settings-misc.php:205
+msgid ""
+"Check this box to automatically lock tickets when they are closed."
+msgstr ""
+
+#: ../includes/metaboxes.php:17
+msgid "Merge & Lock"
+msgstr ""
+
+#: ../includes/metaboxes.php:18
+msgid "Navigate"
+msgstr ""
+
+#: ../includes/metaboxes.php:23
+msgid "Customer Support Notes"
+msgstr ""
+
+#: ../includes/metaboxes.php:37
+msgid "Personal Todo Lists"
+msgstr ""
+
+#: ../includes/metaboxes.php:42
+msgid "Recently Closed Tickets"
+msgstr ""
+
+#: ../includes/metaboxes.php:47
+msgid "Favorite Tickets"
+msgstr ""
+
+#: ../includes/metaboxes.php:57
+msgid "Email Addresses"
+msgstr ""
+
+#: ../includes/metaboxes.php:62
+msgid "User Contacts"
+msgstr ""
+
+#: ../includes/settings.php:21
+msgid "Productivity"
+msgstr ""
+
+#: ../includes/settings.php:52
+#: ../includes/templates/ticket_filter_options/save.php:24
+msgid "Close"
+msgstr ""
+
+#: ../includes/templates/add_user.php:15
+msgid "Username"
+msgstr ""
+
+#: ../includes/templates/add_user.php:23
+msgid "Email"
+msgstr ""
+
+#: ../includes/templates/add_user.php:31
+msgid "First Name"
+msgstr ""
+
+#: ../includes/templates/add_user.php:35
+msgid "Last Name"
+msgstr ""
+
+#: ../includes/templates/add_user.php:39
+msgid "Send User Notification"
+msgstr ""
+
+#: ../includes/templates/add_user.php:40
+msgid "Send the new user an email about their account."
+msgstr ""
+
+#: ../includes/templates/add_user.php:44
+#: ../includes/templates/system-capabilities.php:17
+msgid "Role"
+msgstr ""
+
+#: ../includes/templates/additional_emails/add.php:18
+#: ../includes/templates/notification_emails/add.php:18
+msgid "Email Address"
+msgstr ""
+
+#: ../includes/templates/additional_emails/add.php:27
+#: ../includes/templates/notification_emails/add.php:27
+#: ../includes/templates/user_contacts/add.php:63
+msgid "Receive Notification Emails"
+msgstr ""
+
+#: ../includes/templates/additional_emails/item.php:36
+#: ../includes/templates/notification_emails/item.php:30
+msgid "Edit Email"
+msgstr ""
+
+#: ../includes/templates/additional_emails/item.php:37
+#: ../includes/templates/notification_emails/item.php:31
+msgid "Are you sure you want to delete this email?"
+msgstr ""
+
+#: ../includes/templates/additional_emails/item.php:37
+#: ../includes/templates/notification_emails/item.php:31
+#: ../includes/templates/personal_todos/item.php:35
+#: ../includes/templates/ticket_filter_options/item.php:26
+#: ../includes/templates/user_contacts/item.php:42
+msgid "Delete"
+msgstr ""
+
+#: ../includes/templates/client_tickets.php:5
+msgid "Tickets"
+msgstr ""
+
+#: ../includes/templates/client_tickets.php:9
+#: ../includes/templates/favorite_tickets.php:9
+#: ../includes/templates/recently_closed_tickets.php:9
+msgid "ID"
+msgstr ""
+
+#: ../includes/templates/client_tickets.php:10
+#: ../includes/templates/favorite_tickets.php:10
+#: ../includes/templates/personal_notes/add.php:18
+#: ../includes/templates/personal_todos/add.php:22
+#: ../includes/templates/recently_closed_tickets.php:10
+#: ../includes/templates/split.php:26
+#: ../includes/templates/support_notes/add.php:18
+msgid "Title"
+msgstr ""
+
+#: ../includes/templates/client_tickets.php:11
+msgid "Last Reply Date"
+msgstr ""
+
+#: ../includes/templates/client_tickets.php:13
+#: ../includes/templates/favorite_tickets.php:14
+#: ../includes/templates/recently_closed_tickets.php:13
+msgid "Activity"
+msgstr ""
+
+#: ../includes/templates/client_tickets.php:23
+msgid "Y/m/d"
+msgstr ""
+
+#: ../includes/templates/favorite_tickets.php:11
+msgid "Created By"
+msgstr ""
+
+#: ../includes/templates/personal_notes/add.php:26
+#: ../includes/templates/personal_todos/add.php:30
+#: ../includes/templates/support_notes/add.php:26
+msgid "Body"
+msgstr ""
+
+#: ../includes/templates/personal_notes/item.php:27
+#: ../includes/templates/support_notes/item.php:43
+msgid "Are you sure you want to delete this note?"
+msgstr ""
+
+#: ../includes/templates/personal_todos/add.php:54
+msgid "Date Due"
+msgstr ""
+
+#: ../includes/templates/personal_todos/item.php:31
+msgid "Mark Completed"
+msgstr ""
+
+#: ../includes/templates/personal_todos/item.php:33
+msgid "Edit Todo"
+msgstr ""
+
+#: ../includes/templates/personal_todos/item.php:34
+msgid "Duplicate"
+msgstr ""
+
+#: ../includes/templates/personal_todos/item.php:35
+msgid "Are you sure you want to delete this todo?"
+msgstr ""
+
+#: ../includes/templates/recently_closed_tickets.php:11
+msgid "Close Date"
+msgstr ""
+
+#: ../includes/templates/signatures/add.php:20
+msgid "Signature"
+msgstr ""
+
+#: ../includes/templates/signatures/add.php:40
+msgid "Default"
+msgstr ""
+
+#: ../includes/templates/signatures/item.php:37
+msgid "Are you sure you want to delete this signature?"
+msgstr ""
+
+#: ../includes/templates/system-capabilities.php:20
+msgid "Select a Role..."
+msgstr ""
+
+#: ../includes/templates/system-capabilities.php:28
+msgid "Quickset"
+msgstr ""
+
+#: ../includes/templates/system-capabilities.php:63
+msgid "Save"
+msgstr ""
+
+#: ../includes/templates/ticket_filter_options/item.php:26
+msgid "Are you sure you want to delete this saved filter?"
+msgstr ""
+
+#: ../includes/templates/ticket_filter_options/save.php:12
+msgid "Save as"
+msgstr ""
+
+#: ../includes/templates/user_contacts/add.php:33
+msgid "Select user"
+msgstr ""
+
+#: ../includes/templates/user_contacts/item.php:41
+msgid "Edit Contact"
+msgstr ""
+
+#: ../includes/templates/user_contacts/item.php:42
+msgid "Are you sure you want to delete this user?"
+msgstr ""

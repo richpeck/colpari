@@ -1,0 +1,74 @@
+.asfaq-shortcode-wrapper {
+	position: relative; 
+}
+.asfaq-shortcode-wrapper h3 {
+	cursor: pointer; 
+}
+.asfaq-shortcode-wrapper h3.active {
+	color: #d74646; 
+}
+.asfaq-shortcode-wrapper div {
+	position: relative; 
+}
+.asfaq-shortcode-wrapper div p {
+	padding: 0;
+	margin-bottom: 1em; 
+}
+
+/**
+ * Shortcode Live Search
+ */
+#asfaq_sc_search {
+	width: 20em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+#asfaq_sc_search_form {
+	position: relative;
+	overflow: hidden;
+}
+#asfaq_sc_search_input {
+	padding: .5em 1em;
+	width: 100%;
+}
+#asfaq_sc_search_clear {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+	cursor: pointer;
+	background: #f1f1f1;
+	text-align: center;
+}
+#asfaq_sc_search_count {
+	margin-top: 10px;
+	font-size: 120%;
+	color: orange;
+}
+
+/**
+ * Live Search Results
+ */
+.asfaq-results {
+	display: none;
+	padding: .75em;
+}
+.asfaq-results a + a {
+	margin-top: .5em;
+}
+.asfaq-results a {
+	display: block;
+	padding: 1em;
+}
+.asfaq-results a:hover {
+	color: white ;
+	background-color: #00c95a;
+}
+.asfaq-results,
+.asfaq-results a {
+	font-size: 90%;
+}

@@ -1,0 +1,21 @@
+
+.pop-addon-item {
+	background: white;
+	padding: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	min-width:200px;
+	min-height: 100px;
+	max-width:250px;
+}
+
+.pop-addon-item .btn-group.addon-control {
+    width: 100%;
+    margin: 10px 0 0;
+}
+
+.pop-addon-item .btn-group.addon-control button.btn {
+    width:50%;
+}

@@ -1,0 +1,341 @@
+/* BASICS */
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror {
+  /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
+  height: 300px;
+  color: black;
+}
+
+/* PADDING */
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-lines {
+  padding: 4px 0; /* Vertical padding around content */
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror pre {
+  padding: 0 4px; /* Horizontal padding of content */
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-scrollbar-filler, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-filler {
+  background-color: white; /* The little square between H and V scrollbars */
+}
+
+/* GUTTER */
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutters {
+  border-right: 1px solid #ddd;
+  background-color: #f7f7f7;
+  white-space: nowrap;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-linenumbers {}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-linenumber {
+  padding: 0 3px 0 5px;
+  min-width: 20px;
+  text-align: right;
+  color: #999;
+  white-space: nowrap;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-guttermarker { color: black; }
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-guttermarker-subtle { color: #999; }
+
+/* CURSOR */
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-cursor {
+  border-left: 1px solid black;
+  border-right: none;
+  width: 0;
+}
+/* Shown when moving in bi-directional text */
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror div.CodeMirror-secondarycursor {
+  border-left: 1px solid silver;
+}
+body #lfb_bootstraped.lfb_bootstraped .cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: #7e7;
+}
+body #lfb_bootstraped.lfb_bootstraped .cm-fat-cursor div.CodeMirror-cursors {
+  z-index: 1;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .cm-animate-fat-cursor {
+  width: auto;
+  border: 0;
+  -webkit-animation: blink 1.06s steps(1) infinite;
+  -moz-animation: blink 1.06s steps(1) infinite;
+  animation: blink 1.06s steps(1) infinite;
+  background-color: #7e7;
+}
+@-moz-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@-webkit-keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+@keyframes blink {
+  0% {}
+  50% { background-color: transparent; }
+  100% {}
+}
+
+/* Can style cursor different in overwrite (non-insert) mode */
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-overwrite .CodeMirror-cursor {}
+
+body #lfb_bootstraped.lfb_bootstraped .cm-tab { display: inline-block; text-decoration: inherit; }
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-rulers {
+  position: absolute;
+  left: 0; right: 0; top: -50px; bottom: -20px;
+  overflow: hidden;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-ruler {
+  border-left: 1px solid #ccc;
+  top: 0; bottom: 0;
+  position: absolute;
+}
+
+/* DEFAULT THEME */
+
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-header {color: blue;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-quote {color: #090;}
+body #lfb_bootstraped.lfb_bootstraped .cm-negative {color: #d44;}
+body #lfb_bootstraped.lfb_bootstraped .cm-positive {color: #292;}
+body #lfb_bootstraped.lfb_bootstraped .cm-header, body #lfb_bootstraped.lfb_bootstraped .cm-strong {font-weight: bold;}
+body #lfb_bootstraped.lfb_bootstraped .cm-em {font-style: italic;}
+body #lfb_bootstraped.lfb_bootstraped .cm-link {text-decoration: underline;}
+body #lfb_bootstraped.lfb_bootstraped .cm-strikethrough {text-decoration: line-through;}
+
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-keyword {color: #708;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-atom {color: #219;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-number {color: #164;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-def {color: #00f;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-variable,
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-punctuation,
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-property,
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-operator {}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-variable-2 {color: #05a;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-variable-3 {color: #085;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-comment {color: #a50;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-string {color: #a11;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-string-2 {color: #f50;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-meta {color: #555;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-qualifier {color: #555;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-builtin {color: #30a;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-bracket {color: #997;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-tag {color: #170;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-attribute {color: #00c;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-hr {color: #999;}
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-link {color: #00c;}
+
+body #lfb_bootstraped.lfb_bootstraped .cm-s-default .cm-error {color: #f00;}
+body #lfb_bootstraped.lfb_bootstraped .cm-invalidchar {color: #f00;}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-composing { border-bottom: 2px solid; }
+
+/* Default styles for common addons */
+
+body #lfb_bootstraped.lfb_bootstraped div.CodeMirror span.CodeMirror-matchingbracket {color: #0f0;}
+body #lfb_bootstraped.lfb_bootstraped div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-activeline-background {background: #e8f2ff;}
+
+/* STOP */
+
+/* The rest of this file contains styles related to the mechanics of
+   the editor. You probably shouldn't touch them. */
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-scroll {
+  overflow: scroll !important; /* Things will break if this is overridden */
+  /* 30px is the magic margin used to hide the element's real scrollbars */
+  /* See overflow: hidden in body #lfb_bootstraped.lfb_bootstraped .CodeMirror */
+  margin-bottom: -30px; margin-right: -30px;
+  padding-bottom: 30px;
+  height: 100%;
+  outline: none; /* Prevent dragging from highlighting the element */
+  position: relative;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-sizer {
+  position: relative;
+  border-right: 30px solid transparent;
+}
+
+/* The fake, visible scrollbars. Used to force redraw during scrolling
+   before actual scrolling happens, thus preventing shaking and
+   flickering artifacts. */
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-vscrollbar, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-hscrollbar, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-scrollbar-filler, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-filler {
+  position: absolute;
+  z-index: 6;
+  display: none;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-vscrollbar {
+  right: 0; top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-hscrollbar {
+  bottom: 0; left: 0;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-scrollbar-filler {
+  right: 0; bottom: 0;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-filler {
+  left: 0; bottom: 0;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutters {
+  position: absolute; left: 0; top: 0;
+  min-height: 100%;
+  z-index: 3;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -30px;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: none !important;
+  border: none !important;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-background {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 4;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter-wrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-lines {
+  cursor: text;
+  min-height: 1px; /* prevents collapsing before first draw */
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror pre {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  line-height: inherit;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-variant-ligatures: none;
+  font-variant-ligatures: none;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-wrap pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-linebackground {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  z-index: 0;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  overflow: auto;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-widget {}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-code {
+  outline: none;
+}
+
+/* Force content-box sizing for the elements where we expect it */
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-scroll,
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-sizer,
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutter,
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-gutters,
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-linenumber {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-cursor {
+  position: absolute;
+  pointer-events: none;
+}
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-measure pre { position: static; }
+
+body #lfb_bootstraped.lfb_bootstraped div.CodeMirror-cursors {
+  visibility: hidden;
+  position: relative;
+  z-index: 3;
+}
+body #lfb_bootstraped.lfb_bootstraped div.CodeMirror-dragcursors {
+  visibility: visible;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-focused div.CodeMirror-cursors {
+  visibility: visible;
+}
+
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-selected { background: #d9d9d9; }
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-crosshair { cursor: crosshair; }
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-line::selection, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-line > span::selection, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-line > span > span::selection { background: #d7d4f0; }
+body #lfb_bootstraped.lfb_bootstraped .CodeMirror-line::-moz-selection, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-line > span::-moz-selection, body #lfb_bootstraped.lfb_bootstraped .CodeMirror-line > span > span::-moz-selection { background: #d7d4f0; }
+
+body #lfb_bootstraped.lfb_bootstraped .cm-searching {
+  background: #ffa;
+  background: rgba(255, 255, 0, .4);
+}
+
+/* Used to force a border model for a node */
+body #lfb_bootstraped.lfb_bootstraped .cm-force-border { padding-right: .1px; }
+
+@media print {
+  /* Hide the cursor when printing */
+  body #lfb_bootstraped.lfb_bootstraped .CodeMirror div.CodeMirror-cursors {
+    visibility: hidden;
+  }
+}
+
+/* See issue #2901 */
+body #lfb_bootstraped.lfb_bootstraped .cm-tab-wrap-hack:after { content: ''; }
+
+/* Help users use markselection to safely style text background */
+body #lfb_bootstraped.lfb_bootstraped span.CodeMirror-selectedtext { background: none; }

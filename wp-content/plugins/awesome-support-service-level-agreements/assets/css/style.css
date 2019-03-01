@@ -1,0 +1,79 @@
+
+/* Time convert helper style */
+#wpas_sla_time_convert_helper {
+        padding-top: 20px;
+        margin-top: 24px;
+        border-top: dashed 1px #bdbdbd;
+}
+
+
+/* Making input fields 100% for right side metaboxes */
+.sla_id_picker select, 
+.test_ticket_receipt_date, 
+.sla_ticket_due_date input, 
+.sla_id_picker input[type=text],
+.wpas_sla_post_settings input[type=text], 
+.wpas_sla_post_settings input[type=number],
+.wpas_sla_post_settings select {
+        width : 100%;
+}
+
+/* calculate test due date style */
+.calculated_test_due_date_msg, .calculated_test_due_date {
+        display: none;
+}
+
+/* sla post add email alerts style */
+#wpas_sla_add_email_alerts_wrapper {
+        display: none;
+}
+
+.wpas_sla_email_alert {
+        border-top: #eeeeee solid 1px;
+        margin-bottom: 20px;
+        
+}
+
+#wpas_sla_add_email_alert_btn {
+        margin: 20px 0;
+}
+
+
+/* Report page style */
+.wpas_sla_report_filter_form ul {
+        list-style: none;
+}
+
+.wpas_sla_report_filter_form ul li {
+        float: left;
+        margin-left: 20px;
+}
+
+.wpas_sla_report_filter_form ul li:nth-child(1) {
+        
+        margin-left: 0;
+}
+
+.wpas_sla_report_filter_form ul li label {
+        vertical-align: top;
+        margin-top: 5px;
+        display: inline-block;
+}
+
+.wpas_sla_set_target_time_btn {
+        float: right;
+        display: none;
+}
+
+/* SLA post content metabox style */
+.wp-admin.post-type-wpas_sla #postdivrich {
+        display: none;
+}
+
+#wpas_sla_meta_box_content #postdivrich {
+        display: block;
+}
+
+.wpas_sla_post_content #wp-content-editor-tools {
+        background: #FFF;
+}

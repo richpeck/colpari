@@ -1,0 +1,131 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Private Notes\n"
+"POT-Creation-Date: 2017-09-12 20:34-0500\n"
+"PO-Revision-Date: 2016-11-08 11:24+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-private-note.php:75
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../class-private-note.php:121
+msgid "Private Notes"
+msgstr ""
+
+#: ../class-private-note.php:137
+msgctxt "post type general name"
+msgid "Ticket Notes"
+msgstr ""
+
+#: ../class-private-note.php:138
+msgctxt "post type singular name"
+msgid "Ticket Note"
+msgstr ""
+
+#: ../class-private-note.php:139
+msgctxt "admin menu"
+msgid "Private Notes"
+msgstr ""
+
+#: ../class-private-note.php:140
+msgctxt "add new on admin bar"
+msgid "Private Notes"
+msgstr ""
+
+#: ../class-private-note.php:141
+msgctxt "private notes"
+msgid "Add New"
+msgstr ""
+
+#: ../class-private-note.php:142
+msgid "Add New Private Note"
+msgstr ""
+
+#: ../class-private-note.php:143
+msgid "New Private Note"
+msgstr ""
+
+#: ../class-private-note.php:144
+msgid "Edit Private Note"
+msgstr ""
+
+#: ../class-private-note.php:145
+msgid "View Private Note"
+msgstr ""
+
+#: ../class-private-note.php:146
+msgid "All Private Notes"
+msgstr ""
+
+#: ../class-private-note.php:147
+msgid "Search Private Notes"
+msgstr ""
+
+#: ../class-private-note.php:148
+msgid "Parent Note:"
+msgstr ""
+
+#: ../class-private-note.php:149
+msgid "No private notes found."
+msgstr ""
+
+#: ../class-private-note.php:150
+msgid "No private notes found in Trash."
+msgstr ""
+
+#: ../class-private-note.php:209 ../class-private-note.php:263
+msgid "Add Note"
+msgstr ""
+
+#: ../class-private-note.php:211 ../class-private-note.php:232
+msgid "Add a private note to this ticket"
+msgstr ""
+
+#: ../class-private-note.php:233
+msgid ""
+"This note will only be seen by you and other agents. Clients will not "
+"see private notes."
+msgstr ""
+
+#: ../class-private-note.php:269
+msgid "Transfer ticket to: "
+msgstr ""
+
+#: ../class-private-note.php:282
+msgid "Add Note &amp; Transfer"
+msgstr ""
+
+#: ../class-private-note.php:336
+#, php-format
+msgid "Note to ticket %s"
+msgstr ""
+
+#: ../class-private-note.php:395
+msgid "This is a private note"
+msgstr ""
+
+#: ../class-private-note.php:401
+#, php-format
+msgid "%s ago"
+msgstr ""

@@ -1,0 +1,668 @@
+/*
+
+1) Import
+2) Variables
+3) Mixins
+4) General Scaffolding
+5) Forms + Buttons + Labels
+6) Tables
+7) Pages
+8) Pagination
+9) Ticket List
+10) Media Queries
+
+
+*/
+
+
+/*
+==========================================================================
+Import
+==========================================================================
+*/
+
+@import 'preboot.less';
+
+/*
+==========================================================================
+Variables
+==========================================================================
+*/
+
+@font-size-base:          14px;
+@font-size-large:         @font-size-base * 1.25; // ~18px
+@font-size-small:         @font-size-base * 0.85; // ~12px
+@font-size-mini:          @font-size-base * 0.75; // ~11px
+
+@spacing:                 15px;
+
+@grid-columns:            12;
+@grid-column-padding:     @spacing;
+@grid-start:				  1px;
+@grid-small:		  	  768px;
+@grid-medium:			  992px;
+@grid-large:			  1200px;
+@grid-extra-large:		  1600px;
+
+@grid-float-breakpoint:   @grid-small;
+
+/*
+==========================================================================
+Mixins
+==========================================================================
+*/
+
+.wpas-sr-only() {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+/*
+==========================================================================
+General Scaffolding
+==========================================================================
+*/
+
+.wpas {
+	*, *:before, *:after {
+		box-sizing: border-box;
+	}
+}
+.wpas-row {
+	.make-row();
+}
+.wpas-one-half {
+	.make-column(6);
+}
+.wpas-one-third {
+	.make-column(4);
+}
+.wpas-two-third {
+	.make-column(8);
+}
+
+/*
+==========================================================================
+Forms + Buttons + Labels
+==========================================================================
+*/
+
+/* Forms */
+.wpas-form-group {
+	margin-bottom: @spacing;
+}
+.wpas-checkbox {
+	label {
+		font-weight: normal;
+	}
+}
+.wpas-form-group {
+	> label {
+		display: inline-block;
+		max-width: 100%;
+		margin-bottom: @spacing/3;
+		margin-right: @spacing;
+		font-weight: 700;
+	}
+}
+.wpas-form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: @font-size-base;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.wpas-form-control-loading {
+	/* from https://github.com/jxnblk/loading */
+	background-image: url('../images/loading-spin.svg');
+	/* position the element 10px from the right */
+	background-position: right 10px center;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+}
+textarea.wpas-form-control {
+	height: auto;
+}
+.wpas-help-block {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	color: #737373;
+}
+#wpas_emailvalidation strong {
+	cursor: pointer;
+}
+
+/* Buttons */
+.wpas-btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-right: 8px;
+	margin-top: 6px;	
+	margin-bottom: 0;
+	font-size: @font-size-base;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+}
+.wpas-btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+}
+.wpas-btn-default:hover,
+.wpas-btn-default:focus,
+.wpas-btn-default.focus,
+.wpas-btn-default:active,
+.wpas-btn-default.active {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+/* Labels */
+.wpas-label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+/*
+==========================================================================
+Tables
+==========================================================================
+*/
+
+.wpas-table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: none;
+	table-layout: auto;
+}
+.wpas-table>caption+thead>tr:first-child>th,
+.wpas-table>colgroup+thead>tr:first-child>th,
+.wpas-table>thead:first-child>tr:first-child>th,
+.wpas-table>caption+thead>tr:first-child>td,
+.wpas-table>colgroup+thead>tr:first-child>td,
+.wpas-table>thead:first-child>tr:first-child>td {
+	border-top: 0;
+}
+.wpas-table>thead>tr>th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #ddd;
+	text-align: left;
+}
+.wpas-table>thead>tr>th,
+.wpas-table>tbody>tr>th,
+.wpas-table>tfoot>tr>th,
+.wpas-table>thead>tr>td,
+.wpas-table>tbody>tr>td,
+.wpas-table>tfoot>tr>td {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border: none;
+	border-top: 1px solid #ddd;
+}
+
+/*
+==========================================================================
+Pages
+==========================================================================
+*/
+
+/* Login & Register Form */
+.wpas-login-register {
+	.make-row();
+	.wpas-form {
+		.make-column(6);
+
+		h3 {
+			margin-bottom: @spacing;
+			line-height: 1;
+		}
+	}
+	.wpas-form-group {
+		> label {
+			.wpas-sr-only;
+		}
+	}
+}
+.wpas-forgot-password-link {
+	margin-left: 10px;
+	font-size: smaller;
+	opacity: .75;
+}
+
+/* Submit Ticket */
+.wpas-submit-ticket {}
+.wpas-submit-ticket-wysiwyg,
+.wpas-wysiwyg-textarea {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+/* Ticket List */
+#wpas_ticketlist_filter {
+	.wpas-form-group;
+
+	text-align: left;
+	max-width: 300px;
+
+	input {
+		.wpas-form-control;
+		margin-left: 0px;
+	}
+}
+
+/* Ticket Details */
+.wpas-ticket-buttons-top {
+	.clearfix();
+	margin-bottom: 2em;
+
+	.wpas-link-logout {
+		float: right;
+		&:after {
+			display: inline-block;
+			content: '';
+			height: 14px;
+			width: 14px;
+			vertical-align: middle;
+			margin-left: 7px;
+			opacity: .5;
+			background-size: contain;
+			background-image: data-uri('image/svg+xml;charset=UTF-8', '../images/logout.svg');
+		}
+	}
+}
+.wpas-ticket-list {
+	.wpas-link-ticketlist {
+		display: none;
+	}
+}
+.wpas-submit-ticket {
+	.wpas-link-ticketnew {
+		display: none;
+	}
+}
+
+.wpas-ticket-details-header {
+	margin-bottom: 0px;
+}
+.wpas-ticket-replies {
+	table-layout: fixed;
+	.col1 {
+		width: 90px;
+	}
+	.col2 {
+		width: 100%;
+	}
+	> tbody {
+		> tr {
+			> td {
+				padding: 25px 0;
+				border-bottom: 1px solid #ddd;
+
+				&:first-child {
+					padding-left: 20px;
+				}
+				&:last-child {
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+
+			// Highlight the agent replies
+			&.wpas_user_administrator,
+			&.wpas_user_wpas_manager,
+			&.wpas_user_wpas_support_manager,
+			&.wpas_user_wpas_agent {
+				> td {
+					background-color: #f5f5f5;
+				}
+			}
+		}
+	}
+	// Force responsive preformatted
+	pre {
+		width: 100%;
+		overflow: auto;
+	}
+}
+.wpas-reply-meta {
+	.make-row();
+	margin-bottom: @spacing;
+
+	.wpas-reply-user {
+		.make-column(4);
+	}
+	.wpas-reply-time {
+		.make-column(8);
+		text-align: right;
+	}
+	.wpas-timestamp {
+		font-style: italic;
+	}
+	.wpas-human-date {
+		font-style: normal;
+		display: none;
+	}
+}
+.wpas-reply-content {
+	p:first-child {
+		margin-top: 0;
+	}
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+.wpas-reply-single {
+	&:hover {
+		.wpas-human-date {
+			display: block;
+		}
+		.wpas-date-ago {
+			display: none;
+		}
+	}
+	td {
+		transition: background 0.2s linear;
+	}
+}
+.wpas-reply-single-added {
+	td {
+		background-color: #FFFFED;
+	}
+}
+.wpas-user-profile {
+	height: 64px;
+	width: 64px;
+	position: relative;
+
+	img {
+		border-radius: 5px;
+		transition: opacity .25s ease;
+		margin: 0;
+		padding: 0;
+
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}
+.wpas-reply-attachements {
+	background-color: #efefef;;
+	padding: @spacing;
+	margin-top: @spacing;
+	border-top-color: #ddd;
+
+	strong {
+		display: inline-block;
+		border-bottom: 2px solid #ddd;
+		margin-bottom: @spacing/3;
+	}
+
+	ul, ol, ul li, ol li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/*
+==========================================================================
+Pagination for ticket replies
+==========================================================================
+*/
+.wpas-pagi {
+	text-align: center;
+
+	p {
+		margin-bottom: 0;
+	}
+}
+.wpas-pagi-loading {
+	.wpas-pagi-text {
+		display: none;
+	}
+	.wpas-pagi-loader {
+		display: block;
+	}
+}
+.wpas-pagi-loader {
+	display: none;
+	text-indent: -9999em;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('../images/loading-spin.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/*
+==========================================================================
+Ticket List
+https://github.com/Awesome-Support/Awesome-Support/issues/302
+==========================================================================
+*/
+.footable-sort-indicator {
+	display: inline-block;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 60%;
+	opacity: .5;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 5px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.footable-sorted {
+	.footable-sort-indicator {
+		&:before {
+			content: '▲';
+		}
+	}
+}
+.footable-sorted-desc {
+	.footable-sort-indicator {
+		&:before {
+			content: '▼';
+		}
+	}
+}
+
+// Add spacing below filters & search. #302
+#wpas_ticketlist_filters {
+	margin-bottom: 1em;
+}
+
+// Add style and features for FooTable. See #302
+#wpas_filter_wrap {
+	position: relative;
+
+	.wpas-clear-filter {
+		position: absolute;
+		top: 50%;
+		margin-top: -(14px/2);
+		right: 10px + 14px;
+		width: 14px;
+		height: 14px;
+		background: url('../images/close.svg') no-repeat;
+		background-size: contain;
+		opacity: .25;
+		cursor: pointer;
+		transition: opacity .3s ease;
+
+		&:hover {
+			opacity: .5;
+		}
+	}
+}
+
+/**
+ * Pagination from Bootstrap
+ * http://getbootstrap.com/components/#pagination
+ */
+.wpas_table_pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+.wpas_table_pagination > li {
+	display: inline;
+}
+.wpas_table_pagination > li > a, .wpas_table_pagination > li > span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.42857143;
+	text-decoration: none;
+	color: #337ab7;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	margin-left: -1px;
+}
+.wpas_table_pagination > li:first-child > a, .wpas_table_pagination > li:first-child > span {
+	margin-left: 0;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.wpas_table_pagination > li:last-child > a, .wpas_table_pagination > li:last-child > span {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.wpas_table_pagination > li > a:hover, .wpas_table_pagination > li > span:hover, .wpas_table_pagination > li > a:focus, .wpas_table_pagination > li > span:focus {
+	z-index: 2;
+	color: #23527c;
+	background-color: #eeeeee;
+	border-color: #dddddd;
+}
+.wpas_table_pagination > .active > a, .wpas_table_pagination > .active > span, .wpas_table_pagination > .active > a:hover, .wpas_table_pagination > .active > span:hover, .wpas_table_pagination > .active > a:focus, .wpas_table_pagination > .active > span:focus {
+	z-index: 3;
+	color: #ffffff;
+	background-color: #337ab7;
+	border-color: #337ab7;
+	cursor: default;
+}
+.wpas_table_pagination > .disabled > span, .wpas_table_pagination > .disabled > span:hover, .wpas_table_pagination > .disabled > span:focus, .wpas_table_pagination > .disabled > a, .wpas_table_pagination > .disabled > a:hover, .wpas_table_pagination > .disabled > a:focus {
+	color: #777777;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	cursor: not-allowed;
+}
+.wpas_table_pagination-lg > li > a, .wpas_table_pagination-lg > li > span {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+}
+.wpas_table_pagination-lg > li:first-child > a, .wpas_table_pagination-lg > li:first-child > span {
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+.wpas_table_pagination-lg > li:last-child > a, .wpas_table_pagination-lg > li:last-child > span {
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.wpas_table_pagination-sm > li > a, .wpas_table_pagination-sm > li > span {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.wpas_table_pagination-sm > li:first-child > a, .wpas_table_pagination-sm > li:first-child > span {
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.wpas_table_pagination-sm > li:last-child > a, .wpas_table_pagination-sm > li:last-child > span {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+/*
+==========================================================================
+Responsive Overrides
+==========================================================================
+*/
+
+@media (max-width: @grid-medium) {
+	/* Make sure the logout button doesn't hang out on the side in a weird fashion */
+	.wpas-ticket-buttons-top .wpas-link-logout{
+		float:inherit;
+	}	
+	
+	/* Only show the first five columns in the table */
+	.wpas-table td:nth-child(n+5){
+		display: none ;
+	}	
+	.wpas-table th:nth-child(n+5){
+		display: none ;
+	}	
+}
+
+@media (max-width: @grid-small) {
+	/* On really small screens the search box will be under the status dropdown so give it some vertical space between them */
+	#wpas_filter {
+		margin-top: 0.5em;
+	}	
+	
+	/* Only show the first couple of columns in the table */
+	.wpas-table td:nth-child(n+3){
+		display: none ;
+	}	
+	.wpas-table th:nth-child(n+3){
+		display: none ;
+	}	
+	
+}
+
+@media (max-width: @grid-large) {	
+	/* Only show the first eight columns in the table */
+	.wpas-table td:nth-child(n+8){
+		display: none ;
+	}	
+	.wpas-table th:nth-child(n+8){
+		display: none ;
+	}	
+}

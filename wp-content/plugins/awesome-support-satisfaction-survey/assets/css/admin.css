@@ -1,0 +1,107 @@
+/*
+ *
+ * @package   Awesome Support: Satisfaction Survey
+ * @author    Robert W. Kramer III for Awesome Support <support@getawesomesupport.com>
+ * @license   GPL-2.0+
+ * @link      https://getawesomesupport.com
+ * @copyright 2016. Awesome Support
+ *
+ */
+
+/* wp-admin metabox */
+.wpasss .wpas-col.disabled a,
+.wpasss .wpas-col.disabled span
+{
+    color: #afafaf;
+    cursor:not-allowed;
+}
+
+.wpasss .wpas-col.countdown-col  {
+    line-height: 1.25em;
+}
+
+.wpasss .wpas-col.rating,
+.wpasss .wpas-col.comment,
+.wpasss .wpas-col.reason,
+.wpasss .wpas-col.countdown-col {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wpasss.wpas-row.wpas-ss-countdown {
+    margin-top: 10px;
+}
+
+.wpasss .wpas-col.countdown-col strong {
+    display: block;
+    font-size: 200%;
+    margin-bottom: 0.25em;
+}
+
+.wpasss .wpas-col.comment span,
+.wpasss .wpas-col.reason span{
+
+}
+
+.wpasss .wpas-col span {
+    font-family: "dashicons";
+    font-size: 30px;
+}
+
+.wpasss .wpas-col.comment span:before {
+    content: "\f473";
+}
+
+.wpasss .wpas-col.reason span:before {
+    content: "\f223";
+}
+
+.scale_label_bad {
+    color: red;
+    margin: 3px 5px;
+    float: left;
+    line-height: 1em;
+}
+
+.scale_label_good {
+    color: green;
+    margin: 3px 5px;
+    float: left;
+    line-height: 1em;
+}
+
+input.scale_input_radio {
+    cursor: default;
+    margin: 5px 0;
+    float: left;
+    line-height: 1em;
+}
+
+.rating_choices {
+    display: inline-block;
+    margin: 10px auto 0;
+}
+
+.rating_choices.scale_2 input[type="radio"] {
+    margin: 5px 10px;    
+}
+
+.rating_choices.scale_5 input[type="radio"] {
+    margin: 5px 5px;    
+}
+
+.rating_choices.scale_10 input[type="radio"] {
+    margin: 5px 0;
+}
+
+.wrapper_rating_choices {
+    text-align: center;
+}
+
+.wp_cron_notice {
+    margin: 15px 0 0 0;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+

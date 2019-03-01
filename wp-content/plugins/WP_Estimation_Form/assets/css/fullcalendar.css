@@ -1,0 +1,1189 @@
+/*!
+ * FullCalendar v3.8.0
+ * Docs & License: https://fullcalendar.io/
+ * (c) 2017 Adam Shaw
+ */
+
+#lfb_bootstraped.lfb_bootstraped .fc {
+    direction: ltr;
+    text-align: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl {
+    text-align: right
+}
+
+#lfb_bootstraped.lfb_bootstraped body .fc {
+    font-size: 1em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-highlight {
+    background: #bce8f1;
+    opacity: .3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bgevent {
+    background: #8fdf82;
+    opacity: .3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-nonbusiness {
+    background: #d7d7d7
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc button {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    height: 2.1em;
+    padding: 0 .6em;
+    font-size: 1em;
+    white-space: nowrap;
+    cursor: pointer
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc button::-moz-focus-inner {
+    margin: 0;
+    padding: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-default {
+    border: 1px solid
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-default.fc-corner-left {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-default.fc-corner-right {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc button .fc-icon {
+    position: relative;
+    top: -.05em;
+    margin: 0 .2em;
+    vertical-align: middle
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-default {
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+    color: #333;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .75);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-active,
+#lfb_bootstraped.lfb_bootstraped .fc-state-disabled,
+#lfb_bootstraped.lfb_bootstraped .fc-state-down,
+#lfb_bootstraped.lfb_bootstraped .fc-state-hover {
+    color: #333;
+    background-color: #e6e6e6
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-hover {
+    color: #333;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position .1s linear;
+    -moz-transition: background-position .1s linear;
+    -o-transition: background-position .1s linear;
+    transition: background-position .1s linear
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-active,
+#lfb_bootstraped.lfb_bootstraped .fc-state-down {
+    background-color: #ccc;
+    background-image: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-state-disabled {
+    cursor: default;
+    background-image: none;
+    opacity: .65;
+    box-shadow: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-button-group {
+    display: inline-block
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-button-group>* {
+    float: left;
+    margin: 0 0 0 -1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-button-group>:first-child {
+    margin-left: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-popover {
+    position: absolute;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .15)
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-popover .fc-header {
+    padding: 2px 4px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-popover .fc-header .fc-title {
+    margin: 0 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-popover .fc-header .fc-close {
+    cursor: pointer
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-popover .fc-header .fc-title,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-popover .fc-header .fc-close {
+    float: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-popover .fc-header .fc-close,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-popover .fc-header .fc-title {
+    float: right
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-divider {
+    border-style: solid;
+    border-width: 1px
+}
+
+#lfb_bootstraped.lfb_bootstraped hr.fc-divider {
+    height: 0;
+    margin: 0;
+    padding: 0 0 2px;
+    border-width: 1px 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-clear {
+    clear: both
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bg,
+#lfb_bootstraped.lfb_bootstraped .fc-bgevent-skeleton,
+#lfb_bootstraped.lfb_bootstraped .fc-helper-skeleton,
+#lfb_bootstraped.lfb_bootstraped .fc-highlight-skeleton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bg {
+    bottom: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bg table {
+    height: 100%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc table {
+    width: 100%;
+    box-sizing: border-box;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc th {
+    text-align: center
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc td,
+#lfb_bootstraped.lfb_bootstraped .fc th {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    vertical-align: top
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc td.fc-today {
+    border-style: double
+}
+
+#lfb_bootstraped.lfb_bootstraped a[data-goto] {
+    cursor: pointer
+}
+
+#lfb_bootstraped.lfb_bootstraped a[data-goto]:hover {
+    text-decoration: underline
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-row {
+    border-style: solid;
+    border-width: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row table {
+    border-left: 0 hidden transparent;
+    border-right: 0 hidden transparent;
+    border-bottom: 0 hidden transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row:first-child table {
+    border-top: 0 hidden transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row {
+    position: relative
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-bg {
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-bgevent-skeleton,
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-highlight-skeleton {
+    bottom: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-bgevent-skeleton table,
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-highlight-skeleton table {
+    height: 100%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-bgevent-skeleton td,
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-highlight-skeleton td {
+    border-color: transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-bgevent-skeleton {
+    z-index: 2
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-highlight-skeleton {
+    z-index: 3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-content-skeleton {
+    position: relative;
+    z-index: 4;
+    padding-bottom: 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-helper-skeleton {
+    z-index: 5
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-row .fc-content-skeleton table,
+#lfb_bootstraped.lfb_bootstraped .fc .fc-row .fc-content-skeleton td,
+#lfb_bootstraped.lfb_bootstraped .fc .fc-row .fc-helper-skeleton td {
+    background: 0 0;
+    border-color: transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-content-skeleton td,
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-helper-skeleton td {
+    border-bottom: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-content-skeleton tbody td,
+#lfb_bootstraped.lfb_bootstraped .fc-row .fc-helper-skeleton tbody td {
+    border-top: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-scroller {
+    -webkit-overflow-scrolling: touch
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-scroller>.fc-day-grid,
+#lfb_bootstraped.lfb_bootstraped .fc-scroller>.fc-time-grid {
+    position: relative;
+    width: 100%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event {
+    position: relative;
+    display: block;
+    font-size: .85em;
+    line-height: 1.3;
+    border-radius: 3px;
+    border: 1px solid #3a87ad
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event,
+#lfb_bootstraped.lfb_bootstraped .fc-event-dot {
+    background-color: #3a87ad
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event,
+#lfb_bootstraped.lfb_bootstraped .fc-event:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event.fc-draggable,
+#lfb_bootstraped.lfb_bootstraped .fc-event[href] {
+    cursor: pointer
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-not-allowed,
+#lfb_bootstraped.lfb_bootstraped .fc-not-allowed .fc-event {
+    cursor: not-allowed
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event .fc-bg {
+    z-index: 1;
+    background: #fff;
+    opacity: .25
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event .fc-content {
+    position: relative;
+    z-index: 2
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event .fc-resizer {
+    position: absolute;
+    z-index: 4;
+    display: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event.fc-allow-mouse-resize .fc-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-event.fc-selected .fc-resizer {
+    display: block
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event.fc-selected .fc-resizer:before {
+    content: "";
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: -20px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event.fc-selected {
+    z-index: 9999!important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event.fc-selected.fc-dragging {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .3)
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-h-event.fc-selected:before {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    top: -10px;
+    bottom: -10px;
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-h-event.fc-not-start,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-h-event.fc-not-end {
+    margin-left: 0;
+    border-left-width: 0;
+    padding-left: 1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-h-event.fc-not-end,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-h-event.fc-not-start {
+    margin-right: 0;
+    border-right-width: 0;
+    padding-right: 1px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-h-event .fc-start-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-h-event .fc-end-resizer {
+    cursor: w-resize;
+    left: -1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-h-event .fc-end-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-h-event .fc-start-resizer {
+    cursor: e-resize;
+    right: -1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-h-event.fc-allow-mouse-resize .fc-resizer {
+    width: 7px;
+    top: -1px;
+    bottom: -1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-h-event.fc-selected .fc-resizer {
+    border-radius: 4px;
+    border-width: 1px;
+    width: 6px;
+    height: 6px;
+    border-style: solid;
+    border-color: inherit;
+    background: #fff;
+    top: 50%;
+    margin-top: -4px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-h-event.fc-selected .fc-start-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-h-event.fc-selected .fc-end-resizer {
+    margin-left: -4px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-h-event.fc-selected .fc-end-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-h-event.fc-selected .fc-start-resizer {
+    margin-right: -4px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-day-grid-event {
+    margin: 1px 2px 0;
+    padding: 0 1px
+}
+
+#lfb_bootstraped.lfb_bootstraped tr:first-child>td>.fc-day-grid-event {
+    margin-top: 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-day-grid-event.fc-selected:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: #000;
+    opacity: .25
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-day-grid-event .fc-content {
+    white-space: nowrap;
+    overflow: hidden
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-day-grid-event .fc-time {
+    font-weight: 700
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-day-grid-event.fc-allow-mouse-resize .fc-start-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-day-grid-event.fc-allow-mouse-resize .fc-end-resizer {
+    margin-left: -2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-day-grid-event.fc-allow-mouse-resize .fc-end-resizer,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-day-grid-event.fc-allow-mouse-resize .fc-start-resizer {
+    margin-right: -2px
+}
+
+#lfb_bootstraped.lfb_bootstraped a.fc-more {
+    margin: 1px 3px;
+    font-size: .85em;
+    cursor: pointer;
+    text-decoration: none
+}
+
+#lfb_bootstraped.lfb_bootstraped a.fc-more:hover {
+    text-decoration: underline
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-limited {
+    display: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-day-grid .fc-row {
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-more-popover {
+    z-index: 2;
+    width: 220px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-more-popover .fc-event-container {
+    padding: 10px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-now-indicator {
+    position: absolute;
+    border: 0 solid red
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-content,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-divider,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-list-heading td,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-list-view,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-popover,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-row,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed tbody,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed td,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed th,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed thead {
+    border-color: #ddd
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-popover {
+    background-color: #fff
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-divider,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-list-heading td,
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-popover .fc-header {
+    background: #eee
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-popover .fc-header .fc-close {
+    color: #666
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed td.fc-today {
+    background: #fcf8e3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-disabled-day {
+    background: #d7d7d7;
+    opacity: .3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon {
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    font-size: 1em;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Courier New", Courier, monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon:after {
+    position: relative
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-left-single-arrow:after {
+    content: "\2039";
+    font-weight: 700;
+    font-size: 200%;
+    top: -7%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-right-single-arrow:after {
+    content: "\203A";
+    font-weight: 700;
+    font-size: 200%;
+    top: -7%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-left-double-arrow:after {
+    content: "\AB";
+    font-size: 160%;
+    top: -7%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-right-double-arrow:after {
+    content: "\BB";
+    font-size: 160%;
+    top: -7%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-left-triangle:after {
+    content: "\25C4";
+    font-size: 125%;
+    top: 3%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-right-triangle:after {
+    content: "\25BA";
+    font-size: 125%;
+    top: 3%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-down-triangle:after {
+    content: "\25BC";
+    font-size: 125%;
+    top: 2%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-icon-x:after {
+    content: "\D7";
+    font-size: 200%;
+    top: 6%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-popover {
+    border-width: 1px;
+    border-style: solid
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-popover .fc-header .fc-close {
+    font-size: .9em;
+    margin-top: 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-list-item:hover td {
+    background-color: #f5f5f5
+}
+
+#lfb_bootstraped.lfb_bootstraped .ui-widget .fc-disabled-day {
+    background-image: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-popover>.ui-widget-header+.ui-widget-content {
+    border-top: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .ui-widget .fc-event {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400
+}
+
+#lfb_bootstraped.lfb_bootstraped .ui-widget td.fc-axis {
+    font-weight: 400
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-slats .ui-widget-content {
+    background: 0 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc.fc-bootstrap3 a {
+    text-decoration: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc.fc-bootstrap3 a[data-goto]:hover {
+    text-decoration: underline
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bootstrap3 hr.fc-divider {
+    border-color: inherit
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bootstrap3 .fc-today.alert {
+    border-radius: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bootstrap3 .fc-popover .panel-body {
+    padding: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-bootstrap3 .fc-time-grid .fc-slats table {
+    background: 0 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar {
+    text-align: center
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 1em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar.fc-footer-toolbar {
+    margin-top: 1em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .fc-left {
+    float: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .fc-right {
+    float: right
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .fc-center {
+    display: inline-block
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-toolbar>*>* {
+    float: left;
+    margin-left: .75em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-toolbar>*>:first-child {
+    margin-left: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar h2 {
+    margin: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar button {
+    position: relative
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .fc-state-hover,
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .ui-state-hover {
+    z-index: 2
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .fc-state-down {
+    z-index: 3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .fc-state-active,
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar .ui-state-active {
+    z-index: 4
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-toolbar button:focus {
+    z-index: 5
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-view-container *,
+#lfb_bootstraped.lfb_bootstraped .fc-view-container:after,
+#lfb_bootstraped.lfb_bootstraped .fc-view-container:before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-view,
+#lfb_bootstraped.lfb_bootstraped .fc-view>table {
+    position: relative;
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basicDay-view .fc-content-skeleton,
+#lfb_bootstraped.lfb_bootstraped .fc-basicWeek-view .fc-content-skeleton {
+    padding-bottom: 1em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view .fc-body .fc-row {
+    min-height: 4em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row.fc-rigid {
+    overflow: hidden
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-row.fc-rigid .fc-content-skeleton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-day-top.fc-other-month {
+    opacity: .3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view .fc-day-number,
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view .fc-week-number {
+    padding: 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view th.fc-day-number,
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view th.fc-week-number {
+    padding: 0 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+    float: right
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-basic-view .fc-day-top .fc-day-number {
+    float: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-basic-view .fc-day-top .fc-week-number {
+    float: left;
+    border-radius: 0 0 3px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-basic-view .fc-day-top .fc-week-number {
+    float: right;
+    border-radius: 0 0 0 3px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view .fc-day-top .fc-week-number {
+    min-width: 1.5em;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: grey
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view td.fc-week-number {
+    text-align: center
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-basic-view td.fc-week-number>* {
+    display: inline-block;
+    min-width: 1.25em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-agenda-view .fc-day-grid {
+    position: relative;
+    z-index: 2
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-agenda-view .fc-day-grid .fc-row {
+    min-height: 3em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-agenda-view .fc-day-grid .fc-row .fc-content-skeleton {
+    padding-bottom: 1em
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-axis {
+    vertical-align: middle;
+    padding: 0 4px;
+    white-space: nowrap
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-axis {
+    text-align: right
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-axis {
+    text-align: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid,
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-container {
+    position: relative;
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid {
+    min-height: 100%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid table {
+    border: 0 hidden transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid>.fc-bg {
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-slats,
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid>hr {
+    position: relative;
+    z-index: 2
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-content-col {
+    position: relative
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-content-skeleton {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-business-container {
+    position: relative;
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-bgevent-container {
+    position: relative;
+    z-index: 2
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-highlight-container {
+    z-index: 3
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-event-container {
+    position: relative;
+    z-index: 4
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-now-indicator-line {
+    z-index: 5
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-helper-container {
+    position: relative;
+    z-index: 6
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-slats td {
+    height: 1.5em;
+    border-bottom: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-slats .fc-minor td {
+    border-top-style: dotted
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-highlight-container {
+    position: relative
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-highlight {
+    position: absolute;
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-time-grid .fc-event-container {
+    margin: 0 2.5% 0 2px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-time-grid .fc-event-container {
+    margin: 0 2px 0 2.5%
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-bgevent,
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-event {
+    position: absolute;
+    z-index: 1
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-bgevent {
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-v-event.fc-not-start {
+    border-top-width: 0;
+    padding-top: 1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-v-event.fc-not-end {
+    border-bottom-width: 0;
+    padding-bottom: 1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event {
+    overflow: hidden
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-selected {
+    overflow: visible
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-selected .fc-bg {
+    display: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event .fc-content {
+    overflow: hidden
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event .fc-time,
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event .fc-title {
+    padding: 0 1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event .fc-time {
+    font-size: .85em;
+    white-space: nowrap
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-content {
+    white-space: nowrap
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-time,
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-title {
+    display: inline-block;
+    vertical-align: top
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-time span {
+    display: none
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-time:before {
+    content: attr(data-start)
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-time:after {
+    content: "\A0-\A0"
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-short .fc-title {
+    font-size: .85em;
+    padding: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8px;
+    overflow: hidden;
+    line-height: 8px;
+    font-size: 11px;
+    font-family: monospace;
+    text-align: center;
+    cursor: s-resize
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-allow-mouse-resize .fc-resizer:after {
+    content: "="
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid-event.fc-selected .fc-resizer {
+    border-radius: 5px;
+    border-width: 1px;
+    width: 8px;
+    height: 8px;
+    border-style: solid;
+    border-color: inherit;
+    background: #fff;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -5px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-now-indicator-line {
+    border-top-width: 1px;
+    left: 0;
+    right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-time-grid .fc-now-indicator-arrow {
+    margin-top: -5px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-time-grid .fc-now-indicator-arrow {
+    left: 0;
+    border-width: 5px 0 5px 6px;
+    border-top-color: transparent;
+    border-bottom-color: transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-time-grid .fc-now-indicator-arrow {
+    right: 0;
+    border-width: 5px 6px 5px 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-event-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-list-view {
+    direction: rtl
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-view {
+    border-width: 1px;
+    border-style: solid
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc .fc-list-table {
+    table-layout: auto
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-table td {
+    border-width: 1px 0 0;
+    padding: 8px 14px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-table tr:first-child td {
+    border-top-width: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-heading {
+    border-bottom-width: 1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-heading td {
+    font-weight: 700
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-list-heading-main {
+    float: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-list-heading-alt,
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-list-heading-main {
+    float: right
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-list-heading-alt {
+    float: left
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-item.fc-has-url {
+    cursor: pointer
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-item-marker,
+#lfb_bootstraped.lfb_bootstraped .fc-list-item-time {
+    white-space: nowrap;
+    width: 1px
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-ltr .fc-list-item-marker {
+    padding-right: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-rtl .fc-list-item-marker {
+    padding-left: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-item-title a {
+    text-decoration: none;
+    color: inherit
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-item-title a[href]:hover {
+    text-decoration: underline
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-empty-wrap2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-empty-wrap1 {
+    width: 100%;
+    height: 100%;
+    display: table
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-list-empty {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+#lfb_bootstraped.lfb_bootstraped .fc-unthemed .fc-list-empty {
+    background-color: #eee
+}

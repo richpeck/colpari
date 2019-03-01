@@ -1,0 +1,139 @@
+
+/* popup window style */
+.mfp-content select {
+        width: 100%;
+}
+
+.mfp-content .select2.select2-container{
+        width: 100% !important;
+}
+
+.wpas_win_footer {
+        margin-top: 20px;
+}
+
+.wpas_win_footer .submit, .wpas_win_footer .wpas_win_close_btn {
+        float: left;
+        padding: 0;
+        margin: 0;
+}
+
+.wpas_win_footer .wpas_win_close_btn {
+        margin-left: 20px;
+}
+
+.white-popup {
+        position: relative;
+        background: #FFF;
+        padding: 20px;
+        width:auto;
+        max-width: 500px;
+        margin: 20px auto;
+}
+
+.wpas_cp_window_wrapper .wpas_cp_msg, #wpas_cp_manage_company_messages {
+        display: none;
+        
+        background: #fff;
+        border-left: 4px solid;
+        -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+        padding: 1px 12px;
+        margin: 5px 0 15px;
+}
+
+.wpas_cp_window_wrapper .wpas_cp_msg.error, #wpas_cp_manage_company_messages.error {
+        border-color: #dc3232;
+}
+
+.wpas_cp_window_wrapper .wpas_cp_msg.updated, #wpas_cp_manage_company_messages.updated {
+        border-color: #46b75f;
+}
+
+.wpas_cp_window_wrapper .wpas_cp_msg p, #wpas_cp_manage_company_messages p {
+        margin: 0;
+}
+
+
+/* Support users and companies table style */
+.wpas_cp_data_items table, .wpas_cp_data_items table tr td {
+        margin-bottom: 0;
+        border:0;
+}
+
+.wpas_cp_ui_item_su_item {
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        padding-left: 20px;
+}
+
+.wpas_cp_ui_item_su_item .permissions {
+        margin: 0;
+        list-style: none !important;
+        
+}
+
+.wpas_cp_ui_item_su_item .permissions li {
+        float: left;
+        margin-right: 20px;
+}
+
+.wpas_cp_ui_items table tr th {
+        border: 0;
+        border-bottom: 1px solid #ccc;
+}
+
+
+.wpas_cp_ui_items .wpas_cp_list_subtable_support_user {
+        display: none;
+        
+        
+}
+
+.wpas_cp_ui_items .wpas_cp_ui_item_company {
+        border-bottom: 1px solid #ccc;
+        background: #f8f8ff;
+}
+
+
+
+.cp_icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        text-decoration: none;
+}
+
+.wpas_cp_ui_item_su_item .su_user_name.primary {
+        width: 24px;
+        height: 24px;
+        background: url(../../images/primary.png) no-repeat left center;
+        padding-left: 28px;
+                
+}
+
+.cp_edit_icon {
+        background: url(../../images/edit.png) no-repeat center center;
+}
+
+.cp_delete_icon {
+        background: url(../../images/delete.png) no-repeat center center;
+}
+
+.cp_users_icon {
+        background: url(../../images/users.png) no-repeat center center;
+}
+
+.wpas_cp_ui_items .actions {
+        list-style: none !important;
+        margin: 0;
+}
+
+.wpas_cp_ui_item_su_item .actions {
+        float: right;
+}
+
+.wpas_cp_ui_item .actions li {
+        float: left;
+        margin-left: 14px;
+}

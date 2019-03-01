@@ -1,0 +1,27 @@
+.nf-saves-cont {
+    /*padding: 0;*/
+    margin: 0 0 10px;
+    border: 1px solid #d3d3d3;
+}
+
+.nf-saves-item {
+    padding: 10px;
+    clear: both;
+}
+.nf-saves-item:hover {
+    background-color: #f7f7f7;
+}
+.nf-saves-item.active {
+    background-color: #dedede;
+}
+
+
+.nf-saves-item a {
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+.nf-saves-item.active a.cancel,
+.nf-saves-item:not(.active):hover a.load {
+    display: inline-block;
+}

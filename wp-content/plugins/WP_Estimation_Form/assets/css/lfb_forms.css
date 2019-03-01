@@ -1,0 +1,2144 @@
+body:not(.wp-admin) #estimation_popup.wpe_bootstraped {
+    text-align: center;
+    /*font-family: Lato, Verdana, Arial;*/
+}
+#estimation_popup.wpe_bootstraped:not(.wpe_popup),
+#estimation_popup.wpe_bootstraped:not(.wpe_fullscreen) {
+    padding-top: 1px;
+}
+#estimation_popup.wpe_bootstraped.wpe_popup {
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 50%;
+    z-index: 9999999;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: none;
+    background: #FFF;
+    opacity: 0;
+    overflow-y: auto;
+}
+#estimation_popup.wpe_bootstraped.wpe_fullscreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #FFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+html body .lfb_datepickerContainer{ 
+    font-size: 16px;
+
+}
+body.rtl #estimation_popup.wpe_bootstraped.wpe_fullscreen {
+    direction: ltr;
+}
+body.rtl #estimation_popup.wpe_bootstraped.wpe_fullscreen #wpe_panel {
+    direction: rtl;
+}
+body.rtl #estimation_popup.wpe_bootstraped .switch.has-switch {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+body.rtl #estimation_popup.wpe_bootstraped .switch.has-switch i {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+
+}
+#estimation_popup.wpe_bootstraped ::-webkit-input-placeholder, 
+#estimation_popup.wpe_bootstraped ::-moz-placeholder ,
+#estimation_popup.wpe_bootstraped :-ms-input-placeholder , 
+#estimation_popup.wpe_bootstraped :-moz-placeholder { 
+    font-size: 15px;
+}
+#estimation_popup.wpe_bootstraped .lfb_startBtnContainer {
+    padding-bottom: 28px;
+}
+
+#estimation_popup.wpe_bootstraped.wpe_popup #wpe_close_btn {
+    display: block;
+}
+#estimation_popup.wpe_bootstraped #lfb_summaryDiscountTr #lfb_summaryDiscount {
+    text-align: right !important;
+}
+#estimation_popup.wpe_bootstraped  a[data-btn] {
+    font-size:  16px;
+}
+#estimation_popup.wpe_bootstraped .row, 
+#estimation_popup.wpe_bootstraped p {
+    text-align: center;
+    float: none;
+}
+#estimation_popup.wpe_bootstraped .gform_confirmation_message {
+    font-size: 28px;
+}
+#estimation_popup.wpe_bootstraped .lfb_richtext {
+    text-align: left;
+    word-wrap: break-word;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemBloc.lfb_richtext.col-md-12{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90%;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    
+}
+#estimation_popup.wpe_bootstraped .lfb_richtext.col-md-2 {
+    max-width: 400px;
+}
+#estimation_popup.wpe_bootstraped #wpe_panel .btn > .fa:not(.lfb_iconRight),
+#estimation_popup.wpe_bootstraped #wpe_panel a > .fa:not(.lfb_iconRight) {
+    margin-right: 6px;
+}
+#estimation_popup.wpe_bootstraped #wpe_panel .btn > .fa.lfb_iconRight,
+#estimation_popup.wpe_bootstraped #wpe_panel a > .fa.lfb_iconRight {
+    margin-left: 6px;
+}
+body.rtl #estimation_popup.wpe_bootstraped #wpe_panel .btn > .fa,
+body.rtl #estimation_popup.wpe_bootstraped #wpe_panel a > .fa {
+    margin-right: 0px;
+    margin-left: 6px;
+}
+#estimation_popup.wpe_bootstraped .lfb_richtext p {
+    /* text-align: left;   */ 
+}
+
+#estimation_popup.wpe_bootstraped .skiptranslate, #estimation_popup.wpe_bootstraped .typekit-badge {
+    display: none;
+}
+#estimation_popup.wpe_bootstraped  .errorMsg.alert.alert-danger {
+    font-size: 16px;
+}
+
+#estimation_popup.wpe_bootstraped #initialPrice, #estimation_popup.wpe_bootstraped #currency, #estimation_popup.wpe_bootstraped #emailUrl, #estimation_popup.wpe_bootstraped #email_subject, #estimation_popup.wpe_bootstraped #admin_email, #estimation_popup.wpe_bootstraped #colorA, #estimation_popup.wpe_bootstraped #colorB, #estimation_popup.wpe_bootstraped #intro_enabled, #estimation_popup.wpe_bootstraped #save_to_cart {
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped .container {
+    text-align: center;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_mainFormTitle {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+#estimation_popup.wpe_bootstraped .lfb_button  {
+    margin-top: 22px;
+}
+#estimation_popup.wpe_bootstraped .lfb_button.checked {
+    opacity: 0.6;
+    -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.20);
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.20);
+}
+#estimation_popup.wpe_bootstraped .gform_button{
+    border: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-height: none;
+    max-width: none;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+#estimation_popup.wpe_bootstraped .gform_footer{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+html body div#ui-datepicker-div[style] {
+    z-index: 99999999 !important;
+    max-width: 320px;
+}
+#estimation_popup.wpe_bootstraped .btn, #estimation_popup.wpe_bootstraped .gform_button{    
+    white-space: inherit;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: -webkit-box-shadow .25s ease-in-out;
+    -moz-transition: -moz-box-shadow .25s ease-in-out;
+    transition: box-shadow .25s ease-in-out;
+}
+
+#estimation_popup.wpe_bootstraped .btn:active, #estimation_popup.wpe_bootstraped .btn.active {
+    -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+#estimation_popup.wpe_bootstraped .btn-primary:hover, #estimation_popup.wpe_bootstraped a:hover {
+    opacity: 0.7;
+}
+
+#estimation_popup.wpe_bootstraped .btn-primary:active, #estimation_popup.wpe_bootstraped a:active {
+    opacity: 0.5;
+}
+
+#estimation_popup.wpe_bootstraped a.btn.btn-circle {
+    border-radius: 24px;
+    padding: 14px;
+    height: 43px;
+    line-height: 12px;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_couponBtn {    
+    position: relative;
+    top: 0px;
+    left: 6px;
+}
+#estimation_popup.wpe_bootstraped .lfb_totalBottom  .lfb_subTxtBottom {
+    display: none;
+}
+#estimation_popup.wpe_bootstraped .genSlide .lfb_totalBottomContainer {
+    opacity: 0;
+}
+#estimation_popup.wpe_bootstraped .genSlide .lfb_totalBottomContainer hr {
+    max-width: 80%;
+    margin: 0 auto;
+}
+#estimation_popup.wpe_bootstraped #lfb_introImage {
+    max-height: 256px;
+    max-width: 100%;
+}
+
+#estimation_popup.wpe_bootstraped .genSlide .lfb_totalBottomContainer h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+#estimation_popup.wpe_bootstraped .genSlide .lfb_totalBottomContainer h3 > span:first-child{
+    font-size: 40px;    
+}
+#estimation_popup.wpe_bootstraped .has-error, #estimation_popup.wpe_bootstraped .gfield_error .form-group .form-control {
+    color: #e74c3c;
+    border-color: #e74c3c;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+#estimation_popup.wpe_bootstraped .form-group.has-error .form-control {
+    color: #e74c3c;
+    border-color: #e74c3c;
+}
+#estimation_popup.wpe_bootstraped .has-error .has-switch span.switch-right {
+    color: #e74c3c !important;
+}
+
+#estimation_popup.wpe_bootstraped .has-switch span.switch-left {
+    background-color: #AAA;
+}
+
+#estimation_popup.wpe_bootstraped .has-switch > div.switch-on label {
+    background-color: #bdc3c7;
+}
+
+#estimation_popup.wpe_bootstraped .has-switch span.switch-left {
+    color: #FFF;
+}
+#estimation_popup.wpe_bootstraped .has-switch label {
+    clear: none;
+}
+
+#estimation_popup.wpe_bootstraped .has-switch .switch-off.has-error span.switch-right {
+    color: #e74c3c !important;
+}
+
+#estimation_popup.wpe_bootstraped .form-control {
+    color: #999;
+}
+
+#estimation_popup.wpe_bootstraped #wpe_close_btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+    font-size: 18px;
+}
+
+#estimation_popup.wpe_bootstraped.wpe_popup  #wpe_close_btn {
+    display: block;
+}
+#estimation_popup.wpe_bootstraped #mainPanel {
+    min-height: 500px;
+    padding-bottom: 128px;    
+    position: relative;
+    display: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide {
+    display: none;
+    /*min-height: 180px;*/
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .stepTitle {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: -29px;    
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.1;    
+    margin-bottom: 15px;
+    -webkit-transition: top 0.5s ease-out !important;
+    transition:  top 0.5s ease-out !important;
+}
+
+#estimation_popup.wpe_bootstraped input[type="checkbox"][data-toggle="switch"] {display : none !important;}
+
+#estimation_popup.wpe_bootstraped[data-animspeed="0"] #mainPanel .genSlide .stepTitle,
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .stepTitle.positioned {
+    top: 80px !important;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent {
+    text-align: center;
+    padding-top: 188px;
+    opacity: 0;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent.lfb_noDes {
+    padding-top: 128px;
+}
+#estimation_popup.wpe_bootstraped .container-fluid{
+    padding: 0px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .col-md-2 {
+    margin: 0 auto;
+    vertical-align: top;
+    padding: 18px;
+    display: inline-block;
+    float: none;
+    width: auto;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable {
+    display: inline-block !important;
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+    float: none;
+    margin-top: 8px;
+}
+#estimation_popup.wpe_bootstraped .col-md-2, .bootstrap-datetimepicker-widget .col-md-2{
+    width: auto ;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemBloc {
+    /*  display: inline-block;*/
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+    text-align: center;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemBloc.col-md-12 {
+    margin-top: 0px;
+    display: block;
+    float: none;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemBloc.lfb_picRow{
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemBloc.col-md-12.lfb_picRow{
+    margin-bottom: 20px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable span.icon_select {
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+    display: block;
+    font-size:  14px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable span.icon_select.lfb_fxZoom {
+    position: absolute;
+    font-size: 72px;
+    right: -8px;
+    bottom: -4px;
+    opacity: 0;
+    -webkit-transition: all 0.25s; 
+    transition: all 0.25s;     
+    background-color: transparent !important;
+}
+#estimation_popup.wpe_bootstraped[data-qttype="1"][data-imgtitlesstyle="static"] #mainPanel .genSlide .genContent  div.selectable[data-quantityenabled="1"].checked {
+    margin-bottom: 48px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable.checked span.icon_select.lfb_fxZoom {
+    font-size: 42px;
+    opacity: 1;    
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable[data-flipfx="1"] {
+    -webkit-transition: -webkit-transform 0.5s ease-in; 
+    transition: transform 0.5s ease-in;     
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable[data-flipfx="1"]:not(.checked){
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable[data-flipfx="1"].checked {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable span.icon_select.lfb_error{
+    background-color: #e74c3c !important;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable span.icon_quantity {
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    font-size: 14px;
+    display: none;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .lfb_btnContainer {
+    padding-top: 36px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #finalSlide.genSlide .genContent .lfb_btnContainer {
+    padding-top: 56px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemDes {
+    margin-top: 16px !important;
+    font-size: 13px;
+    margin-left: 2px;
+    margin-right: 2px;
+    overflow-y: auto;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .lfb_btnContainer .itemDes {
+    margin-top: 24px !important;
+}
+#estimation_popup.wpe_bootstraped .gform_wrapper ul li.gfield{
+    max-width: 380px;
+    margin: 0 auto !important;
+}
+#estimation_popup.wpe_bootstraped  .gform_heading{
+    max-width: 380px;
+    margin: 0 auto !important;
+    font-size: 22px;
+}
+#estimation_popup.wpe_bootstraped .gform_wrapper .gform_footer {
+    text-align: center;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .gfield_date_dropdown_month select.form-control,#estimation_popup.wpe_bootstraped #mainPanel .gfield_date_dropdown_day select.form-control,#estimation_popup.wpe_bootstraped #mainPanel .gfield_date_dropdown_year select.form-control{
+    width: auto;
+    margin-right: 6px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable.checked span.icon_quantity {
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable.checked span.icon_quantity:hover {
+    opacity: 0.7;
+}
+#estimation_popup.wpe_bootstraped .progress {
+    width: 100%
+}
+#estimation_popup.wpe_bootstraped .progress,#estimation_popup .progress-bar {
+    overflow: inherit;
+    height: 28px;
+}
+#estimation_popup.wpe_bootstraped #wrapper .post-content .stepTitle {
+    font-size: 53px;
+}
+#estimation_popup.wpe_bootstraped .has-switch {
+    margin: 5px;
+}
+.lfb_datepickerContainer .ui-datepicker-title select{
+    width: 70px;
+    display: inline-block;
+    margin: 4px;
+    padding: 2px;
+    font-size: 16px;
+}
+body .ui-datepicker .ui-datepicker-header {
+    padding: 0px;
+    margin: 0px;
+}
+.ui-datepicker-next .ui-icon,.ui-datepicker-prev .ui-icon{
+    display: none;
+}
+.ui-datepicker .ui-datepicker-next> span,.ui-datepicker .ui-datepicker-prev > span{
+    display: none !important;
+}
+.ui-datepicker .ui-datepicker-next-hover,.ui-datepicker .ui-datepicker-prev-hover {
+    background-color: transparent !important;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable .wpe_itemQtField {
+    position: absolute;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable.checked .wpe_itemQtField {
+    opacity: 1;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent img {
+    box-shadow: none;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable .img {
+    max-width: 64px;
+    max-height: 64px;
+    min-width: 32px;
+    min-height: 32px;
+    cursor: pointer;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable canvas.img:nth-child(3) {
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent div.selectable.checked span.icon_select {
+    color: #1abc9c;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide div.selectable .img {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    vertical-align: middle;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genSlide div.selectable.checked .img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+
+}
+#estimation_popup.wpe_bootstraped .ginput_container {
+    vertical-align:  top;
+}
+#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_time_hour,#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_time_minute,#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_date_month,#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_date_day, .gform_wrapper .gfield_date_year {
+    width: 88px !important;
+    line-height: 34px;
+}
+#estimation_popup.wpe_bootstraped .gfield_checkbox input[type=checkbox],#estimation_popup.wpe_bootstraped .gfield_radio input[type=radio] {
+    margin: 11px 5px 0;
+}
+#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_time_hour input,#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_time_minute input,#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_date_month input,#estimation_popup.wpe_bootstraped  .gform_wrapper .gfield_date_day input,#estimation_popup.wpe_bootstraped .gform_wrapper .gfield_date_year input {
+    width: 40px !important;
+    margin: 0px !important;
+    display: inline-block;
+}
+#estimation_popup.wpe_bootstraped  input.datepicker{
+    display: inline-block !important;
+    margin: 0px;
+}
+#estimation_popup.wpe_bootstraped .genPrice {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    position: relative;
+    display: none;
+    direction: ltr;    
+    unicode-bidi: bidi-override;
+}
+body.rtl #estimation_popup.wpe_bootstraped .genPrice {
+    direction: rtl;    
+}
+
+#estimation_popup.wpe_bootstraped .genPrice span:not(.lfb_subPrice) {
+    direction: ltr;    
+    unicode-bidi: bidi-override;    
+}
+#estimation_popup.wpe_bootstraped .lfb_totalBottomContainer h3 span:not(.lfb_subPrice) {
+    direction: ltr;    
+    unicode-bidi: bidi-override;    
+}
+#estimation_popup.wpe_bootstraped .switch.has-switch {
+    direction: ltr;    
+}
+#estimation_popup.wpe_bootstraped .genPrice .progress {
+    height: 28px;
+}
+
+#estimation_popup.wpe_bootstraped .genPrice .progress-bar {
+    position: absolute;
+    border-radius: 32px;
+    height: 28px;
+}
+
+#estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price {
+    display: inline-block;
+    width: 78px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 39px;
+    height: 78px;
+    top: -24px;
+    line-height: 76px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-left: -35px;
+    background-color: #1abc9c;
+    z-index: 1;
+    -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+body:not(.rtl) #estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price { 
+    left: auto !important;
+    right: -20px;
+}
+body.rtl #estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price {
+    left: -20px;
+    right: auto !important;
+
+}
+#estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price.lfb_subsPrice {
+    line-height: 60px;    
+}
+#estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price.lfb_subsPrice > span:nth-child(2){
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 18px;
+    left: 0px;
+}
+#estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price.lfb_subsPrice.lfb_priceSingle > span:nth-child(1){
+    position: relative;
+    top: -5px;
+}
+#estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price.lfb_subsPrice.lfb_priceSingle > span:nth-child(2){
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 14px;
+    left: 0px;
+}
+#estimation_popup.wpe_bootstraped .genPrice .progress .progress-bar-price.lfb_subsPrice.lfb_priceSingle > span:nth-child(3){
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;    
+    top: 28px;
+    left: 0;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .btn-next {
+    position: relative;
+    display: none;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .btn-next.lfb-hidden {
+    display: none !important;
+    opacity: 0;
+}
+
+#estimation_popup.wpe_bootstraped .lfb-hidden {
+    display: none !important;
+    opacity: 0;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .lfb_disabled {
+    display: none;
+}
+
+
+
+#estimation_popup.wpe_bootstraped #mainPanel #wpe_btnOrder {
+    /*margin-bottom: 28px;*/
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .genArrows {
+    position: absolute;
+    top: 240px;
+    font-size: 76px;
+    width: 100%;
+    text-align: right;
+    z-index: 99;
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped .genContentSlide {
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped .genContentSlide.active {
+    display: block;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel #finalPrice {
+    margin-top: 15px;
+    color: #008080;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #finalPrice span:nth-child(2) {
+    color: #bdc3c7;
+    font-size: 20px;
+    text-transform: initial;
+    margin-top: 6px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]), #estimation_popup.wpe_bootstraped #mainPanel textarea, 
+#estimation_popup.wpe_bootstraped #mainPanel select, #estimation_popup.wpe_bootstraped #mainPanel .select-block,
+#estimation_popup.wpe_bootstraped #mainPanel .input-group{
+    padding: 4px;
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+}
+#estimation_popup.wpe_bootstraped #mainPanel .input-group {
+    padding: 0px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel select {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel input.wpe_qtfield {
+    width: 100px !important;
+    display: block;
+}
+#estimation_popup.wpe_bootstraped #mainPanel [data-type="slider"]{
+    min-width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    max-width: 80%;
+    direction: ltr;
+    margin-bottom: 18px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel input[type="file"] {
+    padding-top: 7px !important;
+}
+
+#estimation_popup.wpe_bootstraped .gfield_list_cell {
+    width: 465px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel .gfield_list_cell input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]), #estimation_popup.wpe_bootstraped #mainPanel .gfield_list_celltextarea, #estimation_popup.wpe_bootstraped #mainPanel .gfield_list_cell select {
+    width: 437px;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel textarea {
+    height: 80px;
+}
+
+#estimation_popup.wpe_bootstraped label[for="lfb_legalCheckbox"] {
+    font-weight: bold;
+    vertical-align: top;
+}
+#estimation_popup.wpe_bootstraped #lfb_legalNoticeContent {
+    border: 2px solid;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-y: auto;
+    min-height: 28px;
+    font-size: 14px;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    max-height: 100px;
+}
+#estimation_popup.wpe_bootstraped #finalText, #estimation_popup.wpe_bootstraped #lfb_payFormFinalTxt {
+    display: none;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+#estimation_popup.wpe_bootstraped #errorMsg {
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped .linkPrevious {
+    color: #bdc3c7;
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    padding-bottom: 28px;
+    text-decoration:  none;
+    border-bottom-width: 0px;
+}
+body.rtl #estimation_popup.wpe_bootstraped .linkPrevious > .fa {
+    margin-left: 36px;
+}
+
+#estimation_popup.wpe_bootstraped #modal_quantity input {
+    width: 100px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+#estimation_popup.wpe_bootstraped .quantityBtns {
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    margin-left: -34px;
+    width: 70px;
+    display: none;
+}
+/*#estimation_popup.wpe_bootstraped .wpe_hidden {
+    display: none !important;
+}*/
+#estimation_popup.wpe_bootstraped .quantityBtns.wpe_sliderQtContainer {
+    width: 100px;    
+    margin-left: -50px;
+}
+#estimation_popup.wpe_bootstraped .wpe_sliderQt {
+    width: 100%;
+    float: none;
+}
+#estimation_popup.wpe_bootstraped .wpe_sliderQt .ui-slider-handle:after {
+    content: '';
+    display: none;
+}
+#estimation_popup.wpe_bootstraped .wpe_sliderQt .ui-slider-handle:hover {
+    opacity: 1;
+}
+#estimation_popup.wpe_bootstraped .wpe_sliderQt .tooltip-inner {
+    width: 73px;    
+    margin-left: -8px;
+}
+
+#estimation_popup.wpe_bootstraped [data-type="slider"] .ui-slider-handle:after {
+    content: '';
+    display: none;
+}
+#estimation_popup.wpe_bootstraped [data-type="slider"] .ui-slider-handle:hover {
+    opacity: 1;
+}
+#estimation_popup.wpe_bootstraped [data-type="slider"] .tooltip-inner {
+    width: 73px;    
+    margin-left: -12px;
+}
+#estimation_popup.wpe_bootstraped #startInfos {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+#estimation_popup.wpe_bootstraped .quantityBtns a {
+    display: inline-block;
+    width: 24px;
+    line-height: 22px;
+    height: 24px;
+    background-color: #1abc9c;
+    color: white !important;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 2px;
+    font-weight: bold;
+}
+
+#estimation_popup.wpe_bootstraped .quantityBtns a:hover {
+    color: white;
+
+}
+
+#estimation_popup.wpe_bootstraped #finalSlide input.toggle, #estimation_popup.wpe_bootstraped #finalSlide textarea.toggle {
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped #finalSlide ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+#estimation_popup.wpe_bootstraped #finalSlide .validation_error, #estimation_popup.wpe_bootstraped #finalSlide #gforms_confirmation_message, #estimation_popup.wpe_bootstraped .gfield_description {
+    display: none;
+}
+#estimation_popup.wpe_bootstraped #finalSlide .validation_error, #estimation_popup.wpe_bootstraped #finalSlide #gforms_confirmation_message {
+    font-size: 38px;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+#estimation_popup.wpe_bootstraped #finalSlide .btn:not(#wpe_btnOrder):not(#btnOrderPaypal) {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#estimation_popup.wpe_bootstraped .gfield > div > div {
+    margin: 0 auto !important;
+}
+
+#estimation_popup.wpe_bootstraped .gfield > div > #input_1_3_toolbar :last-child {
+    display: none !important;
+}
+
+#estimation_popup.wpe_bootstraped .gform_body label {
+    clear: both;
+}
+
+#estimation_popup.wpe_bootstraped .gform_ajax_spinner {
+    display: none;
+}
+
+#estimation_popup.wpe_bootstraped table.gfield_list {
+    margin: 0 auto;
+}
+
+#estimation_popup.wpe_bootstraped .ginput_quantity_label {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+#estimation_popup.wpe_bootstraped #finalSlide .estimation_project, #estimation_popup.wpe_bootstraped #finalSlide .estimation_total {
+    display: none;
+}
+
+
+body .lfb_datepickerContainer .ui-datepicker-title {
+    text-align: center;
+    background-color: #1dd2af;
+    color: white;
+    padding: 8px;
+    margin: 0px;
+    line-height: 24px;
+}
+body .lfb_datepickerContainer th {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 8px;
+    color: #95a5a6;
+    font-weight: normal;
+}
+body .lfb_datepickerContainer td {
+    text-align: center;
+    padding: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #FFF;
+    color: #95a5a6;
+    border: 1px solid #ecf0f1;
+}
+body .lfb_datepickerContainer .ui-datepicker-calendar .ui-state-default,body .lfb_datepickerContainer .ui-datepicker-calendar .ui-widget-content .ui-state-default,
+body .lfb_datepickerContainer .ui-datepicker-calendar .ui-widget-header .ui-state-default,
+body .lfb_datepickerContainer td > a {
+    color: #1dd2af;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px;
+}
+
+body .lfb_datepickerContainer td a:hover {
+    opacity: 0.7;
+}
+body .lfb_datepickerContainer td.ui-datepicker-today a {
+    color: #34495e;
+}
+body .lfb_datepickerContainer .ui-datepicker-prev {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    color: white;
+    content: "<";
+    cursor: pointer;
+}
+
+body .lfb_datepickerContainer .ui-datepicker-next {
+    position: absolute;
+    right: 0px;
+    top: 7px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    color: white;
+    content: "<";
+    cursor: pointer;
+}
+
+
+body .lfb_datepickerContainer.lfb_datepickerHasMenu .ui-datepicker-prev, 
+body .lfb_datepickerContainer.lfb_datepickerHasMenu .ui-datepicker-next {
+    line-height: 40px;
+}
+body .lfb_datepickerContainer .ui-datepicker-prev,.lfb_datepickerContainer .ui-datepicker-next {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body .lfb_datepickerContainer .ui-datepicker-prev:before {
+    content: "\e079";
+}
+body .lfb_datepickerContainer .ui-datepicker-next:before {
+    content: "\e080";
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel input[type="file"].lfb_filefield {
+    margin-top: 4px;
+    font-size: 16px;
+    border: 0px;
+    line-height: 18px;
+    margin-top: 3px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary{
+    direction: rtl;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummaryContent {
+    overflow-x: hidden;
+    margin-bottom: 0px;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table,
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table,
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary tbody th{
+    background-color: #FFF;    
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table {
+    margin-bottom: 0px;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table .lfb_quantityTh {
+    width: 80px;
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table .lfb_priceTh {
+    width: 90px;
+    text-align: right;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table .lfb_quantityTd {
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table .lfb_priceTd {
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table thead,
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table thead{
+    background-color: #1dd2af;
+    color: #FFF;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table th.sfb_summaryStep,
+#lfb_bootstraped #estimation_popup.wpe_bootstraped #lfb_floatingSummary table th.sfb_summaryStep
+{
+    text-align: center;
+    color: #FFF;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary #sfb_summaryTotalTr th:first-child{
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary #lfb_summaryDiscountTr th:first-child {
+    text-align: right;
+    font-weight: normal;
+}
+#lfb_bootstraped.lfb_bootstraped  .dropdown-menu:not(.bootstrap-timepicker-widget):not(.datetimepicker) {
+    left: 0px !important;    
+    z-index: 2147483647 !important;
+}
+#lfb_bootstraped.lfb_bootstraped :not(.open)  > .dropdown-menu:not(.bootstrap-timepicker-widget):not(.datetimepicker) {
+    display: none;
+}
+#lfb_bootstraped.lfb_bootstraped .open  > .dropdown-menu:not(.bootstrap-timepicker-widget):not(.datetimepicker) {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table th {
+    vertical-align: top;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table th,#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table td{
+    text-align: right;
+    white-space: normal;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table td{
+    overflow-wrap: break-word;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary td:first-child,#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary th:first-child,
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary td:nth-child(2),#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary th:nth-child(2) {
+    text-align: left;
+}
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary td:first-child,body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary th,
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary td:first-child,body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary td {
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped #mainPanel #lfb_summary #lfb_summaryTotal {
+    text-align: right;
+}
+
+#estimation_popup.wpe_bootstraped  #lfb_floatingSummary #sfb_summaryTotalTr th,
+#estimation_popup.wpe_bootstraped  #lfb_floatingSummary #lfb_summaryTotal {
+    text-align: right;    
+}
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary #sfb_summaryTotalTr th,
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary #lfb_summaryTotal
+{
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped .caret{    
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_bootstrap-select.btn-group:not(.input-group-btn) {    
+    max-width: 380px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup.wpe_bootstraped .row {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+}
+
+#lfb_bootstraped.lfb_bootstraped btn-group.lfb_bootstrap-select.form-control {
+    width: auto;
+}
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary{
+    text-align: right;
+}
+body.rtl #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary table td {
+    text-align: right;
+}
+
+body.rtl #estimation_popup .linkPrevious > .fa {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph;
+    filter: fliph;
+}
+@media (max-width: 768px) {
+    #estimation_popup.wpe_bootstraped #mainPanel .genSlide .stepTitle {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 940px) {
+    #estimation_popup.wpe_bootstraped .genPrice {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    #estimation_popup.wpe_bootstraped #lfb_mainFormTitle {
+        font-size: 44px;
+    }
+    #estimation_popup.wpe_bootstraped #wpe_close_btn {
+        margin-top: 1px;
+        margin-right: 7px;
+    }
+
+    #estimation_popup.wpe_bootstraped #mainPanel {
+        min-height: auto;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    #estimation_popup #finalText {
+        margin-top: 48px;
+        font-size: 48px;
+    }
+
+    #estimation_popup.wpe_bootstraped #mainPanel .genSlide .stepTitle {
+        font-size: 28px;
+    }
+
+    #estimation_popup.wpe_bootstraped #mainPanel input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]), 
+    #estimation_popup.wpe_bootstraped #mainPanel textarea, #estimation_popup.wpe_bootstraped #mainPanel select, #estimation_popup.wpe_bootstraped #mainPanel .select-block,    
+    #estimation_popup.wpe_bootstraped #mainPanel .input-group{
+        width: 100%;
+    }
+
+    #estimation_popup.wpe_bootstraped  .genPrice {
+        width: 60%;
+    }
+
+}
+
+
+/* Loader */
+#estimation_popup.wpe_bootstraped #lfb_loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #1ABC9C;
+    z-index: 999999;
+    display:none;
+}
+#estimation_popup.wpe_bootstraped #lfb_loader .lfb_spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_loader  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #FFF;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_loader .double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+#estimation_popup.wpe_bootstraped .lfb_stepDescription {
+    opacity: 0;
+    position: absolute;
+    top: 120px;   
+    width: 100%;
+    text-align: center;
+    margin-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#estimation_popup.wpe_bootstraped .lfb_tooltip {
+    position: absolute;
+    z-index: 1070;
+    font-size: 14px;
+    line-height: 1.286;
+    margin-top: 3px;
+    padding: 5px 0;
+    padding-top: 8px;
+    margin-left: -8px;
+
+}
+#estimation_popup.wpe_bootstraped .lfb_tooltip.top {
+    margin-top: -4px;
+    padding: 5px 0;
+    padding-bottom: 9px;
+    margin-left: -8px;
+}
+#estimation_popup.wpe_bootstraped .lfb_tooltip .lfb_tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    left: 50%;
+    border-width: 0 9px 9px;
+    margin-left: -8px;
+    top: -1px;
+}
+#estimation_popup.wpe_bootstraped .lfb_tooltip.bottom .lfb_tooltip-arrow {
+    border-bottom-color: #34495e;
+    border-width: 0 9px 9px;
+    margin-left: -9px;
+    top: -1px;
+}
+#estimation_popup.wpe_bootstraped .lfb_tooltip.top .lfb_tooltip-arrow {
+    border-top-color: #34495e;
+    border-width: 9px 9px 0;
+    top: auto;
+    bottom: 0px;
+    margin-left: -8px;
+}
+#estimation_popup.wpe_bootstraped .lfb_tooltip .lfb_tooltip-inner {
+    background-color: #34495e;
+    line-height: 1.286;
+    padding: 12px;
+    text-align: center;
+    width: 183px;
+    border-radius: 6px;
+    max-width: 200px;
+    color: #fff;
+}
+#estimation_popup.wpe_bootstraped #lfb_summary #lfb_summaryDiscountTr,
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary #lfb_summaryDiscountTr{
+    display: none;
+}
+#estimation_popup.wpe_bootstraped #mainPanel input#lfb_couponField {
+    width: 324px;
+    display: inline-block;
+}
+body > .ui-datepicker {
+    display: none;
+}
+#estimation_popup.wpe_bootstraped .lfb_colorpicker {
+    width: 1px !important;
+    height: 1px !important;
+    opacity: 0;   
+    position: relative;
+    left: -64px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_colorPreview {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    border: 2px solid #bdc3c7;
+    background-color: #FFF;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: background-color 0.8s;
+    transition: background-color 0.8s;
+    margin-top: 8px;
+    margin-right: 7px;
+    margin-left: 14px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_dropzone {
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-style: dashed;
+    min-width: 380px;
+    margin-top: 7px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_item.has-error .lfb_dropzone {
+    border-color: #e74c3c;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_dropzone .dz-preview .dz-remove {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    z-index: 999999;
+    font-size: 18px;
+    text-decoration: none;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_dropzone .dz-preview .dz-remove:hover {
+    text-decoration: none;
+    opacity: 0.7;    
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_dropzone .lfb_removeFile {
+    font-size: 18px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+    display: block;
+    z-index: 999;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_bootstrap-select {
+    max-width: 380px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_bootstrap-select .dropdown-toggle {
+    min-width: 160px;
+    max-width: 380px;
+    outline: none !important;
+    text-shadow: none;
+    max-height: 42px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_dropzone .dz-message {
+    font-size: 22px;
+    margin-top: 28px;
+}
+
+#lfb_bootstraped.lfb_bootstraped .genSlide .lfb_distanceError  {
+    margin-bottom: 0px;
+    margin-top: 38px;
+}
+#lfb_bootstraped.lfb_bootstraped .genSlide .lfb_distanceError p{
+    color: #c0392b;
+    margin-bottom: 0px;
+}
+#estimation_popup.wpe_bootstraped .dropdown-menu:not(.datetimepicker) {
+    margin-top: 1px;
+}
+#estimation_popup.wpe_bootstraped .dropdown-menu:not(.datetimepicker) li.selected>a {
+    border-radius: 0px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_bootstrap-select.btn-group .dropdown-menu li a:hover {
+    opacity: 0.8;
+    background-color: inherit;
+}
+@-webkit-keyframes bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+/* Eof Loader */
+
+@media (min-width: 768px) {
+    #estimation_popup.wpe_bootstraped #lfb_mainFormTitle {
+        font-size: 42px;
+    }   
+    #estimation_popup.wpe_bootstraped .lfb_stepDescription {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
+@media only screen and (max-width: 768px) {    
+    #estimation_popup.wpe_bootstraped .lfb_stepDescription {
+        /*  position: relative !important; */       
+        /* padding: 0px !important;*/
+        /*top: 120px !important;*/
+        padding-bottom: 48px !important;
+    }    
+    #estimation_popup.wpe_bootstraped #mainPanel {
+        padding-bottom: 118px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body .ui-datepicker.lfb_datepickerContainer {
+        position: fixed !important;
+        left: 0px !important;
+        top: 0px !important;
+        width: 100% !important;
+        height: 100% !important;		
+    }
+    body .lfb_datepickerContainer td {
+        line-height: 52px;
+        font-size: 20px;	   
+    }
+    body .colpick_hex {
+        left: 50% !important;
+        margin-left: -104px;
+    }
+    #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary {
+        width: 100%;
+    }
+    #estimation_popup.wpe_bootstraped #mainPanel input#lfb_couponField {
+        width: 80%;
+    }
+    #estimation_popup.wpe_bootstraped #mainPanel #lfb_summary {
+        font-size: 12px;
+    }
+    #estimation_popup.wpe_bootstraped #mainPanel { padding: 4px;
+                                                   padding-bottom: 118px; }
+    #estimation_popup.wpe_bootstraped .x-container.max.width {
+        padding: 0px !important;
+        width: 100% !important;
+    }
+    #estimation_popup.wpe_bootstraped .x-column.x-sm.x-1-1 {
+        padding: 0px!important;
+    }
+
+    #lfb_bootstraped.lfb_bootstraped .lfb_dropzone {
+        max-width: 95%;
+        margin: 0 auto;
+        min-width: 95%;
+    }
+    #lfb_bootstraped.lfb_bootstraped .lfb_bootstrap-select.btn-group:not(.input-group-btn) {    
+        max-width: 280px;
+    }
+
+    #estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent {
+        margin-top: 28px !important;
+        /*padding-top: 28px !important;*/
+    }
+    #estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent.lfb_noDes {
+        padding-top: 58px !important;
+    }
+    #estimation_popup.wpe_bootstraped #mainPanel .genSlide .genContent .itemBloc {
+        margin-top: 28px;
+        margin-bottom: 8px;
+    }
+    #estimation_popup.wpe_bootstraped #startInfos {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup btnStart{
+    margin-bottom: 28px;    
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-totalrange]:not([data-showsteps="true"]) .progress-bar-price.lfb_notNull {
+    line-height: 13px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-totalrange]:not([data-showsteps="true"]) .progress-bar-price.lfb_notNull  > span {
+    top: 7px !important;
+    font-size: 10px !important;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-totalrange]:not([data-showsteps="true"]) .progress-bar-price.lfb_notNull  > span > strong {
+    font-size: 14px !important;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-totalrange] #finalPrice {
+    line-height: 26px;
+    font-size: 16px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-totalrange] #finalPrice strong {
+    font-size: 28px;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"],
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] h1,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] h2,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] h3,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] p,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] .row,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .genSlide .stepTitle,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .genSlide .lfb_stepDescription,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] label,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] .form-group,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] .genContentSlide,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] label {    
+    text-align: left;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] {
+    padding-top: 48px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .genSlide .stepTitle {
+    left: 28px;
+}
+/*
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #wpe_panel{
+    padding-left: 28px;
+    padding-right: 28px;
+}*/
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel {
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 48px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #startInfos {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #btnStart{
+    margin-left: 28px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] .genPrice {    
+    padding-left: 68px;
+    padding-right: 68px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #finalSlide #lfb_finalLabel {
+    display: inline-block;
+    width: auto;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #finalSlide #finalPrice {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #lfb_summary,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #lfb_legalNoticeContent{
+    margin-left: 0px;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .genSlide .genContent .itemDes {
+    margin-left: 0px;
+    max-width: 100% !important;
+    text-align: justify;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] .genSlide .lfb_totalBottomContainer hr{
+    max-width: 100%;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel textarea, #lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel select,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .select-block,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .input-group{
+    margin-left: 0px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-alignleft="true"] #mainPanel .genSlide .genContent .col-md-2 {
+    padding-left: 0px;
+}
+#estimation_popup.wpe_bootstraped[data-inlinelabels="true"]  #mainPanel input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+#estimation_popup.wpe_bootstrape[data-inlinelabels="true"]  #mainPanel textarea,
+#estimation_popup.wpe_bootstraped[data-inlinelabels="true"]  #mainPanel select,
+#estimation_popup.wpe_bootstraped[data-inlinelabels="true"]  #mainPanel .select-block,
+#estimation_popup.wpe_bootstraped[data-inlinelabels="true"] #mainPanel .input-group{
+    width: 280px;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"] .form-group > label,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"] .itemBloc >p > label{
+    margin-right: 8px;
+    width: 140px;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"]:not([data-alignleft="true"]) .form-group > label,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"]:not([data-alignleft="true"]) .itemBloc >p > label {
+    text-align: right;
+    vertical-align: top;
+    margin-top: 8px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"] .form-control {
+    display: inline-block;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"] .form-control.toggle {
+    margin-top: 14px;
+    display: none;
+    width: 434px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-inlinelabels="true"] .switch.has-switch {
+    vertical-align: middle;
+}
+
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #mainPanel .lfb_btnNextContainer {
+    border-top: 1px solid #bdc3c7;
+    padding-top: 20px;
+    text-align: left;
+    position: static !important;    
+    margin-left: 28px;
+    margin-right: 28px;
+    width: auto !important;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] .genSlide h3.lfb_totalBottom {
+    text-align: right;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] .linkPrevious {
+    min-width: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    border-radius: 4px;
+    padding: 10px 15px;
+    -webkit-font-smoothing: subpixel-antialiased;	
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    text-decoration: none;
+    background-color: #bdc3c7;	
+    display: inline-block !important;	
+    float: left;
+    margin-top: -30px;
+    margin-right: 18px;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] .btn-next,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #btnOrderPaypal,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #wpe_btnOrderStripe,
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #wpe_btnOrder {
+    float: right;
+    /*margin-right: 18px;*/
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #wpe_btnOrder {
+    float: right;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #finalSlide .linkPrevious {
+    float: none;
+    margin-top: 0px;
+}
+
+#lfb_bootstraped.lfb_bootstraped #estimation_popup #lfb_captcha-wrap{
+
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup #lfb_captcha {
+    margin-bottom: 14px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup #lfb_captchaPanel > p {
+    margin-bottom: 4px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup #lfb_captcha_refresh {
+    font-size: 18px;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+#lfb_bootstraped.lfb_bootstraped #estimation_popup #lfb_captchaField {
+    width: 110px;
+}
+#ajax-loading-screen {display: none !important;}
+
+#estimation_popup.wpe_bootstraped .form-group.has-error .btn-default {
+    color: #e74c3c;
+}
+#estimation_popup.wpe_bootstraped > .bootstrap-timepicker-widget {
+    width: 210px;    
+    position: fixed;
+    padding: 8px;
+    border-radius: 4px;
+}
+#estimation_popup.wpe_bootstraped > .bootstrap-timepicker-widget a[href="#"] {
+    font-size: 20px;
+    margin-left: 10px;
+}
+#estimation_popup.wpe_bootstraped > .bootstrap-timepicker-widget input {
+    background-color: #FFF;
+    font-size: 14px;
+    color: #bdc3c7;
+    max-width:60px;
+}
+#estimation_popup.wpe_bootstraped > .bootstrap-timepicker-widget td.separator {
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+#estimation_popup.wpe_bootstraped .input-group-addon  {
+    font-size: 22px;
+    padding: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-transition: border .5s ease-in,color .25s linear,background-color .25s linear;
+    transition: border .5s ease-in,color .25s linear,background-color .25s linear;
+}
+#estimation_popup.wpe_bootstraped .input-group-addon  > .fa {
+    width: 24px;
+}
+
+#estimation_popup.wpe_bootstraped[data-stylefields="light"] .form-control:not(textarea){
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+#estimation_popup.wpe_bootstraped[data-stylefields="light"] .form-control {
+    border-radius: 0px;
+}
+#estimation_popup.wpe_bootstraped[data-stylefields="light"] .form-control:not(textarea){    
+    -webkit-transition: border .5s ease-in,color .25s linear,background-color .25s linear;
+    transition: border .5s ease-in,color .25s linear,background-color .25s linear;
+}
+#estimation_popup.wpe_bootstraped[data-stylefields="light"]  .input-group-addon  {
+    border-top: 0px;
+    border-right:0px;
+    border-left: 0px;
+    border-bottom: 2px solid;
+    font-size: 28px;
+    padding: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 0px;
+}
+#estimation_popup.wpe_bootstraped:not([data-stylefields="light"]) .form-group.has-error .input-group-addon  {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: white;
+}
+#estimation_popup.wpe_bootstraped[data-stylefields="light"] .form-group.has-error :not(.focus)>.input-group-addon  {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+#estimation_popup.wpe_bootstraped a.btn {
+    position: relative;
+}
+
+#estimation_popup.wpe_bootstraped .lfb_shineCanvas {
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+#estimation_popup.wpe_bootstraped .lfb_layeredImage {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 28px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+#estimation_popup.wpe_bootstraped .lfb_layeredImage > img:not(.lfb_baseLayer ) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+#estimation_popup.wpe_bootstraped .lfb_bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;    
+}
+.pac-container{
+    z-index: 99999999 !important;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped  #lfb_summary thead th{
+    padding: 8px;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped {
+    padding: 0px;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel {
+    padding-top: 28px;    
+}
+
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel .stepTitle {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel p {
+    text-align: initial;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #lfb_summary {
+    text-align: initial;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #lfb_summary table {
+    width: 100% !important;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #lfb_summary hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel .lfb_btnNextContainer {
+    text-align: center;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel {
+    min-height: 100%;
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel #lfb_payFormFinalTxt {
+    font-size: 53px;
+    margin-top: 140px;    
+}
+#lfb_bootstraped.lfb_payForm #estimation_popup.wpe_bootstraped #mainPanel .wp-video {
+    margin: 0 auto !important;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped .lfb_stripeContainer {
+    border: 2px solid #CCC;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 6px;
+    max-width: 100%;
+    padding: 12px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped .lfb_stripeContainer .payment-errors{ 
+    display: block;
+    padding-bottom: 12px;
+    margin-top: -16px;
+    color:#e74c3c;
+    font-size: 18px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped .lfb_stripeLogoImg {
+    max-height: 26px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 180px;
+    margin-bottom: 12px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped .lfb_floatingSummaryBtnCtWrapper {
+    position: relative;    
+    padding-bottom: 16px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_fullscreen .lfb_floatingSummaryBtnCtWrapper,
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_popup .lfb_floatingSummaryBtnCtWrapper {
+    position: static;
+    padding-bottom: 0px;
+}
+#estimation_popup.wpe_bootstraped .lfb_floatingSummaryBtnCt  {
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    top:8px;
+    z-index: 999;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_fullscreen .lfb_floatingSummaryBtnCt,
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_popup .lfb_floatingSummaryBtnCt {
+    right: 8px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_popup .lfb_floatingSummaryBtnCt  {
+    top: 48px;
+    min-height: 43px;
+}
+#estimation_popup.wpe_bootstraped .lfb_btnFloatingSummary{
+    display: none;
+    opacity:1;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#estimation_popup.wpe_bootstraped .lfb_btnSaveForm {
+    display: none;
+    opacity:1;
+    -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;    
+}
+#estimation_popup.wpe_bootstraped .lfb_btnFloatingSummary.btn-circle,
+#estimation_popup.wpe_bootstraped .lfb_btnSaveForm.btn-circle {
+    width: 43px;
+}
+#estimation_popup.wpe_bootstraped .lfb_btnFloatingSummary.disabled,
+#estimation_popup.wpe_bootstraped .lfb_btnSaveForm.disabled{
+    opacity:0;
+}
+#estimation_popup.wpe_bootstraped .lfb_btnFloatingSummary:not(.btn-circle) > .fa,
+#estimation_popup.wpe_bootstraped .lfb_btnSaveForm:not(.btn-circle) > .fa{
+    margin-right: 8px;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary {
+    background-color: transparent;    
+    position: absolute;
+    max-width: 100%;
+    width: 380px;
+    right: 0px;
+    top: 42px;
+    z-index: 9999;
+    border-radius: 6px;
+    font-size: 13px;    
+    display: none;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary #lfb_floatingSummaryInner {    
+    max-height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #CCC;
+    margin-top: 15px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_fullscreen #lfb_floatingSummary,
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_popup #lfb_floatingSummary {
+    right: 4px;
+}
+#lfb_bootstraped #estimation_popup.wpe_bootstraped.wpe_popup #lfb_floatingSummary  {
+    top: 80px;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary .sfb_summaryStep {
+    cursor: pointer;    
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary .sfb_summaryStep:hover{
+    opacity: 0.8;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 16px 16px 16px;
+    border-color: transparent transparent #cccccc transparent;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    float: right;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table {
+    border: 0px;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table thead tr th:first-child{
+    border-left: 0px;
+}
+#estimation_popup.wpe_bootstraped #lfb_floatingSummary table thead tr th:last-child{
+    border-right: 0px;
+}
+#estimation_popup.wpe_bootstraped .genSlide .lfb_imgTitle {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+#lfb_bootstraped.lfb_bootstraped .lfb_datepicker.form-control[readonly] {
+    cursor: pointer;
+    background-color: #FFF;		
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker {
+    position: absolute;
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    display: none;
+    margin-top: 0px;
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+    width: 221px;
+}
+
+#lfb_bootstraped.lfb_bootstraped [class*=" datetimepicker-dropdown"]:before {
+    border-bottom-color: #34495e;  
+}
+
+#lfb_bootstraped.lfb_bootstraped [class*=" datetimepicker-dropdown"]:after { 
+    border-bottom-color: #34495e;    
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td  {
+    padding: 2px;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td span.active:active, .datetimepicker table tr td span.active:hover:active,
+#lfb_bootstraped.lfb_bootstraped  .datetimepicker table tr td span.active.disabled:active, .datetimepicker table tr td span.active.disabled:hover:active,
+#lfb_bootstraped.lfb_bootstraped  .datetimepicker table tr td span.active.active, .datetimepicker table tr td span.active:hover.active,
+#lfb_bootstraped.lfb_bootstraped  .datetimepicker table tr td span.active.disabled.active,
+#lfb_bootstraped.lfb_bootstraped  .datetimepicker table tr td span.active.disabled:hover.active,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active:active,
+
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active:hover:active,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active.disabled:active,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active.disabled:hover:active,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active.active,
+#lfb_bootstraped.lfb_bootstraped  .datetimepicker table tr td.active:hover.active,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active.disabled.active,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.active.disabled:hover.active {
+    background-color: #1abc9c;
+    background-image: none;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.minute:hover {
+    background: #16a085;
+    cursor: pointer;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.hour:hover {
+    background: #16a085;
+    cursor: pointer;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.day:hover {
+    background: #16a085;
+    cursor: pointer;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td span:hover {
+    background: #16a085;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr th,#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td {
+    color: white;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr th.disabled,#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.disabled {
+    color: #bdc3c7;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td:hover,
+#lfb_bootstraped.lfb_bootstraped  .datetimepicker table tr th:hover {
+    opacity: 0.9;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker .datetimepicker-hours td,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker .datetimepicker-minutes td{
+    min-width: 40px;
+}
+.datetimepicker .datetimepicker-minutes th.prev,
+.datetimepicker .datetimepicker-minutes th.next {
+    display: none !important;
+}
+.datetimepicker .datetimepicker-minutes th.switch {
+    width: 100% !important;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.new, #lfb_bootstraped.lfb_bootstraped .datetimepicker table tr td.old {
+    color: inherit;
+    opacity: 0.9;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker th.switch {
+    vertical-align: middle;
+}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker .datetimepicker-hours table,
+#lfb_bootstraped.lfb_bootstraped .datetimepicker .datetimepicker-hours table th:not(.prev):not(.next),
+#lfb_bootstraped.lfb_bootstraped .datetimepicker .datetimepicker-hours table td { width: 100%;}
+#lfb_bootstraped.lfb_bootstraped .datetimepicker table  { width: 100%;}
+
+body.rtl #estimation_popup .lfb_totalBottom span {
+    direction: rtl !important;
+    unicode-bidi: embed  !important ;
+}
+body.rtl #estimation_popup.wpe_bootstraped .genPrice span:not(.lfb_subPrice) {
+    direction: rtl  !important ;
+    unicode-bidi: embed  !important ;
+}
+#estimation_popup .fa {font-family: FontAwesome !important;}
+
+#estimation_popup.wpe_bootstraped .itemBloc.has-error > div > label {
+    color: #e74c3c !important;
+}
+#estimation_popup.wpe_bootstraped .itemBloc.has-error .switch-right {
+    color: #e74c3c !important;
+}
+
+@media (max-width: 480px) {	
+    #lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] .btn-next,
+    #lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #btnOrderPaypal, 
+    #lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #wpe_btnOrderStripe,
+    #lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] #wpe_btnOrder {
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #lfb_bootstraped.lfb_bootstraped #estimation_popup[data-previousstepbtn="true"] .linkPrevious {
+        min-width: 100%;
+        float: none;
+        width: 100%;
+        margin-top: 4px;
+    }	
+    #estimation_popup.wpe_bootstraped > .bootstrap-timepicker-widget {
+        position: fixed;
+    }   
+    #estimation_popup.wpe_bootstraped #lfb_floatingSummary {
+        position: relative;
+        width: 100%!important;
+        right: 0!important;
+        margin-top: -38px;
+        top:0px;
+    }
+    #estimation_popup.wpe_bootstraped #lfb_floatingSummary:before {
+        top: -15px;
+        display: none;
+    }
+
+    #estimation_popup .selectable  .img {
+        max-width: 100% !important;
+    }
+
+}

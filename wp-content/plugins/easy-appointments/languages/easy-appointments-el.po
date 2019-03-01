@@ -1,0 +1,929 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Appointments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 04:38+0000\n"
+"PO-Revision-Date: 2018-11-05 06:26+0000\n"
+"Last-Translator: Perry Germani <mergermani@gmail.com>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: src/templates/admin.tpl.php:892
+msgid ""
+"(in minutes). Prevent visitor from making an appointment if there are less "
+"minutes than this."
+msgstr ""
+"(σε λεπτά). Αποτρέψτε τον επισκέπτη από την πραγματοποίηση ραντεβού εάν "
+"υπάρχουν λιγότερα λεπτά από αυτό."
+
+#: src/logic.php:350
+msgid "abandoned"
+msgstr "εγκαταλελλειμένος"
+
+#: src/templates/appointments.tpl.php:87
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: src/templates/admin.tpl.php:83 src/templates/admin.tpl.php:154
+#: src/templates/admin.tpl.php:233 src/templates/admin.tpl.php:306
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: src/templates/admin.tpl.php:360
+msgid "Active from"
+msgstr "Ενεργός από"
+
+#: src/templates/admin.tpl.php:533
+msgid "Active from date"
+msgstr "Ενεργός από την ημερομηνία"
+
+#: src/templates/admin.tpl.php:913
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: src/templates/appointments.tpl.php:70
+msgid "Add New Appointment"
+msgstr "Προσθήκη νέου ραντεβού"
+
+#: src/templates/admin.tpl.php:281
+msgid "Add New Connection"
+msgstr "Προσθήκη νέας σύνδεσης"
+
+#: src/templates/admin.tpl.php:54
+msgid "Add New Location"
+msgstr "Προσθήκη νέας τοποθεσίας"
+
+#: src/templates/admin.tpl.php:124
+msgid "Add New Service"
+msgstr "Προσθήκη νέας υπηρεσίας"
+
+#: src/templates/admin.tpl.php:202
+msgid "Add New Worker"
+msgstr "Προσθέστε νέο εργαζόμενο"
+
+#: src/templates/admin.tpl.php:81
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: src/templates/admin.tpl.php:690
+msgid "Admin"
+msgstr "Διαχειριστής"
+
+#: src/templates/admin.tpl.php:735
+msgid "Admin notification subject"
+msgstr "Θέμα ειδοποίησης διαχειριστή"
+
+#: src/templates/admin.tpl.php:998
+msgid ""
+"After a visitor creates an appointment on the front-end form. Leave blank to "
+"turn off redirect."
+msgstr ""
+"Αφού ένας επισκέπτης δημιουργήσει ένα ραντεβού στη φόρμα του front-end. "
+"Αφήστε κενό για να απενεργοποιήσετε την ανακατεύθυνση."
+
+#: src/templates/admin.tpl.php:971
+msgid "After cancel go to"
+msgstr "Μετά την ακύρωση πηγαίνετε στο"
+
+#: src/mail.php:184
+msgid "Appointment can't be canceled"
+msgstr "Δεν είναι δυνατή η ακύρωση του ραντεβού"
+
+#: src/mail.php:166
+msgid "Appointment can't be canceled!"
+msgstr "Δεν είναι δυνατή η ακύρωση του ραντεβού!"
+
+#: src/mail.php:139
+msgid "Appointment can't be confirmed!"
+msgstr "Δεν είναι δυνατή η επιβεβαίωση του ραντεβού!"
+
+#: src/mail.php:190
+msgid "Appointment has been canceled"
+msgstr "Το ραντεβού ακυρώθηκε"
+
+#: src/mail.php:157
+msgid "Appointment has been confirmed."
+msgstr "Το ραντεβού έχει επιβεβαιωθεί"
+
+#: src/admin.php:296 src/admin.php:297 src/templates/appointments.tpl.php:6
+msgid "Appointments"
+msgstr "Ραντεβού"
+
+#: src/templates/admin.tpl.php:622
+msgid "Auto reservation"
+msgstr ""
+
+#: src/templates/admin.tpl.php:885
+msgid "Block time"
+msgstr ""
+
+#: src/frontend.php:261 src/frontend.php:415
+msgid "Booking overview"
+msgstr "Επισκόπηση κρατήσεων"
+
+#: src/templates/admin.tpl.php:285
+msgid "Bulk Add New Connections"
+msgstr ""
+
+#: src/templates/admin.tpl.php:866
+msgid "Calendar localization"
+msgstr ""
+
+#: src/frontend.php:285 src/frontend.php:418 src/templates/admin.tpl.php:115
+#: src/templates/admin.tpl.php:192 src/templates/admin.tpl.php:271
+#: src/templates/admin.tpl.php:465 src/templates/appointments.tpl.php:224
+msgid "Cancel"
+msgstr "Ματαίωση"
+
+#: src/mail.php:353
+msgid "Cancel appointment"
+msgstr "Ακύρωση ραντεβού"
+
+#: src/templates/admin.tpl.php:687
+msgid "Canceled"
+msgstr "Ακυρώθηκε"
+
+#: src/logic.php:351
+msgid "canceled"
+msgstr "ακυρώθηκε"
+
+#: src/templates/report.tpl.php:24
+msgid "Click on menu icon to open report."
+msgstr "Κάντε κλικ στο εικονίδιο μενού για να ανοίξετε την αναφορά"
+
+#: src/templates/admin.tpl.php:377 src/templates/appointments.tpl.php:130
+msgid "Clone"
+msgstr "Κλωνοποίηση"
+
+#: src/frontend.php:413
+msgid "Comment"
+msgstr "Σχόλιο"
+
+#: src/templates/admin.tpl.php:594
+msgid "Compatibility mode"
+msgstr "Λειτουργία συμβατότητας"
+
+#: src/mail.php:354
+msgid "Confirm appointment"
+msgstr "Επιβεβαίωση ραντεβού"
+
+#: src/templates/admin.tpl.php:689
+msgid "Confirmed"
+msgstr "Επιβεβαιώθηκε"
+
+#: src/logic.php:352
+msgid "confirmed"
+msgstr "επιβεβαιώθηκε"
+
+#: src/templates/admin.tpl.php:28 src/templates/admin.tpl.php:577
+msgid "Connections"
+msgstr "Συνδέσεις"
+
+#: src/templates/appointments.tpl.php:86
+#: src/templates/mail.notification.tpl.php:36
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: src/templates/admin.tpl.php:1064
+msgid "Currency"
+msgstr "Νόμισμα"
+
+#: src/templates/admin.tpl.php:1073
+msgid "Currency before price"
+msgstr "Σύμβολο νομίσματος πριν την τιμή"
+
+#: src/templates/admin.tpl.php:898
+msgid "Custom form fields"
+msgstr "Προσαρμόστε τα πεδία φόρμας"
+
+#: src/templates/admin.tpl.php:934
+msgid "Custom style"
+msgstr "Προσαρμόστε το στυλ"
+
+#: src/templates/appointments.tpl.php:83
+msgid "Customer"
+msgstr "Πελάτης"
+
+#: src/templates/admin.tpl.php:34
+msgid "Customize"
+msgstr "Προσαρμόστε"
+
+#: src/templates/report.tpl.php:65
+msgid "Customize columns for export!"
+msgstr "Προσαρμόστε τις στήλες για εξαγωγή!"
+
+#: src/logic.php:246
+msgid ""
+"Daily limit of booking request has been reached. Please contact us by email!"
+msgstr ""
+"Έχετε φτάσει το ημερήσιο όριο κρατήσεων. Επικοινωνήστε μαζί μας μέσω "
+"ηλεκτρονικού ταχυδρομείου!"
+
+#: src/templates/admin.tpl.php:303 src/templates/appointments.tpl.php:196
+#: src/templates/mail.notification.tpl.php:24
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: src/templates/admin.tpl.php:843
+msgid "Date & Time"
+msgstr "Ημερομηνία και Ώρα"
+
+#: src/frontend.php:183 src/frontend.php:416
+#: src/templates/appointments.tpl.php:85
+msgid "Date & time"
+msgstr "Ημερομηνία και ώρα"
+
+#: src/templates/admin.tpl.php:298 src/templates/admin.tpl.php:503
+msgid "Days of week"
+msgstr "Ημέρες της εβδομάδας"
+
+#: src/templates/admin.tpl.php:652
+msgid "Default status"
+msgstr "Προεπιλεγμένη κατάσταση"
+
+#: src/templates/admin.tpl.php:665
+msgid "Default status of Appointment made by visitor."
+msgstr "Προεπιλεγμένη κατάσταση του ραντεβού από επισκέπτη."
+
+#: src/templates/admin.tpl.php:104 src/templates/admin.tpl.php:180
+#: src/templates/admin.tpl.php:259 src/templates/admin.tpl.php:376
+#: src/templates/appointments.tpl.php:129
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: src/install.php:749 src/templates/admin.tpl.php:230
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: src/templates/appointments.tpl.php:84
+msgid "Descrtiption"
+msgstr "Περιγραφή"
+
+#: src/templates/admin.tpl.php:830
+msgid "Done message"
+msgstr "Το μήνυμα  έγινε "
+
+#: src/templates/admin.tpl.php:151
+msgid "Duration (in minutes)"
+msgstr "Διάρκεια (σε λεπτά)"
+
+#: src/templates/admin.tpl.php:472
+msgid "each combination will be one connection"
+msgstr "κάθε συνδυασμός θα είναι μία σύνδεση"
+
+#. Name of the plugin
+msgid "Easy Appointments"
+msgstr ""
+
+#: src/templates/admin.tpl.php:103 src/templates/admin.tpl.php:179
+#: src/templates/admin.tpl.php:258 src/templates/admin.tpl.php:375
+#: src/templates/appointments.tpl.php:128
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: src/install.php:746
+msgid "EMail"
+msgstr "Email"
+
+#: src/frontend.php:410 src/templates/admin.tpl.php:231
+msgid "Email"
+msgstr "Email"
+
+#: src/templates/admin.tpl.php:1151
+msgid "Email address"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: src/templates/admin.tpl.php:443 src/templates/mail.notification.tpl.php:32
+msgid "End"
+msgstr "Τέλος"
+
+#: src/templates/admin.tpl.php:356
+msgid "ends at"
+msgstr "τελειώνει στις"
+
+#: src/templates/admin.tpl.php:730
+msgid ""
+"Enter email adress that will receive new reservation notification. Separate "
+"multiple emails with , (comma)"
+msgstr ""
+"Εισάγετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου που θα λάβει νέα ειδοποίηση "
+"κράτησης. Διαχωρίστε τα πολλαπλά μηνύματα ηλεκτρονικού ταχυδρομείου με, "
+"(κόμμα)"
+
+#: src/templates/admin.tpl.php:1167
+msgid "Error log"
+msgstr "Αρχείο καταγραφής σφαλμάτων"
+
+#: src/templates/admin.tpl.php:1046
+msgid "Error message"
+msgstr "Μήνυμα σφάλματος"
+
+#: src/templates/report.tpl.php:19
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: src/templates/report.tpl.php:78
+msgid "Export data"
+msgstr "Εξαγωγή δεδομένων"
+
+#: src/templates/report.tpl.php:77
+msgid "Export data to CSV, can be imported to MS Excel, OpenOffice Calc... "
+msgstr ""
+"Εξαγωγή δεδομένων σε CSV, μπορεί να εισαχθεί στο MS Excel, OpenOffice Calc .."
+
+#: src/frontend.php:257 src/frontend.php:409
+msgid "Fields with * are required"
+msgstr "Τα πεδία με * είναι υποχρεωτικά"
+
+#: src/frontend.php:191 src/frontend.php:424
+msgid "Form validation code expired. Please refresh page in order to continue."
+msgstr ""
+"Ο κωδικός επικύρωσης φόρμας έληξε. Ανανεώστε τη σελίδα για να συνεχίσετε."
+
+#: src/templates/admin.tpl.php:344 src/templates/admin.tpl.php:426
+#: src/templates/admin.tpl.php:510
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: src/templates/report.tpl.php:76 src/templates/appointments.tpl.php:51
+msgid "From"
+msgstr "Από"
+
+#: src/templates/admin.tpl.php:1017
+msgid "GDPR section checkbox."
+msgstr "Ενότητα GDPR"
+
+#: src/templates/admin.tpl.php:991
+msgid "Go to page"
+msgstr "Πήγαινε στην σελίδα"
+
+#: src/templates/admin.tpl.php:1082
+msgid "Hide price"
+msgstr "Απόκρυψη τιμής"
+
+#. Author URI of the plugin
+msgid "http://nikolaloncar.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://easy-appointments.net/"
+msgstr ""
+
+#: src/templates/admin.tpl.php:958
+msgid "I agree field"
+msgstr "Πεδίο έγγρισης"
+
+#: src/templates/admin.tpl.php:966
+msgid ""
+"I agree option at the end of form. If this is marked user must confirm \"I "
+"agree\" checkbox."
+msgstr ""
+"Συμφωνώ με την επιλογή στο τέλος της φόρμας. Αν αυτό έχει επισημανθεί, ο "
+"χρήστης πρέπει να επιβεβαιώσει το πλαίσιο ελέγχου \"Συμφωνώ\"."
+
+#: src/frontend.php:266 src/frontend.php:420
+msgid "I agree with terms and conditions"
+msgstr "Συμφωνώ με τους όρους και τις προϋποθέσεις"
+
+#: src/templates/mail.notification.tpl.php:4
+msgid "Id"
+msgstr ""
+
+#: src/templates/admin.tpl.php:601
+msgid ""
+"If you can't <strong>EDIT</strong> or <strong>DELETE</strong> conecntion or "
+"any other settings, you should mark this option. NOTE: <strong>After saving "
+"this options you must refresh page!</strong>"
+msgstr ""
+"Εάν δεν μπορείτε να επεξεργαστείτε ή να διαγράψετε μιά σύνδεση ή οποιαδήποτε "
+"άλλη ρύθμιση, θα πρέπει να σημειώσετε αυτήν την επιλογή. ΣΗΜΕΙΩΣΗ: Αφού "
+"αποθηκεύσετε αυτές τις επιλογές, πρέπει να ανανεώσετε τη σελίδα!"
+
+#: src/templates/admin.tpl.php:644
+msgid ""
+"if you have issues with validation code that is expired in form you can turn "
+"off nonce but you are doing that on your own risk."
+msgstr ""
+"Εάν έχετε προβλήματα με τον κωδικό επαλήθευσης που έχει λήξει στη φόρμα, "
+"μπορείτε να απενεργοποιήσετε το nonce, αλλά το άνετε παίρνοντας το ρίσκο από "
+"μόνοι σας"
+
+#: src/frontend.php:192 src/frontend.php:425
+msgid "Internal error. Please try again later."
+msgstr "Εσωτερικό σφάλμα. Παρακαλώ προσπαθήστε ξανά αργότερα."
+
+#: src/ajax.php:755
+msgid "Invalid email address!"
+msgstr "Μη έγκυρη διεύθυνση e-mail!"
+
+#: src/mail.php:122
+msgid "Invalid token."
+msgstr "Μη έγκυρο διακριτικό"
+
+#: src/templates/admin.tpl.php:541
+msgid "Is Working"
+msgstr "Δουλεύει"
+
+#: src/templates/admin.tpl.php:305
+msgid "Is working"
+msgstr "Δουλεύει"
+
+#: src/templates/admin.tpl.php:1022
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: src/templates/admin.tpl.php:1029
+msgid "Label next to checkbox."
+msgstr "Ετικέτα δίπλα στο πλαίσιο ελέγχου"
+
+#: src/templates/admin.tpl.php:798
+msgid "Labels"
+msgstr "Ετικέτες"
+
+#: src/templates/admin.tpl.php:1041
+msgid "Link to page with GDPR content."
+msgstr "Σύνδεση σε σελίδα με περιεχόμενο GDPR."
+
+#: src/templates/admin.tpl.php:1169
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+#: src/templates/report.tpl.php:32 src/templates/admin.tpl.php:82
+#: src/templates/admin.tpl.php:296 src/templates/admin.tpl.php:385
+#: src/templates/admin.tpl.php:812 src/templates/appointments.tpl.php:11
+#: src/templates/appointments.tpl.php:82 src/templates/appointments.tpl.php:141
+#: src/templates/mail.notification.tpl.php:12
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: src/templates/admin.tpl.php:10 src/templates/admin.tpl.php:475
+msgid "Locations"
+msgstr "Τοποθεσίες"
+
+#: src/templates/admin.tpl.php:671
+msgid "Mail"
+msgstr "Ταχυδρομείο"
+
+#: src/templates/admin.tpl.php:629
+msgid "Make reservation at moment user select date and time!"
+msgstr ""
+"Κάντε κράτηση τη στιγμή που ο χρήστης επιλέγει την ημερομηνία και την ώρα!"
+
+#: src/templates/admin.tpl.php:589
+msgid ""
+"Mark this option if you want to calculate free worker slots only by current "
+"service and location. If it's not marked system will check if worker is "
+"working on any location and service at current time."
+msgstr ""
+"Επιλέξτε αυτήν την επιλογή εάν θέλετε να υπολογίσετε τους ελεύθερους χρόνους "
+"χρήσης εργαζομένων μόνο από την τρέχουσα υπηρεσία και την τοποθεσία. Εάν δεν "
+"είναι επιλεγμένο, το σύστημα θα ελέγξει αν ο εργαζόμενος εργάζεται σε "
+"οποιαδήποτε τοποθεσία και υπηρεσία την τρέχουσα ώρα."
+
+#: src/templates/admin.tpl.php:768
+msgid ""
+"Mark this option if you want to employee receive admin email after filing "
+"the form."
+msgstr ""
+"Επιλέξτε αυτή την επιλογή αν θέλετε ο  υπάλληλος να λάβει e-mail admin μετά "
+"την υποβολή της φόρμας."
+
+#: src/templates/admin.tpl.php:780
+msgid ""
+"Mark this option if you want to user receive email after filing the form."
+msgstr ""
+"Επιλέξτε αυτή την επιλογή εάν θέλετε ο χρήστης  να λάβει email μετά την "
+"κατάθεση της φόρμας."
+
+#: src/templates/admin.tpl.php:606
+msgid "Max number of appointments"
+msgstr "Μέγιστος αριθμός ραντεβού"
+
+#: src/templates/admin.tpl.php:1053
+msgid "Message if user don't mark the GDPR checkbox."
+msgstr "Μήνυμα εάν ο χρήστης δεν επιλέξει το πλαίσιο ελέγχου GDPR."
+
+#: src/templates/admin.tpl.php:837
+msgid "Message that user receive after completing appointment"
+msgstr "Μήνυμα που λαμβάνει ο χρήστης μετά την ολοκλήρωση της συνάντησης"
+
+#: src/templates/admin.tpl.php:340 src/templates/admin.tpl.php:422
+#: src/templates/admin.tpl.php:506
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: src/templates/report.tpl.php:13
+msgid "Money"
+msgstr "Χρήματα"
+
+#: src/templates/admin.tpl.php:582
+msgid "Multiple work"
+msgstr "Πολλαπλές εργασίες"
+
+#: src/frontend.php:411 src/install.php:747 src/templates/admin.tpl.php:80
+#: src/templates/admin.tpl.php:150 src/templates/admin.tpl.php:229
+msgid "Name"
+msgstr "Ονομα"
+
+#: src/templates/report.tpl.php:24
+msgid "New reports are comming soon!"
+msgstr "Νέες αναφορές έρχονται σύντομα!"
+
+#. Author of the plugin
+msgid "Nikola Loncar"
+msgstr ""
+
+#: src/templates/admin.tpl.php:368 src/templates/admin.tpl.php:455
+#: src/templates/admin.tpl.php:458 src/templates/admin.tpl.php:544
+#: src/templates/admin.tpl.php:547
+msgid "No"
+msgstr "Οχι"
+
+#: src/mail.php:116
+msgid "No appointment."
+msgstr "Δεν υπάρχει ραντεβού."
+
+#: src/templates/admin.tpl.php:861
+msgid ""
+"Notice : date/time formating for email notification are done by <b>Settings >"
+" General</b>."
+msgstr ""
+"Σημείωση: Η μορφοποίηση της ημερομηνίας / ώρας για την ειδοποίηση μέσω "
+"ηλεκτρονικού ταχυδρομείου γίνεται μέσω <b>Settings > General</b>."
+
+#: src/templates/admin.tpl.php:672
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#: src/templates/admin.tpl.php:614
+msgid ""
+"Number of appointments that one visitor can make reservation before limit "
+"alert is shown. Appointments are counted during one day."
+msgstr ""
+"Αριθμός ραντεβού που μπορεί να πραγματοποιήσει ένας επισκέπτης πριν από την "
+"ειδοποίηση ορίου. Τα ραντεβού υπολογίζονται κατά τη διάρκεια μιας ημέρας."
+
+#: src/ajax.php:759
+msgid "Only admin user can test mail!"
+msgstr "Μόνο ο διαχειριστής μπορεί να τεστάρει την αλληλογραφία!"
+
+#: src/admin.php:316
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: src/templates/admin.tpl.php:1034
+msgid "Page with GDPR content"
+msgstr "Σελίδα με περιεχόμενο GDPR"
+
+#: src/templates/admin.tpl.php:683
+msgid "Pending"
+msgstr "Εκκρεμεί"
+
+#: src/logic.php:348
+msgid "pending"
+msgstr "εκκρεμεί"
+
+#: src/templates/admin.tpl.php:723
+msgid "Pending notification emails"
+msgstr "Εν αναμονή ειδοποιήσης μέσω ηλεκτρονικού ταχυδρομείου"
+
+#: src/frontend.php:256 src/frontend.php:404
+msgid "Personal information"
+msgstr "Προσωπικές πληροφορίες"
+
+#: src/frontend.php:412 src/install.php:748 src/templates/admin.tpl.php:232
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: src/templates/report.tpl.php:68
+msgid "Place fields separate by , for example: id,name,email"
+msgstr "Τοποθετήστε πεδία χωριστά, για παράδειγμα: id, όνομα, email"
+
+#: src/templates/admin.tpl.php:940
+msgid ""
+"Place here custom css styles here. This will be included in both standard "
+"and bootstrap widget."
+msgstr ""
+"Τοποθετήστε τα προσαρμοσμένα στυλ css εδώ. Αυτό θα περιλαμβάνεται και στο "
+"standard και στο widget bootstrap."
+
+#: src/frontend.php:414
+msgid "Please check your appointment details below and confirm:"
+msgstr ""
+"Παρακαλώ ελέγξτε παρακάτω τις λεπτομέρειες του ραντεβού σας και επιβεβαιώστε:"
+
+#: src/frontend.php:323 src/frontend.php:406
+msgid "Please enter a valid email address"
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: src/frontend.php:407
+msgid "Please enter at least 3 characters."
+msgstr "Εισαγάγετε τουλάχιστον 3 χαρακτήρες."
+
+#: src/frontend.php:408
+msgid "Please enter at least 3 digits."
+msgstr "Παρακαλώ εισάγετε τουλάχιστον 3 ψηφία."
+
+#: src/frontend.php:182 src/frontend.php:403
+msgid "Please select another day"
+msgstr "Παρακαλώ επιλέξτε μια άλλη μέρα"
+
+#: src/frontend.php:184 src/frontend.php:419 src/templates/admin.tpl.php:153
+#: src/templates/appointments.tpl.php:86 src/templates/appointments.tpl.php:212
+#: src/templates/mail.notification.tpl.php:40
+msgid "Price"
+msgstr "Τιμή"
+
+#: src/templates/appointments.tpl.php:55
+msgid "Quick time filter"
+msgstr "Γρήγορο φίλτρο χρόνου"
+
+#: src/templates/report.tpl.php:54 src/templates/admin.tpl.php:58
+#: src/templates/admin.tpl.php:128 src/templates/admin.tpl.php:206
+#: src/templates/admin.tpl.php:289 src/templates/appointments.tpl.php:74
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: src/admin.php:317
+msgid "Reports"
+msgstr "Αναφορές"
+
+#: src/ajax.php:782
+msgid "Request completed, please check email."
+msgstr "Η αίτηση ολοκληρώθηκε, ελέγξτε το ηλεκτρονικό ταχυδρομείο."
+
+#: src/templates/admin.tpl.php:685
+msgid "Reservation"
+msgstr "Κράτηση"
+
+#: src/logic.php:349
+msgid "reservation"
+msgstr "κράτηση"
+
+#: src/templates/admin.tpl.php:500
+msgid "same for each combination"
+msgstr "ίδια για κάθε συνδυασμό"
+
+#: src/templates/admin.tpl.php:345 src/templates/admin.tpl.php:427
+#: src/templates/admin.tpl.php:511
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: src/templates/admin.tpl.php:114 src/templates/admin.tpl.php:191
+#: src/templates/admin.tpl.php:270 src/templates/admin.tpl.php:464
+#: src/templates/admin.tpl.php:1092 src/templates/appointments.tpl.php:223
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: src/templates/report.tpl.php:70
+msgid "Save settings"
+msgstr "Αποθηκεύσετε τις ρυθμίσεις"
+
+#: src/templates/appointments.tpl.php:57
+msgid "Select period"
+msgstr "Επιλέξτε περίοδο"
+
+#: src/templates/admin.tpl.php:1160
+msgid "Send a Test Email"
+msgstr "Αποστολή δοκιμαστικού μηνύματος ηλεκτρονικού ταχυδρομείου"
+
+#: src/templates/admin.tpl.php:1161
+msgid "Send a Test Email (native)"
+msgstr "Αποστολή δοκιμαστικού μηνύματος ηλεκτρονικού ταχυδρομείου (εγγενής)"
+
+#: src/templates/appointments.tpl.php:219
+msgid "Send email notification :"
+msgstr "Αποστολή ειδοποίησης μέσω ηλεκτρονικού ταχυδρομείου:"
+
+#: src/templates/admin.tpl.php:773
+msgid "Send email to user"
+msgstr "Αποστολή μηνύματος ηλεκτρονικού ταχυδρομείου στον χρήστη"
+
+#: src/templates/admin.tpl.php:761
+msgid "Send email to worker"
+msgstr "Αποστολή μηνύματος ηλεκτρονικού ταχυδρομείου στον εργαζόμενο"
+
+#: src/templates/admin.tpl.php:785
+msgid "Send from"
+msgstr "Αποστολή από"
+
+#: src/templates/admin.tpl.php:792
+msgid ""
+"Send from email adress (Example: Name &lt;name@domain.com&gt;). Leave blank "
+"to use default address."
+msgstr ""
+"Αποστολή από τη διεύθυνση ηλεκτρονικού ταχυδρομείου (Παράδειγμα: Όνομα &lt;"
+"name@domain.com&gt;). Αφήστε κενό για να χρησιμοποιήσετε την προεπιλεγμένη "
+"διεύθυνση."
+
+#: src/templates/report.tpl.php:39 src/templates/admin.tpl.php:297
+#: src/templates/admin.tpl.php:396 src/templates/admin.tpl.php:803
+#: src/templates/appointments.tpl.php:20 src/templates/appointments.tpl.php:82
+#: src/templates/appointments.tpl.php:151
+#: src/templates/mail.notification.tpl.php:16
+msgid "Service"
+msgstr "Υπηρεσία"
+
+#: src/templates/admin.tpl.php:16 src/templates/admin.tpl.php:483
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: src/admin.php:306 src/admin.php:307
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: src/templates/admin.tpl.php:500
+msgid "Shared values"
+msgstr "Κοινές αξίες"
+
+#. Description of the plugin
+msgid "Simple and easy to use management system for Appointments and Bookings"
+msgstr ""
+"Απλό και εύκολο στη χρήση σύστημα διαχείρισης των ραντεβού και των κρατήσεων"
+
+#: src/ajax.php:251
+msgid "Slot is taken"
+msgstr "Η ώρα είναι κλεισμένη"
+
+#: src/templates/admin.tpl.php:152
+msgid "Slot step (in minutes)"
+msgstr "Διάρκει κράτησης (σε λεπτά)"
+
+#: src/ajax.php:282
+msgid "Something went wrong! Please try again."
+msgstr "Κάτι πήγε στραβά! Παρακαλώ δοκιμάστε ξανά."
+
+#: src/templates/admin.tpl.php:472
+msgid "Split groups"
+msgstr "Διαχωρίστε τις ομάδες"
+
+#: src/templates/admin.tpl.php:441 src/templates/mail.notification.tpl.php:28
+msgid "Start"
+msgstr "Αρχή"
+
+#: src/templates/admin.tpl.php:354
+msgid "Starts at"
+msgstr "Ξεκινά στις"
+
+#: src/templates/appointments.tpl.php:42 src/templates/appointments.tpl.php:86
+#: src/templates/mail.notification.tpl.php:8
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: src/frontend.php:284 src/frontend.php:417
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: src/templates/admin.tpl.php:346 src/templates/admin.tpl.php:428
+#: src/templates/admin.tpl.php:512
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: src/templates/admin.tpl.php:1145
+msgid "Test Email"
+msgstr "Δοκιμή ηλεκτρονικού ταχυδρομείου"
+
+#: src/templates/admin.tpl.php:1146
+msgid ""
+"Test if the mail service is working fine on this site by generating a test "
+"email that will be send to provided address."
+msgstr ""
+"Δοκιμάστε εάν η υπηρεσία αλληλογραφίας λειτουργεί καλά σε αυτόν τον ιστότοπο "
+"δημιουργώντας ένα δοκιμαστικό μήνυμα ηλεκτρονικού ταχυδρομείου που θα "
+"αποσταλεί στην παρεχόμενη διεύθυνση."
+
+#: src/frontend.php:322 src/frontend.php:327 src/frontend.php:343
+#: src/frontend.php:405
+msgid "This field is required."
+msgstr "Αυτό το πεδίο απαιτείται."
+
+#: src/templates/appointments.tpl.php:59
+msgid "This month"
+msgstr "Αυτό το μήνα"
+
+#: src/templates/appointments.tpl.php:58
+msgid "This week"
+msgstr "Αυτή την εβδομάδα"
+
+#: src/templates/admin.tpl.php:343 src/templates/admin.tpl.php:425
+#: src/templates/admin.tpl.php:509
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: src/templates/admin.tpl.php:300 src/templates/appointments.tpl.php:198
+msgid "Time"
+msgstr "Ώρα"
+
+#: src/templates/admin.tpl.php:848
+msgid "Time format"
+msgstr "Μορφή ώρας"
+
+#: src/templates/admin.tpl.php:521
+msgid "Time from"
+msgstr "Ώρα από"
+
+#: src/templates/report.tpl.php:7
+msgid "Time table"
+msgstr "Χρονοδιάγραμμα"
+
+#: src/templates/report.tpl.php:76 src/templates/admin.tpl.php:1150
+#: src/templates/appointments.tpl.php:53
+msgid "To"
+msgstr "Μέχρι"
+
+#: src/templates/admin.tpl.php:362 src/templates/admin.tpl.php:526
+msgid "to"
+msgstr "μέχρι"
+
+#: src/templates/admin.tpl.php:537
+msgid "to date"
+msgstr "μέχρι σήμερα"
+
+#: src/templates/admin.tpl.php:923
+msgid ""
+"To use using the email notification for user there must be field named "
+"\"email\" or \"e-mail\""
+msgstr ""
+"Για να χρησιμοποιήσετε την ειδοποίηση ηλεκτρονικού ταχυδρομείου για τον "
+"χρήστη, πρέπει να υπάρχει πεδίο με το όνομα \"email\" ή \"e-mail\""
+
+#: src/templates/appointments.tpl.php:60
+msgid "Today"
+msgstr "Σήμερα"
+
+#: src/templates/admin.tpl.php:40
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: src/templates/admin.tpl.php:341 src/templates/admin.tpl.php:423
+#: src/templates/admin.tpl.php:507
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: src/templates/admin.tpl.php:637
+msgid "Turn nonce off"
+msgstr "Απενεργοποιήστε το nonce"
+
+#: src/templates/admin.tpl.php:945
+msgid "Turn off css files"
+msgstr "Απενεργοποιήστε τα αρχεία css"
+
+#: src/templates/admin.tpl.php:1009
+msgid "Turn on checkbox"
+msgstr "Ενεργοποιήστε το πλαίσιο ελέγχου (checkbox)"
+
+#: src/frontend.php:193 src/frontend.php:426
+msgid "Unable to make ajax request. Please try again later."
+msgstr "Δεν είναι δυνατή η αίτηση ajax. Παρακαλώ προσπαθήστε ξανά αργότερα."
+
+#: src/templates/admin.tpl.php:748
+msgid "Visitor notification subject"
+msgstr ""
+
+#: src/templates/admin.tpl.php:342 src/templates/admin.tpl.php:424
+#: src/templates/admin.tpl.php:508
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: src/templates/report.tpl.php:46 src/templates/admin.tpl.php:297
+#: src/templates/admin.tpl.php:408 src/templates/admin.tpl.php:821
+#: src/templates/appointments.tpl.php:29 src/templates/appointments.tpl.php:82
+#: src/templates/appointments.tpl.php:161
+#: src/templates/mail.notification.tpl.php:20
+msgid "Worker"
+msgstr "Εργαζόμενος"
+
+#: src/templates/admin.tpl.php:22 src/templates/admin.tpl.php:491
+msgid "Workers"
+msgstr "Εργαζόμενοι"
+
+#: src/templates/admin.tpl.php:370 src/templates/admin.tpl.php:456
+#: src/templates/admin.tpl.php:459 src/templates/admin.tpl.php:545
+#: src/templates/admin.tpl.php:548
+msgid "Yes"
+msgstr "Ναί"
+
+#: src/templates/admin.tpl.php:743 src/templates/admin.tpl.php:756
+msgid "You can use any tag that is available as in custom email notifications."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε οποιαδήποτε ετικέτα είναι διαθέσιμη όπως στις "
+"ειδοποιήσεις προσαρμοσμένου μηνύματος ηλεκτρονικού ταχυδρομείου."
+
+#: src/templates/admin.tpl.php:673
+msgid "You can use this tags inside email content"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε αυτές τις ετικέτες μέσα στο περιεχόμενο "
+"ηλεκτρονικού ταχυδρομείου"
+
+#: src/frontend.php:422
+msgid "You can't select this time slot!'"
+msgstr "Δεν μπορείτε να επιλέξετε αυτό το χρονικό διάστημα! "
+
+#: src/frontend.php:269 src/frontend.php:421
+msgid "You must agree with terms and conditions"
+msgstr "Θα πρέπει να συμφωνήσετε με τους όρους και τις προϋποθέσεις"

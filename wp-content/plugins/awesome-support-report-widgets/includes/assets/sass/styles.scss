@@ -1,0 +1,178 @@
+
+$prefix: as;
+
+$color-success: #52BE7F;
+$color-info: #05AAE8;
+$color-error: tomato;
+$color-dark: #252830;
+
+// This is the prefix
+#dashboard-widgets .#{$prefix} {
+	&-widget {
+		color: $color-dark;
+	}
+
+	&-widget-row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&-metric-group {
+		margin: 10px 0;
+		text-align: center;
+		padding: 0 20px;
+		border-right: 1px solid #f0f0f0;
+
+		&-singular {
+			min-width: 130px;
+			padding-right: 0;
+		}
+
+		&:last-of-type {
+			border-right: none;
+		}
+	}
+
+	&-metric-number {
+		font-size: 48px;
+		font-weight: 500;
+		line-height: 1;
+		letter-spacing: -2px;
+	}
+
+	&-metric-label {
+		font-weight: semi-bold;
+	}
+
+	&-tickets-opened {
+
+	}
+
+	&-tickets-closed {
+		.#{$prefix}-metric-number { color: $color-success; }
+	}
+
+	&-button {
+		padding: 10px 20px;
+		border: 1px solid #95989A;
+		box-shadow: 0 2px 10px -6px black;
+		display: inline-block;
+		color: black;
+	}
+
+	&-button-column {
+		flex: 1 1 auto;
+		display: flex;
+		align-items: center;
+		flex-direction: row-reverse;
+	}
+
+	&-recent-tickets-list {
+		margin: -12px 12px 0 -12px;
+	}
+
+	&-recent-ticket-item {
+		display: flex;
+		border-bottom: 1px solid #f0f0f0;
+		padding: 18px 12px;
+		align-items: center;
+		width: 100%;
+
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+
+	&-recent-tickets-wrapper {
+		font-size: 16px;
+	}
+
+	&-recent-ticket-title {
+		flex: 1 1 auto;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		color: $color-dark;
+	}
+
+	&-recent-ticket-date {
+		color: #6E6E6E;
+		min-width: 130px;
+		text-align: right;
+	}
+
+	&-recent-ticket-status {
+		height: 12px;
+		width: 12px;
+		min-width: 12px;
+		border: 1px solid #e2e2e2;
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+
+	&-recent-tickets-footer {
+		padding: 20px 12px;
+		background-color: #fafafa;
+		border-top: 1px solid #ddd;
+		margin: 0 -12px -12px;
+	}
+
+	&-metric-graph {
+		flex: 1 1 auto;
+		background: #f0f0f0;
+	}
+
+	&-agent-name {
+		display: block;
+		font-size: 16px;
+		font-weight: bold;
+		border-top: 1px solid #e2e2e2;
+		padding-top: 20px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+
+		&:first-of-type {
+			margin-top: 0;
+			padding-top: 0;
+			border-top: none;
+		}
+	}
+
+	&-closed-ticket-labels {
+		justify-content: space-between;
+		padding: 20px 0;
+		border-bottom: 1px solid #e2e2e2;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	&-closed-ticket-label {
+		width: 25%;
+		font-weight: 500;
+
+		&.today {
+			color: $color-success;
+			.#{$prefix}-closed-ticket-number {
+				background: $color-success;
+				color: white;
+			}
+		}
+
+		&.total {
+			color: $color-info;
+			.#{$prefix}-closed-ticket-number {
+				background: $color-info;
+				color: white;
+			}
+		}
+	}
+
+	&-closed-ticket-number {
+		background: $color-dark;
+		color: white;
+		padding: 5px 8px;
+		border-radius: 5px;
+	}
+}

@@ -1,0 +1,78 @@
+.mkb-article-attachments {
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 6px;
+  width: 600px;
+  max-width: 100%;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.mkb-article-attachments__item {
+  position: relative;
+  cursor: move;
+  background: #fff;
+  padding: 1em 4.5em 1em 2em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+  width: 520px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.12);
+
+  a {
+    text-decoration: none;
+  }
+
+  .mkb-attachment-icon {
+    font-size: 1.4em;
+    font-weight: 400;
+    position: absolute;
+    height: 1em;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+.mkb-no-attachments {
+  width: 380px;
+  padding: 0 1em;
+}
+
+.mkb-article-attachments__item-actions {
+  position: absolute;
+  right: 1em;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1.8em;
+}
+
+.mkb-article-attachments__item-edit,
+.mkb-article-attachments__item-remove {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-left: 0.5em;
+}
+
+.mkb-attachment-label {
+  display: inline-block;
+  margin-left: 2.2em;
+  text-align: left;
+}
+
+.mkb-attachment-title {
+  font-weight: 600;
+}
+
+.mkb-attachment-size,
+.mkb-attachment-type {
+  color: #aaa;
+}
+
+.mkb-attachment-downloads {
+  color: dodgerblue;
+  margin-left: 0.8em;
+}

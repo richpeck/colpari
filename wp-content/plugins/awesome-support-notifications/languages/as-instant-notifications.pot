@@ -1,0 +1,368 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Instant Notifications\n"
+"POT-Creation-Date: 2017-07-14 19:29-0500\n"
+"PO-Revision-Date: 2016-11-08 12:13+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../awesome-support-notifications.php:159
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../awesome-support-notifications.php:179
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: ../awesome-support-notifications.php:183
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: ../awesome-support-notifications.php:187
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: ../awesome-support-notifications.php:191
+#, php-format
+msgid ""
+"%s requires some dependencies that aren&#039;t loaded. Please contact "
+"support."
+msgstr ""
+
+#: ../awesome-support-notifications.php:508
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of Awesome Support: Notifications <strong>will never "
+"be updated</strong>."
+msgstr ""
+
+#: ../awesome-support-notifications.php:509
+msgid "I do NOT want the updates, dismiss this message"
+msgstr ""
+
+#: ../awesome-support-notifications.php:535
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates for Awesome Suppport: Notifications. <a href=\"%s\">Click here "
+"to do it</a>."
+msgstr ""
+
+#: ../class-notifications.php:223
+msgid "Pushbullet Notifications"
+msgstr ""
+
+#: ../class-notifications.php:228
+msgid "Pushbullet Token"
+msgstr ""
+
+#: ../class-notifications.php:231
+#, php-format
+msgid ""
+"Your Pushbullet access token. You can get it in <a href=\"%s\" target="
+"\"_blank\">your account page</a>."
+msgstr ""
+
+#: ../class-notifications.php:265
+msgid "Settings"
+msgstr ""
+
+#: ../class-notify.php:210
+#, php-format
+msgid "The service %s is not supported"
+msgstr ""
+
+#: ../class-notify.php:214
+msgid "We were unable to identify the ticket to notify about"
+msgstr ""
+
+#: ../inc/class-pushbullet.php:79
+#, php-format
+msgid "New ticket: %s"
+msgstr ""
+
+#: ../inc/class-pushbullet.php:85
+#, php-format
+msgid "New reply to %s"
+msgstr ""
+
+#: ../inc/class-pushbullet.php:91
+#, php-format
+msgid "Ticket %s closed"
+msgstr ""
+
+#: ../inc/class-pushbullet.php:92
+msgid "The ticket was closed"
+msgstr ""
+
+#: ../inc/class-pushbullet.php:97
+#, php-format
+msgid "Ticket %s re-opened"
+msgstr ""
+
+#: ../inc/class-pushbullet.php:103
+#, php-format
+msgid "Status changed for ticket %s"
+msgstr ""
+
+#: ../inc/class-slack.php:77
+#, php-format
+msgid "<%s|%s> created a new ticket <%s|#%s>"
+msgstr ""
+
+#: ../inc/class-slack.php:81 ../inc/class-slack.php:85
+#, php-format
+msgid "<%s|%s> replied to ticket <%s|#%s>"
+msgstr ""
+
+#: ../inc/class-slack.php:90
+#, php-format
+msgid "Ticket *%s* (<%s|#%s>) was closed by %s (%s)"
+msgstr ""
+
+#: ../inc/class-slack.php:95
+#, php-format
+msgid "Ticket *%s* (<%s|#%s>) was re-opened by %s (%s)"
+msgstr ""
+
+#: ../inc/class-slack.php:100
+#, php-format
+msgid "Status for ticket *%s* (<%s|#%s>) has been changed to *%s*"
+msgstr ""
+
+#: ../inc/class-slack.php:142
+msgid "Creator"
+msgstr ""
+
+#: ../inc/class-slack.php:147
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-slack.php:152
+msgid "Title"
+msgstr ""
+
+#: ../inc/class-slack.php:157
+msgid "Support Staff"
+msgstr ""
+
+#: ../inc/class-slack.php:162 ../settings.php:135
+msgid "Content"
+msgstr ""
+
+#: ../inc/functions.php:37
+msgid "New ticket"
+msgstr ""
+
+#: ../inc/functions.php:38
+msgid "New reply (from agent)"
+msgstr ""
+
+#: ../inc/functions.php:39
+msgid "New reply (from client)"
+msgstr ""
+
+#: ../inc/functions.php:40
+msgid "Ticket closed"
+msgstr ""
+
+#: ../inc/functions.php:41
+msgid "Ticket re-opened"
+msgstr ""
+
+#: ../settings.php:18
+msgid "Active Notifications"
+msgstr ""
+
+#: ../settings.php:22
+msgid "Actions"
+msgstr ""
+
+#: ../settings.php:25 ../settings.php:33
+msgid "What shall we notify you about?"
+msgstr ""
+
+#: ../settings.php:30
+msgid "Status Actions"
+msgstr ""
+
+#: ../settings.php:37
+msgid "Slack"
+msgstr ""
+
+#: ../settings.php:41 ../settings.php:79 ../settings.php:94
+msgid "Enable"
+msgstr ""
+
+#: ../settings.php:45
+msgid "Enable Slack notifications"
+msgstr ""
+
+#: ../settings.php:48
+msgid "Webhook URL"
+msgstr ""
+
+#: ../settings.php:52
+#, php-format
+msgid ""
+"The Webhook URL provided by Slack. Create a new <a href=\"%s\" target="
+"\"_blank\">incoming webhook integration</a> in your Slack team."
+msgstr ""
+
+#: ../settings.php:55
+msgid "Bot Name"
+msgstr ""
+
+#: ../settings.php:59
+msgid "The name that&#39;s going to appear in the Slack chat."
+msgstr ""
+
+#: ../settings.php:62
+msgid "Bot Emoji"
+msgstr ""
+
+#: ../settings.php:66
+#, php-format
+msgid ""
+"The icon emoji to display in the chat. Can be any <a href=\"%s\" "
+"target=\"_blank\">emoji available in the Slack conversations</a>."
+msgstr ""
+
+#: ../settings.php:69
+msgid "Bot Custom Icon"
+msgstr ""
+
+#: ../settings.php:72
+msgid ""
+"Upload your custom icon for your Slack bot. Images can't be larger "
+"than 128px in width or height, and must be smaller than 64K in file "
+"size."
+msgstr ""
+
+#: ../settings.php:75
+msgid "Pushbullet"
+msgstr ""
+
+#: ../settings.php:83
+msgid "Enable Pushbullet notifications"
+msgstr ""
+
+#: ../settings.php:87
+#, php-format
+msgid ""
+"To activate Pushbullet notifications, <a href=\"%s\">please set your "
+"access token in your profile</a>."
+msgstr ""
+
+#: ../settings.php:90
+msgid "Email"
+msgstr ""
+
+#: ../settings.php:98
+msgid "Enable Email notifications"
+msgstr ""
+
+#: ../settings.php:120
+msgid "Recipient"
+msgstr ""
+
+#: ../settings.php:124
+msgid "Recipients (Comma separated list of emails)"
+msgstr ""
+
+#: ../settings.php:128
+msgid "Subject"
+msgstr ""
+
+#: ../settings.php:139
+msgid "Email Content"
+msgstr ""
+
+#: ../settings.php:146
+msgid "Additional Interested Party Email #1"
+msgstr ""
+
+#: ../settings.php:147
+msgid "Additional Interested Party Email #2"
+msgstr ""
+
+#: ../settings.php:150
+msgid "Who should receive notifications"
+msgstr ""
+
+#: ../settings.php:157
+msgid "Primary Agent"
+msgstr ""
+
+#: ../settings.php:158
+msgid "Secondary Agent"
+msgstr ""
+
+#: ../settings.php:159
+msgid "Tertiary Agent"
+msgstr ""
+
+#: ../settings.php:160
+msgid "Additional Emails On Ticket"
+msgstr ""
+
+#: ../settings.php:161
+msgid "Additional users on ticket"
+msgstr ""
+
+#: ../settings.php:162
+msgid "Client/Customer"
+msgstr ""
+
+#: ../settings.php:169
+msgid "Ajax Settings"
+msgstr ""
+
+#: ../settings.php:172
+msgid ""
+"These settings are used for testing and trouble-shooting purposes only!"
+msgstr ""
+
+#: ../settings.php:176
+msgid "Ajax Alerts For Email Support"
+msgstr ""
+
+#: ../settings.php:180
+msgid ""
+"Certain email notifications are not sent out if done via AJAX. You can "
+"trigger those by turning this flag on. This primarily affects the "
+"FETCH button used in the EMAIL SUPPORT add-on."
+msgstr ""
+
+#: ../settings.php:186
+msgid "Notifications"
+msgstr ""

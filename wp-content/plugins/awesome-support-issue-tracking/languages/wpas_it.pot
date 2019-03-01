@@ -1,0 +1,938 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Productivity\n"
+"POT-Creation-Date: 2018-01-04 12:59-0600\n"
+"PO-Revision-Date: 2016-11-08 17:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../awesome-support-issue-tracking.php:172
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../awesome-support-issue-tracking.php:193
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: ../awesome-support-issue-tracking.php:197
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: ../awesome-support-issue-tracking.php:201
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: ../awesome-support-issue-tracking.php:459
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of Awesome Support: Issue Tracking <strong>will never "
+"be updated</strong>."
+msgstr ""
+
+#: ../awesome-support-issue-tracking.php:484
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:117
+#: ../includes/class_additional_agent.php:156
+msgid "Add Additional Agent"
+msgstr ""
+
+#: ../includes/class_additional_agent.php:176
+msgid "No additional agent exist."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:221
+msgid "Sorry, you are not allowed to add additional agent."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:225
+msgid "Please select an agent."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:230
+msgid "Agent doesn't exist."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:235
+msgid "Agent already exist in this issue."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:239
+#: ../includes/class_additional_agent.php:313
+#: ../includes/class_additional_party.php:283
+#: ../includes/class_additional_party.php:392
+#: ../includes/class_additional_party.php:439
+#: ../includes/class_ticket_issue.php:279
+#: ../includes/class_ticket_issue.php:408
+#: ../includes/post-types/comment.php:125
+msgid "Something went wrong, try again later."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:282
+msgid "Agent added."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:309
+msgid "Sorry, you are not allowed to remove additional agent."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:317
+msgid "Addition agent doesn't exist."
+msgstr ""
+
+#: ../includes/class_additional_agent.php:332
+msgid "Additional agent deleted"
+msgstr ""
+
+#: ../includes/class_additional_party.php:121
+msgid "Add Additional Interested Party"
+msgstr ""
+
+#: ../includes/class_additional_party.php:160
+msgid "Add Additional Interested Parties"
+msgstr ""
+
+#: ../includes/class_additional_party.php:180
+msgid "No party exist."
+msgstr ""
+
+#: ../includes/class_additional_party.php:205
+msgid "Save Additional Interested Party"
+msgstr ""
+
+#: ../includes/class_additional_party.php:265
+msgid "Sorry, you are not allowed to add additional interested party."
+msgstr ""
+
+#: ../includes/class_additional_party.php:269
+msgid "Please provide valid email address."
+msgstr ""
+
+#: ../includes/class_additional_party.php:274
+#: ../includes/class_additional_party.php:443
+msgid "Party doesn't exist."
+msgstr ""
+
+#: ../includes/class_additional_party.php:279
+msgid "Party already exist in this issue."
+msgstr ""
+
+#: ../includes/class_additional_party.php:330
+msgid "Party added."
+msgstr ""
+
+#: ../includes/class_additional_party.php:361
+#: ../includes/class_additional_party.php:409
+msgid "Additional interested party saved"
+msgstr ""
+
+#: ../includes/class_additional_party.php:388
+msgid ""
+"Sorry, you are not allowed to add add additional interested party."
+msgstr ""
+
+#: ../includes/class_additional_party.php:435
+msgid "Sorry, you are not allowed to remove party."
+msgstr ""
+
+#: ../includes/class_additional_party.php:458
+msgid "Party deleted"
+msgstr ""
+
+#: ../includes/class_email_alert.php:38
+msgid "The post ID provided does not match any of the plugin post types"
+msgstr ""
+
+#: ../includes/class_email_alert.php:102
+msgid "Converts into issue ID"
+msgstr ""
+
+#: ../includes/class_email_alert.php:107
+msgid "Converts into agent name"
+msgstr ""
+
+#: ../includes/class_email_alert.php:111
+msgid "Converts into agent e-mail address"
+msgstr ""
+
+#: ../includes/class_email_alert.php:116
+msgid "Converts into current issue title"
+msgstr ""
+
+#: ../includes/class_email_alert.php:121
+msgid "Converts into current issue message"
+msgstr ""
+
+#: ../includes/class_email_alert.php:125
+#: ../includes/class_email_alert.php:130
+#: ../includes/class_email_alert.php:135
+#: ../includes/class_email_alert.php:140
+msgid "Converts into last comment of an issue"
+msgstr ""
+
+#: ../includes/class_email_alert.php:145
+msgid "Displays a link to issue details in admin (for agents)"
+msgstr ""
+
+#: ../includes/class_email_alert.php:149
+msgid ""
+"Displays the URL <strong>only</strong> (not a link link) to issue "
+"details in admin (for agents)"
+msgstr ""
+
+#: ../includes/class_email_alert.php:154
+msgid "Converts into comment content"
+msgstr ""
+
+#: ../includes/class_email_alert.php:159
+msgid "Converts into comment status"
+msgstr ""
+
+#: ../includes/class_email_alert.php:163
+msgid "Converts into comment type"
+msgstr ""
+
+#: ../includes/class_email_alert.php:385
+msgid "The requested notification does not exist"
+msgstr ""
+
+#: ../includes/class_email_alert.php:389
+msgid "The requested notification is disabled"
+msgstr ""
+
+#: ../includes/class_issue.php:424
+msgid "You do not have the capacity to close this issue"
+msgstr ""
+
+#: ../includes/class_issue.php:424
+msgid "Can’t close issue"
+msgstr ""
+
+#: ../includes/class_post.php:41
+msgid "(no title)"
+msgstr ""
+
+#: ../includes/class_post_meta.php:138
+msgid "Add"
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:122
+#: ../includes/class_ticket_issue.php:166
+msgid "Add Issue"
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:217
+msgid "No issue exist."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:260
+msgid "Sorry, you are not allowed to add issues."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:264
+#: ../includes/class_ticket_issue.php:283
+msgid "Please select an issue."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:270
+#: ../includes/class_ticket_issue.php:412
+msgid "Issue doesn't exist."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:275
+msgid "Issue already exist in this ticket."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:378
+msgid "Issue added."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:404
+msgid "Sorry, you are not allowed to remove issues."
+msgstr ""
+
+#: ../includes/class_ticket_issue.php:435
+msgid "Issue deleted"
+msgstr ""
+
+#: ../includes/functions.php:17
+msgid "You don't have access to perform this action."
+msgstr ""
+
+#: ../includes/functions.php:267
+#, php-format
+msgid "The issue #%s has been closed."
+msgstr ""
+
+#: ../includes/functions.php:275
+#, php-format
+msgid "The issue #%s has been closed including attached tickets."
+msgstr ""
+
+#: ../includes/functions.php:282 ../includes/post-types/comment.php:152
+msgid "Comment successfully added."
+msgstr ""
+
+#: ../includes/functions.php:301 ../includes/functions.php:425
+msgid "Open"
+msgstr ""
+
+#: ../includes/functions.php:302
+msgid "On Hold"
+msgstr ""
+
+#: ../includes/functions.php:303 ../includes/functions.php:426
+msgid "Closed"
+msgstr ""
+
+#: ../includes/functions.php:315
+msgid "Low"
+msgstr ""
+
+#: ../includes/functions.php:316
+msgid "Medium"
+msgstr ""
+
+#: ../includes/functions.php:317
+msgid "High"
+msgstr ""
+
+#: ../includes/functions.php:318
+msgid "Urgent"
+msgstr ""
+
+#: ../includes/functions.php:331
+msgid "Standard"
+msgstr ""
+
+#: ../includes/functions.php:409
+#: ../includes/templates/metaboxes/comment_item.php:12
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/post-types/comment.php:19
+#: ../includes/post-types/comment.php:27
+msgid "Issue Comments"
+msgstr ""
+
+#: ../includes/post-types/comment.php:20
+msgctxt "Post Type General Name"
+msgid "Issue Comments"
+msgstr ""
+
+#: ../includes/post-types/comment.php:21
+msgctxt "Post Type Singular Name"
+msgid "Issue Comment"
+msgstr ""
+
+#: ../includes/post-types/comment.php:22
+msgid "Add New Issue Comment"
+msgstr ""
+
+#: ../includes/post-types/comment.php:23
+msgid "New Issue Comment"
+msgstr ""
+
+#: ../includes/post-types/comment.php:24
+msgid "No Issue Comment found"
+msgstr ""
+
+#: ../includes/post-types/comment.php:25
+msgid "No Issue Comment found in Trash"
+msgstr ""
+
+#: ../includes/post-types/comment.php:26
+msgid "Parent Issue Comment:"
+msgstr ""
+
+#: ../includes/post-types/comment.php:28
+msgid "View Issue Comment"
+msgstr ""
+
+#: ../includes/post-types/comment.php:29
+msgid "Edit Issue Comment"
+msgstr ""
+
+#: ../includes/post-types/comment.php:30
+msgid "Update Issue Comments"
+msgstr ""
+
+#: ../includes/post-types/comment.php:31
+msgid "Search Issue Comments"
+msgstr ""
+
+#: ../includes/post-types/comment.php:55
+msgid "Issue Comment"
+msgstr ""
+
+#: ../includes/post-types/comment.php:90
+msgid "Sorry, you are not allowed to add comment."
+msgstr ""
+
+#: ../includes/post-types/comment.php:94
+msgid "Please select comment status."
+msgstr ""
+
+#: ../includes/post-types/comment.php:98
+msgid "Please select comment type."
+msgstr ""
+
+#: ../includes/post-types/comment.php:102
+msgid "Content is required."
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:19
+#: ../includes/post-types/issue_tracking.php:55
+msgid "Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:20
+msgctxt "Post Type General Name"
+msgid "Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:21
+msgctxt "Post Type Singular Name"
+msgid "Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:22
+msgid "Add New Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:23
+msgid "New Issue"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:24
+msgid "No Issue Tracking found"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:25
+msgid "No Issue Tracking found in Trash"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:26
+msgid "Parent Issue Tracking:"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:27
+msgid "All Issues"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:28
+msgid "View Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:29
+msgid "Edit Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:30
+msgid "Update Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:31
+msgid "Search Issue Tracking"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:151
+msgid "Comments"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:155
+msgid "Issue Details"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:157
+#: ../includes/post-types/issue_tracking.php:161
+msgid "Tabs"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:177
+msgid ""
+"An error occurred while registering this metabox. Please contact "
+"support."
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:183
+msgid ""
+"An error occured while loading this metabox. Please contact support."
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:223
+msgid "Issues"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:266
+#: ../includes/taxonomies.php:12 ../includes/taxonomies.php:77
+#: ../includes/templates/metaboxes/details.php:36
+#: ../includes/templates/metaboxes/details.php:88
+#: ../includes/templates/metaboxes/it-tickets-tab.php:12
+#: ../includes/templates/ticket_issues/items.php:28
+msgid "Status"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:267
+#: ../includes/taxonomies.php:43 ../includes/taxonomies.php:44
+#: ../includes/templates/metaboxes/details.php:115
+msgid "Priority"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:268
+msgid "Number of comments"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:269
+msgid "Date opened"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:270
+msgid "Date of last comment"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:271
+msgid "Agent"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:272
+msgid "Number of associated tickets"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:274
+msgid "Date"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:351
+msgid "All States"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:373
+msgid "All "
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:394
+msgid "All Agents"
+msgstr ""
+
+#: ../includes/post-types/issue_tracking.php:590
+msgid "Support staff is required."
+msgstr ""
+
+#: ../includes/settings.php:10
+msgid "New Private Comment (sent only to the primary agent on the issue)"
+msgstr ""
+
+#: ../includes/settings.php:11
+msgid ""
+"New Semi-private Comment (sent to primary and associated agents on the "
+"issue)"
+msgstr ""
+
+#: ../includes/settings.php:12
+msgid ""
+"New Regular Comment (sent to primary and associated agents as well as "
+"all other interested parties on the issue)"
+msgstr ""
+
+#: ../includes/settings.php:13
+msgid "Issue Closed (sent to primary and associated agents on the issue)"
+msgstr ""
+
+#: ../includes/settings.php:14
+msgid ""
+"New Private Comment - For tickets attached to issue (sent to primary "
+"agent on associated tickets)"
+msgstr ""
+
+#: ../includes/settings.php:15
+msgid ""
+"New Semi-private Comment - For tickets attached to issue (sent to all "
+"agents on associated tickets)"
+msgstr ""
+
+#: ../includes/settings.php:16
+msgid ""
+"New Regular Comment - For tickets attached to issue (sent to agents, "
+"customer and other interested parties on tickets)"
+msgstr ""
+
+#: ../includes/settings.php:17
+msgid ""
+"Issue Closed - For tickets attached to issue (sent to agents, customer "
+"and other interested parties on tickets)"
+msgstr ""
+
+#: ../includes/settings.php:62
+msgid "Settings"
+msgstr ""
+
+#: ../includes/settings.php:63
+msgid "IT Settings"
+msgstr ""
+
+#: ../includes/settings.php:137
+msgid "Subject"
+msgstr ""
+
+#: ../includes/settings.php:144
+msgid "Content"
+msgstr ""
+
+#: ../includes/settings.php:148
+msgid "Email Content"
+msgstr ""
+
+#: ../includes/settings.php:156
+msgid "General"
+msgstr ""
+
+#: ../includes/settings.php:159
+msgid "Use SELECT2 For Issue Drop-downs"
+msgstr ""
+
+#: ../includes/settings.php:163
+msgid "On ticket screen turn the issues dropdown into select2 box."
+msgstr ""
+
+#: ../includes/settings.php:168
+msgid "Email Alerts"
+msgstr ""
+
+#: ../includes/taxonomies.php:11 ../includes/taxonomies.php:13
+msgid "Issue Statuses"
+msgstr ""
+
+#: ../includes/taxonomies.php:14 ../includes/taxonomies.php:79
+msgid "Search Status"
+msgstr ""
+
+#: ../includes/taxonomies.php:15 ../includes/taxonomies.php:80
+msgid "Statuses"
+msgstr ""
+
+#: ../includes/taxonomies.php:16 ../includes/taxonomies.php:81
+msgid "All Statuses"
+msgstr ""
+
+#: ../includes/taxonomies.php:17 ../includes/taxonomies.php:82
+msgid "Edit Status"
+msgstr ""
+
+#: ../includes/taxonomies.php:18 ../includes/taxonomies.php:83
+msgid "Update Status"
+msgstr ""
+
+#: ../includes/taxonomies.php:19 ../includes/taxonomies.php:84
+msgid "Add New Status"
+msgstr ""
+
+#: ../includes/taxonomies.php:20 ../includes/taxonomies.php:85
+msgid "New Status Name"
+msgstr ""
+
+#: ../includes/taxonomies.php:21 ../includes/taxonomies.php:86
+msgid "Separate Statuses with commas"
+msgstr ""
+
+#: ../includes/taxonomies.php:22 ../includes/taxonomies.php:87
+msgid "Add or remove Statuses"
+msgstr ""
+
+#: ../includes/taxonomies.php:23 ../includes/taxonomies.php:88
+msgid "Choose from the most popular Statuses"
+msgstr ""
+
+#: ../includes/taxonomies.php:45 ../includes/taxonomies.php:47
+msgid "Priorities"
+msgstr ""
+
+#: ../includes/taxonomies.php:46
+msgid "Search Priorities"
+msgstr ""
+
+#: ../includes/taxonomies.php:48
+msgid "All Priorities"
+msgstr ""
+
+#: ../includes/taxonomies.php:49
+msgid "Edit Priority"
+msgstr ""
+
+#: ../includes/taxonomies.php:50
+msgid "Update Priority"
+msgstr ""
+
+#: ../includes/taxonomies.php:51
+msgid "Add New Priority"
+msgstr ""
+
+#: ../includes/taxonomies.php:52
+msgid "New Priority Name"
+msgstr ""
+
+#: ../includes/taxonomies.php:53
+msgid "Separate Priorities with commas"
+msgstr ""
+
+#: ../includes/taxonomies.php:54
+msgid "Add or remove Priorities"
+msgstr ""
+
+#: ../includes/taxonomies.php:55
+msgid "Choose from the most popular Priorities"
+msgstr ""
+
+#: ../includes/taxonomies.php:76 ../includes/taxonomies.php:78
+msgid "Issue Comment Statuses"
+msgstr ""
+
+#: ../includes/taxonomies.php:111
+msgid "Comment Status"
+msgstr ""
+
+#: ../includes/taxonomies.php:183 ../includes/taxonomies.php:204
+msgid "Color"
+msgstr ""
+
+#: ../includes/taxonomies.php:185 ../includes/taxonomies.php:208
+msgid "Set Color."
+msgstr ""
+
+#: ../includes/templates/additional_agents/add.php:12
+msgid "Select user"
+msgstr ""
+
+#: ../includes/templates/additional_agents/add.php:12
+#: ../includes/templates/ai_parties/add.php:19
+#: ../includes/templates/ai_parties/add.php:28
+#: ../includes/templates/ticket_issues/add.php:16
+msgid "(required)"
+msgstr ""
+
+#: ../includes/templates/additional_agents/add.php:48
+#: ../includes/templates/ai_parties/add.php:48
+#: ../includes/templates/metaboxes/details.php:176
+#: ../includes/templates/ticket_issues/add.php:54
+msgid "Close"
+msgstr ""
+
+#: ../includes/templates/additional_agents/item.php:19
+#: ../includes/templates/ai_parties/item.php:23
+msgid "Dismiss this notice."
+msgstr ""
+
+#: ../includes/templates/additional_agents/item.php:28
+msgid "Are you sure you want to delete this user?"
+msgstr ""
+
+#: ../includes/templates/additional_agents/item.php:28
+#: ../includes/templates/ai_parties/item.php:42
+#: ../includes/templates/ticket_issues/item.php:22
+msgid "Delete"
+msgstr ""
+
+#: ../includes/templates/ai_parties/add.php:19
+msgid "Name"
+msgstr ""
+
+#: ../includes/templates/ai_parties/add.php:28
+msgid "Email Address"
+msgstr ""
+
+#: ../includes/templates/ai_parties/add.php:38
+msgid "Receive Notification Emails"
+msgstr ""
+
+#: ../includes/templates/ai_parties/item.php:41
+msgid "Edit Email"
+msgstr ""
+
+#: ../includes/templates/ai_parties/item.php:41
+msgid "Edit"
+msgstr ""
+
+#: ../includes/templates/ai_parties/item.php:42
+msgid "Are you sure you want to delete this email?"
+msgstr ""
+
+#: ../includes/templates/close_issue.php:12
+msgid "Close all tickets attached to this issue"
+msgstr ""
+
+#: ../includes/templates/close_issue.php:15
+msgid "Just close this issue"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comment_item.php:44
+#, php-format
+msgid ""
+"This comment has been deleted by %s <em class=\"wpas-time\">%s ago.</"
+"em>"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comment_item.php:61
+msgid "Unread"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comment_item.php:76
+#: ../includes/templates/metaboxes/details.php:47
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comment_item.php:88
+msgid "Are you sure you want to delete this comment?"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments-form.php:14
+#, php-format
+msgctxt "Title of the reply editor in the back-end"
+msgid "Write a comment to %s"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments-form.php:42
+msgid "Select Comment Type"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments-form.php:86
+msgid "Comment"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments.php:18
+msgid "Create Ticket"
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments.php:19
+msgid "Please save this ticket to reveal all options."
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments.php:47
+msgid "This issue has been closed."
+msgstr ""
+
+#: ../includes/templates/metaboxes/comments.php:60
+msgid ""
+"Sorry, you don't have sufficient permissions to add comment on this "
+"issue."
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:41
+msgctxt "Issue creation"
+msgid "Creating..."
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:64
+msgid "The agent currently responsible for this issue"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:64
+msgid "Support Staff"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:141
+msgid "Parent"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:152
+msgid "(no parent)"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:188
+msgid "Updating"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:189
+msgid "Update Issue"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:192
+msgid "Creating"
+msgstr ""
+
+#: ../includes/templates/metaboxes/details.php:193
+msgid "Open Issue"
+msgstr ""
+
+#: ../includes/templates/metaboxes/it-tickets-tab.php:5
+#: ../includes/templates/metaboxes/tabs.php:20
+msgid "Tickets"
+msgstr ""
+
+#: ../includes/templates/metaboxes/it-tickets-tab.php:9
+#: ../includes/templates/ticket_issues/items.php:25
+msgid "ID"
+msgstr ""
+
+#: ../includes/templates/metaboxes/it-tickets-tab.php:10
+#: ../includes/templates/ticket_issues/items.php:26
+msgid "Title"
+msgstr ""
+
+#: ../includes/templates/metaboxes/it-tickets-tab.php:11
+#: ../includes/templates/ticket_issues/items.php:27
+msgid "Last Reply Date"
+msgstr ""
+
+#: ../includes/templates/metaboxes/it-tickets-tab.php:13
+#: ../includes/templates/ticket_issues/items.php:29
+msgid "Activity"
+msgstr ""
+
+#: ../includes/templates/metaboxes/it-tickets-tab.php:23
+#: ../includes/templates/ticket_issues/item.php:48
+msgid "Y/m/d"
+msgstr ""
+
+#: ../includes/templates/metaboxes/tabs.php:21
+msgid "Additional Agents"
+msgstr ""
+
+#: ../includes/templates/metaboxes/tabs.php:22
+msgid "Additional Interested Parties"
+msgstr ""
+
+#: ../includes/templates/ticket_issues/add.php:16
+msgid "Select issue"
+msgstr ""
+
+#: ../includes/templates/ticket_issues/add.php:39
+msgid "Select an issue"
+msgstr ""
+
+#: ../includes/templates/ticket_issues/item.php:22
+msgid "Are you sure you want to delete this issue?"
+msgstr ""

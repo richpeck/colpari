@@ -1,0 +1,14 @@
+#poststuff .ascustomfaq_quick_reply_wrapper {
+	padding: 1.5em;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	background-color: #3A99D9;
+}
+#poststuff .ascustomfaq_quick_reply_wrapper h3 {
+	padding-top: 0;
+	padding-left: 0;
+	color: white;
+}
+#poststuff .ascustomfaq_quick_reply_select {
+	max-width: 30em;
+}

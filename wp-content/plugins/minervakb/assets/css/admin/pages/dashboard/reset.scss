@@ -1,0 +1,18 @@
+.mkb-dashboard__reset {
+  background: #fff;
+  margin-right: 0.8em;
+  padding: 2em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.12);
+}
+
+#mkb-dashboard {
+  .mkb-dashboard__reset {
+    .mkb-settings-content {
+      box-sizing: content-box;
+
+      * {
+        box-sizing: content-box;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+/* VC classes */
+.tbk-vc-read-only {
+    margin-right: 10px;
+    color: lightgrey;
+}
+
+.tbk-vc-logged-only {
+    margin-right: 10px;
+    color: lightcoral;
+}

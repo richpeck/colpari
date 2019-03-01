@@ -1,0 +1,113 @@
+/*
+ *
+ * @package   Awesome Support: Satisfaction Survey
+ * @author    Robert W. Kramer III for Awesome Support <support@getawesomesupport.com>
+ * @license   GPL-2.0+
+ * @link      https://getawesomesupport.com
+ * @copyright 2016. Awesome Support
+ *
+ */
+
+#rating_form {
+    clear: both;
+    overflow: visible;
+    margin-top: 20px;
+}
+
+#rating_form p {
+    margin: 0;
+    float: left;
+}
+
+.scale_label_bad {
+    color: red;
+    margin: 3px 5px;
+    float: left;
+    line-height: 1em;
+}
+
+.scale_label_good {
+    color: green;
+    margin: 3px 5px;
+    float: left;
+    line-height: 1em;
+}
+
+input.scale_input_radio {
+    margin: 5px 0;
+    float: left;
+    line-height: 1em;
+}
+
+.scale_unsatisifed_reasons {
+    margin: 8px 8px;
+}
+
+.survey_comment {
+    clear: both;
+    margin: 20px 0;
+}
+
+.rating_choices {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/*
+ * Radio button margins according to degrees of scale
+ */
+
+.rating_choices.scale_2 input[type="radio"] {
+    margin: 5px 10px;    
+}
+
+.rating_choices.scale_5 input[type="radio"] {
+    margin: 5px 10px;    
+}
+
+.rating_choices.scale_10 input[type="radio"] {
+    margin: 5px 3px;     
+}
+
+.wrapper_rating_choices {
+    /*text-align: center;*/
+}
+
+.wpas_unsatisfied_reasons {
+    display: none;
+    margin: 20px 0 20px 0;
+}
+
+/*
+ * Info box CSS taken from AS core.
+ */
+
+.wpas-alert{
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid transparent
+}
+
+.wpas-alert-success{
+    color:#3c763d;
+    background-color:#dff0d8;
+    border-color:#d6e9c6
+}
+
+.wpas-alert-info{
+    color:#31708f;
+    background-color:#d9edf7;
+    border-color:#bce8f1
+}
+
+.wpas-alert-warning{
+    color:#8a6d3b;
+    background-color:#fcf8e3;
+    border-color:#faebcc
+}
+
+.wpas-alert-danger{
+    color:#a94442;
+    background-color:#f2dede;
+    border-color:#ebccd1
+}

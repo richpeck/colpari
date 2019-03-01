@@ -1,0 +1,20 @@
+.admin-bar .fusion-sliding-bar-position-left,
+.admin-bar .fusion-sliding-bar-position-right,
+.admin-bar .fusion-sliding-bar-position-top {
+  top: 46px;
+}
+.admin-bar .fusion-header-has-flyout-menu .fusion-header {
+  top: 46px;
+}
+.admin-bar.layout-boxed-mode-framed .fusion-sides-frame,
+.admin-bar.layout-boxed-mode-framed .fusion-top-frame {
+  top: 46px;
+}
+#wp-toolbar > ul > .avada-menu {
+  display: block;
+}
+#wpadminbar .avada-menu > .ab-item .ab-icon {
+  padding-top: 6px !important;
+  height: 40px !important;
+  font-size: 30px !important;
+}

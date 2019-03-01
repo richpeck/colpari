@@ -1,0 +1,849 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Documentation\n"
+"POT-Creation-Date: 2017-07-03 18:46-0500\n"
+"PO-Revision-Date: 2016-08-08 11:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <contact@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: class-documentation.php:143
+msgctxt "post type general name"
+msgid "Documentations"
+msgstr ""
+
+#: class-documentation.php:144
+msgctxt "post type singular name"
+msgid "Documentation"
+msgstr ""
+
+#: class-documentation.php:145
+msgctxt "admin menu"
+msgid "Documentation"
+msgstr ""
+
+#: class-documentation.php:146
+msgctxt "add new on admin bar"
+msgid "Documentation"
+msgstr ""
+
+#: class-documentation.php:147
+msgctxt "book"
+msgid "Add Documentation"
+msgstr ""
+
+#: class-documentation.php:148
+msgid "Add New Documentation"
+msgstr ""
+
+#: class-documentation.php:149
+msgid "New Documentation"
+msgstr ""
+
+#: class-documentation.php:150
+msgid "Edit Documentation"
+msgstr ""
+
+#: class-documentation.php:151
+msgid "View Documentation"
+msgstr ""
+
+#: class-documentation.php:152
+msgid "All Documentation"
+msgstr ""
+
+#: class-documentation.php:153
+msgid "Search Documentation"
+msgstr ""
+
+#: class-documentation.php:154
+msgid "Parent Documentation:"
+msgstr ""
+
+#: class-documentation.php:155
+msgid "No documentations found."
+msgstr ""
+
+#: class-documentation.php:156
+msgid "No documentations found in Trash."
+msgstr ""
+
+#: class-documentation.php:228
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: class-documentation.php:229
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: class-documentation.php:230
+msgid "Search Tags"
+msgstr ""
+
+#: class-documentation.php:231
+msgid "Popular Tags"
+msgstr ""
+
+#: class-documentation.php:232
+msgid "All Tags"
+msgstr ""
+
+#: class-documentation.php:235
+msgid "Edit Tag"
+msgstr ""
+
+#: class-documentation.php:236
+msgid "Update Tag"
+msgstr ""
+
+#: class-documentation.php:237
+msgid "Add New Tag"
+msgstr ""
+
+#: class-documentation.php:238
+msgid "New Tag Name"
+msgstr ""
+
+#: class-documentation.php:239
+msgid "Separate tags with commas"
+msgstr ""
+
+#: class-documentation.php:240
+msgid "Add or remove tags"
+msgstr ""
+
+#: class-documentation.php:241
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: class-documentation.php:242
+msgid "No tags found."
+msgstr ""
+
+#: class-documentation.php:243
+msgid "Tags"
+msgstr ""
+
+#: class-documentation.php:269
+msgctxt "wpas-documentation"
+msgid "Categories"
+msgstr ""
+
+#: class-documentation.php:270
+msgctxt "wpas-documentation"
+msgid "Category"
+msgstr ""
+
+#: class-documentation.php:271
+msgid "Search Categories"
+msgstr ""
+
+#: class-documentation.php:272
+msgid "All Categories"
+msgstr ""
+
+#: class-documentation.php:273
+msgid "Parent Category"
+msgstr ""
+
+#: class-documentation.php:274
+msgid "Parent Category:"
+msgstr ""
+
+#: class-documentation.php:275
+msgid "Edit Category"
+msgstr ""
+
+#: class-documentation.php:276
+msgid "Update Category"
+msgstr ""
+
+#: class-documentation.php:277
+msgid "Add New Category"
+msgstr ""
+
+#: class-documentation.php:278
+msgid "New Category Name"
+msgstr ""
+
+#: class-documentation.php:279
+msgid "Categories"
+msgstr ""
+
+#: class-documentation.php:304
+msgctxt "wpas-documentation"
+msgid "Sections"
+msgstr ""
+
+#: class-documentation.php:305
+msgctxt "wpas-documentation"
+msgid "Section"
+msgstr ""
+
+#: class-documentation.php:306
+msgid "Search Sections"
+msgstr ""
+
+#: class-documentation.php:307
+msgid "All Sections"
+msgstr ""
+
+#: class-documentation.php:308
+msgid "Parent Section"
+msgstr ""
+
+#: class-documentation.php:309
+msgid "Parent Section:"
+msgstr ""
+
+#: class-documentation.php:310
+msgid "Edit Section"
+msgstr ""
+
+#: class-documentation.php:311
+msgid "Update Section"
+msgstr ""
+
+#: class-documentation.php:312
+msgid "Add New Section"
+msgstr ""
+
+#: class-documentation.php:313
+msgid "New Section Name"
+msgstr ""
+
+#: class-documentation.php:314
+msgid "Sections"
+msgstr ""
+
+#: class-documentation.php:339
+msgctxt "wpas-documentation"
+msgid "Chapters"
+msgstr ""
+
+#: class-documentation.php:340
+msgctxt "wpas-documentation"
+msgid "Chapter"
+msgstr ""
+
+#: class-documentation.php:341
+msgid "Search Chapters"
+msgstr ""
+
+#: class-documentation.php:342
+msgid "All Chapters"
+msgstr ""
+
+#: class-documentation.php:343
+msgid "Parent Chapter"
+msgstr ""
+
+#: class-documentation.php:344
+msgid "Parent Chapter:"
+msgstr ""
+
+#: class-documentation.php:345
+msgid "Edit Chapter"
+msgstr ""
+
+#: class-documentation.php:346
+msgid "Update Chapter"
+msgstr ""
+
+#: class-documentation.php:347
+msgid "Add New Chapter"
+msgstr ""
+
+#: class-documentation.php:348
+msgid "New Chapter Name"
+msgstr ""
+
+#: class-documentation.php:349
+msgid "Chapters"
+msgstr ""
+
+#: class-documentation.php:374
+msgctxt "wpas-documentation"
+msgid "Versions"
+msgstr ""
+
+#: class-documentation.php:375
+msgctxt "wpas-documentation"
+msgid "Version"
+msgstr ""
+
+#: class-documentation.php:376
+msgid "Search Versions"
+msgstr ""
+
+#: class-documentation.php:377
+msgid "All Versions"
+msgstr ""
+
+#: class-documentation.php:378
+msgid "Parent Version"
+msgstr ""
+
+#: class-documentation.php:379
+msgid "Parent Version:"
+msgstr ""
+
+#: class-documentation.php:380
+msgid "Edit Version"
+msgstr ""
+
+#: class-documentation.php:381
+msgid "Update Version"
+msgstr ""
+
+#: class-documentation.php:382
+msgid "Add New Version"
+msgstr ""
+
+#: class-documentation.php:383
+msgid "New Version Name"
+msgstr ""
+
+#: class-documentation.php:384
+msgid "Versions"
+msgstr ""
+
+#: class-documentation.php:408
+msgid "Documentation"
+msgstr ""
+
+#: class-documentation.php:411
+msgid "Widgets in this area will be shown on the documentation pages."
+msgstr ""
+
+#: class-documentation.php:435
+msgid "Product"
+msgstr ""
+
+#: class-documentation.php:437
+msgid "Order"
+msgstr ""
+
+#: class-documentation.php:686
+msgid "Documentation Top Menu"
+msgstr ""
+
+#: documentation.php:157
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: documentation.php:183
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: documentation.php:187
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: documentation.php:191
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: documentation.php:457
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of Awesome Support: Documentation <strong>will never "
+"be updated</strong>."
+msgstr ""
+
+#: documentation.php:458
+msgid "I do NOT want the updates, dismiss this message"
+msgstr ""
+
+#: documentation.php:484
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: includes/class-admin.php:54
+msgid "Documentations"
+msgstr ""
+
+#: includes/class-admin.php:61
+msgid "Documentation Details"
+msgstr ""
+
+#: includes/functions-quick-reply.php:31
+msgid "Quick Documentation Links"
+msgstr ""
+
+#: includes/functions-quick-reply.php:41
+msgid "Select a Document"
+msgstr ""
+
+#: includes/functions-quick-reply.php:87
+msgid "Tag"
+msgstr ""
+
+#: includes/functions-quick-reply.php:87
+msgid "Description"
+msgstr ""
+
+#: includes/functions-quick-reply.php:93
+msgid "Converts into the link to the Documentation Item"
+msgstr ""
+
+#: includes/functions-quick-reply.php:100
+msgid "Template Tags"
+msgstr ""
+
+#: includes/functions-quick-reply.php:101
+#, php-format
+msgid ""
+"<p>When setting up your documentation, you can use a certain number of "
+"template tags allowing you to dynamically add ticket-related "
+"information at the moment the reply is sent. Here is the list of "
+"available tags:</p>%s"
+msgstr ""
+
+#: includes/functions-search.php:122
+msgid "DOC: "
+msgstr ""
+
+#: includes/functions-search.php:174
+msgid "Search the documentation..."
+msgstr ""
+
+#: includes/functions-settings.php:29
+msgid "General"
+msgstr ""
+
+#: includes/functions-settings.php:32
+msgid "Reply &amp; Doc Closes"
+msgstr ""
+
+#: includes/functions-settings.php:35
+msgid ""
+"Close tickets when replied using the <em>Reply &amp; DOC</em> button."
+msgstr ""
+
+#: includes/functions-settings.php:39
+msgid "Quick Documentation Links Template"
+msgstr ""
+
+#: includes/functions-settings.php:42
+#, php-format
+msgid ""
+"Reply to send to the client directing him to the documentation "
+"article. <a %s>Click here</a> to review all available template tags."
+msgstr ""
+
+#: includes/functions-settings.php:46
+msgid "Rewrite Slug"
+msgstr ""
+
+#: includes/functions-settings.php:49
+#, php-format
+msgid ""
+"What should the slug be for documentation? The slug is the part that "
+"prefixes the question slug. Example: %s. Please refresh your "
+"permalinks if you change this option."
+msgstr ""
+
+#: includes/functions-settings.php:56
+msgid "Live Search"
+msgstr ""
+
+#: includes/functions-settings.php:59
+msgid "Live Search Notes"
+msgstr ""
+
+#: includes/functions-settings.php:61
+msgid ""
+"Options for searching as the user enters data into the title of the "
+"ticket. If FAQ is installed, both FAQ and Documentation results will "
+"show up in the live search drop-down"
+msgstr ""
+
+#: includes/functions-settings.php:64
+msgid "Live Search Fields"
+msgstr ""
+
+#: includes/functions-settings.php:67
+#, php-format
+msgid ""
+"On which elements should the live search trigger? By default, it is "
+"enabled on the ticket submission form title field. You can add more "
+"form elements by specifying their selector. If you use multiple "
+"selectors, they must be separated by a comma (%s). <a %s>Read more "
+"about selectors</a>."
+msgstr ""
+
+#: includes/functions-settings.php:71
+msgid "Delay"
+msgstr ""
+
+#: includes/functions-settings.php:74
+msgid ""
+"Delay (in <code>milliseconds</code>) after which the live search is "
+"triggered when the user types something."
+msgstr ""
+
+#: includes/functions-settings.php:78
+msgid "Characters Min."
+msgstr ""
+
+#: includes/functions-settings.php:81
+msgid "Minimum number of characters required to trigger the live search."
+msgstr ""
+
+#: includes/functions-settings.php:86
+msgid "Link Target"
+msgstr ""
+
+#: includes/functions-settings.php:89
+msgid "Where do you want links to open?"
+msgstr ""
+
+#: includes/functions-settings.php:90
+msgid "New window/tab"
+msgstr ""
+
+#: includes/functions-settings.php:90
+msgid "Same window/tab"
+msgstr ""
+
+#: includes/functions-settings.php:94
+msgid "Sort Results"
+msgstr ""
+
+#: includes/functions-settings.php:97
+msgid "How do you want live search results ot be displayed?"
+msgstr ""
+
+#: includes/functions-settings.php:99
+msgid "Date (ascending)"
+msgstr ""
+
+#: includes/functions-settings.php:100
+#: includes/functions-settings.php:102
+msgid "Date (descending)"
+msgstr ""
+
+#: includes/functions-settings.php:101
+msgid "Title (ascending)"
+msgstr ""
+
+#: includes/functions-settings.php:107
+msgid "Max. Results"
+msgstr ""
+
+#: includes/functions-settings.php:110
+msgid "Maximum number of results to display."
+msgstr ""
+
+#: includes/functions-settings.php:116
+msgid "Live Search Results Styles"
+msgstr ""
+
+#: includes/functions-settings.php:118
+msgid "These options control the look of the live search results"
+msgstr ""
+
+#: includes/functions-settings.php:122
+msgid "Section Background Color"
+msgstr ""
+
+#: includes/functions-settings.php:125
+msgid ""
+"Color of the background on which the live search results are shown"
+msgstr ""
+
+#: includes/functions-settings.php:129
+msgid "Topic Title Color"
+msgstr ""
+
+#: includes/functions-settings.php:132
+msgid "Color of the topics / results that are shown"
+msgstr ""
+
+#: includes/functions-settings.php:140
+msgid "Display"
+msgstr ""
+
+#: includes/functions-settings.php:144
+msgid "Name"
+msgstr ""
+
+#: includes/functions-settings.php:147
+msgid ""
+"Please enter a title for the documentation page. Example: Awesome "
+"Support Documentation"
+msgstr ""
+
+#: includes/functions-settings.php:151
+msgid "Title Link"
+msgstr ""
+
+#: includes/functions-settings.php:154
+msgid ""
+"Where should the user be sent when the documentation title is clicked? "
+"This should be a FULL URL including the http:// or https:// prefix."
+msgstr ""
+
+#: includes/functions-settings.php:158
+msgid "Logo"
+msgstr ""
+
+#: includes/functions-settings.php:161
+msgid "Upload a logo"
+msgstr ""
+
+#: includes/functions-settings.php:164
+msgid "Sidebar Color"
+msgstr ""
+
+#: includes/functions-settings.php:167
+msgid "You can pick whatever color you like for the sidebar"
+msgstr ""
+
+#: includes/functions-settings.php:171
+msgid "Top Bar Color"
+msgstr ""
+
+#: includes/functions-settings.php:174
+msgid "The color for the top bar"
+msgstr ""
+
+#: includes/functions-settings.php:178
+msgid "Product Background Color"
+msgstr ""
+
+#: includes/functions-settings.php:181
+msgid "Pick a background color for the products in the navigation menu"
+msgstr ""
+
+#: includes/functions-settings.php:185
+msgid "Product Text Color"
+msgstr ""
+
+#: includes/functions-settings.php:188
+msgid "Pick a color for the products text in the navigation menu"
+msgstr ""
+
+#: includes/functions-settings.php:192
+msgid "Chapter Background Color"
+msgstr ""
+
+#: includes/functions-settings.php:195
+msgid "A background color for the chapters"
+msgstr ""
+
+#: includes/functions-settings.php:199
+msgid "Chapter Text Color"
+msgstr ""
+
+#: includes/functions-settings.php:202
+msgid "Color for the chapter text"
+msgstr ""
+
+#: includes/functions-settings.php:206
+msgid "Version Background Color"
+msgstr ""
+
+#: includes/functions-settings.php:209
+msgid "A background color for the versions"
+msgstr ""
+
+#: includes/functions-settings.php:213
+msgid "Version Text Color"
+msgstr ""
+
+#: includes/functions-settings.php:216
+msgid "Color for the versions text"
+msgstr ""
+
+#: includes/functions-settings.php:220
+msgid "Topic Background Color"
+msgstr ""
+
+#: includes/functions-settings.php:223
+msgid "A background color for the topics"
+msgstr ""
+
+#: includes/functions-settings.php:227
+msgid "Topic Text Color"
+msgstr ""
+
+#: includes/functions-settings.php:230
+msgid "Color for the topics text"
+msgstr ""
+
+#: includes/functions-settings.php:234
+msgid "Menu Active Color"
+msgstr ""
+
+#: includes/functions-settings.php:237
+msgid "Menu active state color"
+msgstr ""
+
+#: includes/functions-settings.php:241
+msgid "Copyright"
+msgstr ""
+
+#: includes/functions-settings.php:244
+msgid "Copyright Notice"
+msgstr ""
+
+#: includes/functions-settings.php:248
+msgid "Top Menu Font"
+msgstr ""
+
+#: includes/functions-settings.php:251
+msgid ""
+"You can pick your preferences for font styles that apply on the "
+"assigned WP menu"
+msgstr ""
+
+#: includes/functions-settings.php:267
+msgid "Product Font"
+msgstr ""
+
+#: includes/functions-settings.php:270
+msgid "Select a font style for Product labels in the sidebar"
+msgstr ""
+
+#: includes/functions-settings.php:286
+msgid "Chapter Font"
+msgstr ""
+
+#: includes/functions-settings.php:289
+msgid "Select a font style for chapters"
+msgstr ""
+
+#: includes/functions-settings.php:305
+msgid "Version Font"
+msgstr ""
+
+#: includes/functions-settings.php:308
+msgid "Select a font style for versions"
+msgstr ""
+
+#: includes/functions-settings.php:324
+msgid "Topic Font"
+msgstr ""
+
+#: includes/functions-settings.php:327
+msgid "Select a font style for topics"
+msgstr ""
+
+#: includes/functions-settings.php:344
+msgid "Show Versions"
+msgstr ""
+
+#: includes/functions-settings.php:347
+msgid "Would you like to show the versions in the documentation pages?"
+msgstr ""
+
+#: includes/functions-settings.php:352
+msgid "Hide Topbar On Front-end"
+msgstr ""
+
+#: includes/functions-settings.php:355
+msgid ""
+"Would you like to hide the top bar on the front end when the user is "
+"logged in?"
+msgstr ""
+
+#: includes/functions-titan-framework.php:32
+msgid "Settings"
+msgstr ""
+
+#: includes/functions-titan-framework.php:33
+msgid "Awesome Support: Documentation - Settings"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:40
+msgid "Create a new Documentation based on this reply"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:40
+msgid "Create Documentation"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:119
+msgid ""
+"Post the reply and create a documentation item with this reply as the "
+"answer"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:119
+msgid "Reply &amp; Documentation"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:157
+#, php-format
+msgid ""
+"The new documentation item has been added. <a href=\"%s\">View FAQ</a>"
+msgstr ""
+
+#: includes/views/metaboxes/details.php:4
+msgid "Menu Label"
+msgstr ""
+
+#: includes/views/metaboxes/details.php:7
+msgid "Custom label shown in the sidebar menu on the front-end"
+msgstr ""
+
+#: includes/views/metaboxes/details.php:11
+msgid "Lead"
+msgstr ""
+
+#: includes/views/metaboxes/details.php:14
+msgid "Lead paragraph displayed right under the page title"
+msgstr ""
+
+#: includes/widgets/table-of-contents/table-of-contents.php:15
+msgid "AS Documentation: TOC"
+msgstr ""
+
+#: includes/widgets/table-of-contents/table-of-contents.php:18
+msgid "Displays the table of contents for the current documentation."
+msgstr ""
+
+#: templates/single-documentation.php:118
+msgid "Current Version"
+msgstr ""
+
+#: templates/single-documentation.php:192
+msgid "Current Chapter"
+msgstr ""

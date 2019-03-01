@@ -1,0 +1,1685 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ABBUA Wordpress Admin Theme\n"
+"POT-Creation-Date: 2018-07-04 16:25-0400\n"
+"PO-Revision-Date: 2018-07-04 16:23-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: abbua_admin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-abbua_admin-admin.php:278
+#, php-format
+msgid ""
+"<br> Your WordPress is using <a href=\"%s\" title=\"ABBUA Admin Website\" "
+"target=\"_blank\">ABBUA Admin %s</a>"
+msgstr ""
+
+#: admin/class-abbua_admin-admin.php:291
+msgid "Settings"
+msgstr ""
+
+#: admin/class-abbua_admin-admin.php:308
+msgid "Getting Started"
+msgstr ""
+
+#: admin/class-abbua_admin-admin.php:309
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-abbua_admin-admin.php:734
+msgid "Admin Menu Manager"
+msgstr ""
+
+#: admin/class-abbua_admin-admin.php:735
+msgid "About the Plugin"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:12
+#, php-format
+msgid "Welcome to <strong>%s</strong>"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:18
+msgid "Online Documentation"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:22
+msgid "Support Portal"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:26
+msgid "Plugin Changelog"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:30
+msgid ""
+"First off all, thanks for considering our work, we love you! <br> We made "
+"this plugin with all our heart, taking care of every small element, motion, "
+"interaction and customizing capabilities, so you can entirely focus on "
+"creating great things. We sincerely hope you'll enjoy it the same as we do! "
+msgstr ""
+
+#: admin/includes/page-dashboard.php:37
+msgid "Customize Appearance"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:41
+msgid "Video Tutorials"
+msgstr ""
+
+#: admin/includes/page-dashboard.php:47
+msgid "Go to Contact page"
+msgstr ""
+
+#: adminframework/classes/framework.class.php:175
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:180
+msgid "Default options restored."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:199
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:374
+msgid "Settings saved."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:376
+msgid "Save"
+msgstr ""
+
+#: adminframework/classes/framework.class.php:376
+msgid "Saving..."
+msgstr ""
+
+#: adminframework/classes/framework.class.php:377
+msgid "Restore"
+msgstr ""
+
+#: adminframework/classes/framework.class.php:380
+#: adminframework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: adminframework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: adminframework/classes/options.class.php:131
+#: adminframework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: adminframework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: adminframework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: adminframework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:207
+#: adminframework/classes/posttype/posttype.php:208
+#: adminframework/classes/posttype/posttype.php:209
+#: adminframework/classes/posttype/posttype.php:210
+#: adminframework/classes/posttype/posttype.php:502
+#: adminframework/classes/posttype/taxonomy.php:120
+#: adminframework/classes/posttype/taxonomy.php:121
+#: adminframework/classes/posttype/taxonomy.php:122
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:211
+msgid "Add New"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:212
+#: adminframework/classes/posttype/taxonomy.php:127
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:213
+#: adminframework/classes/posttype/taxonomy.php:124
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:214
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:215
+#: adminframework/classes/posttype/taxonomy.php:125
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:216
+#: adminframework/classes/posttype/taxonomy.php:131
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:217
+#: adminframework/classes/posttype/taxonomy.php:136
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:218
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:219
+#: adminframework/classes/posttype/taxonomy.php:130
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:220
+#, php-format
+msgid "Enter %s title here"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:436
+#, php-format
+msgid "Show all %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:584
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:716
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:722
+#: adminframework/classes/posttype/posttype.php:725
+#: adminframework/classes/posttype/posttype.php:727
+#, php-format
+msgid "%s updated."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:723
+msgid "Custom field updated."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:724
+msgid "Custom field deleted."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:728
+#, php-format
+msgid "%s saved."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:729
+#, php-format
+msgid "%s submitted."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:731
+#, php-format
+msgid "%2$s scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:732
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:735
+#, php-format
+msgid "%s draft updated."
+msgstr ""
+
+#: adminframework/classes/posttype/posttype.php:755
+#: adminframework/classes/posttype/posttype.php:760
+#: adminframework/classes/posttype/posttype.php:765
+#: adminframework/classes/posttype/posttype.php:770
+#: adminframework/classes/posttype/posttype.php:775
+#, php-format
+msgid "%s "
+msgid_plural "%s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: adminframework/classes/posttype/taxonomy.php:123
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:126
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:128
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:129
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:132
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:133
+#, php-format
+msgid "Seperate %s with commas"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:134
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: adminframework/classes/posttype/taxonomy.php:135
+#, php-format
+msgid "Choose from most used %s"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:82
+#: adminframework/classes/shortcode.class.php:90
+#: adminframework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: adminframework/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: adminframework/config/framework.config.php:8
+#: adminframework/config/framework.config.php:13
+msgid "ABBUA Admin Settings"
+msgstr ""
+
+#: adminframework/config/framework.config.php:14
+msgid "by CastorStudio"
+msgstr ""
+
+#: adminframework/config/framework.config.php:29
+msgid "Themes"
+msgstr ""
+
+#: adminframework/config/framework.config.php:36
+#: adminframework/config/framework.config.php:785
+msgid "Choose a Theme"
+msgstr ""
+
+#: adminframework/config/framework.config.php:41
+msgid "Theme"
+msgstr ""
+
+#: adminframework/config/framework.config.php:61
+#: adminframework/config/framework.config.php:68
+msgid "Logo Settings"
+msgstr ""
+
+#: adminframework/config/framework.config.php:73
+#: adminframework/config/framework.config.php:392
+#: adminframework/config/framework.config.php:403
+msgid "Logo URL"
+msgstr ""
+
+#: adminframework/config/framework.config.php:74
+msgid "User will be redirected to this mentioned url when clicking the logo."
+msgstr ""
+
+#: adminframework/config/framework.config.php:75
+msgid ""
+"<p class=\"cs-text-muted\">If you need to redirect to the wordpress admin "
+"area, use: \"admin_url\" without quotes</p>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:81
+msgid "Admin Logo Type"
+msgstr ""
+
+#: adminframework/config/framework.config.php:82
+msgid "Choose a logo style to use in the admin area"
+msgstr ""
+
+#: adminframework/config/framework.config.php:101
+msgid "Logo Image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:102
+msgid "Upload your own logo of 200px * 44px (width*height)"
+msgstr ""
+
+#: adminframework/config/framework.config.php:104
+#: adminframework/config/framework.config.php:115
+#: adminframework/config/framework.config.php:156
+#: adminframework/config/framework.config.php:188
+#: adminframework/config/framework.config.php:222
+#: adminframework/config/framework.config.php:256
+msgid "Choose Logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:105
+#: adminframework/config/framework.config.php:116
+#: adminframework/config/framework.config.php:157
+msgid "Choose an image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:106
+#: adminframework/config/framework.config.php:117
+#: adminframework/config/framework.config.php:158
+#: adminframework/config/framework.config.php:190
+#: adminframework/config/framework.config.php:224
+#: adminframework/config/framework.config.php:258
+msgid "Use this logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:112
+msgid "Logo Image Collapsed Menu"
+msgstr ""
+
+#: adminframework/config/framework.config.php:113
+msgid "Upload your own logo of 44px * 44px (width*height)"
+msgstr ""
+
+#: adminframework/config/framework.config.php:133
+msgid "Logo Icon"
+msgstr ""
+
+#: adminframework/config/framework.config.php:134
+msgid "Choose an icon for the logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:140
+msgid "Logo Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:141
+msgid "Enter the text to use in the logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:142
+msgid "ABBUA ADMIN <small>White label WordPress Admin Theme</small>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:153
+msgid "Login Page Logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:154
+msgid "Upload your own logo of 350px * 100px (width*height)."
+msgstr ""
+
+#: adminframework/config/framework.config.php:165
+msgid "Favicon Logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:166
+msgid "Use custom favicon for admin area"
+msgstr ""
+
+#: adminframework/config/framework.config.php:168
+#: adminframework/config/framework.config.php:202
+#: adminframework/config/framework.config.php:236
+#: adminframework/config/framework.config.php:288
+#: adminframework/config/framework.config.php:374
+#: adminframework/config/framework.config.php:395
+#: adminframework/config/framework.config.php:415
+#: adminframework/config/framework.config.php:434
+#: adminframework/config/framework.config.php:449
+#: adminframework/config/framework.config.php:482
+#: adminframework/config/framework.config.php:509
+#: adminframework/config/framework.config.php:528
+#: adminframework/config/framework.config.php:549
+#: adminframework/config/framework.config.php:594
+#: adminframework/config/framework.config.php:609
+#: adminframework/config/framework.config.php:629
+#: adminframework/config/framework.config.php:644
+#: adminframework/config/framework.config.php:664
+#: adminframework/config/framework.config.php:675
+#: adminframework/config/framework.config.php:702
+#: adminframework/config/framework.config.php:747
+#: adminframework/config/framework.config.php:759
+#: adminframework/config/framework.config.php:830
+#: adminframework/config/framework.config.php:874
+#: adminframework/config/framework.config.php:884
+#: adminframework/config/framework.config.php:894
+#: adminframework/config/framework.config.php:904
+#: adminframework/config/framework.config.php:914
+#: adminframework/config/framework.config.php:952
+#: adminframework/config/framework.config.php:962
+#: adminframework/config/framework.config.php:972
+#: adminframework/config/framework.config.php:1018
+#: adminframework/config/framework.config.php:1034
+#: adminframework/config/framework.config.php:1060
+#: adminframework/config/framework.config.php:1076
+#: adminframework/config/framework.config.php:1120
+#: adminframework/config/framework.config.php:1160
+#: adminframework/config/framework.config.php:1170
+msgid "Yes"
+msgstr ""
+
+#: adminframework/config/framework.config.php:169
+#: adminframework/config/framework.config.php:203
+#: adminframework/config/framework.config.php:237
+#: adminframework/config/framework.config.php:289
+#: adminframework/config/framework.config.php:375
+#: adminframework/config/framework.config.php:396
+#: adminframework/config/framework.config.php:416
+#: adminframework/config/framework.config.php:435
+#: adminframework/config/framework.config.php:450
+#: adminframework/config/framework.config.php:483
+#: adminframework/config/framework.config.php:510
+#: adminframework/config/framework.config.php:529
+#: adminframework/config/framework.config.php:550
+#: adminframework/config/framework.config.php:595
+#: adminframework/config/framework.config.php:610
+#: adminframework/config/framework.config.php:630
+#: adminframework/config/framework.config.php:645
+#: adminframework/config/framework.config.php:665
+#: adminframework/config/framework.config.php:676
+#: adminframework/config/framework.config.php:703
+#: adminframework/config/framework.config.php:748
+#: adminframework/config/framework.config.php:760
+#: adminframework/config/framework.config.php:831
+#: adminframework/config/framework.config.php:875
+#: adminframework/config/framework.config.php:885
+#: adminframework/config/framework.config.php:895
+#: adminframework/config/framework.config.php:905
+#: adminframework/config/framework.config.php:915
+#: adminframework/config/framework.config.php:953
+#: adminframework/config/framework.config.php:963
+#: adminframework/config/framework.config.php:973
+#: adminframework/config/framework.config.php:1019
+#: adminframework/config/framework.config.php:1035
+#: adminframework/config/framework.config.php:1061
+#: adminframework/config/framework.config.php:1077
+#: adminframework/config/framework.config.php:1121
+#: adminframework/config/framework.config.php:1161
+#: adminframework/config/framework.config.php:1171
+msgid "No"
+msgstr ""
+
+#: adminframework/config/framework.config.php:179
+#: adminframework/config/framework.config.php:213
+#: adminframework/config/framework.config.php:247
+msgid "Notice"
+msgstr ""
+
+#: adminframework/config/framework.config.php:180
+msgid ""
+"We'll automatically generate 3 different favicon sizes: 16x16px, 32x32px, "
+"96x96px. <br> To get the best results, upload an image of at least 96x96 "
+"pixels."
+msgstr ""
+
+#: adminframework/config/framework.config.php:185
+msgid "Favicon Logo Image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:186
+msgid "Upload an image to use as a favicon"
+msgstr ""
+
+#: adminframework/config/framework.config.php:189
+msgid "Choose an image to use as a Favicon"
+msgstr ""
+
+#: adminframework/config/framework.config.php:199
+msgid "Apple Devices Logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:200
+msgid "Use custom logo for Apple devices"
+msgstr ""
+
+#: adminframework/config/framework.config.php:214
+msgid ""
+"We'll automatically generate 9 different device icon sizes: 57x57px, "
+"60x60px, 72x72px, 76x76px, 114x114px, 120x120px, 144x144px, 152x152px, "
+"180x180px. <br> To get the best results, upload an image of at least 180x180 "
+"pixels."
+msgstr ""
+
+#: adminframework/config/framework.config.php:219
+msgid "Apple Devices Logo Image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:220
+msgid "Upload an image to use as a logo for Apple devices"
+msgstr ""
+
+#: adminframework/config/framework.config.php:223
+msgid "Choose an image to use as a Apple devices logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:233
+msgid "Android Devices Logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:234
+msgid "Use custom logo for Android devices"
+msgstr ""
+
+#: adminframework/config/framework.config.php:248
+msgid ""
+"We'll automatically generate 6 different device icon sizes: 36x36px, "
+"48x48px, 72x72px, 96x96px, 144x144px, 192x192px. <br> To get the best "
+"results, upload an image of at least 192x192 pixels."
+msgstr ""
+
+#: adminframework/config/framework.config.php:253
+msgid "Android Devices Logo Image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:254
+msgid "Upload an image to use as a logo for Android devices"
+msgstr ""
+
+#: adminframework/config/framework.config.php:257
+msgid "Choose an image to use as a Android devices logo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:272
+#: adminframework/config/framework.config.php:279
+#: adminframework/config/framework.config.php:285
+msgid "Login Page"
+msgstr ""
+
+#: adminframework/config/framework.config.php:286
+msgid "Use custom login page theme"
+msgstr ""
+
+#: adminframework/config/framework.config.php:296
+msgid "Background Image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:318
+msgid "Custom Background Image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:319
+msgid ""
+"Background image, color and settings etc. for login page (Eg: http://www."
+"yourdomain.com/wp-login.php)"
+msgstr ""
+
+#: adminframework/config/framework.config.php:321
+msgid "Choose Background"
+msgstr ""
+
+#: adminframework/config/framework.config.php:322
+msgid "Choose an image to use as a login background"
+msgstr ""
+
+#: adminframework/config/framework.config.php:323
+msgid "Use this background image"
+msgstr ""
+
+#: adminframework/config/framework.config.php:343
+msgid "Loginbox Style"
+msgstr ""
+
+#: adminframework/config/framework.config.php:354
+msgid "Loginbox Background Style"
+msgstr ""
+
+#: adminframework/config/framework.config.php:365
+msgid "Loginbox Background Color"
+msgstr ""
+
+#: adminframework/config/framework.config.php:371
+msgid "Page Title"
+msgstr ""
+
+#: adminframework/config/framework.config.php:372
+msgid "Use custom login page title"
+msgstr ""
+
+#: adminframework/config/framework.config.php:383
+msgid "Page Title Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:384
+msgid "This is the \"title\" meta tag."
+msgstr ""
+
+#: adminframework/config/framework.config.php:385
+msgid "ABBUA Admin - Whitelabel WordPress Admin Theme"
+msgstr ""
+
+#: adminframework/config/framework.config.php:393
+msgid "Use custom login logo url"
+msgstr ""
+
+#: adminframework/config/framework.config.php:404
+msgid "This is the URL to which the logo points"
+msgstr ""
+
+#: adminframework/config/framework.config.php:405
+msgid ""
+"<p class=\"cs-text-muted\">By default this url is your bloginfo url.</p>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:412
+msgid "Logo Title"
+msgstr ""
+
+#: adminframework/config/framework.config.php:413
+msgid "Use custom logo title"
+msgstr ""
+
+#: adminframework/config/framework.config.php:423
+msgid "Logo Title Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:424
+msgid "This is simply ALT text for the logo."
+msgstr ""
+
+#: adminframework/config/framework.config.php:431
+msgid "Login Message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:432
+msgid "Use custom login message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:446
+msgid "Message Box Style"
+msgstr ""
+
+#: adminframework/config/framework.config.php:447
+msgid "Apply frozen glass style to the message box"
+msgstr ""
+
+#: adminframework/config/framework.config.php:456
+msgid "Login Message Text Color"
+msgstr ""
+
+#: adminframework/config/framework.config.php:462
+msgid "Login Message Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:463
+msgid ""
+"Enter a custom text to show on the login screen. HTML markup can be used."
+msgstr ""
+
+#: adminframework/config/framework.config.php:464
+msgid ""
+"Welcome back to ABBUA Admin. Please login using the user credentials below:"
+"<br><strong>Username:</strong> demo <strong>Password:</strong> demo"
+msgstr ""
+
+#: adminframework/config/framework.config.php:479
+msgid "Logout Message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:480
+msgid "Use custom logout message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:490
+msgid "Logout Message Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:491
+msgid "Enter a text to show on the logout screen. HTML markup can be used."
+msgstr ""
+
+#: adminframework/config/framework.config.php:492
+msgid "Now you're out"
+msgstr ""
+
+#: adminframework/config/framework.config.php:506
+msgid "Remember Me"
+msgstr ""
+
+#: adminframework/config/framework.config.php:507
+msgid "Use custom \"Remember Me\" text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:517
+msgid "Remember Me Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:518
+msgid "Keep session active"
+msgstr ""
+
+#: adminframework/config/framework.config.php:525
+msgid "Login Button"
+msgstr ""
+
+#: adminframework/config/framework.config.php:526
+msgid "Use custom login button style"
+msgstr ""
+
+#: adminframework/config/framework.config.php:540
+msgid "Button Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:541
+msgid "Test ABBUA Admin now!"
+msgstr ""
+
+#: adminframework/config/framework.config.php:546
+msgid "Custom Button Colors"
+msgstr ""
+
+#: adminframework/config/framework.config.php:547
+msgid "Use custom button colors"
+msgstr ""
+
+#: adminframework/config/framework.config.php:557
+msgid "Button Background Color"
+msgstr ""
+
+#: adminframework/config/framework.config.php:573
+msgid "Button Text Color"
+msgstr ""
+
+#: adminframework/config/framework.config.php:591
+msgid "Back to main site link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:592
+#: adminframework/config/framework.config.php:627
+msgid "Use custom link options"
+msgstr ""
+
+#: adminframework/config/framework.config.php:606
+#: adminframework/config/framework.config.php:641
+msgid "Link Visibility"
+msgstr ""
+
+#: adminframework/config/framework.config.php:607
+msgid "Hide \"Back to main site\" link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:616
+#: adminframework/config/framework.config.php:651
+msgid "Link Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:617
+#, php-format
+msgid "<p class=\"cs-text-muted\">Use %s as a site name wildcard</p>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:618
+msgid "Go to Homepage"
+msgstr ""
+
+#: adminframework/config/framework.config.php:626
+msgid "Lost your password? link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:642
+msgid "Hide \"Lost your password?\" link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:652
+msgid "Lost your password? Click here"
+msgstr ""
+
+#: adminframework/config/framework.config.php:660
+msgid "Login Error Shake"
+msgstr ""
+
+#: adminframework/config/framework.config.php:661
+msgid ""
+"When you enter an incorrect username or password, the login form shakes to "
+"alert the user they need to try again."
+msgstr ""
+
+#: adminframework/config/framework.config.php:662
+msgid "Remove the error shake effect"
+msgstr ""
+
+#: adminframework/config/framework.config.php:672
+msgid "Invalid Username Message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:673
+msgid "Use custom invalid username message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:683
+msgid "Invalid Username Message Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:684
+msgid ""
+"Enter a text to show when entering an incorrect username. HTML markup can be "
+"used."
+msgstr ""
+
+#: adminframework/config/framework.config.php:685
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr ""
+
+#: adminframework/config/framework.config.php:699
+msgid "Invalid Password Message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:700
+msgid "Use custom invalid password message"
+msgstr ""
+
+#: adminframework/config/framework.config.php:710
+msgid "Invalid Password Message Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:711
+msgid ""
+"Enter a text to show when entering an incorrect password. HTML markup can be "
+"used."
+msgstr ""
+
+#: adminframework/config/framework.config.php:712
+msgid "<strong>ERROR</strong>: The password you entered is incorrect."
+msgstr ""
+
+#: adminframework/config/framework.config.php:732
+#: adminframework/config/framework.config.php:739
+#: adminframework/config/framework.config.php:744
+msgid "Page Loader"
+msgstr ""
+
+#: adminframework/config/framework.config.php:745
+msgid "Use custom page load progress indicator"
+msgstr ""
+
+#: adminframework/config/framework.config.php:755
+msgid "Custom Colors"
+msgstr ""
+
+#: adminframework/config/framework.config.php:756
+msgid "Use custom progress loader colors"
+msgstr ""
+
+#: adminframework/config/framework.config.php:757
+msgid ""
+"<p class=\"cs-text-muted\">Important: By default, the progress bar uses the "
+"theme primary and primary light colors.</p>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:771
+msgid "Bar Primary Color"
+msgstr ""
+
+#: adminframework/config/framework.config.php:777
+msgid "Bar Secondary Color"
+msgstr ""
+
+#: adminframework/config/framework.config.php:815
+#: adminframework/config/framework.config.php:822
+#: adminframework/config/framework.config.php:911
+msgid "User Profile"
+msgstr ""
+
+#: adminframework/config/framework.config.php:827
+msgid "Personal Settings"
+msgstr ""
+
+#: adminframework/config/framework.config.php:828
+msgid "Hide all user profile Personal Settings section"
+msgstr ""
+
+#: adminframework/config/framework.config.php:837
+msgid "User Profile Personal Settings"
+msgstr ""
+
+#: adminframework/config/framework.config.php:838
+msgid "Check to hide the section"
+msgstr ""
+
+#: adminframework/config/framework.config.php:840
+msgid "Hide Visual editor"
+msgstr ""
+
+#: adminframework/config/framework.config.php:841
+msgid "Hide Syntaxis Highlighting"
+msgstr ""
+
+#: adminframework/config/framework.config.php:842
+msgid "Hide Admin colors schemes"
+msgstr ""
+
+#: adminframework/config/framework.config.php:843
+msgid "Hide Keyboard shortcuts"
+msgstr ""
+
+#: adminframework/config/framework.config.php:844
+msgid "Hide Admin Bar"
+msgstr ""
+
+#: adminframework/config/framework.config.php:845
+msgid "Hide Language selector"
+msgstr ""
+
+#: adminframework/config/framework.config.php:858
+#: adminframework/config/framework.config.php:865
+msgid "Top Navbar"
+msgstr ""
+
+#: adminframework/config/framework.config.php:871
+msgid "View Site Link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:872
+msgid "Show \"view site\" link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:881
+msgid "Updates Link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:882
+msgid "Show updates link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:891
+msgid "Comments Link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:892
+msgid "Show comments link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:901
+msgid "Add New link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:902
+msgid "Show \"Add New\" link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:912
+msgid "Show user profile avatar link"
+msgstr ""
+
+#: adminframework/config/framework.config.php:921
+msgid "Navbar Position"
+msgstr ""
+
+#: adminframework/config/framework.config.php:923
+#: adminframework/config/framework.config.php:981
+#: adminframework/config/framework.config.php:990
+msgid "Follow Scroll"
+msgstr ""
+
+#: adminframework/config/framework.config.php:924
+msgid "Fixed to Top"
+msgstr ""
+
+#: adminframework/config/framework.config.php:937
+#: adminframework/config/framework.config.php:944
+msgid "Admin Menu"
+msgstr ""
+
+#: adminframework/config/framework.config.php:949
+msgid "Custom Admin Menu"
+msgstr ""
+
+#: adminframework/config/framework.config.php:950
+msgid "Use custom admin menu"
+msgstr ""
+
+#: adminframework/config/framework.config.php:959
+msgid "Submenu Accordion"
+msgstr ""
+
+#: adminframework/config/framework.config.php:960
+msgid "Collapse submenu as an accordion menu"
+msgstr ""
+
+#: adminframework/config/framework.config.php:969
+msgid "Custom Scrollbar"
+msgstr ""
+
+#: adminframework/config/framework.config.php:970
+msgid "Use custom scrollbar when fixed-sidebar gets overflowed"
+msgstr ""
+
+#: adminframework/config/framework.config.php:979
+msgid "Sidebar Brand Position"
+msgstr ""
+
+#: adminframework/config/framework.config.php:982
+#: adminframework/config/framework.config.php:991
+msgid "Fixed"
+msgstr ""
+
+#: adminframework/config/framework.config.php:988
+msgid "Sidebar Position"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1003
+#: adminframework/config/framework.config.php:1010
+#: adminframework/config/framework.config.php:1015
+msgid "Footer"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1016
+msgid "Use custom footer text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1031
+msgid "Footer Text Visibility"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1032
+msgid "Hide footer text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1041
+msgid "Custom Footer Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1042
+msgid ""
+"Enter the text that displays in the footer bar. HTML markup can be used."
+msgstr ""
+
+#: adminframework/config/framework.config.php:1043
+msgid ""
+"ABBUA Admin Powered by <a href=\"http://www.castorstudio.com\" target="
+"\"_blank\">CastorStudio</a>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1057
+msgid "Footer Version"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1058
+msgid "Use custom footer version text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1073
+msgid "Footer Version Text Visibility"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1074
+msgid "Hide footer version text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1083
+msgid "Custom Version Text"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1084
+msgid ""
+"Enter the text that displays in the footer version bar. HTML markup can be "
+"used."
+msgstr ""
+
+#: adminframework/config/framework.config.php:1085
+msgid ""
+"<a href=\"http://www.castorstudio.com/abbua-admin-wordpress-white-label-"
+"admin-theme\" target=\"_blank\">v1.0.0</a>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1105
+#: adminframework/config/framework.config.php:1112
+#: adminframework/config/framework.config.php:1117
+#: adminframework/config/framework.config.php:1127
+msgid "Custom CSS"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1118
+msgid "Use custom CSS code"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1128
+msgid ""
+"The code you paste here will be applied in all your admin and login area."
+msgstr ""
+
+#: adminframework/config/framework.config.php:1129
+msgid ""
+"<p class=\"cs-text-muted\">Information: If you need to overwrite any CSS "
+"setting, you can add !important at the end of CSS property. eg: margin: "
+"10px !important;</p>"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1144
+#: adminframework/config/framework.config.php:1151
+msgid "General Settings"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1156
+msgid "Reset Admin Settings"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1157
+msgid ""
+"When you deactivate the plugin all your preferences will be deleted or reset "
+"to their default value."
+msgstr ""
+
+#: adminframework/config/framework.config.php:1158
+msgid "Reset admin settings on plugin deactivation"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1167
+msgid "Admin Name on Right Now Dashboard Widget"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1168
+msgid "Hide the ABBUA Admin version on Dashboard"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1189
+msgid "Backup"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1192
+msgid "notice"
+msgstr ""
+
+#: adminframework/config/framework.config.php:1194
+msgid "You can save your current options. Download a Backup and Import."
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:21
+msgid "Fade FX"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:22
+msgid "Fade In"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:23
+msgid "Fade In Top"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:24
+msgid "Fade In Bottom"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:25
+msgid "Fade In Left"
+msgstr ""
+
+#: adminframework/fields/animation_select/animation_select.php:26
+msgid "Fade In Right"
+msgstr ""
+
+#: adminframework/fields/background/background.php:41
+#: adminframework/fields/background/background.php:42
+#: adminframework/fields/upload/upload.php:23
+#: adminframework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: adminframework/fields/background/background.php:43
+#: adminframework/fields/image/image.php:24
+#: adminframework/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: adminframework/fields/background/background.php:47
+#: adminframework/fields/image/image.php:22
+#: adminframework/fields/image/image.php:28
+msgid "Add Image"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: adminframework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: adminframework/fields/border/border.php:65
+msgid "All borders"
+msgstr ""
+
+#: adminframework/fields/border/border.php:80
+msgid "Top Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:95
+msgid "Right Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:110
+msgid "Bottom Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:125
+msgid "Left Border"
+msgstr ""
+
+#: adminframework/fields/border/border.php:142
+msgid "Border Style"
+msgstr ""
+
+#: adminframework/fields/border/border.php:157
+msgid "Border Color"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:66
+msgid "X Offset"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:82
+msgid "Y Offset"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:98
+msgid "Blur"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:114
+msgid "Spread"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:129
+msgid "Color"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:143
+msgid "Type"
+msgstr ""
+
+#: adminframework/fields/box_shadow/box_shadow.php:157
+msgid "Unit"
+msgstr ""
+
+#: adminframework/fields/builder_detailsview/builder_detailsview.php:20
+msgid "Full Heading"
+msgstr ""
+
+#: adminframework/fields/builder_detailsview/builder_detailsview.php:24
+msgid "Company Logo"
+msgstr ""
+
+#: adminframework/fields/builder_detailsview/builder_detailsview.php:28
+msgid "About Info"
+msgstr ""
+
+#: adminframework/fields/builder_detailsview/builder_detailsview.php:32
+msgid "Contact Info"
+msgstr ""
+
+#: adminframework/fields/builder_detailsview/builder_detailsview.php:36
+msgid "Image Gallery"
+msgstr ""
+
+#: adminframework/fields/builder_detailsview/builder_detailsview.php:40
+#: adminframework/fields/builder_item/builder_item.php:28
+msgid "Social Links"
+msgstr ""
+
+#: adminframework/fields/builder_item/builder_item.php:20
+msgid "Item Title"
+msgstr ""
+
+#: adminframework/fields/builder_item/builder_item.php:24
+msgid "Item Short Description"
+msgstr ""
+
+#: adminframework/fields/builder_item/builder_item.php:32
+msgid "External Link"
+msgstr ""
+
+#: adminframework/fields/builder_item/builder_item.php:36
+msgid "Details View Link"
+msgstr ""
+
+#: adminframework/fields/button/button.php:17
+msgid "Button Name"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:57
+msgid "Regular"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:72
+msgid "Hover"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:87
+msgid "Visited"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:102
+msgid "Active"
+msgstr ""
+
+#: adminframework/fields/color_link/color_link.php:117
+msgid "Focus"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:59
+msgid "Darker"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:75
+msgid "Dark"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:91
+msgid "Normal"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:107
+msgid "Light"
+msgstr ""
+
+#: adminframework/fields/color_variant/color_variant.php:123
+msgid "Lighter"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:31
+msgid "Defaults"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:38
+msgid "Material Design Easing Curves"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:44
+msgid "Penner Equations (approximated)"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:72
+#: adminframework/fields/easing_editor/easing_editor.php:73
+msgid "Custom Easing"
+msgstr ""
+
+#: adminframework/fields/easing_editor/easing_editor.php:107
+msgid "Toggle Editor"
+msgstr ""
+
+#: adminframework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: adminframework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: adminframework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: adminframework/fields/group/group.php:21
+msgid "Adding"
+msgstr ""
+
+#: adminframework/fields/group/group.php:37
+#: adminframework/fields/group/group.php:71
+msgid "Remove"
+msgstr ""
+
+#: adminframework/fields/icon/icon.php:25
+#: adminframework/functions/actions.php:91
+msgid "Add Icon"
+msgstr ""
+
+#: adminframework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: adminframework/fields/image/image.php:23
+msgid "Upload Image"
+msgstr ""
+
+#: adminframework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: adminframework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: adminframework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: adminframework/fields/switcher/switcher.php:21
+msgid "off"
+msgstr ""
+
+#: adminframework/fields/theme_picker/theme_picker.php:38
+msgid "Select a theme"
+msgstr ""
+
+#: adminframework/fields/theme_picker/theme_picker.php:46
+msgid "Load Theme"
+msgstr ""
+
+#: adminframework/fields/theme_picker/theme_picker.php:56
+msgid "Save As New Theme"
+msgstr ""
+
+#: adminframework/fields/typography/typography.php:73
+#: adminframework/fields/typography_advanced/typography_advanced.php:92
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: adminframework/fields/typography/typography.php:79
+#: adminframework/fields/typography_advanced/typography_advanced.php:98
+msgid "Google Fonts"
+msgstr ""
+
+#: adminframework/fields/typography/typography.php:107
+#: adminframework/fields/typography_advanced/typography_advanced.php:235
+#: adminframework/functions/actions.php:41
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:87
+msgid "Font Family"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:125
+msgid "Font Weight & Style"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:141
+msgid "Font Size"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:157
+msgid "Line Height"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:173
+msgid "Letter Spacing"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:181
+msgid "Align Left"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:182
+msgid "Align Center"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:183
+msgid "Align Right"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:184
+msgid "Justify"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:188
+msgid "Text Align"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:196
+msgid "None"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:197
+msgid "Capitalize"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:198
+msgid "Uppercase"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:199
+msgid "Lowercase"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:200
+msgid "Initial"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:201
+msgid "Inherit"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:205
+msgid "Text Transform"
+msgstr ""
+
+#: adminframework/fields/typography_advanced/typography_advanced.php:220
+msgid "Font Color"
+msgstr ""
+
+#: adminframework/functions/actions.php:92
+msgid "Search a Icon..."
+msgstr ""
+
+#: adminframework/functions/actions.php:93
+msgid "Loading..."
+msgstr ""
+
+#: adminframework/functions/helpers.php:48
+msgid "This field class is not available!"
+msgstr ""
+
+#: adminframework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: adminframework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: adminframework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: themes/abbua/abbua.php:31
+msgid "ABBUA Theme Settings"
+msgstr ""
+
+#: themes/abbua/abbua.php:36 themes/default/default.php:36
+#: themes/ebony/ebony.php:36 themes/forgedsteel/forgedsteel.php:36
+#: themes/oasis/oasis.php:36 themes/onyx/onyx.php:35
+msgid "Theme Style"
+msgstr ""
+
+#: themes/abbua/abbua.php:50 themes/default/default.php:50
+#: themes/ebony/ebony.php:50 themes/forgedsteel/forgedsteel.php:50
+#: themes/oasis/oasis.php:50 themes/onyx/onyx.php:49
+msgid "Color Primary"
+msgstr ""
+
+#: themes/abbua/abbua.php:73 themes/default/default.php:73
+#: themes/ebony/ebony.php:73 themes/forgedsteel/forgedsteel.php:76
+#: themes/oasis/oasis.php:73 themes/onyx/onyx.php:65
+msgid "Color Accent"
+msgstr ""
+
+#: themes/default/default.php:31
+msgid "Default Theme Settings"
+msgstr ""
+
+#: themes/ebony/ebony.php:31
+msgid "Ebony Theme Settings"
+msgstr ""
+
+#: themes/forgedsteel/forgedsteel.php:31
+msgid "ForgedSteel Theme Settings"
+msgstr ""
+
+#: themes/oasis/oasis.php:31
+msgid "Oasis Theme Settings"
+msgstr ""
+
+#: themes/onyx/onyx.php:30
+msgid "Onyx Theme Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ABBUA Wordpress Admin Theme"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://www.castorstudio.com/abbua-admin-wordpress-white-label-admin-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"ABBUA Admin it's an advanced and carefully crafted white label WordPress "
+"admin theme. With ABBUA Admin you can change logos, choose one from tons of "
+"color themes, customize everything on the login page and many more features "
+"that lets you bring your WordPress admin area to the next level."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Castorstudio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.castorstudio.com"
+msgstr ""

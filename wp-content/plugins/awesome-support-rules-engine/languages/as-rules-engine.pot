@@ -1,0 +1,727 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support Rules Engine\n"
+"POT-Creation-Date: 2018-01-29 19:17-0600\n"
+"PO-Revision-Date: 2017-09-22 06:43+0300\n"
+"Language-Team: Awesome Support\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: Awesome Support\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: as-rules-engine.php:190
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: as-rules-engine.php:210
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core plugin "
+"first."
+msgstr ""
+
+#: as-rules-engine.php:214
+#, php-format
+msgid ""
+"Unfortunately, %1$s can not run on PHP versions older than %1$s. Read more "
+"information about <a href=\"%1$s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: as-rules-engine.php:218
+#, php-format
+msgid ""
+"%1$s requires Awesome Support version %1$s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: as-rules-engine.php:273 as-rules-engine.php:408
+msgid "AS Ruleset Settings"
+msgstr ""
+
+#: as-rules-engine.php:274
+msgid "Settings"
+msgstr ""
+
+#: as-rules-engine.php:323
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: as-rules-engine.php:329
+msgid "Default"
+msgstr ""
+
+#: as-rules-engine.php:346 as-rules-engine.php:634
+msgid "Triggers Rules"
+msgstr ""
+
+#: as-rules-engine.php:348 as-rules-engine.php:503
+#: includes/class.rulesengine.php:563
+msgid "New ticket"
+msgstr ""
+
+#: as-rules-engine.php:349 as-rules-engine.php:504
+#: includes/class.rulesengine.php:564
+msgid "Client replied to ticket"
+msgstr ""
+
+#: as-rules-engine.php:350 as-rules-engine.php:505
+#: includes/class.rulesengine.php:565
+msgid "Agent replied to ticket"
+msgstr ""
+
+#: as-rules-engine.php:351 as-rules-engine.php:506
+#: includes/class.rulesengine.php:566
+msgid "Status changed"
+msgstr ""
+
+#: as-rules-engine.php:352 as-rules-engine.php:507
+#: includes/class.rulesengine.php:567
+msgid "Ticket closed"
+msgstr ""
+
+#: as-rules-engine.php:353 as-rules-engine.php:508
+#: includes/class.rulesengine.php:568
+msgid "Ticket updated"
+msgstr ""
+
+#: as-rules-engine.php:354 as-rules-engine.php:509
+#: includes/class.rulesengine.php:569
+msgid "Ticket trashed"
+msgstr ""
+
+#: as-rules-engine.php:355 as-rules-engine.php:510
+#: includes/class.rulesengine.php:570
+msgid "Cron"
+msgstr ""
+
+#: as-rules-engine.php:357 as-rules-engine.php:651
+msgid "Conditions Rules"
+msgstr ""
+
+#: as-rules-engine.php:359 as-rules-engine.php:523
+#: includes/class.rulesengine.php:691
+msgid "Tags on ticket"
+msgstr ""
+
+#: as-rules-engine.php:360 as-rules-engine.php:526
+#: includes/class.rulesengine.php:699
+msgid "Age of ticket(In days)"
+msgstr ""
+
+#: as-rules-engine.php:361 as-rules-engine.php:529
+#: includes/class.rulesengine.php:706
+msgid "Age from last customer reply(In days)"
+msgstr ""
+
+#: as-rules-engine.php:362 as-rules-engine.php:532
+#: includes/class.rulesengine.php:713
+msgid "Age from last agent reply(In days)"
+msgstr ""
+
+#: as-rules-engine.php:363 as-rules-engine.php:535
+#: includes/class.rulesengine.php:720
+msgid "Status"
+msgstr ""
+
+#: as-rules-engine.php:364 as-rules-engine.php:392 as-rules-engine.php:538
+#: includes/class.rulesengine.php:728
+msgid "State"
+msgstr ""
+
+#: as-rules-engine.php:365 as-rules-engine.php:541
+#: includes/class.rulesengine.php:736
+msgid "Subject"
+msgstr ""
+
+#: as-rules-engine.php:366 as-rules-engine.php:544
+#: includes/class.rulesengine.php:741
+msgid "Ticket Contents"
+msgstr ""
+
+#: as-rules-engine.php:367 as-rules-engine.php:547
+#: includes/class.rulesengine.php:746
+msgid "Client Name"
+msgstr ""
+
+#: as-rules-engine.php:368 as-rules-engine.php:550
+#: includes/class.rulesengine.php:754
+msgid "Client email address"
+msgstr ""
+
+#: as-rules-engine.php:369 as-rules-engine.php:553
+msgid "Client Attributes and Capabilities"
+msgstr ""
+
+#: as-rules-engine.php:370 as-rules-engine.php:556
+#: includes/class.rulesengine.php:827
+msgid "Agent WP Role"
+msgstr ""
+
+#: as-rules-engine.php:371 as-rules-engine.php:559
+#: includes/class.rulesengine.php:778
+msgid "Agent Name"
+msgstr ""
+
+#: as-rules-engine.php:372 as-rules-engine.php:562
+msgid "Agent Attributes and Capabilities"
+msgstr ""
+
+#: as-rules-engine.php:373 as-rules-engine.php:565
+msgid "Custom field and custom field contents"
+msgstr ""
+
+#: as-rules-engine.php:374 as-rules-engine.php:568
+msgid "Custom field contents"
+msgstr ""
+
+#: as-rules-engine.php:375 as-rules-engine.php:571
+#: includes/class.rulesengine.php:811
+msgid "Reply contents"
+msgstr ""
+
+#: as-rules-engine.php:376 as-rules-engine.php:574
+msgid "Source"
+msgstr ""
+
+#: as-rules-engine.php:377 as-rules-engine.php:577
+#: includes/class.rulesengine.php:817
+msgid "Date"
+msgstr ""
+
+#: as-rules-engine.php:379 as-rules-engine.php:668
+msgid "Action Rules"
+msgstr ""
+
+#: as-rules-engine.php:381 as-rules-engine.php:590
+#: includes/class.rulesengine.php:1037
+msgid "Change status"
+msgstr ""
+
+#: as-rules-engine.php:382 as-rules-engine.php:594
+#: includes/class.rulesengine.php:1054
+msgid "Change priority"
+msgstr ""
+
+#: as-rules-engine.php:383 as-rules-engine.php:596
+#: includes/class.rulesengine.php:1060
+msgid "Change department"
+msgstr ""
+
+#: as-rules-engine.php:384 as-rules-engine.php:595
+#: includes/class.rulesengine.php:1067
+msgid "Change channel"
+msgstr ""
+
+#: as-rules-engine.php:385 as-rules-engine.php:591
+#: includes/class.rulesengine.php:1073
+msgid "Change agent"
+msgstr ""
+
+#: as-rules-engine.php:386
+msgid "Change secondary assignee"
+msgstr ""
+
+#: as-rules-engine.php:387
+msgid "Change tertiary assignee"
+msgstr ""
+
+#: as-rules-engine.php:388
+msgid "Change first interested party email address"
+msgstr ""
+
+#: as-rules-engine.php:389
+msgid "Change second interested party email address"
+msgstr ""
+
+#: as-rules-engine.php:391 as-rules-engine.php:597
+msgid "Close ticket"
+msgstr ""
+
+#: as-rules-engine.php:393 as-rules-engine.php:598
+msgid "Add note to ticket"
+msgstr ""
+
+#: as-rules-engine.php:394 as-rules-engine.php:599
+msgid "Add reply to ticket"
+msgstr ""
+
+#: as-rules-engine.php:395 as-rules-engine.php:600
+msgid "Send email"
+msgstr ""
+
+#: as-rules-engine.php:396 as-rules-engine.php:601
+msgid "Move ticket to trash"
+msgstr ""
+
+#: as-rules-engine.php:397 as-rules-engine.php:602
+#: includes/class.rulesengine.php:1137
+msgid "Zap URL"
+msgstr ""
+
+#: as-rules-engine.php:398 as-rules-engine.php:603
+msgid "Call a webhook/endpoint"
+msgstr ""
+
+#: as-rules-engine.php:399 as-rules-engine.php:604
+msgid "Execute an HTTP post/get action"
+msgstr ""
+
+#: as-rules-engine.php:436
+msgid "Error Submitting form, please try again."
+msgstr ""
+
+#: as-rules-engine.php:592 includes/class.rulesengine.php:1079
+msgid "Change secondary agent"
+msgstr ""
+
+#: as-rules-engine.php:593 includes/class.rulesengine.php:1085
+msgid "Change tertiary agent"
+msgstr ""
+
+#: as-rules-engine.php:686
+msgid "Rules Access Parameter"
+msgstr ""
+
+#: as-rules-engine.php:929
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, "
+"your copy of the Awesome Support: Rules Engine <strong>will never be "
+"updated</strong>."
+msgstr ""
+
+#: as-rules-engine.php:954
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. "
+"<a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: includes/class.actions.php:667
+msgid "Rules ID"
+msgstr ""
+
+#: includes/class.actions.php:889
+#, php-format
+msgid "Note to ticket %s"
+msgstr ""
+
+#: includes/class.actions.php:932
+msgid "The ticket was re-opened through ruleset."
+msgstr ""
+
+#: includes/class.conditions.php:1290 includes/class.conditions.php:1301
+#: includes/class.conditions.php:1562 includes/class.conditions.php:1593
+#: includes/class.conditions.php:1623 includes/class.conditions.php:1647
+#: includes/class.conditions.php:1674 includes/class.conditions.php:1698
+#: includes/class.conditions.php:1712 includes/class.conditions.php:1726
+#: includes/class.conditions.php:1737 includes/class.conditions.php:1749
+#: includes/class.conditions.php:1762 includes/class.conditions.php:1778
+#: includes/class.conditions.php:1789
+msgid "Error: Ticket ID is needed."
+msgstr ""
+
+#: includes/class.conditions.php:1481
+msgid "Condition should not be empty!"
+msgstr ""
+
+#: includes/class.conditions.php:1611
+msgid "Error: This ID is a ticket post type."
+msgstr ""
+
+#: includes/class.conditions.php:1614
+msgid "Error: This ID is invalid."
+msgstr ""
+
+#: includes/class.cron.php:55 includes/views/triggers-metabox.php:21
+msgid "Every 1 Minute (use for testing only!)"
+msgstr ""
+
+#: includes/class.cron.php:59 includes/views/triggers-metabox.php:25
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: includes/class.cron.php:63 includes/views/triggers-metabox.php:29
+msgid "Every 10 Minutes"
+msgstr ""
+
+#: includes/class.cron.php:67 includes/views/triggers-metabox.php:33
+msgid "Every 20 Minutes"
+msgstr ""
+
+#: includes/class.cron.php:71 includes/views/triggers-metabox.php:37
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: includes/class.cron.php:75 includes/views/triggers-metabox.php:41
+msgid "Once Hourly"
+msgstr ""
+
+#: includes/class.cron.php:79 includes/views/triggers-metabox.php:45
+msgid "Every 2nd Hour"
+msgstr ""
+
+#: includes/class.cron.php:83 includes/views/triggers-metabox.php:49
+msgid "Every 4th Hour"
+msgstr ""
+
+#: includes/class.cron.php:87 includes/views/triggers-metabox.php:53
+msgid "Every 6th Hour"
+msgstr ""
+
+#: includes/class.cron.php:91 includes/views/triggers-metabox.php:57
+msgid "Twice Daily"
+msgstr ""
+
+#: includes/class.cron.php:95 includes/views/triggers-metabox.php:61
+msgid "Once Daily"
+msgstr ""
+
+#: includes/class.email.template.php:46 includes/class.email.template.php:47
+#: includes/class.email.template.php:56
+msgid "Email Template"
+msgstr ""
+
+#: includes/class.email.template.php:49
+msgid "Add New Template"
+msgstr ""
+
+#: includes/class.email.template.php:50
+msgid "Edit Template"
+msgstr ""
+
+#: includes/class.email.template.php:51
+msgid "New Template"
+msgstr ""
+
+#: includes/class.email.template.php:52
+msgid "View Template"
+msgstr ""
+
+#: includes/class.email.template.php:53
+msgid "Search Email Templates"
+msgstr ""
+
+#: includes/class.email.template.php:54
+msgid "No Email Templates found"
+msgstr ""
+
+#: includes/class.email.template.php:55
+msgid "No Email Templates found in Trash"
+msgstr ""
+
+#: includes/class.email.template.php:110
+msgid "Enter subject"
+msgstr ""
+
+#: includes/class.rulesengine.php:110
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class.rulesengine.php:138
+msgid "Copy of "
+msgstr ""
+
+#: includes/class.rulesengine.php:240 includes/class.rulesengine.php:241
+#: includes/class.rulesengine.php:251
+msgid "AS Ruleset"
+msgstr ""
+
+#: includes/class.rulesengine.php:243
+msgid "Add New Ruleset"
+msgstr ""
+
+#: includes/class.rulesengine.php:244
+msgid "Edit Ruleset"
+msgstr ""
+
+#: includes/class.rulesengine.php:245
+msgid "New Ruleset"
+msgstr ""
+
+#: includes/class.rulesengine.php:246
+msgid "View Ruleset"
+msgstr ""
+
+#: includes/class.rulesengine.php:247
+msgid "Search Rulesets"
+msgstr ""
+
+#: includes/class.rulesengine.php:248
+msgid "No Rulesets found"
+msgstr ""
+
+#: includes/class.rulesengine.php:249
+msgid "No Rulesets found in Trash"
+msgstr ""
+
+#: includes/class.rulesengine.php:250
+msgid "Parent Ruleset:"
+msgstr ""
+
+#: includes/class.rulesengine.php:454
+msgid "Triggers"
+msgstr ""
+
+#: includes/class.rulesengine.php:464
+msgid "Conditions & Filters"
+msgstr ""
+
+#: includes/class.rulesengine.php:474
+msgid "Actions"
+msgstr ""
+
+#: includes/class.rulesengine.php:617
+msgid "Type: "
+msgstr ""
+
+#: includes/class.rulesengine.php:696
+msgid "Select Tags"
+msgstr ""
+
+#: includes/class.rulesengine.php:723
+msgid "Select Status"
+msgstr ""
+
+#: includes/class.rulesengine.php:762
+msgid "Client Attributes"
+msgstr ""
+
+#: includes/class.rulesengine.php:764 includes/class.rulesengine.php:773
+#: includes/class.rulesengine.php:788 includes/class.rulesengine.php:797
+#: includes/class.rulesengine.php:804 includes/class.rulesengine.php:1039
+#: includes/class.rulesengine.php:1050 includes/class.rulesengine.php:1056
+#: includes/class.rulesengine.php:1062 includes/class.rulesengine.php:1069
+#: includes/class.rulesengine.php:1075 includes/class.rulesengine.php:1081
+#: includes/class.rulesengine.php:1087 includes/class.rulesengine.php:1101
+#: includes/class.rulesengine.php:1112 includes/class.rulesengine.php:1121
+msgid "Please select"
+msgstr ""
+
+#: includes/class.rulesengine.php:770
+msgid "Client Capabilities"
+msgstr ""
+
+#: includes/class.rulesengine.php:786
+msgid "Agent Attributes"
+msgstr ""
+
+#: includes/class.rulesengine.php:794
+msgid "Agent Capabilities"
+msgstr ""
+
+#: includes/class.rulesengine.php:802
+msgid "Custom field"
+msgstr ""
+
+#: includes/class.rulesengine.php:807 includes/class.rulesengine.php:1691
+#: includes/class.rulesengine.php:1819
+msgid "Greater than(>)"
+msgstr ""
+
+#: includes/class.rulesengine.php:807 includes/class.rulesengine.php:1819
+msgid "Less than(<)"
+msgstr ""
+
+#: includes/class.rulesengine.php:1043
+msgid "Close Ticket"
+msgstr ""
+
+#: includes/class.rulesengine.php:1048
+msgid "Change state"
+msgstr ""
+
+#: includes/class.rulesengine.php:1091
+msgid "Change first interested party email"
+msgstr ""
+
+#: includes/class.rulesengine.php:1095
+msgid "Change second interested party email"
+msgstr ""
+
+#: includes/class.rulesengine.php:1099
+msgid "Select Agent Under Whose Name This Note Will Be Entered"
+msgstr ""
+
+#: includes/class.rulesengine.php:1105
+msgid "Enter the note that will be added to the ticket"
+msgstr ""
+
+#: includes/class.rulesengine.php:1110
+msgid "Select Agent Under Whose Name This Reply Will Be Added"
+msgstr ""
+
+#: includes/class.rulesengine.php:1116
+msgid "Enter the reply to be added to the ticket"
+msgstr ""
+
+#: includes/class.rulesengine.php:1120
+msgid "Enter One or More Email Addresses"
+msgstr ""
+
+#: includes/class.rulesengine.php:1125
+msgid "Move Ticket To Trash"
+msgstr ""
+
+#: includes/class.rulesengine.php:1128
+msgid "Enter The Endpoint For The Webhook"
+msgstr ""
+
+#: includes/class.rulesengine.php:1131
+msgid "Choose POST or GET and Then Select Fields To Be Sent"
+msgstr ""
+
+#: includes/class.rulesengine.php:1140 includes/class.rulesengine.php:1170
+msgid "Assignee (agent)"
+msgstr ""
+
+#: includes/class.rulesengine.php:1145 includes/class.rulesengine.php:1176
+msgid "Customer (client)"
+msgstr ""
+
+#: includes/class.rulesengine.php:1150 includes/class.rulesengine.php:1182
+msgid "Secondary Assignee"
+msgstr ""
+
+#: includes/class.rulesengine.php:1155 includes/class.rulesengine.php:1188
+msgid "Tertiary Assignee"
+msgstr ""
+
+#: includes/class.rulesengine.php:1160 includes/class.rulesengine.php:1194
+msgid "Additional Interested Party #1"
+msgstr ""
+
+#: includes/class.rulesengine.php:1165 includes/class.rulesengine.php:1200
+msgid "Additional Interested Party #2"
+msgstr ""
+
+#: includes/class.rulesengine.php:1287
+msgid "Visual Editor"
+msgstr ""
+
+#: includes/class.rulesengine.php:1288
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: includes/class.rulesengine.php:1289
+msgid "Toolbar"
+msgstr ""
+
+#: includes/class.rulesengine.php:1290
+msgid "User Name"
+msgstr ""
+
+#: includes/class.rulesengine.php:1291
+msgid "First Name"
+msgstr ""
+
+#: includes/class.rulesengine.php:1292
+msgid "Last Name"
+msgstr ""
+
+#: includes/class.rulesengine.php:1293
+msgid "Display Name"
+msgstr ""
+
+#: includes/class.rulesengine.php:1294
+msgid "Nickname"
+msgstr ""
+
+#: includes/class.rulesengine.php:1295 includes/class.rulesengine.php:1298
+msgid "Email"
+msgstr ""
+
+#: includes/class.rulesengine.php:1296
+msgid "Website"
+msgstr ""
+
+#: includes/class.rulesengine.php:1297
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/class.rulesengine.php:1570
+msgid "Select operator"
+msgstr ""
+
+#: includes/class.rulesengine.php:1571
+msgid "NOT"
+msgstr ""
+
+#: includes/class.rulesengine.php:1572
+msgid "OR"
+msgstr ""
+
+#: includes/class.rulesengine.php:1573
+msgid "AND"
+msgstr ""
+
+#: includes/class.rulesengine.php:1584
+msgid "Regex"
+msgstr ""
+
+#: includes/class.rulesengine.php:1585
+msgid "Starts Contains"
+msgstr ""
+
+#: includes/class.rulesengine.php:1586
+msgid "Equals"
+msgstr ""
+
+#: includes/class.rulesengine.php:1587
+msgid "Contains"
+msgstr ""
+
+#: includes/class.rulesengine.php:1691
+msgid "Less then(<)"
+msgstr ""
+
+#: includes/class.rulesengine.php:1699 includes/class.rulesengine.php:1833
+msgid "Please Select"
+msgstr ""
+
+#: includes/views/actions-metabox.php:39
+msgid "Add Note To Ticket"
+msgstr ""
+
+#: includes/views/actions-metabox.php:40
+msgid "Add Reply To Ticket"
+msgstr ""
+
+#: includes/views/actions-metabox.php:41
+msgid "Webhook / HTTP Action"
+msgstr ""
+
+#: includes/views/actions-metabox.php:42
+msgid "Send Email"
+msgstr ""
+
+#: includes/views/actions-metabox.php:43
+msgid "Zapier"
+msgstr ""
+
+#: includes/views/actions-metabox.php:81 includes/views/actions-metabox.php:188
+msgid "Select data fields"
+msgstr ""
+
+#: includes/views/actions-metabox.php:117
+msgid "Add multiple emails seperated by comma."
+msgstr ""
+
+#: includes/views/actions-metabox.php:122
+msgid "Also send emails to:"
+msgstr ""
+
+#: includes/views/actions-metabox.php:260
+msgid "Send Test Zap"
+msgstr ""

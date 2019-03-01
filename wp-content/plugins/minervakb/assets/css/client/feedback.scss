@@ -1,0 +1,49 @@
+/**
+ * Feedback
+ */
+.mkb-article-extra__feedback-form-title {
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.mkb-article-extra__feedback-form-message-area {
+  padding: 1em 1.3em;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 6px;
+  width: 100%;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
+}
+
+.mkb-article-extra__feedback-form-submit {
+  a {
+    color: #fff;
+    display: inline-block;
+    padding: 0.6em 1em;
+    margin: 1em 0;
+    border-radius: 6px;
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+
+    &[disabled] {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+}
+
+.mkb-article-extra__feedback-form--no-content {
+  .mkb-article-extra__feedback-form-submit {
+    a {
+      opacity: 0.5;
+      cursor: default;
+    }
+  }
+}
+
+.mkb-article-extra__feedback-info {
+  padding: 0.5em 0 0;
+  font-size: 1em;
+  font-style: italic;
+}

@@ -1,0 +1,720 @@
+
+/*
+==========================================================================
+Tabs
+==========================================================================
+*/
+
+/*
+* Tabs menu
+*/
+#wpas-fa-tabs {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#wpas-fa-tabs-menu {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E0E0E0;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+/*
+* Tab placeholder
+*/
+#wpas-fa-tabs-menu li {
+    display: inline-block;
+    margin-right: 2px;
+    position: relative;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+/*
+* Style a elements in tabs except close icon 
+*/
+#wpas-fa-tabs-menu li a:not(.wpas-fa-close-tab):not(.wpas-fa-setting-menu-link) {
+    padding: 10px 20px;
+    font-size: 14px;       
+    border: 1px solid #E0E0E0;
+    color: #585858;
+    font-weight: 600;
+    box-shadow: none;
+    margin: 0;
+    background-color: #E8E8E8;
+    line-height: 38px;
+    height: 40px;
+    outline: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/*
+* Active tab
+*/
+#wpas-fa-tabs-menu li a.active {
+    background-color: #fff !important;
+    border-left: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    border-bottom: 1px solid #fff !important;
+
+}
+
+/*
+* Style tab on hover
+*/
+#wpas-fa-tabs-menu li a:not(.active):not(.wpas-fa-close-tab):hover {
+    background-color: #F7F7F7;
+}
+
+/*
+* Display settings menu tab on right hand side
+*/
+.wpas-fa-setting-menu-tab {
+    float: right;
+    position: relative;
+}
+
+/*
+* Center gear icon vertically 
+*/
+.wpas-fa-setting-menu-tab a span {
+    position: relative;
+    top: 10px;
+}
+
+
+/*
+* Settings menu
+*/
+.wpas-fa-settings-menu {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    top: 48px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-left: -60px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    width: 180px;
+}
+
+/*
+* Settings menu arrow
+*/
+.wpas-fa-arrow-up {
+    left: 50%;
+    margin-left: -8px;
+    top: -8px;
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #E0E0E0;
+}
+
+/*
+* Settings menu link style
+*/
+.wpas-fa-settings-menu a {
+    display: block;
+    background-color: white;
+    padding: 8px 20px;
+    font-size: 14px;       
+    border-bottom: 1px solid #E0E0E0;
+    color: #585858;
+    font-weight: 600;
+}
+
+.wpas-fa-settings-menu a:last-child {
+    border-bottom: none;
+}
+
+
+
+/*
+==========================================================================
+Tab Content - Table
+==========================================================================
+*/
+
+/*
+* Hide the tickets table to avoid flickering
+* Table will be shown after initialization from DataTables plugin
+* Wdth should be 100%
+*/
+.wpas-fa-table {
+    display: none;
+    width: 100% !important;
+}
+
+/*
+* Hide tab content if it doesnt have class active
+*/
+.wpas-fa-tab-page:not(.active) {
+    display: none;
+}
+
+.wpas-fa-table td {
+    font-size: 14px !important;
+}
+
+.dtr-details {
+    width: 100%;
+}
+
+/*
+* Add padding to dynamically opened tab so close icon can fit in it
+*/
+.wpas-fa-dynamic-tab a {
+    padding-right: 36px !important;
+}
+
+/*
+* Tab position has to be relative because of close icon
+*/
+.fa-view-ticket-tab {
+    position: relative;
+}
+
+/*
+*  Tab close icon style
+*/
+a.wpas-fa-close-tab {
+    position: absolute;
+    top: -8px;
+    right: -25px;
+    width: 16px;
+    height: 16px;
+    font-size: 22px;
+    display: inline-block;
+    padding: 2px 6px;
+    color: rgb(141, 141, 141);
+    text-decoration: none !important;
+    border: none !important;
+    font-weight: bold !important;
+
+}
+
+/*
+* Close icon on hover style
+*/
+.wpas-fa-close-tab:hover {
+    text-decoration: none !important;
+    color: #8f0000;
+}
+
+/*
+* Ticket status label
+*/
+.wpas-fa-tab-page .wpas-label {
+    padding: 2px 6px;
+    color: white;
+    border-radius: 2px;
+    font-size: 11px !important;
+    font-weight: bold;
+    line-height: 22px;
+    display: inline-block !important;
+}
+
+/*
+* Set height of the search input and and select option of datatables plugin
+*/
+.form-control.form-control-sm {
+    height: 36px !important;
+}
+
+
+/*
+* Tab content
+*/
+#wpas-fa-tab-content {
+    padding: 30px 10px 10px 10px;
+    width: 100%;
+}
+
+/*
+==========================================================================
+View Ticket
+==========================================================================
+*/
+
+/*
+* Set width and align of user avatar column
+*/
+.wpas-fa-ticket-avatar {
+    width: 100px !important;
+    vertical-align: top;
+}
+
+/*
+* Make avatar image responsive to fit column width
+* Also add border style
+*/
+.wpas-fa-ticket-avatar img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+/*
+* Move ticket date to right hand side of the table
+*/
+.wpas-fa-ticket-date {
+    text-align: right !important;
+}
+
+/*
+* Ticket info and replies table style
+*/
+.wpas-fa-ticket-info-table, .wpas-fa-reply-table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+.wpas-fa-ticket-info-table th, .wpas-fa-ticket-info-table td {
+    text-align: left;
+    padding: 10px 15px;
+
+}
+
+.wpas-fa-reply-table td, .wpas-fa-sidebar-table td  {
+    text-align: left;
+    padding: 10px;
+}
+
+/*
+* Set different background color to ticket replies to look differently from opening ticket
+*/
+.wpas-fa-reply-table.wpas-fa-reply-background {
+    background-color: rgb(250, 250, 250);
+}
+
+/*
+* Add border to ticket info table rows
+*/
+.wpas-fa-ticket-info-table tr {
+    border-bottom: 2px solid rgb(223, 223, 223);
+}
+
+
+.wpas-fa-reply-table, .wpas-fa-sidebar-table {
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.wpas-fa-sidebar-table tr {
+    border-bottom: 1px solid #efefef;
+} 
+
+
+/*
+* Sidebar custom fields table
+*/
+.wpas-fa-sidebar-table {
+    display: none;
+}
+
+.wpas-fa-sidebar-table td:first-child {
+    width: 33%;
+}
+
+/*
+* Sidebar custom fields show/hide icon
+*/
+.wpas-fa-arrow-down:before {
+    color: #666;
+    content: '▼';
+}
+
+.wpas-open.wpas-fa-arrow-down:before {
+    content: '▲';
+}
+
+
+/*
+* Attachment styling in ticket reply
+*/
+.wpas-reply-attachements {
+    margin-top: 20px;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px 20px;
+    background-color: rgb(231, 231, 231);
+}
+
+.wpas-reply-attachements ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.wpas-reply-attachements a {
+    margin-bottom: 10px;
+}
+
+/*
+ Editor border
+ */
+ .mce-tinymce {
+    border: 1px solid #ddd !important;
+}
+
+
+/*
+ * Reply history
+ */
+
+.wpas-fa-history {
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    font-size: 13px !important;
+    color: #333;
+}
+
+.wpas-fa-history ul, .wpas-fa-history p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.wpas-fa-history ul li {
+    display: block;
+}
+
+
+/*
+==========================================================================
+Buttons
+==========================================================================
+*/
+
+/*
+* Button styling
+*/
+.wpas-fa-btn {
+    display: inline-block;
+    padding: 6px 12px !important;
+    text-decoration: none !important;
+    background-color: white  !important;
+    color: rgb(87, 87, 87)  !important;
+    font-size: 14px  !important;
+    border: 1px solid rgb(223, 223, 223) !important;
+    height: 34px  !important;
+    border-radius: none !important;
+}
+
+/*
+* Button styling on hover
+*/
+.wpas-fa-btn:hover {
+    opacity: 0.8;
+}
+
+
+/*
+* Close button
+*/
+.wpas-fa-btn.btn-close {
+    color: #e70707  !important;
+}
+
+/*
+* Used on mobile phones to display ticket info columns (id,, ststus, date, etc.)
+* Hidden on desktop
+*/
+.wpas-fa-mobile-info {
+    display: none;
+}
+
+/*
+* Ticket change status select option style
+*/
+.wpas-fa-tab-page select {
+    height: 34px;
+    font-size: 13px;
+    color: #333;
+    border-radius: 1px;
+    border: 1px solid rgb(223, 223, 223);
+    width: 100px;
+  }
+
+
+/*
+==========================================================================
+Login Form
+==========================================================================
+*/
+
+/*
+* Login form width
+*/
+#wpas-login-form {
+    max-width: 300px;
+}
+
+/*
+* Display login form elements as block
+*/
+#wpas-login-form label, #wpas-login-form input:not([type="checkbox"]) {
+    display: block;
+
+}
+
+/*
+* Login form label
+*/
+#wpas-login-form label {
+    padding: 10px 0 5px 0;
+}
+
+/*
+* Style every input element except submit button
+*/
+#wpas-login-form input:not([type="submit"]):not([type="checkbox"]) {
+    border: 1px solid #ddd !important;
+    border-radius: 3px !important;
+    width: 100% !important;
+    height: 40px !important;
+    font-size: 15px !important;
+}
+
+/*
+* Login form submit button
+*/
+#wpas-login-form input[type="submit"] {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    border: none !important;
+    border-radius: 3px !important;
+    background-color: rgb(1, 143, 224)  !important;
+    color: white !important;
+    padding: 10px 20px !important;
+}
+
+/*
+* Login form input field style on error
+*/
+#wpas-login-form input.error {
+    border: 1px solid red !important;
+}
+
+
+/*
+* Login status - used to display messages from ajax request
+*/
+#wpas-login-status {
+    display: none;
+}
+
+/*
+* Error notice color
+*/
+.wpas_error_msg {
+    color: red;
+}
+/*
+* Success notice color
+*/
+.wpas_success_msg {
+    color: green;
+}
+
+
+/*
+* Main container
+*/
+#as-fa-container {
+    padding: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+/*
+* Container links
+*/
+#as-fa-container a {
+    text-decoration: none;
+}
+/*
+* Login form 
+*/
+#as-fa-login-form {
+    padding: 20px;
+}
+
+
+/*
+* Break words
+*/
+.break-words {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/*
+==========================================================================
+Responsive
+==========================================================================
+*/
+
+
+@media only screen and (max-width: 740px) {
+
+    .as-fa-desktop-container {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 979px) {
+
+
+    .wpas-fa-table td {
+        font-size: 15px !important;
+        padding: 15px 10px !important;
+
+
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination li a {
+        padding: 12px 15px;
+    }
+
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+        top: 12px;
+        left: 10px;
+
+    }
+
+    table.dataTable  {
+        border-radius: 20px;
+        border-left: 2px solid rgb(236, 236, 236);
+        border-right: 2px solid rgb(236, 236, 236);
+    }
+
+    table.dataTable td, table.dataTable li, .dtr-title {
+        font-size: 13px !important;
+
+    }
+
+    .dtr-data {
+        display: block;
+    }
+
+    #wpas-fa-tabs-menu {
+        width: 100%;
+        display: inline-block;
+        border-bottom: none;
+    }
+
+    #wpas-fa-tabs-menu li {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+
+    #wpas-fa-tabs-menu li a:not(.wpas-fa-close-tab) {
+        display: block;
+        padding: 0px 15px !important;
+        width: 100%;
+        top: 0;
+    }
+
+    #wpas-fa-tabs-menu li a.active {
+        background-color: white !important;
+    }
+
+
+    a.wpas-fa-close-tab {
+        font-size: 30px;
+        top: 2px;
+    }
+    
+
+    .wpas-fa-ticket-info-table thead {
+        display: none;
+    }
+
+    .wpas-fa-ticket-info-table td {
+        display: block !important;
+    }
+
+    .wpas-fa-mobile-info {
+        font-weight: bold;
+        display: inline-block !important;
+        padding-right: 10px;
+    }
+
+
+    /*
+    * Display settings menu tab on right hand side
+    */
+    .wpas-fa-setting-menu-tab {
+        float: none;
+    }
+
+
+    /*
+    * Settings menu
+    */
+    .wpas-fa-settings-menu {
+        position: relative;
+        top: 10px;
+        margin-left: 0 !important;
+        left: 0 !important;
+        margin-left: inherit;
+        border-radius: 0;
+        width: auto;
+        border: none !important;
+    }
+
+    /*
+    * Settings menu arrow
+    */
+    .wpas-fa-arrow-up {
+        display: none;
+    }
+
+    /*
+    * Settings menu link style
+    */
+    .wpas-fa-settings-menu a {
+        line-height: 40px;
+        height: 40px;
+        margin-bottom: 10px !important;
+        border: 1px solid #E0E0E0 !important;
+    }
+
+    /*
+    * Hide elements on mobile
+    */
+    .wpas-hide-on-mobile {
+        display: none !important;
+    }
+
+    /*
+    * Show custom fields sidebar table on mobile devices
+    */
+    .wpas-fa-sidebar-table {
+        display: block  !important;
+    }
+
+
+}

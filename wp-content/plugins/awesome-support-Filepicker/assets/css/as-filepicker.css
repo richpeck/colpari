@@ -1,0 +1,13 @@
+/**
+* The following z-index are based on #adminmenuwrap, which is 9990
+*/
+
+.fp__overlay {
+	z-index: 9991; /* default: 1000 */
+}
+.fp__container {
+	z-index: 9992; /* default: none */
+}
+.fp__close {
+	z-index: 9993; /* default: 20 */
+}

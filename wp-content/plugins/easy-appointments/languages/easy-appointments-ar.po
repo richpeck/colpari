@@ -1,0 +1,759 @@
+# Copyright (C) 2016 Easy Appointments
+# This file is distributed under the same license as the Easy Appointments package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Appointments 1.9.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-"
+"appointments\n"
+"POT-Creation-Date: 2017-04-07 23:34+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-04-23 10:50+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar\n"
+
+#: src/admin.php:239 src/admin.php:240 src/templates/appointments.tpl.php:6
+msgid "Appointments"
+msgstr "المواعيد"
+
+#: src/admin.php:249 src/admin.php:250
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: src/admin.php:259
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: src/admin.php:260
+msgid "Reports"
+msgstr "تقارير"
+
+#: src/ajax.php:227
+msgid "Slot is taken"
+msgstr "هذا الحيز محجوز"
+
+#: src/ajax.php:246
+msgid ""
+"Daily limit of booking request has been reached. Please contact us by email!"
+msgstr ""
+"لقد وصلت إلى الحد اليومي الأعلى من الحجوزات. الرجاء التواصل معنا عبر البريد "
+"الإلكتروني!"
+
+#: src/ajax.php:256
+msgid "Something went wrong! Please try again."
+msgstr "حدث خطأ ما! يرجى المحاولة مرة أخرى."
+
+#: src/frontend.php:152 src/frontend.php:322
+msgid "Please select another day"
+msgstr "الرجاء تحديد يوم آخر"
+
+#: src/frontend.php:153 src/frontend.php:335
+#: src/templates/appointments.tpl.php:85
+msgid "Date & time"
+msgstr "التاريخ والوقت"
+
+#: src/frontend.php:154 src/frontend.php:338 src/templates/admin.tpl.php:127
+#: src/templates/appointments.tpl.php:86
+#: src/templates/appointments.tpl.php:213
+#: src/templates/mail.notification.tpl.php:40
+msgid "Price"
+msgstr "الســعر"
+
+#: src/frontend.php:217 src/frontend.php:323
+msgid "Personal information"
+msgstr "المعلومات الشخصية"
+
+#: src/frontend.php:218 src/frontend.php:328
+msgid "Fields with * are required"
+msgstr "الحقول المعلمة بـ * مطلوبة"
+
+#: src/frontend.php:222 src/frontend.php:334
+msgid "Booking overview"
+msgstr "استعراض الموعد"
+
+#: src/frontend.php:227 src/frontend.php:339
+msgid "I agree with terms and conditions"
+msgstr "أوافق على الأحكام والشروط"
+
+#: src/frontend.php:230 src/frontend.php:340
+msgid "You must agree with terms and conditions"
+msgstr "يجب الموافقة على الأحكام والشروط"
+
+#: src/frontend.php:234 src/frontend.php:336
+msgid "Submit"
+msgstr "إرسال"
+
+#: src/frontend.php:235 src/frontend.php:337 src/templates/admin.tpl.php:104
+#: src/templates/admin.tpl.php:162 src/templates/admin.tpl.php:226
+#: src/templates/admin.tpl.php:412 src/templates/appointments.tpl.php:225
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/frontend.php:263 src/frontend.php:268 src/frontend.php:284
+#: src/frontend.php:324
+msgid "This field is required."
+msgstr "هذا الحقل مطلوب."
+
+#: src/frontend.php:264 src/frontend.php:325
+msgid "Please enter a valid email address"
+msgstr "الرجاء إدخال بريد إلكتروني صالح"
+
+#: src/frontend.php:326
+msgid "Please enter at least 3 characters."
+msgstr "أدخل ثلاثة حروف على الأقل."
+
+#: src/frontend.php:327
+msgid "Please enter at least 3 digits."
+msgstr "أدخل ثلاثة حروف على الأقل."
+
+#: src/frontend.php:329 src/templates/admin.tpl.php:186
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: src/frontend.php:330 src/install.php:692 src/templates/admin.tpl.php:67
+#: src/templates/admin.tpl.php:125 src/templates/admin.tpl.php:184
+msgid "Name"
+msgstr "الاسم"
+
+#: src/frontend.php:331 src/install.php:693 src/templates/admin.tpl.php:187
+msgid "Phone"
+msgstr "الهاتف"
+
+#: src/frontend.php:332
+msgid "Comment"
+msgstr "التعليق"
+
+#: src/frontend.php:333
+msgid "Please check your appointment details below and confirm:"
+msgstr "يرجى التحقق من تفاصيل الموعد أدناه ثم التأكيد:"
+
+#: src/install.php:691
+msgid "EMail"
+msgstr "البريد الإلكتروني"
+
+#: src/install.php:694 src/templates/admin.tpl.php:185
+msgid "Description"
+msgstr "الوصف"
+
+#: src/logic.php:303
+msgid "pending"
+msgstr "للمراجعة"
+
+#: src/logic.php:304
+msgid "reservation"
+msgstr "حجز"
+
+#: src/logic.php:305
+msgid "abandoned"
+msgstr "مستبعد"
+
+#: src/logic.php:306
+msgid "canceled"
+msgstr "ملغى"
+
+#: src/logic.php:307
+msgid "confirmed"
+msgstr "مؤكد"
+
+#: src/mail.php:75
+msgid "No appointment."
+msgstr "لا يوجد مواعيد."
+
+#: src/mail.php:81
+msgid "Invalid token."
+msgstr "طلب غير صالح."
+
+#: src/mail.php:98
+msgid "Appointment can't be confirmed!"
+msgstr "لا يمكن تأكيد الموعد!"
+
+#: src/mail.php:114
+msgid "Appointment has been confirmed."
+msgstr "تم تأكيد الموعد."
+
+#: src/mail.php:123
+msgid "Appointment can't be canceled!"
+msgstr "لا يمكن إلغاء الموعد!"
+
+#: src/mail.php:139
+msgid "Appointment can't be canceled"
+msgstr "لا يمكن إلغاء الموعد"
+
+#: src/mail.php:143
+msgid "Appointment has been canceled"
+msgstr "تم إلغاء الموعد"
+
+#: src/mail.php:282
+msgid "Cancel appointment"
+msgstr "إلغاء الموعد"
+
+#: src/mail.php:283
+msgid "Confirm appointment"
+msgstr "تأكيد الموعد"
+
+#: src/metafields.php:26
+msgid "Input"
+msgstr "إدخال"
+
+#: src/metafields.php:27
+msgid "Select"
+msgstr "اختيار"
+
+#: src/metafields.php:28
+msgid "Text"
+msgstr "نص"
+
+#: src/templates/admin.tpl.php:10
+msgid "Locations"
+msgstr "المواقع"
+
+#: src/templates/admin.tpl.php:16
+msgid "Services"
+msgstr "الخدمات"
+
+#: src/templates/admin.tpl.php:22
+msgid "Workers"
+msgstr "العاملين"
+
+#: src/templates/admin.tpl.php:28 src/templates/admin.tpl.php:418
+msgid "Connections"
+msgstr "الاتصالات"
+
+#: src/templates/admin.tpl.php:34
+msgid "Customize"
+msgstr "تخصيص"
+
+#: src/templates/admin.tpl.php:40
+msgid "Tools"
+msgstr "أدوات"
+
+#: src/templates/admin.tpl.php:55
+msgid "Add New Location"
+msgstr "أضف موقع جديد"
+
+#: src/templates/admin.tpl.php:59 src/templates/admin.tpl.php:117
+#: src/templates/admin.tpl.php:176 src/templates/admin.tpl.php:240
+#: src/templates/appointments.tpl.php:74 src/templates/report.tpl.php:54
+msgid "Refresh"
+msgstr "تنشيط"
+
+#: src/templates/admin.tpl.php:68
+msgid "Address"
+msgstr "العنوان"
+
+#: src/templates/admin.tpl.php:69 src/templates/admin.tpl.php:247
+#: src/templates/admin.tpl.php:332 src/templates/admin.tpl.php:601
+#: src/templates/appointments.tpl.php:11 src/templates/appointments.tpl.php:82
+#: src/templates/appointments.tpl.php:142
+#: src/templates/mail.notification.tpl.php:12 src/templates/report.tpl.php:32
+msgid "Location"
+msgstr "الموقع"
+
+#: src/templates/admin.tpl.php:70 src/templates/admin.tpl.php:128
+#: src/templates/admin.tpl.php:188 src/templates/admin.tpl.php:256
+msgid "Actions"
+msgstr "إجراءات"
+
+#: src/templates/admin.tpl.php:92 src/templates/admin.tpl.php:150
+#: src/templates/admin.tpl.php:213 src/templates/admin.tpl.php:322
+#: src/templates/appointments.tpl.php:129
+msgid "Edit"
+msgstr "تحرير"
+
+#: src/templates/admin.tpl.php:93 src/templates/admin.tpl.php:151
+#: src/templates/admin.tpl.php:214 src/templates/admin.tpl.php:323
+#: src/templates/appointments.tpl.php:130
+msgid "Delete"
+msgstr "حذف"
+
+#: src/templates/admin.tpl.php:103 src/templates/admin.tpl.php:161
+#: src/templates/admin.tpl.php:225 src/templates/admin.tpl.php:411
+#: src/templates/admin.tpl.php:799 src/templates/appointments.tpl.php:224
+msgid "Save"
+msgstr "حفظ"
+
+#: src/templates/admin.tpl.php:113
+msgid "Add New Service"
+msgstr "أضف خدمة جديدة"
+
+#: src/templates/admin.tpl.php:126
+msgid "Duration (min)"
+msgstr "المدة (دقائق)"
+
+#: src/templates/admin.tpl.php:172
+msgid "Add New Worker"
+msgstr "أضف عامل جديد"
+
+#: src/templates/admin.tpl.php:236
+msgid "Add New Connection"
+msgstr "أضف اتصال جديد"
+
+#: src/templates/admin.tpl.php:247 src/templates/admin.tpl.php:343
+#: src/templates/admin.tpl.php:593 src/templates/appointments.tpl.php:20
+#: src/templates/appointments.tpl.php:82
+#: src/templates/appointments.tpl.php:152
+#: src/templates/mail.notification.tpl.php:16 src/templates/report.tpl.php:39
+msgid "Service"
+msgstr "الخدمة"
+
+#: src/templates/admin.tpl.php:247 src/templates/admin.tpl.php:355
+#: src/templates/admin.tpl.php:609 src/templates/appointments.tpl.php:29
+#: src/templates/appointments.tpl.php:82
+#: src/templates/appointments.tpl.php:162
+#: src/templates/mail.notification.tpl.php:20 src/templates/report.tpl.php:46
+msgid "Worker"
+msgstr "العامل"
+
+#: src/templates/admin.tpl.php:248
+msgid "Days of week"
+msgstr "أيام الأسبوع"
+
+#: src/templates/admin.tpl.php:250 src/templates/appointments.tpl.php:199
+msgid "Time"
+msgstr "الوقت"
+
+#: src/templates/admin.tpl.php:253 src/templates/appointments.tpl.php:197
+#: src/templates/mail.notification.tpl.php:24
+msgid "Date"
+msgstr "التاريخ"
+
+#: src/templates/admin.tpl.php:255
+msgid "Is working"
+msgstr "هل يعمل"
+
+#: src/templates/admin.tpl.php:287 src/templates/admin.tpl.php:369
+msgid "Monday"
+msgstr "الإثنين"
+
+#: src/templates/admin.tpl.php:288 src/templates/admin.tpl.php:370
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: src/templates/admin.tpl.php:289 src/templates/admin.tpl.php:371
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: src/templates/admin.tpl.php:290 src/templates/admin.tpl.php:372
+msgid "Thursday"
+msgstr "الخميس"
+
+#: src/templates/admin.tpl.php:291 src/templates/admin.tpl.php:373
+msgid "Friday"
+msgstr "الجمعة"
+
+#: src/templates/admin.tpl.php:292 src/templates/admin.tpl.php:374
+msgid "Saturday"
+msgstr "السبت"
+
+#: src/templates/admin.tpl.php:293 src/templates/admin.tpl.php:375
+msgid "Sunday"
+msgstr "الأحد"
+
+#: src/templates/admin.tpl.php:301
+msgid "Starts at"
+msgstr "يبدأ في"
+
+#: src/templates/admin.tpl.php:303
+msgid "ends at"
+msgstr "ينتهي في"
+
+#: src/templates/admin.tpl.php:307
+msgid "Active from"
+msgstr "نشط منذ"
+
+#: src/templates/admin.tpl.php:309
+msgid "to"
+msgstr "إلى"
+
+#: src/templates/admin.tpl.php:315 src/templates/admin.tpl.php:402
+#: src/templates/admin.tpl.php:405
+msgid "No"
+msgstr "لا"
+
+#: src/templates/admin.tpl.php:317 src/templates/admin.tpl.php:403
+#: src/templates/admin.tpl.php:406
+msgid "Yes"
+msgstr "نعم"
+
+#: src/templates/admin.tpl.php:324 src/templates/appointments.tpl.php:131
+msgid "Clone"
+msgstr "نسخ"
+
+#: src/templates/admin.tpl.php:388 src/templates/mail.notification.tpl.php:28
+msgid "Start"
+msgstr "البداية"
+
+#: src/templates/admin.tpl.php:390 src/templates/mail.notification.tpl.php:32
+msgid "End"
+msgstr "النهاية"
+
+#: src/templates/admin.tpl.php:423
+msgid "Multiple work"
+msgstr "عمل متعدد"
+
+#: src/templates/admin.tpl.php:429
+msgid ""
+"Mark this option if you want to calculate free worker slots only by current "
+"service and location. If it's not marked system will check if worker is "
+"working on any location and service at current time."
+msgstr ""
+"قم بتفعيل هذا الخيار إذا أردت حساب أوقات فراع العاملين فقط حسب الخدمة "
+"والموقع الحالي. إذا لم تفعل هذا الخيار سيقوم النظام بفحص العامل في الوقت "
+"الحالي في أي موقع أو خدمة."
+
+#: src/templates/admin.tpl.php:434
+msgid "Compatibility mode"
+msgstr "نمط التوافقية"
+
+#: src/templates/admin.tpl.php:440
+msgid ""
+"If you can't <strong>EDIT</strong> or <strong>DELETE</strong> conecntion or "
+"any other settings, you should mark this option. NOTE: <strong>After saving "
+"this options you must refresh page!</strong>"
+msgstr ""
+"إذا لم تستطع <strong>تحرير</strong>أو <strong>إلغاء</strong>الاتصال أو أي من "
+"الإعدادات الأخرى، يجب تفعيل هذا الخيار. ملاحظة:<strong>يجب تحديث الصفحة بعد "
+"حفظ هذه الخيارات!</strong>"
+
+#: src/templates/admin.tpl.php:445
+msgid "Max number of appointments"
+msgstr "الحد الأعلى من المواعيد"
+
+#: src/templates/admin.tpl.php:451
+msgid ""
+"Number of appointments that one visitor can make reservation before limit "
+"alert is shown. Appointments are count during one day."
+msgstr ""
+"عدد المواعيد التي يمكن للزائر الواحد حجزها قبل إظهار التنبيه. تحسب المواعيد "
+"خلال اليوم الواحد."
+
+#: src/templates/admin.tpl.php:456
+msgid "Auto reservation"
+msgstr "حجز تلقائي"
+
+#: src/templates/admin.tpl.php:462
+msgid "Make reservation at moment user select date and time!"
+msgstr "احجز الموعد في لحظة اختيار المستخدم للوقت والتاريخ!"
+
+#: src/templates/admin.tpl.php:467
+msgid "Default status"
+msgstr "الحالة الافتراضية"
+
+#: src/templates/admin.tpl.php:476
+msgid "Default status of Appointment made by visitor."
+msgstr "الحالة الافتراضية للمواعيد التي تتم بواسطة الزائر."
+
+#: src/templates/admin.tpl.php:482
+msgid "Mail"
+msgstr "البريد"
+
+#: src/templates/admin.tpl.php:483
+msgid "Notifications"
+msgstr "إشعارات"
+
+#: src/templates/admin.tpl.php:484
+msgid "You can use this tags inside email content"
+msgstr "يمكنك استخدام هذه الوسوم داخل محتوى الرسالة"
+
+#: src/templates/admin.tpl.php:490
+msgid "Pending"
+msgstr "للمراجعة"
+
+#: src/templates/admin.tpl.php:491
+msgid "Reservation"
+msgstr "حجز"
+
+#: src/templates/admin.tpl.php:492
+msgid "Canceled"
+msgstr "ملغى"
+
+#: src/templates/admin.tpl.php:493
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#: src/templates/admin.tpl.php:521
+msgid "Pending notification emails"
+msgstr "رسائل الاشعارات المعلقة"
+
+#: src/templates/admin.tpl.php:527
+msgid ""
+"Enter email adress that will recive new reservation notification. Separate "
+"multiple emails with , (comma)"
+msgstr ""
+"أدخل عنوان البريد الالكتروني الذي يستقبل اشعارات الحجوزات الجديدة. افصل بين "
+"العناوين المتعددة باستخدام الفاصلة (,)"
+
+#: src/templates/admin.tpl.php:532
+msgid "Admin notification subject"
+msgstr "خانة الموضوع في إشعار مسئول النظام"
+
+#: src/templates/admin.tpl.php:538 src/templates/admin.tpl.php:549
+msgid "You can use any tag that is available as in custom email notifications."
+msgstr "يمكنك استخدام أي وسم متوفر في إشعارات البريد الالكتروني المخصصة."
+
+#: src/templates/admin.tpl.php:543
+msgid "Visitor notification subject"
+msgstr "خانة الموضوع في إشعار الزائر"
+
+#: src/templates/admin.tpl.php:554
+msgid "Send email to worker"
+msgstr "إرسال بريد إلكتروني للعامل"
+
+#: src/templates/admin.tpl.php:560
+msgid ""
+"Mark this option if you want to employee receive admin email after filing "
+"the form."
+msgstr ""
+"قم بتفعيل هذا الخيار إذا أردت للموظف استقبال رسالة مسئول النظام بعد ملء "
+"النموذج."
+
+#: src/templates/admin.tpl.php:565
+msgid "Send email to user"
+msgstr "إرسال بريد إلكتروني للمستخدم"
+
+#: src/templates/admin.tpl.php:571
+msgid ""
+"Mark this option if you want to user receive email after filing the form."
+msgstr "قم بتفعيل هذا الخيار إذا أردت للمستخدم  استقبال رسالة بعد ملء النموذج."
+
+#: src/templates/admin.tpl.php:576
+msgid "Send from"
+msgstr "الاسم الظاهر كمرسل للرسالة"
+
+#: src/templates/admin.tpl.php:582
+msgid ""
+"Send from email adress (Example: Name &lt;name@domain.com&gt;). Leave blank "
+"to use default address."
+msgstr ""
+"البريد الإلكتروني لمرس الرسالة. اتركه فارغاً لاستخدام العنوان الافتراضي."
+
+#: src/templates/admin.tpl.php:588
+msgid "Labels"
+msgstr "علامات"
+
+#: src/templates/admin.tpl.php:617
+msgid "Done message"
+msgstr "انتهت الرسالة"
+
+#: src/templates/admin.tpl.php:623
+msgid "Message that user recive after completing appointment"
+msgstr "الرسالة التي تصل للمستخدم بعد إكمال حجز الموعد"
+
+#: src/templates/admin.tpl.php:629
+msgid "Date & Time"
+msgstr "التاريخ والوقت"
+
+#: src/templates/admin.tpl.php:634
+msgid "Time format"
+msgstr "صيغة الوقت"
+
+#: src/templates/admin.tpl.php:643
+msgid ""
+"Notice : date/time formating for email notification are done by <b>Settings "
+"> General</b>."
+msgstr ""
+"ملاحظة: تنسيق التاريخ/الوقت لإشعار البريد يتم من <b>الإعدادات > عام</b>."
+
+#: src/templates/admin.tpl.php:648
+msgid "Calendar localization"
+msgstr "التقويم المحلي"
+
+#: src/templates/admin.tpl.php:667
+msgid "Block time"
+msgstr "وقت البلوك"
+
+#: src/templates/admin.tpl.php:673
+msgid ""
+"(in minutes). Prevent visitor to make appointment if there are less minutes "
+"that this."
+msgstr "(دقائق). منع الزائر من حجز موعد إذا تبقى أقل من هذا الوقت."
+
+#: src/templates/admin.tpl.php:679
+msgid "Custom form fields"
+msgstr "حقول النموذج المخصص"
+
+#: src/templates/admin.tpl.php:692
+msgid "Add"
+msgstr "أضف"
+
+#: src/templates/admin.tpl.php:702
+msgid ""
+"For using the email notification for user there must be field named \"Email\""
+msgstr "لاستخدام إشعار البريد الإلكتروني للمستخدم، يجب توفر حقل باسم \"Email\""
+
+#: src/templates/admin.tpl.php:713
+msgid "Custom style"
+msgstr "تنسيق مخصص"
+
+#: src/templates/admin.tpl.php:719
+msgid ""
+"Place here custom css styles. This will be included in both standard and "
+"bootstrap widget."
+msgstr ""
+"ضع هنا تنسيقات CSS المخصصة. سيتم إدراجها في جميع المربعات الجانبية (القياسية "
+"والمتجاوبة)."
+
+#: src/templates/admin.tpl.php:724
+msgid "Turn off css files"
+msgstr "إيقاف ملفات CSS"
+
+#: src/templates/admin.tpl.php:736
+msgid "I agree field"
+msgstr "حقل الموافقة"
+
+#: src/templates/admin.tpl.php:742
+msgid ""
+"I agree option at the end of form. If this is marked user must confirme \"I "
+"agree\" checkbox."
+msgstr ""
+"خيار \"الموافقة\" في آخر النموذج. عند تفعيله، يجب على المستخدم تأكيد "
+"الموافقة."
+
+#: src/templates/admin.tpl.php:747
+msgid "After cancel go to"
+msgstr "بعد الإلغاء، إتجه إلى"
+
+#: src/templates/admin.tpl.php:766
+msgid "Go to page"
+msgstr "اذهب إلى الصفحة"
+
+#: src/templates/admin.tpl.php:772
+msgid ""
+"after visitor create appointment on front-end form. Leave blank to turn off "
+"redirect."
+msgstr ""
+"بعد إنتهاء المستخدم من إنشاء الموعد في الواجهة الأمامية. اتركه فارغاً لإيقاف "
+"إعادة التوجيه."
+
+#: src/templates/admin.tpl.php:782
+msgid "Currency"
+msgstr "العملة"
+
+#: src/templates/admin.tpl.php:790
+msgid "Hide price"
+msgstr "إخفاء السعر"
+
+#: src/templates/admin.tpl.php:849
+msgid "Error log"
+msgstr "سجل الأخطاء"
+
+#: src/templates/admin.tpl.php:851
+msgid "Loading..."
+msgstr "تحميل..."
+
+#: src/templates/appointments.tpl.php:42 src/templates/appointments.tpl.php:86
+#: src/templates/mail.notification.tpl.php:8
+msgid "Status"
+msgstr "الحالة"
+
+#: src/templates/appointments.tpl.php:51 src/templates/report.tpl.php:65
+msgid "From"
+msgstr "من"
+
+#: src/templates/appointments.tpl.php:53 src/templates/report.tpl.php:65
+msgid "To"
+msgstr "إلى"
+
+#: src/templates/appointments.tpl.php:55
+msgid "Quick time filter"
+msgstr "مرشح الوقت السريع"
+
+#: src/templates/appointments.tpl.php:57
+msgid "Select period"
+msgstr "إختيار الفترة"
+
+#: src/templates/appointments.tpl.php:58
+msgid "This week"
+msgstr "هذا الاسبوع"
+
+#: src/templates/appointments.tpl.php:59
+msgid "This month"
+msgstr "هذا الشهر"
+
+#: src/templates/appointments.tpl.php:60
+msgid "Today"
+msgstr "اليوم"
+
+#: src/templates/appointments.tpl.php:70
+msgid "Add New Appointment"
+msgstr "إضافة موعد جديد"
+
+#: src/templates/appointments.tpl.php:83
+msgid "Customer"
+msgstr "العميل"
+
+#: src/templates/appointments.tpl.php:84
+msgid "Descrtiption"
+msgstr "الوصف"
+
+#: src/templates/appointments.tpl.php:86
+#: src/templates/mail.notification.tpl.php:36
+msgid "Created"
+msgstr "الإنشاء"
+
+#: src/templates/appointments.tpl.php:87
+msgid "Action"
+msgstr "الإجراء"
+
+#: src/templates/appointments.tpl.php:220
+msgid "Send email notification :"
+msgstr "إرسال إشعار بالبريد:"
+
+#: src/templates/mail.notification.tpl.php:4
+msgid "Id"
+msgstr "المعرف"
+
+#: src/templates/report.tpl.php:7
+msgid "Time table"
+msgstr "جدول المواعيد"
+
+#: src/templates/report.tpl.php:13
+msgid "Money"
+msgstr "المبلغ"
+
+#: src/templates/report.tpl.php:19
+msgid "Export"
+msgstr "تصدير"
+
+#: src/templates/report.tpl.php:24
+msgid "Click on menu icon to open report."
+msgstr "أنقر على أيقونة القائمة لفتح التقرير."
+
+#: src/templates/report.tpl.php:24
+msgid "New reports are comming soon!"
+msgstr "المزيد من التقارير الجديدة قريبا!"
+
+#: src/templates/report.tpl.php:66
+msgid "Export data to CSV, can be imported to MS Excel, OpenOffice Calc... "
+msgstr ""
+"تصدير البيانات بصيغة CSV، حيث يمكن استيرادها بواسطة برامج الجداول الممتدة "
+"مثل Excel "
+
+#: src/templates/report.tpl.php:67
+msgid "Export data"
+msgstr "تصدير البيانات"
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Appointments"
+msgstr "المواعيد السهلة"
+
+#. Plugin URI of the plugin/theme
+msgid "https://easy-appointments.net/"
+msgstr "https://easy-appointments.net/"
+
+#. Description of the plugin/theme
+msgid "Simple and easy to use management system for Appointments and Bookings"
+msgstr "النظام المبسط والسهل لإدارة وتنظيم  المواعيد والحجوزات"
+
+#. Author of the plugin/theme
+msgid "Nikola Loncar"
+msgstr "Nikola Loncar"
+
+#. Author URI of the plugin/theme
+msgid "http://nikolaloncar.com"
+msgstr "http://nikolaloncar.com"

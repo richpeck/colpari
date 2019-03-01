@@ -1,0 +1,54 @@
+IMPORTANT:
+-----------------------------------------------------------------------------------------
+
+We are always proactive in preventing security issues, however nobody can assume they will never come up.
+This is why we highly recommend to stay up to date with each new plugin version.
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1.1 - October 23rd, 2018
+-----------------------------------------------------------------------------------------
+
+
+- NEW: Added setting to disable Avada Theme Options sub-menu
+- NEW: Added settings to disable Fusion Builder Settings and Library sub-menus
+- IMPROVEMENT: Made custom welcome message available for all user roles
+- FIXED: Avada, Fusion Builder and Fusion Slider parent menus not being removed when all sub-menus are removed
+
+
+-----------------------------------------------------------------------------------------
+Version 1.1 - October 01st, 2018
+-----------------------------------------------------------------------------------------
+
+
+- NEW: Added import/export section for easier option migration
+- NEW: Added buttons to reset single sections or all options to default
+- NEW: Added options to disable admin menus for Portfolio/FAQ/Fusion Slider/Elastic Slider
+- NEW: Added option to disable the Gutenberg info panel
+- IMPROVEMENT: Added a warning on settings tab change if changes are unsaved
+- IMPROVEMENT: Avada widget names are now renamed according to the settings
+- FIXED: ThemeFusion logo in the Avada menu in the WP admin bar not being changed
+- FIXED: Fusion Slider element in Fusion Builder not being changed in name and icon
+- FIXED: Notices in admin area if the Fusion Slider menu entry is unset
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0.1 - January 16th, 2018
+-----------------------------------------------------------------------------------------
+
+
+- NEW: Added a new settings page for Fusion Slider to allow fine tuned control
+- FIXED: Load text domain missing
+- FIXED: Menu items not being removed from admin bar for disabled admin menus
+- FIXED: Theme Options admin bar menu label not being changed correctly
+- FIXED: Admin menu name changes not respected for user roles other than administrator
+- FIXED: The icon of the FWLB admin menu is missing if Avada or Fusion Builder are bot active
+- FIXED: Fatal error happening if Fusion Builder is not activated
+- FIXED: Setting to remove the lost password link on login screen only working for English language
+
+
+-----------------------------------------------------------------------------------------
+Version 1.0 - December 19th, 2017
+-----------------------------------------------------------------------------------------
+
+- First version of the plugin

@@ -1,0 +1,469 @@
+.wpas-row.wpas-status-navigation div {
+        text-align: center;
+}
+
+#wpas-ticket-message .note {
+        font-size: 12px;
+        margin-top: 30px;
+        color: darkgrey;
+}
+
+/* Ticket merge in ticket edit page */
+#wpas_ticket_merge_wrapper {
+        border-bottom: #eee solid 1px;
+        padding: 4px 0 20px 0;
+        margin-bottom : 20px;
+}
+
+#wpas_ticket_merge_wrapper .tm_title label {
+        float: left;
+        margin-bottom: 8px;
+}
+
+#wpas_ticket_merge_wrapper .tm_target_ticket_btn {
+        margin-top: 10px;
+}
+
+
+/* Create user in ticket edit page */
+#wpas_add_user_wrapper {
+        display: none;
+}
+
+.wpas_pf_add_user_button {
+        position: relative;
+}
+
+.wpas_pf_add_user_button a {
+        position: absolute;
+        right: 0;
+}
+
+#createuserform .submit {
+        float : left;
+}
+
+#createuserform .spinner {
+        float: left;
+        margin-top: 29px;
+}
+
+.user_profile_tickets {
+        margin-top: 40px;
+        margin-bottom: 40px;
+}
+
+.no_item_msg {
+        padding: 10px;
+}
+
+/* items styling for metabox tabs in ticket or user profile page  */
+.wpas_pf_tb_button {
+        float:right;
+        margin-top: 20px;
+}
+
+.wpas_pf_ui_item {
+        margin: 10px 0;
+        padding : 10px;
+        position: relative;
+}
+
+.wpas_pf_ui_item:nth-child(even) {
+        background: #f7f7f7
+}
+
+.wpas_pf_ui_item:nth-child(odd) {
+        background: #fff
+}
+
+
+.wpas_pf_ui_item .actions {
+        float : right;
+}
+
+.wpas_pf_ui_item .actions li {
+        float : left;
+        margin: 0 8px;
+}
+
+.wpas_pf_ui_item .pf_ui_item_header {
+	float : left;
+}
+
+.wpas_pf_ui_item .actions {
+	float : right;
+        margin: 0;
+        margin-bottom: 6px;
+}
+
+.wpas_pf_ui_item .actions li a {
+        line-height: 20px;
+}
+
+.wpas_pf_ui_item .actions li .spinner {
+        margin: 0;
+}
+
+.wpas_pf_ui_item_msg {
+        position: relative;
+        margin-bottom: 12px;
+        margin-top: 0px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        display: none;
+}
+
+#wpas_pf_ui_sn_user_profile {
+        border: #e7e7e7 solid 1px;
+        padding: 10px;
+        background: #ececec;
+        margin: 20px 0;
+}
+
+.wpas_pf_data_items .no_item_msg {
+        display:none;
+}
+
+/* Personal todo items */
+#wpas_pf_personal_todos_items .pf_ui_item_header {
+        width: 62%;
+        display: table;
+}
+#wpas_pf_personal_todos_items .pf_ui_item_header span {
+        display: table-cell;
+}
+
+#wpas_pf_personal_todos_items .pf_ui_item_header span.status, #wpas_pf_personal_todos_items .pf_ui_item_header span.date_due {
+        text-align: right;
+        width : 104px;
+}
+
+.checkbox_dropdown {
+        border: solid 1px #eaeaea;
+        padding: 6px 8px;
+        margin-top : 6px;
+}
+
+.checkbox_dropdown .option {
+        margin:4px 0;
+}
+
+/* Ticket security profile */
+.wpas_pf_profile_criteria_field {
+        margin: 20px 0;
+        background: #f9f9f9;
+        border: #f3f3f3 solid 1px;
+}
+
+.wpas_pf_profile_criteria_field .field_heading {
+        font-size : 14px;
+        padding : 8px 12px;
+        border-bottom : 1px solid #eee;
+        font-weight: 600;
+                
+}
+
+
+.wpas_pf_profile_criteria_field .inner {
+        padding: 10px;
+}
+
+.wpas_pf_profile_criteria_field .inner .select_field_type .option {
+        padding : 3px 0;
+}
+
+.wpas_pf_profile_criteria_field .inner .options {
+        display: none;
+}
+
+.wpas_pf_profile_criteria_fields.greyed {
+        color: #868686;
+}
+
+.wpas_pf_profile_criteria_fields .wpas_pf_profile_main_criteria_fields .option.active {
+        color: #444;
+}
+
+.checkbox_dropdown .select2 {
+        width : 100% !important;
+}
+
+
+#wpas-ticket-message .spinner {
+        float: none;
+        margin-top: 0;
+}
+
+
+.pf_favorite_btn {
+        padding: 1px 0 2px 0;
+}
+.pf_msg  {
+        position: relative;
+        margin-top: 20px;
+        display: none;
+}
+
+.wpas-ticket-controls .spinner {
+        margin-top: 0;
+}
+
+/* Turn metaboxes into tabs in ticket page */
+#wpas_pf_meta_tabs {
+        
+        background: #fff;
+        font-size: 14px;
+        margin: 0;
+        line-height: 1.4;
+        background: #f1f1f1;
+}
+
+#wpas_pf_meta_tabs .wpas_pf_meta_tab {
+        float : left;
+        padding: 10px;
+        cursor: pointer;
+}
+
+#wpas_pf_meta_tabs .wpas_pf_meta_tab.active {
+        background: #FFF;
+}
+
+.wpas_pf_mb_tab {
+        display : none;
+}
+
+.wpas_pf_mb_tab h2.hndle, .wpas_pf_mb_tab button.handlediv {
+        display: none !important;
+}
+
+.wpas_pf_mb_tab .inside {
+        margin-top: 0 !important;
+}
+
+#wpas_pf_meta_tabs_wrapper {
+        position: relative;
+                
+}
+
+
+#wpas_pf_meta_tabs_wrapper {
+        /*height: 40px;*/
+}
+
+#wpas_pf_meta_tabs_wrapper #wpas_pf_meta_tabs {
+        /*position: absolute;*/
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+
+}
+
+#wpas_pf_meta_tabs .wpas_pf_meta_tab, #wpas_pf_meta_tabs .moreTab {
+        margin : 0;
+}
+
+
+#wpas_pf_meta_tabs .wpas_pf_meta_tab.active {
+        border: 1px solid #e5e5e5;
+        border-bottom: none;
+        height : 20px;
+        position: relative;
+}
+
+#wpas_pf_meta_tabs .wpas_pf_meta_tab.active::after {
+        content: " ";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        z-index: 1;
+        background: #FFF;
+}
+
+#wpas_pf_meta_tabs .moreTab {
+        display: none;
+        float: right;
+        padding: 10px;
+}
+
+#wpas_pf_meta_tabs .moreTab ul {
+        display: none;
+        position: absolute;
+        right: 0;
+        z-index: 100;
+        background: #f7f7f7;
+        border: #dedede solid 1px;
+}
+
+#wpas_pf_meta_tabs .moreTab ul li {
+        float: none;
+        margin: 0;
+}
+
+#wpas_pf_meta_tabs .moreTab ul li:hover {
+        
+        background: #eaeaea;
+}
+
+#wpas_pf_meta_tabs .moreTab:hover ul {
+        display: block;
+}
+
+#wpas_pf_meta_tabs .moreTab:hover ul li.active {
+        background: #e5e5e5;
+        border: 0;
+}
+
+#wpas_pf_meta_tabs .clear {
+        clear: both;
+        margin: 0;
+        float: none;
+        width: 0;
+}
+
+.pf_overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #dadada;
+        opacity: 0.2;
+        display: none;
+}
+
+#wpas_pf_role_caps_options {
+        position: relative;
+}
+
+.wpas_pf_caps_row, #pf_update_caps_btn {
+        display: none;
+}
+
+.pf_ui_item_header .spinner {
+        float: left;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 4px;
+}
+
+/* select2 */
+.select2-container.select2-container--default.select2-container--open {
+        z-index: 1000000;
+}
+
+/* Ticket merge */
+.multi_ticket_merge_view .multi_ticket_merge_view_field {
+        margin-top: 20px;
+}
+
+.multi_ticket_merge_view .multi_ticket_merge_view_field label {
+        font-weight: 600;
+}
+
+.wpas-pf-merged-content-wrapper {
+        margin-bottom: 20px;
+        border-bottom: dotted 1px #ccc;
+        padding-bottom: 20px;
+}
+
+.wpas-pf-merged-content-wrapper {
+        background: #f1f1f1;
+        padding: 20px;
+        border-radius: 3px;
+        border: #e5e5e5 solid 1px;
+}
+
+.wpas-merged-replies {
+        width : 100%;
+        margin-left: 20px;
+        margin-top: 20px;
+}
+
+.wpas-merged-replies tr td {
+        border-top : #ddd solid 1px; 
+}
+
+
+.wpas_tb_window_wrapper .select2.select2-container {
+        width: 100% !important;
+}
+
+
+/* thickbox */
+#TB_window .tb_footer p.submit, #TB_window .tb_footer p.tb_close_btn {
+        float: left;
+        margin-top: 20px;
+}
+
+#TB_window .tb_footer p.tb_close_btn {
+        margin-left: 20px;
+}
+
+
+#TB_window .tb_footer .spinner {
+        margin-top: 26px;
+        visibility: visible !important;
+}
+
+/* Global favorite tickets */
+#wpas_global_favorite_button_widget {
+    margin : 20px 0;
+}
+
+/* Capabilities quickset */
+.wpas_pf_quickset_btns_row {
+    display: none;
+}
+
+.wpas_pf_quickset_btns_row ul {
+    margin: 0;
+}
+
+.wpas_pf_quickset_btns_row ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Bulk edit */
+.inline-edit-col-agent-field {
+        margin-top: 20px;
+        
+}
+
+.inline-edit-col-agent-field select, .inline-edit-col-agent-field .select2-container {
+        width : 200px !important;
+}
+
+/* Save ticket filter */
+#wpas-pf-save-filter-btn {
+        margin-right: 20px;
+}
+
+.btn_save_criteria_win {
+        display: inline-block !important;
+}
+
+#wpas_pf_ticket_filter_options_items {
+        margin-top: 16px;
+}
+
+#wpas_pf_ticket_filter_options_items .wpas_pf_ui_item {
+    padding: 4px 10px;
+    margin: 4px 0;
+}
+
+.wpas_pf_search_criteria_listing_win_btn, .pf_saved_filters_dropdown {
+        display: none;
+}
+
+
+#wpas_pf_ui_section_ticket_filter_options {
+        margin: 10px 0;
+}
+
+#wpas_pf_ui_section_ticket_filter_options .wpas_pf_tb_button {
+        float : none;
+}

@@ -1,0 +1,22 @@
+.as-fa-options-table {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    max-width: 600px;
+    width: 100%;
+}
+
+
+.as-fa-options-table td {
+    border: none !important;
+    padding: 0 10px 10px 0 !important;
+    vertical-align: top;
+}
+
+.as-fa-options-table div {
+    padding: 0 5px 10px 0;
+}
+
+.as-fa-options-table div input {
+    margin-bottom: -5px;
+}

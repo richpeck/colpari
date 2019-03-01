@@ -1,0 +1,18 @@
+#content {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+.sidebar {
+  width: 100% !important;
+  float: none !important;
+  margin-left: 0 !important;
+  clear: both;
+}
+#main > .fusion-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}

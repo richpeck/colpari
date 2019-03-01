@@ -1,0 +1,666 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Appointments 1.8.13\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-05 12:19:51+00:00\n"
+"PO-Revision-Date: Fri Jul 29 2016 11:56:31 GMT+0200\n"
+"Last-Translator: wp_user <mail@vodel.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Loco - https://localise.biz/\n"
+
+#: src/mail.php:39
+msgid "No appointment."
+msgstr "Ei varauksia"
+
+#: src/mail.php:45
+msgid "Invalid token."
+msgstr "Väärä token."
+
+#: src/mail.php:62
+msgid "Appointment can't be confirmed!"
+msgstr "Varausta ei voida vahvistaa."
+
+#: src/mail.php:74
+msgid "Appointment has been confirmed."
+msgstr "Varaus on vahvistettu."
+
+#: src/mail.php:83
+msgid "Appointment can't be canceled!"
+msgstr "Varausta ei voida peruuttaa"
+
+#: src/mail.php:96
+msgid "Appointment can't be canceled"
+msgstr "Varausta ei voida peruuttaa"
+
+#: src/mail.php:100
+msgid "Appointment has been canceled"
+msgstr "Varaus peruuttu"
+
+#: src/templates/admin.tpl.php:450
+msgid "Auto reservation"
+msgstr "Automaattivaraus"
+
+#: src/templates/admin.tpl.php:456
+msgid "Make reservation at moment user select date and time!"
+msgstr "Valitse varauksen päivä ja aika!"
+
+#: src/templates/appointments.tpl.php:55
+msgid "Quick time filter"
+msgstr "Pikahaku"
+
+#: src/templates/appointments.tpl.php:57
+msgid "Select period"
+msgstr "Valitse aikaväli"
+
+#: src/templates/appointments.tpl.php:58
+msgid "This week"
+msgstr "Tämä viikko"
+
+#: src/templates/appointments.tpl.php:59
+msgid "This month"
+msgstr "Tämä kuukausi"
+
+#: src/templates/appointments.tpl.php:60
+msgid "Today"
+msgstr "Tänään"
+
+#. Plugin URI of the plugin/theme
+msgid "http://nikolaloncar.com/easy-appointments-wordpress-plugin/"
+msgstr ""
+
+#: src/admin.php:184 src/admin.php:185 src/templates/appointments.tpl.php:6
+msgid "Appointments"
+msgstr "Varaukset"
+
+#: src/admin.php:194 src/admin.php:195
+msgid "Settings"
+msgstr "Asetukset"
+
+#: src/admin.php:204
+msgid "Overview"
+msgstr "Yhteenveto"
+
+#: src/admin.php:205
+msgid "Reports"
+msgstr "Raportit"
+
+#: src/ajax.php:175
+msgid "Daily limit of booking request has been reached. Please contact us by email!"
+msgstr "Varauksien enimmäisraja on ylitetty. Olkaa hyvä ja ottakaa meihin yhteyttä sähköpostitse!"
+
+#: src/ajax.php:185
+msgid "Something went wrong! Please try again."
+msgstr "Jokin meni pieleen.Olkaa hyvä ja yrittäkää uudelleen."
+
+#: src/frontend.php:129 src/frontend.php:271
+msgid "Please select another day"
+msgstr "Olkaa hyvä ja valitkaa toinen päivä"
+
+#: src/frontend.php:130 src/frontend.php:284
+#: src/templates/appointments.tpl.php:85
+msgid "Date & time"
+msgstr "Päivä ja aika"
+
+#: src/frontend.php:131 src/frontend.php:287 src/templates/admin.tpl.php:121
+#: src/templates/appointments.tpl.php:86 src/templates/appointments.tpl.php:212
+#: src/templates/mail.notification.tpl.php:40
+msgid "Price"
+msgstr "Hinta"
+
+#: src/frontend.php:189 src/frontend.php:272
+msgid "Personal information"
+msgstr "Henkilötiedot"
+
+#: src/frontend.php:190 src/frontend.php:277
+msgid "Fields with * are required"
+msgstr "Tähdellä * merkityt kentät ovat pakollisia."
+
+#: src/frontend.php:193 src/frontend.php:283
+msgid "Booking overview"
+msgstr "Varauksen yhteenveto"
+
+#: src/frontend.php:197 src/frontend.php:288
+msgid "I agree with terms and conditions"
+msgstr "Hyväksyn Säännöt ja ehdot"
+
+#: src/frontend.php:197 src/frontend.php:289
+msgid "You must agree with terms and conditions"
+msgstr "Sinun täytyy hyväksyä Säännöt ja ehdot jatkaakseen"
+
+#: src/frontend.php:201 src/frontend.php:285
+msgid "Submit"
+msgstr "Lähetä"
+
+#: src/frontend.php:202 src/frontend.php:286 src/templates/admin.tpl.php:98
+#: src/templates/admin.tpl.php:156 src/templates/admin.tpl.php:220
+#: src/templates/admin.tpl.php:406 src/templates/appointments.tpl.php:224
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: src/frontend.php:230 src/frontend.php:235 src/frontend.php:251
+#: src/frontend.php:273
+msgid "This field is required."
+msgstr "Tämä kenttä on pakollinen"
+
+#: src/frontend.php:231 src/frontend.php:274
+msgid "Please enter a valid email address"
+msgstr "Sähköpostin muoto on virheellinen"
+
+#: src/frontend.php:275
+msgid "Please enter at least 3 characters."
+msgstr "Syötä vähintään 3 merkkiä"
+
+#: src/frontend.php:276
+msgid "Please enter at least 3 digits."
+msgstr "Syötä vähintään 3 numeroa"
+
+#: src/frontend.php:278 src/templates/admin.tpl.php:180
+msgid "Email"
+msgstr "Email"
+
+#: src/frontend.php:279 src/install.php:606 src/templates/admin.tpl.php:61
+#: src/templates/admin.tpl.php:119 src/templates/admin.tpl.php:178
+msgid "Name"
+msgstr "Nimi"
+
+#: src/frontend.php:280 src/install.php:607 src/templates/admin.tpl.php:181
+msgid "Phone"
+msgstr "Puhelin"
+
+#: src/frontend.php:281
+msgid "Comment"
+msgstr "Kommentti"
+
+#: src/frontend.php:282
+msgid "Please check your appointment details below and confirm:"
+msgstr "Ole hyvä ja tarkista varauksesi tiedot alla ja lähetä varaus:"
+
+#: src/install.php:605
+msgid "EMail"
+msgstr "Email"
+
+#: src/install.php:608 src/templates/admin.tpl.php:179
+msgid "Description"
+msgstr "Kuvaus"
+
+#: src/logic.php:277
+msgid "pending"
+msgstr "käsittelyssä"
+
+#: src/logic.php:278
+msgid "reservation"
+msgstr "varaus"
+
+#: src/logic.php:279
+msgid "abandoned"
+msgstr "hylätty"
+
+#: src/logic.php:280
+msgid "canceled"
+msgstr "peruuttu"
+
+#: src/logic.php:281
+msgid "confirmed"
+msgstr "vahvistettu"
+
+#: src/metafields.php:19
+msgid "Input"
+msgstr "Syöttökenttä"
+
+#: src/metafields.php:20
+msgid "Select"
+msgstr "Valintalista"
+
+#: src/metafields.php:21
+msgid "Text"
+msgstr "Teksti"
+
+#: src/templates/admin.tpl.php:10
+msgid "Locations"
+msgstr "Toimipaikat"
+
+#: src/templates/admin.tpl.php:16
+msgid "Services"
+msgstr "Palvelut"
+
+#: src/templates/admin.tpl.php:22
+msgid "Workers"
+msgstr "Työntekijät"
+
+#: src/templates/admin.tpl.php:28 src/templates/admin.tpl.php:412
+msgid "Connections"
+msgstr "Varausvaihtoehdot"
+
+#: src/templates/admin.tpl.php:34
+msgid "Customize"
+msgstr "Mukauta"
+
+#: src/templates/admin.tpl.php:49
+msgid "Add New Location"
+msgstr "Lisää uusi toimipaikka"
+
+#: src/templates/admin.tpl.php:53 src/templates/admin.tpl.php:111
+#: src/templates/admin.tpl.php:170 src/templates/admin.tpl.php:234
+#: src/templates/appointments.tpl.php:74 src/templates/report.tpl.php:54
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: src/templates/admin.tpl.php:62
+msgid "Address"
+msgstr "Osoite"
+
+#: src/templates/admin.tpl.php:63 src/templates/admin.tpl.php:241
+#: src/templates/admin.tpl.php:326 src/templates/admin.tpl.php:562
+#: src/templates/appointments.tpl.php:11 src/templates/appointments.tpl.php:82
+#: src/templates/appointments.tpl.php:141
+#: src/templates/mail.notification.tpl.php:12 src/templates/report.tpl.php:32
+msgid "Location"
+msgstr "Toimipaikka"
+
+#: src/templates/admin.tpl.php:64 src/templates/admin.tpl.php:122
+#: src/templates/admin.tpl.php:182 src/templates/admin.tpl.php:250
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: src/templates/admin.tpl.php:86 src/templates/admin.tpl.php:144
+#: src/templates/admin.tpl.php:207 src/templates/admin.tpl.php:316
+#: src/templates/appointments.tpl.php:129
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: src/templates/admin.tpl.php:87 src/templates/admin.tpl.php:145
+#: src/templates/admin.tpl.php:208 src/templates/admin.tpl.php:317
+#: src/templates/appointments.tpl.php:130
+msgid "Delete"
+msgstr "Poista"
+
+#: src/templates/admin.tpl.php:97 src/templates/admin.tpl.php:155
+#: src/templates/admin.tpl.php:219 src/templates/admin.tpl.php:405
+#: src/templates/admin.tpl.php:760 src/templates/appointments.tpl.php:223
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/templates/admin.tpl.php:107
+msgid "Add New Service"
+msgstr "Lisää uusi palvelu"
+
+#: src/templates/admin.tpl.php:120
+msgid "Duration (min)"
+msgstr "Kesto (minuuteissa)"
+
+#: src/templates/admin.tpl.php:166
+msgid "Add New Worker"
+msgstr "Lisää uusi työntekijä"
+
+#: src/templates/admin.tpl.php:230
+msgid "Add New Connection"
+msgstr "Lisää uusi varausvaihtoehto"
+
+#: src/templates/admin.tpl.php:241 src/templates/admin.tpl.php:337
+#: src/templates/admin.tpl.php:554 src/templates/appointments.tpl.php:20
+#: src/templates/appointments.tpl.php:82 src/templates/appointments.tpl.php:151
+#: src/templates/mail.notification.tpl.php:16 src/templates/report.tpl.php:39
+msgid "Service"
+msgstr "Palvelu"
+
+#: src/templates/admin.tpl.php:241 src/templates/admin.tpl.php:349
+#: src/templates/admin.tpl.php:570 src/templates/appointments.tpl.php:35
+#: src/templates/appointments.tpl.php:82 src/templates/appointments.tpl.php:161
+#: src/templates/mail.notification.tpl.php:20 src/templates/report.tpl.php:46
+msgid "Worker"
+msgstr "Työntekijä"
+
+#: src/templates/admin.tpl.php:242
+msgid "Days of week"
+msgstr "Viikonpäivät"
+
+#: src/templates/admin.tpl.php:244 src/templates/appointments.tpl.php:198
+msgid "Time"
+msgstr "Aika"
+
+#: src/templates/admin.tpl.php:247 src/templates/appointments.tpl.php:196
+#: src/templates/mail.notification.tpl.php:24
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: src/templates/admin.tpl.php:249
+msgid "Is working"
+msgstr "On töissä"
+
+#: src/templates/admin.tpl.php:281 src/templates/admin.tpl.php:363
+msgid "Monday"
+msgstr "Maanantai"
+
+#: src/templates/admin.tpl.php:282 src/templates/admin.tpl.php:364
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: src/templates/admin.tpl.php:283 src/templates/admin.tpl.php:365
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: src/templates/admin.tpl.php:284 src/templates/admin.tpl.php:366
+msgid "Thursday"
+msgstr "Torstai"
+
+#: src/templates/admin.tpl.php:285 src/templates/admin.tpl.php:367
+msgid "Friday"
+msgstr "Perjantai"
+
+#: src/templates/admin.tpl.php:286 src/templates/admin.tpl.php:368
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: src/templates/admin.tpl.php:287 src/templates/admin.tpl.php:369
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: src/templates/admin.tpl.php:295
+msgid "Starts at"
+msgstr "Alkaa"
+
+#: src/templates/admin.tpl.php:297
+msgid "ends at"
+msgstr "päättyy"
+
+#: src/templates/admin.tpl.php:301
+msgid "Active from"
+msgstr "On aktiivinen"
+
+#: src/templates/admin.tpl.php:303
+msgid "to"
+msgstr ""
+
+#: src/templates/admin.tpl.php:309 src/templates/admin.tpl.php:396
+#: src/templates/admin.tpl.php:399
+msgid "No"
+msgstr "Ei"
+
+#: src/templates/admin.tpl.php:311 src/templates/admin.tpl.php:397
+#: src/templates/admin.tpl.php:400
+msgid "Yes"
+msgstr "Kyllä"
+
+#: src/templates/admin.tpl.php:318
+msgid "Clone"
+msgstr "Tee kopio"
+
+#: src/templates/admin.tpl.php:382 src/templates/mail.notification.tpl.php:28
+msgid "Start"
+msgstr "Alku"
+
+#: src/templates/admin.tpl.php:384 src/templates/mail.notification.tpl.php:32
+msgid "End"
+msgstr "Loppu"
+
+#: src/templates/admin.tpl.php:417
+msgid "Multiple work"
+msgstr "Samanaikainen työ"
+
+#: src/templates/admin.tpl.php:423
+msgid "Mark this option if you want to calculate free worker slots only by current service and location. If it's not marked system will check if worker is working on any location and service at current time."
+msgstr "Valitse tämä vaihtoehto, jos työntekijä voi olla töissä saman aikaan eri palveluissa ja toimipaikoissa. "
+
+#: src/templates/admin.tpl.php:428
+msgid "Compatibility mode"
+msgstr "Yhteensopivuustila"
+
+#: src/templates/admin.tpl.php:434
+msgid "If you can't <strong>EDIT</strong> or <strong>DELETE</strong> conecntion or any other settings, you should mark this option. NOTE: <strong>After saving this options you must refresh page!</strong>"
+msgstr "Valitse tämä vaihtoehto, jos Varausvaihtoehtoja tai muita asetuksia ei voi MUOKATA tai POISTAA. HUOM:  <strong>Päivitä sivu sen jälkeen kun olet tallentanut asetukset!</strong>"
+
+#: src/templates/admin.tpl.php:439
+msgid "Max number of appointments"
+msgstr "Varauksien enimmäismäärä"
+
+#: src/templates/admin.tpl.php:445
+msgid "Number of appointments that one visitor can make reservation before limit alert is shown. Appointments are count during one day."
+msgstr "Enimmäismäärä varauksia per käyttäjä per päivä. Enimmäismäärän ylitettyä käyttälle näytetään varoitus."
+
+#: src/templates/admin.tpl.php:462
+msgid "Mail"
+msgstr "Posti"
+
+#: src/templates/admin.tpl.php:463
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+#: src/templates/admin.tpl.php:464
+msgid "You can use this tags inside email content"
+msgstr "Voit käyttää näitä tagejä sähköpostiviestissä"
+
+#: src/templates/admin.tpl.php:469
+msgid "Pending"
+msgstr "Käsittelyssä"
+
+#: src/templates/admin.tpl.php:473
+msgid "Reservation"
+msgstr "Varaus"
+
+#: src/templates/admin.tpl.php:479
+msgid "Canceled"
+msgstr "Peruuttu"
+
+#: src/templates/admin.tpl.php:483
+msgid "Confirmed"
+msgstr "Vahvistettu"
+
+#: src/templates/admin.tpl.php:493
+msgid "Pending notification emails"
+msgstr "Käsittelyssä olevat sähköposti-ilmoitukset"
+
+#: src/templates/admin.tpl.php:499
+msgid "Enter email adress that will recive new reservation notification. Separate multiple emails with , (comma)"
+msgstr "Anna sähköpostiosoite, johon varausilmoitus lähetetään. Erota useampi osoite pilkulla"
+
+#: src/templates/admin.tpl.php:504
+msgid "Admin notification subject"
+msgstr "Järjestelmänkäyttäjän sähköposti-ilmoituksen otsikko"
+
+#: src/templates/admin.tpl.php:510 src/templates/admin.tpl.php:521
+msgid "You can use any tag that is available as in custom email notifications."
+msgstr "Voit käyttää samoja tageja kuin ilmoitusviesteissä"
+
+#: src/templates/admin.tpl.php:515
+msgid "Visitor notification subject"
+msgstr "Asiakkaan sähköposti-ilmoituksen otsikko"
+
+#: src/templates/admin.tpl.php:526
+msgid "Send email to user"
+msgstr "Lähetä viesti asiakkaalle"
+
+#: src/templates/admin.tpl.php:532
+msgid "Mark this option if you want to user recive email after filing the form."
+msgstr "Valitse tämä vaihtoehto, jos haluat asiakkaan saavan sähköpostiviestin lomakkeen täyttämisen jälkeen."
+
+#: src/templates/admin.tpl.php:537
+msgid "Send from"
+msgstr "Lähettäjän sähköposti"
+
+#: src/templates/admin.tpl.php:543
+msgid "Send from email adress (Example: Name &lt;name@domain.com&gt;). Leave blank to use default address."
+msgstr "Lähettäjän sähköpostiosoite (Esim. Matti &lt;matti@domain.com&gt; ). Jätä tyhjäks käyttääksesi oletusarvoa."
+
+#: src/templates/admin.tpl.php:549
+msgid "Labels"
+msgstr "Labelit"
+
+#: src/templates/admin.tpl.php:578
+msgid "Done message"
+msgstr "\"Valmis\" ilmoitus"
+
+#: src/templates/admin.tpl.php:584
+msgid "Message that user recive after completing appointment"
+msgstr "Ilmoitus, jonka käyttäjä näkee lähetettyän varauksen"
+
+#: src/templates/admin.tpl.php:590
+msgid "Date & Time"
+msgstr "Päivämäärä ja aika"
+
+#: src/templates/admin.tpl.php:595
+msgid "Time format"
+msgstr "Ajan esitystapa"
+
+#: src/templates/admin.tpl.php:604
+msgid "Notice : date/time formating for email notification are done by <b>Settings > General</b>."
+msgstr "Huomaa: sähköpostissa esiintyvien päivämäärän ja ajan esitystapa määritellään <b>Settings > General</b>."
+
+#: src/templates/admin.tpl.php:609
+msgid "Calendar localization"
+msgstr "Kalenterin lokalisaatio"
+
+#: src/templates/admin.tpl.php:628
+msgid "Block time"
+msgstr "Varauksen esto"
+
+#: src/templates/admin.tpl.php:634
+msgid "(in minutes). Prevent visitor to make appointment if there are less minutes that this."
+msgstr "(minuuteissa). Estä tekemästä varausta, jos varausajan kohtaan on vähemmän minuutteja kuin tässä."
+
+#: src/templates/admin.tpl.php:640
+msgid "Custom form fields"
+msgstr "Mukautetut lomakekentät"
+
+#: src/templates/admin.tpl.php:653
+msgid "Add"
+msgstr "Lisää"
+
+#: src/templates/admin.tpl.php:663
+msgid "For using the email notification for user there must be field named \"Email\""
+msgstr "Jotta käyttäjä saisi varausvahvistuksen sähköpostitse, sähköpostikentän nimen tulee olla \"Email\""
+
+#: src/templates/admin.tpl.php:674
+msgid "Custom style"
+msgstr "Mukautettu tyyli"
+
+#: src/templates/admin.tpl.php:680
+msgid "Place here custom css styles. This will be included in both standard and bootstrap widget."
+msgstr "Lisää tähän mukautetut tyylimääritykset. Ne otetaan huomioon tavallisessa ja bootstrap versiossa."
+
+#: src/templates/admin.tpl.php:685
+msgid "Turn off css files"
+msgstr "Älä käytä CSS-tiedostoja"
+
+#: src/templates/admin.tpl.php:697
+msgid "I agree field"
+msgstr "\"Hyväksyn\" -kenttä"
+
+#: src/templates/admin.tpl.php:703
+msgid "I agree option at the end of form. If this is marked user must confirme \"I agree\" checkbox."
+msgstr "\"Hyväksyn\" -kenttä lomakkeen lopussa. Jos tämä vaihtoehto on valittu, käyttäjän tulee merkata \"Hyväksy\"-kenttä jatkaakseen."
+
+#: src/templates/admin.tpl.php:708
+msgid "After cancel go to"
+msgstr "Peruuttamisen jälkeen siirry"
+
+#: src/templates/admin.tpl.php:727
+msgid "Go to page"
+msgstr "Siirry sivulle"
+
+#: src/templates/admin.tpl.php:733
+msgid "after visitor create appointment on front-end form. Leave blank to turn off redirect."
+msgstr "sen jälkeen kun käyttäjä on lähettänyt varauksen."
+
+#: src/templates/admin.tpl.php:743
+msgid "Currency"
+msgstr "Valuutta"
+
+#: src/templates/admin.tpl.php:751
+msgid "Hide price"
+msgstr "Piilota hinta"
+
+#: src/templates/appointments.tpl.php:29 src/templates/report.tpl.php:65
+msgid "From"
+msgstr "Alkaen"
+
+#: src/templates/appointments.tpl.php:44 src/templates/appointments.tpl.php:86
+#: src/templates/mail.notification.tpl.php:8
+msgid "Status"
+msgstr "Status"
+
+#: src/templates/appointments.tpl.php:53 src/templates/report.tpl.php:65
+msgid "To"
+msgstr "Asti"
+
+#: src/templates/appointments.tpl.php:70
+msgid "Add New Appointment"
+msgstr "Lisää uusi varaus"
+
+#: src/templates/appointments.tpl.php:83
+msgid "Customer"
+msgstr "Asiakas"
+
+#: src/templates/appointments.tpl.php:84
+msgid "Descrtiption"
+msgstr "Kuvaus"
+
+#: src/templates/appointments.tpl.php:86
+#: src/templates/mail.notification.tpl.php:36
+msgid "Created"
+msgstr "Luotu"
+
+#: src/templates/appointments.tpl.php:87
+msgid "Action"
+msgstr "Toiminto"
+
+#: src/templates/appointments.tpl.php:219
+msgid "Send email notificationy :"
+msgstr "Lähetä sähköposti-ilmoitus"
+
+#: src/templates/mail.notification.tpl.php:4
+msgid "Id"
+msgstr "ID"
+
+#: src/templates/report.tpl.php:7
+msgid "Time table"
+msgstr "Aikataulu"
+
+#: src/templates/report.tpl.php:13
+msgid "Money"
+msgstr "Raha"
+
+#: src/templates/report.tpl.php:19
+msgid "Export"
+msgstr "Vie"
+
+#: src/templates/report.tpl.php:24
+msgid "Click on menu icon to open report."
+msgstr "Klikkaa menu ikonista avatakseen raportin"
+
+#: src/templates/report.tpl.php:24
+msgid "New reports are comming soon!"
+msgstr "Uudet raportit tulossa pian!"
+
+#: src/templates/report.tpl.php:66
+msgid "Export data to CSV, can be imported to MS Excel, OpenOffice Calc... "
+msgstr "Vie tiedot CSV-tiedostoon (voi käsitellä Excelissä, OpenOffice Calc:ssa ym taulukko-ohjelmissa)"
+
+#: src/templates/report.tpl.php:67
+msgid "Export data"
+msgstr "Vie tiedot"
+
+#. Name of the plugin
+msgid "Easy Appointments"
+msgstr ""
+
+#. Description of the plugin
+msgid "Simple managment of Appointments"
+msgstr "Varauksien helppo hallinta"
+
+#. Author of the plugin
+msgid "Nikola Loncar"
+msgstr " "
+
+#. Author URI of the plugin
+msgid "http://nikolaloncar.com"
+msgstr " "

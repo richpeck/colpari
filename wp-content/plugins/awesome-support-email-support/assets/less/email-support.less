@@ -1,0 +1,149 @@
+.as-esn {
+	display: block;
+	width: 300px;
+	padding: 40px 20px 20px 20px;
+	text-align: center;
+	overflow: hidden;
+
+	background: #fff;
+	background-repeat: no-repeat;
+	background-position: 50% 8px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+
+	transition: all .25s ease;
+}
+.as-esn-loading {
+	background-image: url('data:image/gif;base64,R0lGODlhKwALAPEAAP///wAAAIKCggAAACH5BAkKAAAAIf4aQ3JlYXRlZCB3aXRoIGFqYXhsb2FkLmluZm8AIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAKwALAAACMoSOCMuW2diD88UKG95W88uF4DaGWFmhZid93pq+pwxnLUnXh8ou+sSz+T64oCAyTBUAACH5BAkKAAAALAAAAAArAAsAAAI9xI4IyyAPYWOxmoTHrHzzmGHe94xkmJifyqFKQ0pwLLgHa82xrekkDrIBZRQab1jyfY7KTtPimixiUsevAAAh+QQJCgAAACwAAAAAKwALAAACPYSOCMswD2FjqZpqW9xv4g8KE7d54XmMpNSgqLoOpgvC60xjNonnyc7p+VKamKw1zDCMR8rp8pksYlKorgAAIfkECQoAAAAsAAAAACsACwAAAkCEjgjLltnYmJS6Bxt+sfq5ZUyoNJ9HHlEqdCfFrqn7DrE2m7Wdj/2y45FkQ13t5itKdshFExC8YCLOEBX6AhQAADs=');
+	background-position: 50% 18px;
+}
+.as-esn-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAS1BMVEUAAAA8dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj08dj2xiozjAAAAGHRSTlMARNjQwwwFsIJ2XOc6FdypkY+OjDEp7Xj+cM1xAAAAoklEQVQoz9WSSQ7DIAxFCxhMyNDM9f1P2mAWtkIk1mGB/PXgy9PnFcenBayFJfknOjiyGCNackNNOwITchAMUFfTjSE/2O58p1XLlXYtR+eC1sG5UclERsRxZWYoKTxPEpv+d93TrDCg0BOzL4LCNmbTg/9+uSvR3nHsTaGCtbnHsytUzCW1zKlQTq0uzKdCubBGW9pNbY+kPdB6HRrL9IbzBzb0B0g6Hiq6AAAAAElFTkSuQmCC');
+}
+.as-esn-error {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAARVBMVEUAAACpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREKpREJdEkH0AAAAF3RSTlMAff7yCcMDWohjpRba1w44+jWZdklAKKJnr1cAAADESURBVCjP1ZJLEoQgDEQ7CeGrOOPv/kedUillZOFaFpCqR6eSTvCGY5OLnUgXXbItNa4XpRBIpXfmTrNnHY5wUPb5pvVMZ0pL7P/1jgk2l68ZxK6mqVeLZVx3SpOx2qda/PkCg2jaKJPB91PLo273LNGgFKGxwh3tTxBP4jcK6iosAQdnphIJWkzMocUlufVCXgKa5FGLGzBRZpylXY2VjpBUBpyNXbaYaaPAOi64bLlMzcXnbE9Tn0fyPNB2HR6W6QXnB/N5BpPRtn9PAAAAAElFTkSuQmCC');
+}
+.as-esn-close {
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+
+	padding: 0;
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+/*
+Style for Unassigned Messages Details
+1) Prevent content from breaking out of the table
+2) Set column sizes
+*/
+.wpas-mail-details th,
+.wpas-mail-details td {
+  max-width: 100px;
+  overflow: hidden;
+}
+
+.wpas-mail-details th.row-title,
+.wpas-mail-details td.row-title {
+  width: 20%;
+}
+
+/*
+Style for Testing
+*/
+.wpas-mail-test-settings-result {
+  margin-top: .5em;
+}
+
+/*
+Icon for Manual Fetch
+http://wordpress.stackexchange.com/a/172940
+*/
+#wpadminbar #wp-admin-bar-ases_mail_fetch .ab-icon:before {
+  content: '\f113';
+  top: 2px;
+}
+
+.assign_to_customer_btn, .assign_to_ticket_btn {
+  margin-bottom: 20px;
+  border-bottom: #ccc solid 1px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.wpas-table-row.wpas-ticket-reply .wpas-reply-content .note {
+  font-size: 12px;
+  margin-top: 30px;
+  color: darkgrey;
+}
+
+/*
+Styles for multiple inbox configuration CPT
+*/
+
+table#wpas-es-config-wrapper {
+
+  tr {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #EEEEEE;
+
+    td {
+      > textarea {
+        width: 50%;
+        height: 4em;
+      }
+
+      > input[type="text"], select {
+        width: 50%;
+        max-width: 100%;
+      }
+
+      &.section-row, &.section-footer, &.subsection, &.section-highlight {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        border-bottom: solid;
+        border-bottom-width: 1px;
+        border-color: #EEEEEE;
+        font-size: 16px;
+        color: white;
+      }
+
+      &.section-highlight {
+        background-color: #40AF42;
+      }
+
+      &.section-row {
+        background-color: #1979CA;
+      }
+
+      &.section-footer {
+        background-color: orange;
+      }
+
+      &.subsection {
+        background-color: #1979CA;
+      }
+    }
+  }
+}

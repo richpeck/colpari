@@ -1,0 +1,604 @@
+# N2Clic Limited
+msgid ""
+msgstr ""
+"Project-Id-Version: Reports and Statistics 3.2.9\n"
+"Report-Msgid-Bugs-To: https://github.com/ThemeAvenue/reports-and-statistics/issues\n"
+"POT-Creation-Date: 2017-05-26 12:54+0530\n"
+"PO-Revision-Date: 2017-05-26 15:02+0530\n"
+"Last-Translator: \n"
+"Language-Team: ThemeAvenue <hello@themeavenue.net>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;"
+"esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: logs\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: tests\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+
+#: includes/distribution_report.php:22 includes/reports-and-statistics-functions.php:825
+#: includes/reports-and-statistics-functions.php:1396
+#: includes/reports-and-statistics-functions.php:1543
+msgid "Replies"
+msgstr "जवाब"
+
+#: includes/distribution_report.php:35 includes/reports-and-statistics-functions.php:586
+#: includes/reports-and-statistics-functions.php:1543
+#: includes/reports-and-statistics-functions.php:1965
+msgid "Tickets"
+msgstr "टिकट"
+
+#: includes/distribution_report.php:93 includes/multi_chart_report.php:88
+#: includes/single_chart_report.php:28 includes/single_chart_report.php:56
+#: includes/single_chart_report.php:84 includes/trend_report.php:92
+msgid "Total"
+msgstr "कुल"
+
+#: includes/front-page.php:5
+msgid "Reports & Statistics"
+msgstr "रिपोर्ट और सांख्यिकी"
+
+#: includes/front-page.php:9
+msgid "Ticket Count By Status"
+msgstr "टिकट गणना स्थिति से"
+
+#: includes/front-page.php:32
+msgid "Closed Tickets"
+msgstr "बंद टिकट"
+
+#: includes/front-page.php:38
+msgid "General Reports"
+msgstr "जनरल रिपोर्ट"
+
+#: includes/front-page.php:43
+msgid "Ticket Counts"
+msgstr "टिकट गिनता"
+
+#: includes/front-page.php:48
+msgid "Productivity Analysis"
+msgstr "उत्पादकता विश्लेषण"
+
+#: includes/front-page.php:53
+msgid "Resolution Analysis"
+msgstr "संकल्प विश्लेषण"
+
+#: includes/front-page.php:58
+msgid "Delay analysis"
+msgstr "देरी विश्लेषण"
+
+#: includes/front-page.php:63
+msgid "Distribution Analysis"
+msgstr "वितरण विश्लेषण"
+
+#: includes/front-page.php:68
+msgid "Trend  Analysis"
+msgstr "प्रचलन विश्लेषण"
+
+#: includes/front-page.php:73
+msgid "Saved Reports"
+msgstr "सहेजी गई रिपोर्टों"
+
+#: includes/front-page.php:77
+msgid "Saved user Report #1"
+msgstr "बचाया उपयोगकर्ता # 1 रिपोर्ट"
+
+#: includes/front-page.php:80
+msgid "Saved user Report #2"
+msgstr "बचाया उपयोगकर्ता # 2 रिपोर्ट"
+
+#: includes/front-page.php:83
+msgid "Saved user Report #3"
+msgstr "बचाया उपयोगकर्ता # 3 रिपोर्ट"
+
+#: includes/front-page.php:86
+msgid "Saved user Report #4"
+msgstr "बचाया उपयोगकर्ता # 4 रिपोर्ट"
+
+#: includes/front-page.php:89
+msgid "Saved user Report #5"
+msgstr "बचाया उपयोगकर्ता # 5 रिपोर्ट"
+
+#: includes/front-page.php:92
+msgid "Saved user Report #6"
+msgstr "बचाया उपयोगकर्ता # 6 रिपोर्ट"
+
+#: includes/front-page.php:95
+msgid "Saved user Report #7"
+msgstr "बचाया उपयोगकर्ता # 7 रिपोर्ट"
+
+#: includes/multi_chart_report.php:33
+msgid "Ticket Reply"
+msgstr "टिकट उत्तर दें"
+
+#: includes/reports-and-statistics-functions.php:586
+msgid "Ticket Count For Ticket Status"
+msgstr "टिकट स्थिति के लिए टिकट गणना"
+
+#: includes/reports-and-statistics-functions.php:586 includes/reports.php:201
+msgid "Status"
+msgstr "स्थिति"
+
+#: includes/reports-and-statistics-functions.php:825
+msgid "Average/Median/Maximum"
+msgstr "औसत / माध्य / अधिकतम"
+
+#: includes/reports-and-statistics-functions.php:825
+#: includes/reports-and-statistics-functions.php:1396
+#: includes/reports-and-statistics-functions.php:1398
+msgid "Reply"
+msgstr "जवाब दें"
+
+#: includes/reports-and-statistics-functions.php:1262
+msgid "Average Time In Minutes To Close A Ticket "
+msgstr "मिनट में औसत समय एक टिकट बंद करने के लिए"
+
+#: includes/reports-and-statistics-functions.php:1262
+msgid "Minutes"
+msgstr "Minutesमिनट"
+
+#: includes/reports-and-statistics-functions.php:1398
+msgid "Average Time For"
+msgstr "औसत समय के लिए"
+
+#: includes/reports-and-statistics-functions.php:1543
+msgid "Distribution Analysis For "
+msgstr "वितरण विश्लेषण के लिए"
+
+#: includes/reports-and-statistics-functions.php:1965
+msgid "The number of tickets opened last n"
+msgstr "टिकट की संख्या पिछले एन खोला"
+
+#: includes/reports-and-statistics-functions.php:2179
+msgid ""
+"This report shows the number average, median and maxinum number of replies in a set of "
+"tickets.  Control the set of tickets included in this analysis by using the filters on the "
+"left side of the screen."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2181
+msgid ""
+"This report shows the number average, median and maxinum number of replies by clients/"
+"customers in a set of tickets.  Control the set of tickets included in this analysis by using "
+"the filters on the left side of the screen."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2183
+msgid ""
+"This report shows the number average, median and maxinum number of replies by agents in a set "
+"of tickets.  Control the set of tickets included in this analysis by using the filters on the "
+"left side of the screen."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2196
+msgid ""
+"This report shows the average time (measured in minutes) that it takes for an agent to first "
+"respond to a ticket."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2198
+msgid ""
+"This report shows the average time (measured in minutes) that it takes for agents to reply to "
+"a ticket (not just the first reply)."
+msgstr ""
+
+#: includes/reports-and-statistics-functions.php:2204
+msgid ""
+"This report shows the number of replies VS the number of tickets. One axis is the number of "
+"replies.  The other axis shows the number of tickets that contains the particular number of "
+"replies."
+msgstr ""
+
+#: includes/reports.php:11 reports-and-statistics.php:521
+msgid "Reports"
+msgstr "रिपोर्ट"
+
+#: includes/reports.php:14
+msgid "Toggle Filters"
+msgstr "टॉगल फिल्टर"
+
+#: includes/reports.php:15
+msgid "Help"
+msgstr "मदद"
+
+#: includes/reports.php:29
+msgid "Select Date Range"
+msgstr "तिथि सीमा चुनें"
+
+#: includes/reports.php:33
+msgid "Last Month"
+msgstr "पिछले महीने"
+
+#: includes/reports.php:34
+msgid "This Month"
+msgstr "इस महीने"
+
+#: includes/reports.php:35
+msgid "Last Week"
+msgstr "पिछले सप्ताह"
+
+#: includes/reports.php:36
+msgid "This Week"
+msgstr "इस सप्ताह"
+
+#: includes/reports.php:37
+msgid "Yesterday"
+msgstr "बिता कल"
+
+#: includes/reports.php:38
+msgid "Today"
+msgstr "आज"
+
+#: includes/reports.php:42 includes/reports.php:44
+msgid "Start Date"
+msgstr "आरंभ करने की तिथि"
+
+#: includes/reports.php:47 includes/reports.php:49
+msgid "End Date"
+msgstr "अंतिम तिथि"
+
+#: includes/reports.php:57
+msgid "Type of chart"
+msgstr "चार्ट के प्रकार"
+
+#: includes/reports.php:60 settings-reports-and-statistics.php:75
+msgid "Bar Charts"
+msgstr "बार चार्ट"
+
+#: includes/reports.php:62
+msgid "Column Chart"
+msgstr "स्तंभ रेखा - चित्र"
+
+#: includes/reports.php:64
+msgid "Line Chart"
+msgstr "पंक्ति चार्ट"
+
+#: includes/reports.php:66
+msgid "Spline Charts"
+msgstr "तख़्ता चार्ट"
+
+#: includes/reports.php:69 settings-reports-and-statistics.php:71
+msgid "Pie Charts"
+msgstr "वृत्त चित्र"
+
+#: includes/reports.php:71 settings-reports-and-statistics.php:72
+msgid "Doughnut Charts"
+msgstr "डोनट चार्ट"
+
+#: includes/reports.php:76
+msgid "Area chart"
+msgstr "क्षेत्र चार्ट"
+
+#: includes/reports.php:78
+msgid "Area Spline Chart"
+msgstr "क्षेत्र तख़्ता चार्ट"
+
+#: includes/reports.php:80
+msgid "Stacked Column Chart"
+msgstr "स्टैक्ड स्तंभ चार्ट"
+
+#: includes/reports.php:82
+msgid "Stacked Area Chart"
+msgstr "स्टैक्ड क्षेत्र चार्ट"
+
+#: includes/reports.php:84
+msgid "Stacked Bar Chart"
+msgstr "स्टैक्ड बार चार्ट"
+
+#: includes/reports.php:94 includes/reports.php:155
+msgid "Apply Filters"
+msgstr "फिल्टर लागू करें"
+
+#: includes/reports.php:97
+msgid "Save Report"
+msgstr "बचाने के लिए रिपोर्ट"
+
+#: includes/reports.php:157
+msgid "Second Dimension"
+msgstr "दूसरा आयाम"
+
+#: includes/reports.php:162
+msgid "None"
+msgstr "कोई नहीं"
+
+#: includes/reports.php:181
+msgid "State"
+msgstr "राज्य"
+
+#: includes/reports.php:185
+msgid "Open"
+msgstr "खुला"
+
+#: includes/reports.php:189
+msgid "Closed"
+msgstr "बन्द है"
+
+#: includes/reports.php:193
+msgid "Both"
+msgstr "दोनों"
+
+#: includes/reports.php:215
+msgid "Agents"
+msgstr "एजेंटों"
+
+#: includes/reports.php:230
+msgid "No agent found"
+msgstr "कोई एजेंट पाया"
+
+#: includes/reports.php:310
+msgid "No Tag found"
+msgstr "कोई टैग पाया"
+
+#: includes/reports.php:323
+msgid "About This Report"
+msgstr "इस रिपोर्ट के बारे में"
+
+#: includes/reports_settings.php:6
+msgid "Reports Settings"
+msgstr "रिपोर्ट सेटिंग"
+
+#: includes/reports_settings.php:15
+msgid "Select Report Filters"
+msgstr "चयन रिपोर्ट फ़िल्टर"
+
+#: includes/reports_settings.php:18
+msgid "Items selected here will show up as filter options when creating your reports."
+msgstr "जब आपकी रिपोर्ट बनाने के यहां चयनित आइटम फिल्टर विकल्प के रूप में दिखाई देगा।"
+
+#: includes/reports_settings.php:19
+msgid ""
+"Please be careful with the number of items you select. The more items you select, the slower "
+"your reports will run!"
+msgstr "कृपया आइटम आप चयन की संख्या के साथ सावधान रहना। अधिक आइटम आप चुनते हैं, धीमी अपनी रिपोर्ट चलेंगे!"
+
+#: includes/reports_settings.php:32
+msgid "Custom Fields"
+msgstr "कस्टम फील्ड्स"
+
+#: includes/reports_settings.php:61
+msgid "Save Changes"
+msgstr "परिवर्तनों को सुरक्षित करें"
+
+#: includes/reports_settings.php:62
+msgid "Reset to Defaults"
+msgstr "डिफ़ॉल्ट पर पुनः सेट करें"
+
+#: includes/single_chart_report.php:30
+msgid "Ticket Count"
+msgstr "टिकट गणना"
+
+#: includes/trend_report.php:37
+msgid "Tickets "
+msgstr "टिकट"
+
+#: reports-and-statistics.php:179
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" target=\"_blank"
+"\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: reports-and-statistics.php:201
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: reports-and-statistics.php:205
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a "
+"href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: reports-and-statistics.php:209
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: reports-and-statistics.php:468
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, your copy Advanced "
+"Reports And Statistics <strong>will never be updated</strong>."
+msgstr ""
+
+#: reports-and-statistics.php:494
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. <a href=\"%s"
+"\">Click here to do it</a>."
+msgstr ""
+
+#: reports-and-statistics.php:525
+msgid "Report Settings"
+msgstr "रिपोर्ट सेटिंग"
+
+#: settings-reports-and-statistics.php:30
+msgid "Report Filters"
+msgstr "रिपोर्ट फ़िल्टर"
+
+#: settings-reports-and-statistics.php:48
+msgid "Reports & Stastics"
+msgstr "रिपोर्ट और स्टैस्टिक्स"
+
+#: settings-reports-and-statistics.php:73
+msgid "Polar Area Charts"
+msgstr "ध्रुवीय क्षेत्र चार्ट"
+
+#: settings-reports-and-statistics.php:74
+msgid "Line Charts"
+msgstr "लाइन चार्ट"
+
+#~ msgid ""
+#~ "<p>This report shows the number average, median and maxinum number of replies in a set of "
+#~ "tickets.  Control the set of tickets included in this analysis by using the filters on the "
+#~ "left side of the screen.</p>"
+#~ msgstr ""
+#~ "<p>यह रिपोर्ट टिकटों के एक सेट में संख्या औसत, औसत और अधिक से अधिक उत्तर दिखाती है। स्क्रीन के बाईं ओर "
+#~ "फ़िल्टर का उपयोग करके इस विश्लेषण में शामिल टिकटों के सेट को नियंत्रित करें।</p>"
+
+#~ msgid ""
+#~ "<p>This report shows the number average, median and maxinum number of replies by clients/"
+#~ "customers in a set of tickets.  Control the set of tickets included in this analysis by "
+#~ "using the filters on the left side of the screen.</p>"
+#~ msgstr ""
+#~ "<P> यह रिपोर्ट टिकटों के एक समूह में ग्राहकों की संख्या / औसत संख्या, औसत और अधिकतम संख्या की संख्या "
+#~ "दर्शाती है। स्क्रीन के बाईं ओर फ़िल्टर का उपयोग करके इस विश्लेषण में शामिल टिकटों के सेट को नियंत्रित करें। </ "
+#~ "P>"
+
+#~ msgid ""
+#~ "<p>This report shows the number average, median and maxinum number of replies by agents in "
+#~ "a set of tickets.  Control the set of tickets included in this analysis by using the "
+#~ "filters on the left side of the screen.</p>"
+#~ msgstr ""
+#~ "<P> यह रिपोर्ट टिकटों के एक सेट में एजेंसियों की संख्या औसत, औसत और अधिक से अधिक उत्तर दिखाती है। स्क्रीन "
+#~ "के बाईं ओर फ़िल्टर का उपयोग करके इस विश्लेषण में शामिल टिकटों के सेट को नियंत्रित करें। </ P>"
+
+#~ msgid ""
+#~ "<p>This report shows the average time (measured in minutes) that it takes for an agent to "
+#~ "first respond to a ticket.</p>"
+#~ msgstr ""
+#~ "<P> यह रिपोर्ट औसत समय (मिनटों में मापा जाता है) दिखाती है कि किसी एजेंट के लिए पहले टिकट पर "
+#~ "प्रतिक्रिया देने के लिए लेता है। </ P>"
+
+#~ msgid ""
+#~ "<p>This report shows the average time (measured in minutes) that it takes for agents to "
+#~ "reply to a ticket (not just the first reply).</p>"
+#~ msgstr ""
+#~ "<P> यह रिपोर्ट औसतन समय (मिनटों में मापा जाता है) दिखाती है, जिसके कारण एजेंटों को टिकट का जवाब देने के "
+#~ "लिए लगता है (न केवल पहला जवाब)। </ P>"
+
+#~ msgid ""
+#~ "<p>This report shows the number of replies VS the number of tickets. One axis is the "
+#~ "number of replies.  The other axis shows the number of tickets that contains the "
+#~ "particular number of replies.</p>"
+#~ msgstr ""
+#~ "<P> यह रिपोर्ट टिकटों की संख्या वी.एस. की संख्या की संख्या दर्शाती है एक अक्ष उत्तर की संख्या है अन्य अक्ष "
+#~ "टिकटों की संख्या दर्शाता है जिसमें उत्तरों की विशेष संख्या होती है। </ P>"
+
+#~ msgid " By "
+#~ msgstr "द्वारा"
+
+#~ msgid "Help Text"
+#~ msgstr "मदद पाठ"
+
+#~ msgid "Agent"
+#~ msgstr "एजेंट"
+
+#~ msgid "Product"
+#~ msgstr "उत्पाद"
+
+#~ msgid "Tag"
+#~ msgstr "टैग"
+
+#~ msgid "Department"
+#~ msgstr "विभाग"
+
+#~ msgid "No department found"
+#~ msgstr "कोई विभाग पाया"
+
+#~ msgid "Ticket Tags"
+#~ msgstr "टिकट टैग"
+
+#~ msgid "Products"
+#~ msgstr "उत्पाद"
+
+#~ msgid "Average Time Report"
+#~ msgstr "औसत समय की रिपोर्ट"
+
+#~ msgid "Report Icon 3"
+#~ msgstr "रिपोर्ट चिह्न 3"
+
+#~ msgid "Report Icon 4"
+#~ msgstr "रिपोर्ट चिह्न 4"
+
+#~ msgid "Report Icon 5"
+#~ msgstr "रिपोर्ट चिह्न 5"
+
+#~ msgid "Parent Ticket:"
+#~ msgstr "जनक टिकट:"
+
+#~ msgid "No tickets found."
+#~ msgstr "कोई टिकट नहीं पाया।"
+
+#~ msgid "No tickets found in Trash."
+#~ msgstr "कोई टिकट ट्रैश में पाया।"
+
+#~ msgid "Ticket updated."
+#~ msgstr "टिकट अद्यतन।"
+
+#~ msgid "Custom field updated."
+#~ msgstr "कस्टम फ़ील्ड अद्यतन।"
+
+#~ msgid "Custom field deleted."
+#~ msgstr "कस्टम क्षेत्र नष्ट कर दिया।"
+
+#~ msgid "Select Day"
+#~ msgstr "दिन का चयन"
+
+#~ msgid "Ticket Count By Ticket Status"
+#~ msgstr "टिकट गणना टिकट स्थिति के आधार पर"
+
+#~ msgid "Ticket Count By Agent & Ticket Status"
+#~ msgstr "टिकट गणना एजेंट व टिकट स्थिति के आधार पर"
+
+#~ msgid "Ticket Count By Department & Ticket Status"
+#~ msgstr "टिकट गणना विभाग और टिकट स्थिति के आधार पर"
+
+#~ msgid "Ticket Count By Product & Ticket Status"
+#~ msgstr "टिकट गणना उत्पाद और टिकट स्थिति के आधार पर"
+
+#~ msgid "Ticket Count By Ticket-tag & Ticket Status"
+#~ msgstr "टिकट गणना टिकट-टैग और टिकट स्थिति के आधार पर"
+
+#~ msgid "New"
+#~ msgstr "नया"
+
+#~ msgid "In Progress"
+#~ msgstr "चालू"
+
+#~ msgid "On Hold"
+#~ msgstr "होल्ड पर"
+
+#~ msgid "Level 2"
+#~ msgstr "स्तर 2"
+
+#~ msgid "Level 1"
+#~ msgstr "स्तर 1"
+
+#~ msgid "Ticket tag"
+#~ msgstr "टिकट टैग"
+
+#~ msgid "Assignee"
+#~ msgstr "संपत्ति-भागी"
+
+#~ msgid "Custtaxo"
+#~ msgstr "कस्टम टेक्स"
+
+#~ msgid "Tags"
+#~ msgstr "टैग"
+
+#~ msgid "Departments"
+#~ msgstr "विभागों"
+
+#~ msgid "Dept"
+#~ msgstr "विभाग"
+
+#~ msgid "Dept 1"
+#~ msgstr "विभाग 1"
+
+#~ msgid "Dept 2"
+#~ msgstr "विभाग 2"
+
+#~ msgid "Dept 3"
+#~ msgstr "विभाग 3"
+
+#~ msgid "Dept 4"
+#~ msgstr "विभाग 4"

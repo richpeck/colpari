@@ -1,0 +1,605 @@
+.as-time-tracking-trash-link {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.as-time-tracking-notes {
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+.title-readonly-notice {
+  color: #7e7e7e;
+}
+
+.as_time_tracking_date_label {
+  margin-right: 10px;
+}
+
+.as_time_tracking_time_core_field label {
+  display: none;
+}
+
+
+.as_time_tracking_ticket_reply_time {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.as_time_tracking_ticket_reply_time #wpas_ttl_individual_reply_time_wrapper label {
+  display: none;
+}
+
+.as-time-tracking-notes-field {
+  width: 60%;
+}
+
+#as-time-tracking-default-start-end-dates {
+  margin: 10px;
+}
+
+#as-time-tracking-lookup-content {
+  margin-left: 10px;
+}
+
+.as-time-tracking-button-container {
+  margin-bottom: 20px;
+}
+
+.as-time-tracking-button-container label {
+  margin-left: 10px;
+}
+
+.as-time-tracking-button-container input {
+  border: 1px solid #ddd;
+  background: #ffffff;
+  background-color: #ffffff;
+  width: 50px;
+}
+
+#as_time_tracking_ticket_level {
+	width: auto;
+	margin-top: 10px;
+}
+
+#as_time_tracking_ticket_level_label {
+	position: relative;
+	top: 6px;
+}
+#as_time_tracking_automatic_pause_start {
+  margin-left: 5px;
+}
+
+.as_time_tracking_record_time_wrapper .as-time-tracking-notes {
+  margin-top: 10px;
+  display: block;
+}
+
+.as_time_tracking_record_time_wrapper input {
+  width: 35px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+#as-time-tracking-total-time-hours {
+  width: 35px;
+}
+
+#as-time-tracking-total-time-adjustments {
+  width: 50px;
+}
+
+.wpas-time-tracking-statistics-mb .wpas-time-tracking-statistics-mb-time-display-header,
+.wpas-time-tracking-statistics-mb #wpas_ttl_calculated_time_spent_on_ticket_wrapper,
+.wpas-time-tracking-statistics-mb #wpas_ttl_adjustments_to_time_spent_on_ticket_wrapper,
+.wpas-time-tracking-statistics-mb #wpas_final_time_spent_on_ticket_wrapper {
+  display: none;
+}
+
+.as_time_tracking_overlay_reply_title {
+  font-size: 14px;
+}
+
+.as_time_tracking_totals_wrapper {
+  margin-top: 40px;
+}
+
+.as_time_tracking_totals_wrapper p {
+  font-size: 16px;
+}
+
+#as_time_tracking_all_recorded_time_button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#as_time_tracking_custom_overlay,
+#as_time_tracking_custom_overlay_ticket_level {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.as_time_tracking_custom_background,
+.as_time_tracking_custom_background_ticket_level {
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    top: 7.5%;
+    padding: 25px;
+    cursor: auto;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.as_time_tracking_custom_background_ticket_level {
+  width: 25%;
+  left: 37.5%;
+  height: 300px;
+}
+
+#as_time_tracking_ticket_level_description {
+  width: 100%;
+  min-height: 90px;
+  margin-bottom: 10px;
+}
+
+.as_time_tracking_custom_background {
+    left: 25%;
+    width: 50%;
+}
+
+#as_time_tracking_custom_overlay .cancel,
+#as_time_tracking_custom_overlay_ticket_level .cancel {
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    color: #000000;
+    height: 30px;
+    width: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.as_time_tracking_custom_content,
+.as_time_tracking_custom_content_ticket_level {
+    margin: 15px 0 20px 0;
+}
+
+.as_time_tracking_noscroll {
+    overflow: hidden;
+}
+
+.as_time_tracking_record_time_wrapper .as_time_tracking_field_set {
+  margin-bottom: 5px;
+}
+
+#as_time_tracking_tickets_start_date,
+#as_time_tracking_tickets_end_date {
+  width: 90px;
+}
+
+#as_time_tracking_title_validation {
+  display: none;
+}
+
+.as_time_tracking_column_status .wpas-label {
+  color: #ffffff;
+}
+
+a.as-time-tracking-lookup-btn {
+  margin-left: 10px!important;
+}
+
+#as_time_tracking_lookup_ticket_id_content,
+#as_time_tracking_lookup_ticket_reply_id_content {
+  display: none;
+  border: 1px solid #ddd;
+  min-width: 100px;
+  background: #ffffff;
+  background-color: #ffffff;
+  position: absolute;
+  padding: 10px;
+  border-radius: 3px;
+  moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  z-index: 999;
+}
+
+#as_time_tracking_lookup_ticket_reply_id_content {
+  height: 220px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#as_time_tracking_lookup_ticket_id_content .lookup-content-title,
+#as_time_tracking_lookup_ticket_reply_id_content .lookup-content-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#as_time_tracking_lookup_ticket_reply_id_content table tr td {
+  cursor: pointer;
+  text-align: center;
+}
+
+#as_time_tracking_lookup_ticket_id_content span:hover,
+#as_time_tracking_lookup_ticket_reply_id_content span:hover {
+  color: #9a9a9a;
+}
+
+.wpas-time-tracking-statistics-mb #wpas_time_adjustments_pos_or_neg_wrapper,
+.wpas-time-tracking-statistics-mb #wpas_time_notes_wrapper {
+  display: none;
+}
+
+#as_time_tracking_invoicing_container {
+  background: #ffffff;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.as_time_tracking_filter_list div {
+  margin-bottom: 15px;
+}
+
+#as_time_tracking_invoicing_container .approve_disapprove_container {
+  margin-top: 20px;
+}
+
+#as_time_tracking_invoicing_container .as_time_tracking_filter_list,
+#as_time_tracking_invoicing_container .as_time_tracking_csv_created_container {
+  display: none;
+}
+
+.as-time-tracking-invoicing-preview {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.as-time-tracking-invoicing-preview th {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.as-time-tracking-invoicing-preview tr td {
+  padding: 5px 10px 10px 10px;
+}
+
+.as-time-tracking-invoicing-preview tr td.empty {
+  padding: 0;
+}
+
+.invoicing-preview-title {
+  margin-top: 20px;
+}
+
+.as-time-tracking-column-avatar {
+  display: block;
+}
+
+.as_time_tracking_custom_background h1,
+.as_time_tracking_custom_background_ticket_level h1,
+.as_time_tracking_ticket_reply_time h3 {
+  border-bottom: 2px solid #28A9F1;
+  padding-bottom: 10px;
+}
+
+.as_time_tracking_custom_background  .as_time_tracking_totals_wrapper {
+  border-bottom: 1px solid #28A9F1;
+  border-top: 1px solid #28A9F1;
+}
+
+.wpas-label {
+    display: inline-block;
+    padding: 2px 8px;
+    font-weight: 700;
+    color: #fff;
+    vertical-align: baseline;
+    border-radius: 3px;
+}
+
+.as_time_tracking_filter_dropdowns {
+  float: none!important;
+}
+
+.tablenav .actions {
+  margin-bottom: 5px;
+}
+
+.as_time_tracking_select_container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#as_time_tracking_link_start_end {
+  display: inline-block;
+}
+
+#as_time_tracking_manual_timer_text {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.wrap .subsubsub .all a .count {
+  display: none;
+}
+
+.as_time_tracking_ticket_level_option {
+	margin-top: 15px;
+}
+
+.as_time_tracking_ticket_level_option label {
+    position: relative;
+    bottom: 2px;
+}
+
+.as_time_tracking_ticket_level_save_container {
+	margin-top: 10px;
+}
+
+#select2-as_time_tracking_ticket_lookup_search-results {
+  padding: 10px;
+}
+
+.as_time_tracking_ticket_lookup_heading,
+#select2-as_time_tracking_ticket_lookup_search-results li span {
+  min-width: 210px;
+  display: inline-block;
+  text-align: center;
+}
+
+#select2-as_time_tracking_ticket_lookup_search-results li span {
+  padding: 6px;
+}
+
+.as_time_tracking_ticket_lookup_heading {
+  font-weight: 700;
+}
+
+.as_time_tracking_ticket_reply_lookup_heading {
+  text-align: center!important;
+}
+
+/* Div created but productivity plugin. The initial height doesn't work when time tracking
+ * is enabled so we set important to the initial height value.
+*/
+#wpas_pf_meta_tabs_wrapper {
+    height: 40px!important;
+}
+
+@media(max-width: 1115px) {
+
+  #as-time-tracking-ticket-id,
+  #as-time-tracking-ticket-reply {
+    display: block;
+    margin-left: 0!important;
+  }
+
+  a.as-time-tracking-lookup-btn {
+    margin-left: 0!important;
+    margin-top: 10px!important;
+  }
+
+  .as_time_tracking_custom_background_ticket_level {
+    width: 35%;
+    left: 32.5%;
+}
+
+@media(max-width: 960px) {
+
+  #as_time_tracking_meta .form-table textarea,
+  #as_time_tracking_meta .form-table span.description,
+  #as_time_tracking_meta .form-table td input[type=text],
+  #as_time_tracking_meta .form-table td input[type=password],
+  #as_time_tracking_meta .form-table td input[type=email],
+  #as_time_tracking_meta .form-table td select,
+  #as_time_tracking_meta .form-table td textarea {
+      width: 95%;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 7px 10px;
+      display: block;
+      max-width: none;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+  #as_time_tracking_meta .form-table td select {
+    min-height: 40px;
+  }
+
+  #as_time_tracking_meta .form-table td {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  #as_time_tracking_meta .form-table tr td:first-child {
+    padding-bottom: 0;
+  }
+
+  #as_time_tracking_meta td label {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: block;
+  }
+
+  .as_time_tracking_custom_background_ticket_level {
+      width: 50%;
+      left: 25%;
+  }
+
+}
+
+@media(max-width: 820px) {
+
+  table.as-time-tracking-invoicing-preview,
+  table.as-time-tracking-invoicing-preview thead,
+  table.as-time-tracking-invoicing-preview tbody,
+  table.as-time-tracking-invoicing-preview th,
+  table.as-time-tracking-invoicing-preview td,
+  table.as-time-tracking-invoicing-preview tr {
+    display: block!important;
+  }
+
+  table.as-time-tracking-invoicing-preview tr th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  table.as-time-tracking-invoicing-preview tr {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  table.as-time-tracking-invoicing-preview td {
+    border: none;
+    /*border-bottom: 1px solid #eee;*/
+    position: relative;
+    padding-left: 50%!important;
+  }
+
+  table.as-time-tracking-invoicing-preview td:before {
+    position: absolute;
+    top: 15px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  table.as-time-tracking-invoicing-preview td:nth-of-type(1):before { content: "Invoice Number"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(2):before { content: "User First Name"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(3):before { content: "User Second Name"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(4):before { content: "User Email Address"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(5):before { content: "From Date"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(6):before { content: "To Date"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(7):before { content: "Total Hours"; }
+  table.as-time-tracking-invoicing-preview td:nth-of-type(8):before { content: "Billing Total"; }
+
+}
+
+@media(max-width: 768px) {
+
+  #as_time_tracking_tickets_start_date,
+  #as_time_tracking_tickets_end_date {
+    width: 25%;
+  }
+
+  .as_time_tracking_record_time_wrapper input {
+      width: 60px;
+  }
+
+  .as_time_tracking_custom_background,
+  .as_time_tracking_custom_background_ticket_level {
+      width: 80%;
+      left: 7%;
+  }
+
+  #as_time_tracking_lookup_ticket_id_content,
+  #as_time_tracking_lookup_ticket_reply_id_content {
+    width: 92%;
+  }
+
+  #as_time_tracking_lookup_ticket_reply_id_content table th,
+  #as_time_tracking_lookup_ticket_reply_id_content table td {
+    vertical-align: top;
+    display: table-cell;
+  }
+
+  #as_time_tracking_lookup_ticket_reply_id_content table td {
+      padding: 15px 20px;
+  }
+
+  #as_time_tracking_meta .form-table textarea,
+  #as_time_tracking_meta .form-table span.description,
+  #as_time_tracking_meta .form-table td input[type=text],
+  #as_time_tracking_meta .form-table td input[type=password],
+  #as_time_tracking_meta .form-table td input[type=email],
+  #as_time_tracking_meta .form-table td select,
+  #as_time_tracking_meta .form-table td textarea {
+    width: 100%;
+  }
+
+  #as_time_tracking_meta .form-table td select {
+    min-height: 40px;
+  }
+
+  #as_time_tracking_meta .form-table td {
+    display: block;
+    width: 100%;
+    margin-bottom: 9px;
+  }
+
+  #as_time_tracking_meta .form-table tr td:first-child {
+    padding-bottom: 10px;
+  }
+
+  #as_time_tracking_ticket_level {
+  	width: 25px;
+  }
+
+}
+
+@media(max-width: 635px) {
+
+  #as_time_tracking_lookup_ticket_id_content,
+  #as_time_tracking_lookup_ticket_reply_id_content {
+    width: 90%;
+  }
+
+}
+
+@media(max-width: 540px) {
+
+  #as_time_tracking_lookup_ticket_id_content,
+  #as_time_tracking_lookup_ticket_reply_id_content {
+    width: 85%;
+  }
+
+  .as_time_tracking_filter_list .as_time_tracking_date_range input {
+    display: block;
+  }
+
+}
+
+@media(max-width: 480px) {
+
+  #as_time_tracking_tickets_start_date,
+  #as_time_tracking_tickets_end_date {
+    width: 100%;
+  }
+
+  .as_time_tracking_record_time_wrapper select {
+    display: block;
+    min-width: 50px;
+  }
+
+  .as_time_tracking_custom_background,
+  .as_time_tracking_custom_background_ticket_level {
+      width: 80%;
+      left: 4%;
+  }
+
+  .as_time_tracking_filter_list .as_time_tracking_date_range input {
+    width: 100%;
+  }
+
+}

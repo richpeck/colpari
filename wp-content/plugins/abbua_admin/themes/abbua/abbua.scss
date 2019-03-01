@@ -1,0 +1,31 @@
+/*----------------------------------------------------------------
+ * 
+ * ABBUA Admin Theme: onyx
+ *
+ *----------------------------------------------------------------*/
+:root{
+    $btn-normal-ini:    rgb(180, 142, 174);
+    $btn-normal-end:    rgb(148, 117, 143);
+    $btn-normal-border: darken($btn-normal-ini, 10%);
+
+    $btn-hover-ini:     darken($btn-normal-ini,2%);
+    $btn-hover-end:     darken($btn-normal-end,2%);
+    $btn-hover-border:  darken($btn-normal-border,15%);
+
+    $btn-active-ini:    darken($btn-normal-ini,5%);
+    $btn-active-end:    darken($btn-normal-end,5%);
+    $btn-active-border: darken($btn-normal-border,20%);
+
+    --cs-abbua-button-primary-bg-normal-ini: $btn-normal-ini;
+    --cs-abbua-button-primary-bg-normal-end: $btn-normal-end;
+    --cs-abbua-button-primary-border-normal: $btn-normal-border;
+
+    --cs-abbua-button-primary-bg-hover-ini: $btn-hover-ini;
+    --cs-abbua-button-primary-bg-hover-end: $btn-hover-end;
+    --cs-abbua-button-primary-border-hover: $btn-hover-border;
+
+    --cs-abbua-button-primary-bg-active-ini: $btn-active-ini;
+    --cs-abbua-button-primary-bg-active-end: $btn-active-end;
+    --cs-abbua-button-primary-border-active: $btn-active-border;
+
+}

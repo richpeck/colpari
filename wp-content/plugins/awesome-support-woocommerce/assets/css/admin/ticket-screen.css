@@ -1,0 +1,38 @@
+.aswc-metabox-ticket-content .user-details {
+  float: left; }
+  .aswc-metabox-ticket-content .user-details ul {
+    margin-top: 12px; }
+  .aswc-metabox-ticket-content .user-details .is-customer {
+    background: #4da031;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 3px;
+    padding: 3px 6px 2px;
+    text-transform: uppercase;
+    font-size: 13px; }
+    .aswc-metabox-ticket-content .user-details .is-customer.not {
+      background: #c90000; }
+
+.aswc-metabox-ticket-content .user-photo {
+  float: right; }
+  .aswc-metabox-ticket-content .user-photo img {
+    border-radius: 100%;
+    border: 1px solid #eee; }
+    .aswc-metabox-ticket-content .user-photo img:hover {
+      border: 1px solid #ddd; }
+
+.aswc-metabox-ticket-content .group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.aswc-metabox-ticket-content h4 {
+  font-size: 15px;
+  margin-bottom: 0; }
+
+.aswc-metabox-ticket-content ul {
+  margin-bottom: 22px; }
+
+.aswc-metabox-ticket-content li.name {
+  font-size: 16px; }

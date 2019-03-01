@@ -1,0 +1,658 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Awesome Support: Gravity Forms\n"
+"POT-Creation-Date: 2018-05-28 05:56-0500\n"
+"PO-Revision-Date: 2016-10-28 13:22-0500\n"
+"Last-Translator: Robert W. Kramer III <rwkramer.iii@customdesigns.com>\n"
+"Language-Team: Robert W. Kramer III <rwkramer.iii@customdesigns.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: awesome-support-gravity-forms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: awesome-support-gravity-forms.php:140
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core plugin "
+"first."
+msgstr ""
+
+#: awesome-support-gravity-forms.php:144
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: awesome-support-gravity-forms.php:148
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the core "
+"plugin first."
+msgstr ""
+
+#: awesome-support-gravity-forms.php:317
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, "
+"your copy Awesome Support: Gravity Forms <strong>will never be updated</"
+"strong>."
+msgstr ""
+
+#: awesome-support-gravity-forms.php:351
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: awesome-support-gravity-forms.php:468
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. "
+"<a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: class-gravity-forms.php:191
+msgid "Settings"
+msgstr ""
+
+#: class-gravity-forms.php:281
+msgid "Field Mappings"
+msgstr ""
+
+#: class-gravity-forms.php:282 settings.php:23
+msgid "Add New Mapping"
+msgstr ""
+
+#: class-gravity-forms.php:283
+msgid "Hide"
+msgstr ""
+
+#: class-gravity-forms.php:284
+msgid "Force"
+msgstr ""
+
+#: class-gravity-forms.php:285
+msgid "Validate"
+msgstr ""
+
+#: class-gravity-forms.php:286 class-gravity-forms.php:347
+msgid "Require"
+msgstr ""
+
+#: class-gravity-forms.php:287 class-gravity-forms.php:436
+msgid "Populate"
+msgstr ""
+
+#: class-gravity-forms.php:288
+msgid "Delete this mapping"
+msgstr ""
+
+#: class-gravity-forms.php:289
+msgid "Select a field"
+msgstr ""
+
+#: class-gravity-forms.php:290 class-gravity-forms.php:536
+msgid "Select a form"
+msgstr ""
+
+#: class-gravity-forms.php:291
+msgid "No forms available"
+msgstr ""
+
+#: class-gravity-forms.php:292
+msgid "All Gravity Forms are currently mapped."
+msgstr ""
+
+#: class-gravity-forms.php:293
+msgid "Form"
+msgstr ""
+
+#: class-gravity-forms.php:294
+msgid "Select the Gravity Form."
+msgstr ""
+
+#: class-gravity-forms.php:295
+msgid "Subject/Title"
+msgstr ""
+
+#: class-gravity-forms.php:296 class-gravity-forms.php:662
+msgid "Content"
+msgstr ""
+
+#: class-gravity-forms.php:297
+msgid "Email"
+msgstr ""
+
+#: class-gravity-forms.php:298
+msgid "Ticket ID"
+msgstr ""
+
+#: class-gravity-forms.php:299
+msgid "Department"
+msgstr ""
+
+#: class-gravity-forms.php:300
+msgid "Product"
+msgstr ""
+
+#: class-gravity-forms.php:301
+msgid "Status Options"
+msgstr ""
+
+#: class-gravity-forms.php:302
+msgid "Ticket State"
+msgstr ""
+
+#: class-gravity-forms.php:303
+msgid "Assignee"
+msgstr ""
+
+#: class-gravity-forms.php:304
+msgid "Reference"
+msgstr ""
+
+#: class-gravity-forms.php:305 class-gravity-forms.php:319
+msgid "Custom Fields"
+msgstr ""
+
+#: class-gravity-forms.php:306
+msgid "Ticket Status"
+msgstr ""
+
+#: class-gravity-forms.php:307
+msgid "Form Options"
+msgstr ""
+
+#: class-gravity-forms.php:308
+msgid "Attach uploaded files"
+msgstr ""
+
+#: class-gravity-forms.php:309
+msgid "Allow create user"
+msgstr ""
+
+#: class-gravity-forms.php:310
+msgid "Include unmapped fields in ticket body."
+msgstr ""
+
+#: class-gravity-forms.php:311
+msgid ""
+"Send standard New User WordPress email to the admin - if a new user is "
+"created."
+msgstr ""
+
+#: class-gravity-forms.php:312
+msgid ""
+"Send standard New User WordPress email to the new user - if a new user is "
+"created."
+msgstr ""
+
+#: class-gravity-forms.php:313 class-gravity-forms.php:508
+msgid "Hide the field key ID when a field is added to the ticket body"
+msgstr ""
+
+#: class-gravity-forms.php:314
+msgid "Hide blank fields when fields are added to the ticket body"
+msgstr ""
+
+#: class-gravity-forms.php:315
+msgid "Include WPAS GF Details"
+msgstr ""
+
+#: class-gravity-forms.php:316
+msgid "You have unsaved changes. Save changes now?"
+msgstr ""
+
+#: class-gravity-forms.php:317
+msgid "Delete this form mapping?"
+msgstr ""
+
+#: class-gravity-forms.php:318
+msgid "Common Fields"
+msgstr ""
+
+#: class-gravity-forms.php:320
+msgid "Form Settings"
+msgstr ""
+
+#: class-gravity-forms.php:321
+msgid "Security"
+msgstr ""
+
+#: class-gravity-forms.php:322
+msgid "Advanced"
+msgstr ""
+
+#: class-gravity-forms.php:323
+msgid "Status"
+msgstr ""
+
+#: class-gravity-forms.php:324
+msgid "Quick Set"
+msgstr ""
+
+#: class-gravity-forms.php:345
+msgid "This field is always required."
+msgstr ""
+
+#: class-gravity-forms.php:355 class-gravity-forms.php:379
+msgid "If using form for new ticket:  Mapping is required."
+msgstr ""
+
+#: class-gravity-forms.php:356
+msgid "If using form for replies to a ticket:  Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:357
+msgid "If using form for status/field updates:  Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:359 class-gravity-forms.php:384
+msgid "Check this for New Tickets"
+msgstr ""
+
+#: class-gravity-forms.php:360 class-gravity-forms.php:372
+#: class-gravity-forms.php:385 class-gravity-forms.php:397
+#: class-gravity-forms.php:410 class-gravity-forms.php:422
+#: class-gravity-forms.php:434 class-gravity-forms.php:446
+#: class-gravity-forms.php:456
+msgid "Hide this field value from ticket or ticket replies."
+msgstr ""
+
+#: class-gravity-forms.php:367
+msgid "If using form for new ticket:  Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:368
+msgid "If using form for replies to a ticket:  Mapping is required."
+msgstr ""
+
+#: class-gravity-forms.php:369
+msgid "If using form for status/field updates:  Mapping is required."
+msgstr ""
+
+#: class-gravity-forms.php:371
+msgid "Check this for ticket replies and status/field updates."
+msgstr ""
+
+#: class-gravity-forms.php:373
+msgid ""
+"Verify that the ticket ID is valid. If mapping this field, turning on this "
+"option is STRONGLY recommended.  Additionally, we strongly recommend that "
+"you require an email address and enable Email Validate to validate that the "
+"ticket id belongs to user."
+msgstr ""
+
+#: class-gravity-forms.php:374
+msgid "This field can only be pre-populated if the user is logged in."
+msgstr ""
+
+#: class-gravity-forms.php:380
+msgid ""
+"If using form for replies to a ticket:  Mapping is not required but STRONGLY "
+"recommended."
+msgstr ""
+
+#: class-gravity-forms.php:381
+msgid "If using form for status/field updates: Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:382
+msgid "If VALIDATE is enabled: the field will require a valid WP user email."
+msgstr ""
+
+#: class-gravity-forms.php:386
+msgid "Recommended when mapping Ticket ID."
+msgstr ""
+
+#: class-gravity-forms.php:387
+msgid "Populate with email address if user is logged in."
+msgstr ""
+
+#: class-gravity-forms.php:392 class-gravity-forms.php:405
+#: class-gravity-forms.php:417 class-gravity-forms.php:429
+#: class-gravity-forms.php:441 class-gravity-forms.php:463
+#: class-gravity-forms.php:475
+msgid "If using form for New Ticket:  Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:393
+msgid "If using form for Replies to a ticket:  Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:394 class-gravity-forms.php:407
+#: class-gravity-forms.php:419 class-gravity-forms.php:431
+#: class-gravity-forms.php:443 class-gravity-forms.php:465
+#: class-gravity-forms.php:477
+msgid "If using form for Status/Field updates: Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:396 class-gravity-forms.php:467
+msgid "It is recommended that this be checked if this field is mapped."
+msgstr ""
+
+#: class-gravity-forms.php:398
+msgid "Ensures that a valid AS Ticket State value has been selected."
+msgstr ""
+
+#: class-gravity-forms.php:399
+msgid "Auto-populate field."
+msgstr ""
+
+#: class-gravity-forms.php:406 class-gravity-forms.php:418
+#: class-gravity-forms.php:430 class-gravity-forms.php:442
+#: class-gravity-forms.php:464 class-gravity-forms.php:476
+msgid "If using form for Ticket Replies:  Mapping is not required."
+msgstr ""
+
+#: class-gravity-forms.php:409 class-gravity-forms.php:421
+#: class-gravity-forms.php:433 class-gravity-forms.php:445
+#: class-gravity-forms.php:455 class-gravity-forms.php:479
+msgid "Require this field to contain a value."
+msgstr ""
+
+#: class-gravity-forms.php:411
+msgid "Ensures that a valid AS Department value has been selected."
+msgstr ""
+
+#: class-gravity-forms.php:412
+msgid "Auto-populate field with valid AS Departments (recommended)."
+msgstr ""
+
+#: class-gravity-forms.php:423
+msgid "Ensures that a valid AS Product ID has been selected."
+msgstr ""
+
+#: class-gravity-forms.php:424
+msgid "Auto-populate field with valid AS Products (recommended)."
+msgstr ""
+
+#: class-gravity-forms.php:435
+msgid "Ensures that a valid AS Ticket Tag has been selected."
+msgstr ""
+
+#: class-gravity-forms.php:447
+msgid "Ensures that a valid AS Assignee has been selected."
+msgstr ""
+
+#: class-gravity-forms.php:448
+msgid "Populate field with AS Assignees. (recommended)"
+msgstr ""
+
+#: class-gravity-forms.php:457
+msgid "Validate that the field value exists."
+msgstr ""
+
+#: class-gravity-forms.php:458
+msgid "Populate field with data."
+msgstr ""
+
+#: class-gravity-forms.php:468 class-gravity-forms.php:480
+msgid "Do not output this field value in ticket or ticket replies."
+msgstr ""
+
+#: class-gravity-forms.php:469
+msgid "Ensures that a valid AS Status has been selected."
+msgstr ""
+
+#: class-gravity-forms.php:470
+msgid "Populate this field with AS Status values. (recommended)"
+msgstr ""
+
+#: class-gravity-forms.php:481
+msgid "Validate this field."
+msgstr ""
+
+#: class-gravity-forms.php:482
+msgid "Populate this field."
+msgstr ""
+
+#: class-gravity-forms.php:486
+msgid ""
+"Enable to copy form submission uploads to ticket or ticket reply attachments."
+msgstr ""
+
+#: class-gravity-forms.php:489
+msgid ""
+"When checked, an account will automatically be created for any unrecognized "
+"email addresses."
+msgstr ""
+
+#: class-gravity-forms.php:490
+msgid ""
+"It is strongly recommended to enable the Validate attribute on the Email "
+"field."
+msgstr ""
+
+#: class-gravity-forms.php:493
+msgid ""
+"When checked, any fields that are not mapped to a core or custom field will "
+"have its data added to the body of the ticket/reply."
+msgstr ""
+
+#: class-gravity-forms.php:496
+msgid ""
+"When this is turned on, blank fields will not be added to the ticket body "
+"even if the include unmapped fields option is checked and even if the HIDE "
+"option on a mapped field is unchecked. WARNING: Zeros are considered blanks/"
+"empty so be careful with numeric values."
+msgstr ""
+
+#: class-gravity-forms.php:499
+msgid "Adds misc data to the body for the ticket such as the IP address."
+msgstr ""
+
+#: class-gravity-forms.php:502
+msgid "Send standard New User WordPress email to admin if new user is created"
+msgstr ""
+
+#: class-gravity-forms.php:505
+msgid ""
+"Send standard New User WordPress email to the new user if a new user is "
+"created"
+msgstr ""
+
+#: class-gravity-forms.php:645
+msgid "Gravity Forms Exception"
+msgstr ""
+
+#: class-gravity-forms.php:649
+msgid "Enable"
+msgstr ""
+
+#: class-gravity-forms.php:653
+msgid "Do you want to activate this e-mail template?"
+msgstr ""
+
+#: class-gravity-forms.php:656
+msgid "Subject"
+msgstr ""
+
+#: class-gravity-forms.php:659
+msgid "Gravity Forms Exception Notification"
+msgstr ""
+
+#: class-gravity-forms.php:991
+msgid ": is required."
+msgstr ""
+
+#: class-gravity-forms.php:1028
+msgid "Email is required."
+msgstr ""
+
+#: class-gravity-forms.php:1046
+msgid "Email validation failed."
+msgstr ""
+
+#: class-gravity-forms.php:1098
+msgid "Invalid Ticket ID."
+msgstr ""
+
+#: class-gravity-forms.php:1126
+msgid ""
+"Invalid Ticket ID (Probably because ID does not match the email address "
+"provided)."
+msgstr ""
+
+#: class-gravity-forms.php:1136
+msgid "Invalid Ticket ID - ticket does not belong to the specified user."
+msgstr ""
+
+#: class-gravity-forms.php:1188
+msgid "Invalid Ticket Status."
+msgstr ""
+
+#: class-gravity-forms.php:1225
+msgid "Invalid Product."
+msgstr ""
+
+#: class-gravity-forms.php:1273
+msgid "Invalid Department."
+msgstr ""
+
+#: class-gravity-forms.php:1317
+msgid "Invalid Ticket State."
+msgstr ""
+
+#: class-gravity-forms.php:1366
+msgid "Invalid Assignee."
+msgstr ""
+
+#: class-gravity-forms.php:1403
+msgid "Invalid Reference value."
+msgstr ""
+
+#: class-gravity-forms.php:1497
+msgid "Select a "
+msgstr ""
+
+#: class-gravity-forms.php:1937 class-gravity-forms.php:1938
+msgid "Close Ticket"
+msgstr ""
+
+#: class-gravity-forms.php:1937
+msgid "Do Not Close Ticket"
+msgstr ""
+
+#: includes/class-ticket.php:91
+msgid "Not found."
+msgstr ""
+
+#: includes/class-ticket.php:634
+#, php-format
+msgid " Ticket status current is %s"
+msgstr ""
+
+#: includes/class-ticket.php:635
+#, php-format
+msgid " Ticket status changed to %s"
+msgstr ""
+
+#: includes/class-ticket.php:637
+#, php-format
+msgid " Unable to update ticket status (%s)"
+msgstr ""
+
+#: includes/class-ticket.php:648
+#, php-format
+msgid " Ticket state current is %s"
+msgstr ""
+
+#: includes/class-ticket.php:649
+#, php-format
+msgid " Ticket state changed to %s"
+msgstr ""
+
+#: includes/class-ticket.php:651
+#, php-format
+msgid " Unable to update ticket state (%s)"
+msgstr ""
+
+#: includes/class-ticket.php:762
+#, php-format
+msgid " Enable: (%s)"
+msgstr ""
+
+#: includes/class-ticket.php:783 includes/class-ticket.php:825
+#, php-format
+msgid " : (%s)"
+msgstr ""
+
+#: includes/class-ticket.php:803
+#, php-format
+msgid " : (%s, %s)"
+msgstr ""
+
+#: includes/class-ticket.php:843
+msgid "Displays the WPAS-GF settings for the form."
+msgstr ""
+
+#: includes/class-ticket.php:892 includes/class-ticket.php:894
+#, php-format
+msgid " name: %s, value: %s"
+msgstr ""
+
+#: includes/class-ticket.php:918
+#, php-format
+msgid " case: %s, value: %s"
+msgstr ""
+
+#: includes/class-ticket.php:941
+#, php-format
+msgid " case: %s, $value: %s"
+msgstr ""
+
+#: includes/class-ticket.php:968
+#, php-format
+msgid " case: %s, user: %s"
+msgstr ""
+
+#: includes/class-ticket.php:970
+#, php-format
+msgid " acquired agent id is invalid. case: %s"
+msgstr ""
+
+#: includes/class-ticket.php:1024
+msgid "Thanks for your reply. The ticket is now closed."
+msgstr ""
+
+#: settings.php:15
+msgid "Gravity Forms"
+msgstr ""
+
+#: settings.php:18
+msgid "Gravity Forms Mappings"
+msgstr ""
+
+#: settings.php:26
+msgid "Add New Mapping."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Awesome Support: Gravity Forms"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.getawesomesupport.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrates Gravity Forms with Awesome Support tickets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Awesome Support"
+msgstr ""

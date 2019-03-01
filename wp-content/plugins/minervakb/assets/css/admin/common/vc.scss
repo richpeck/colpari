@@ -1,0 +1,44 @@
+.wpb_mkb-tip,
+.wpb-layout-element-button[data-element="mkb-tip"],
+.wpb_mkb-info,
+.wpb-layout-element-button[data-element="mkb-info"],
+.wpb_mkb-warning,
+.wpb-layout-element-button[data-element="mkb-warning"],
+.wpb_mkb-related,
+.wpb-layout-element-button[data-element="mkb-related"],
+.wpb_mkb-topic,
+.wpb-layout-element-button[data-element="mkb-topic"],
+.wpb_mkb-topics,
+.wpb-layout-element-button[data-element="mkb-topics"],
+.wpb_mkb-search,
+.wpb-layout-element-button[data-element="mkb-search"],
+.wpb_mkb-anchor,
+.wpb-layout-element-button[data-element="mkb-anchor"],
+.wpb_mkb-faq,
+.wpb-layout-element-button[data-element="mkb-faq"] {
+  .vc_element-icon {
+    background: none;
+
+    &:before {
+      font-size: 26px;
+      line-height: 26px;
+      color: $minerva-blue;
+      width: 32px;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}
+
+.wpb_mkb-tip,
+.wpb-layout-element-button[data-element="mkb-tip"],
+.wpb_mkb-info,
+.wpb-layout-element-button[data-element="mkb-info"],
+.wpb_mkb-faq,
+.wpb-layout-element-button[data-element="mkb-faq"] {
+  .vc_element-icon {
+    &:before {
+      font-size: 32px;
+    }
+  }
+}

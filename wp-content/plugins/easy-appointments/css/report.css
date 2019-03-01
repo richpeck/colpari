@@ -1,0 +1,113 @@
+.report-container {
+	padding: 0;
+	margin: 0;
+}
+
+.reports {
+	background-color: #ffffff;
+	margin-top: 35px;
+	padding: 10px;
+}
+
+.reports .tab-selected a {
+	color: red;
+}
+
+
+.report {
+	width: 100px;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.report .disabled {
+	opacity: 0.3;
+	cursor: default;
+}
+
+.report a span {
+	font-size: 1em;
+}
+
+.report a i {
+	margin-bottom: 4px;
+	display: block;
+	font-size: 2.5em;
+}
+
+#report-content .ui-datepicker {
+	width: 70em !important;
+	box-sizing: border-box;
+}
+
+#report-content .ui-datepicker-unselectable {
+	min-width: 10em !important;
+}
+
+#report-content .empty-day, #report-content .ui-datepicker-other-month {
+	background-color: #ccc;
+	opacity: 0.35 !important;
+}
+
+#report-content .ui-datepicker td {
+	height: 10em !important;
+	border: 1px solid black !important;
+	position: relative;
+	opacity: 1;
+	padding-top: 30px;
+}
+
+#report-content .ui-datepicker .single-item {
+	text-align: center;
+	border: 1px dotted #CCC;
+}
+
+#report-content .ui-datepicker .single-item.free-items-0 {
+	color: #fff;
+	background-color: #FF0000;
+	text-align: center;
+	border: 1px dotted #FFF;
+}
+
+#report-content .ui-datepicker .single-item.error-booking {
+	color: #fff;
+	background-color: black;
+	text-align: center;
+	border: 1px dotted #FFF;
+}
+
+#report-content .ui-state-default, #overview-month .ui-widget-content .ui-state-default {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	font-size: 1.3em;
+	color: black;
+	background: none;
+	border: 0 solid black;
+}
+
+.filter-select select {
+	width: 180px;
+}
+
+.filter-select label {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.report-message {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2.5em;
+	line-height: 1em;
+	opacity: 0.5;
+	padding-top: 100px;
+}
+
+#ui-datepicker-div {
+	display: none;
+}

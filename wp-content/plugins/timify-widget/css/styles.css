@@ -1,0 +1,7 @@
+.timify-widget-settings { background: #fff; font-size: 14px; border-top: 4px solid #ca3b43; margin: 20px 20px 0 0; padding: 40px 15px 15px 15px; position: relative; }
+	.timify-widget-settings .logo { position: absolute; left: 15px; top: -4px; z-index: 2; }
+	.timify-widget-settings h1 { font-size: 24px; text-align: right; margin: 0 0 50px 0; padding: 0; }
+	.timify-widget-settings .note { margin-bottom: 20px; }
+	.timify-widget-settings .error-msg { color: #ca3b43; font-style: italic; margin-top: 5px; }
+	.timify-widget-settings button { height: 40px; background: #ca3b43; color: #fff; font-size: 14px; font-weight: normal; text-transform: uppercase; border: 0; padding: 0 15px; cursor: pointer; border-radius: 3px; }
+	.timify-widget-settings .success-message { background: #eaf6d5; color: #4f8a10; font-size: 12px; font-weight: bold; padding: 15px; margin: 20px 0; }

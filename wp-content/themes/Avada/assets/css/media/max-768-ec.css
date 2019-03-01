@@ -1,0 +1,44 @@
+#tribe-events-content-wrapper #tribe_events_filters_wrapper {
+  height: auto;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper #tribe_events_filter_control {
+  width: 100%;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper #tribe_events_filter_control .tribe-reset-icon {
+  line-height: normal;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper #tribe_events_filter_control #tribe_events_filters_reset {
+  margin-top: 10px;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-horizontal {
+  float: none;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-horizontal #tribe_events_filters_form {
+  width: 100%;
+  float: none;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe-events-filters-label {
+  margin-bottom: 10px;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe_events_filters_close_filters {
+  margin-top: 0;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe-events-filters-content {
+  display: block;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-horizontal .tribe-events-filters-group-heading {
+  padding: 15px;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper.tribe-events-filters-vertical #tribe_events_filters_reset {
+  margin-bottom: 0;
+}
+#tribe-events-content-wrapper #tribe_events_filters_wrapper .tribe-reset-icon {
+  line-height: 1;
+  padding-top: 2px;
+}
+#tribe-events-footer:after,
+#tribe-events-header:after,
+#tribe-events-footer:before,
+#tribe-events-header:before {
+  background-color: transparent !important;
+}

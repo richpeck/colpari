@@ -1,0 +1,441 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: FAQ\n"
+"POT-Creation-Date: 2017-07-05 22:02-0500\n"
+"PO-Revision-Date: 2016-08-08 11:53+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <contact@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: faq.php:194
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: faq.php:220
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: faq.php:224
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: faq.php:228
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: faq.php:501
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of the plugin <strong>will never be updated</strong>."
+msgstr ""
+
+#: faq.php:502
+msgid "I do NOT want the updates, dismiss this message"
+msgstr ""
+
+#: faq.php:528
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: includes/functions-list-table.php:32
+msgctxt "FAQ views count"
+msgid "Views"
+msgstr ""
+
+#: includes/functions-post-type.php:27
+msgctxt "post type general name"
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/functions-post-type.php:28
+msgctxt "post type singular name"
+msgid "FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:29
+msgctxt "admin menu"
+msgid "FAQs"
+msgstr ""
+
+#: includes/functions-post-type.php:30
+msgctxt "add new on admin bar"
+msgid "FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:31
+msgctxt "faq"
+msgid "Add FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:32
+msgid "Add New FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:33
+msgid "New FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:34
+msgid "Edit FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:35
+#: includes/functions-post-type.php:102
+msgid "View FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:36
+msgid "All FAQs"
+msgstr ""
+
+#: includes/functions-post-type.php:37
+msgid "Search FAQs"
+msgstr ""
+
+#: includes/functions-post-type.php:38
+msgid "Parent FAQ:"
+msgstr ""
+
+#: includes/functions-post-type.php:39
+msgid "No FAQs found."
+msgstr ""
+
+#: includes/functions-post-type.php:40
+msgid "No FAQs found in Trash."
+msgstr ""
+
+#: includes/functions-post-type.php:45
+msgid "FAQs that can be generated from your tickets directly"
+msgstr ""
+
+#: includes/functions-post-type.php:83
+#: includes/functions-post-type.php:86
+msgid "FAQ updated."
+msgstr ""
+
+#: includes/functions-post-type.php:84
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/functions-post-type.php:85
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/functions-post-type.php:88
+#, php-format
+msgid "FAQ restored to revision from %s"
+msgstr ""
+
+#: includes/functions-post-type.php:89
+msgid "FAQ published."
+msgstr ""
+
+#: includes/functions-post-type.php:90
+msgid "FAQ saved."
+msgstr ""
+
+#: includes/functions-post-type.php:91
+msgid "FAQ submitted."
+msgstr ""
+
+#: includes/functions-post-type.php:93
+#, php-format
+msgid "Book scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/functions-post-type.php:95
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/functions-post-type.php:97
+msgid "FAQ draft updated."
+msgstr ""
+
+#: includes/functions-post-type.php:108
+msgid "Preview FAQ"
+msgstr ""
+
+#: includes/functions-post-type.php:126
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: includes/functions-post-type.php:127
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: includes/functions-post-type.php:128
+msgid "Search Categories"
+msgstr ""
+
+#: includes/functions-post-type.php:129
+msgid "All Categories"
+msgstr ""
+
+#: includes/functions-post-type.php:130
+msgid "Parent Category"
+msgstr ""
+
+#: includes/functions-post-type.php:131
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/functions-post-type.php:132
+msgid "Edit Category"
+msgstr ""
+
+#: includes/functions-post-type.php:133
+msgid "Update Category"
+msgstr ""
+
+#: includes/functions-post-type.php:134
+msgid "Add New Category"
+msgstr ""
+
+#: includes/functions-post-type.php:135
+msgid "New Category Name"
+msgstr ""
+
+#: includes/functions-post-type.php:136
+msgid "Categories"
+msgstr ""
+
+#: includes/functions-quick-reply.php:31
+msgid "Quick FAQ Links"
+msgstr ""
+
+#: includes/functions-quick-reply.php:41
+msgid "Select a FAQ"
+msgstr ""
+
+#: includes/functions-quick-reply.php:87
+msgid "Tag"
+msgstr ""
+
+#: includes/functions-quick-reply.php:87
+msgid "Description"
+msgstr ""
+
+#: includes/functions-quick-reply.php:93
+msgid "Converts into the link to the FAQ"
+msgstr ""
+
+#: includes/functions-quick-reply.php:100
+msgid "Template Tags"
+msgstr ""
+
+#: includes/functions-quick-reply.php:101
+#, php-format
+msgid ""
+"<p>When setting up your canned responses, you can use a certain number "
+"of template tags allowing you to dynamically add ticket-related "
+"information at the moment the reply is sent. Here is the list of "
+"available tags:</p>%s"
+msgstr ""
+
+#: includes/functions-search.php:121
+msgid "FAQ: "
+msgstr ""
+
+#: includes/functions-search.php:173 includes/shortcodes/faq.php:63
+msgid "Search the FAQs..."
+msgstr ""
+
+#: includes/functions-titan-framework.php:31
+msgid "Settings"
+msgstr ""
+
+#: includes/functions-titan-framework.php:32
+msgid "Awesome Support: FAQ - Settings"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:40
+msgid "Create a new FAQ based on this reply"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:40
+msgid "Create FAQ"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:119
+msgid "Post the reply and create a FAQ with this reply as the answer"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:119
+msgid "Reply &amp; FAQ"
+msgstr ""
+
+#: includes/integrations/awesome-support.php:157
+#, php-format
+msgid "The new FAQ has been added. <a href=\"%s\">View FAQ</a>"
+msgstr ""
+
+#: includes/settings.php:29
+msgid "General"
+msgstr ""
+
+#: includes/settings.php:32
+msgid "Reply &amp; FAQ Closes"
+msgstr ""
+
+#: includes/settings.php:35
+msgid ""
+"Close tickets when replied using the <em>Reply &amp; FAQ</em> button."
+msgstr ""
+
+#: includes/settings.php:39
+msgid "Quick FAQ Links Template"
+msgstr ""
+
+#: includes/settings.php:42
+#, php-format
+msgid ""
+"Reply to send to the client for directing him to the FAQ article. <a "
+"%s>Click here</a> to review all available template tags."
+msgstr ""
+
+#: includes/settings.php:46
+msgid "Rewrite Slug"
+msgstr ""
+
+#: includes/settings.php:49
+#, php-format
+msgid ""
+"What should the slug be for FAQs? The slug is the part that prefixes "
+"the question slug. Example: %s. Please refresh your permalinks if you "
+"change this option."
+msgstr ""
+
+#: includes/settings.php:55 includes/settings.php:58
+msgid "Live Search"
+msgstr ""
+
+#: includes/settings.php:61
+#, php-format
+msgid ""
+"On which elements should the live search trigger? By default, it is "
+"enabled on the ticket submission form title field. You can add more "
+"form elements by specifying their selector. If you use multiple "
+"selectors, they must be separated by a comma (%s). <a %s>Read more "
+"about selectors</a>."
+msgstr ""
+
+#: includes/settings.php:65
+msgid "Delay"
+msgstr ""
+
+#: includes/settings.php:68
+msgid ""
+"Delay (in <code>milliseconds</code>) after which the live search is "
+"triggered when the user types something."
+msgstr ""
+
+#: includes/settings.php:72
+msgid "Characters Min."
+msgstr ""
+
+#: includes/settings.php:75
+msgid "Minimum number of characters required to trigger the live search."
+msgstr ""
+
+#: includes/settings.php:80
+msgid "Link Target"
+msgstr ""
+
+#: includes/settings.php:83
+msgid "Where do you want links to open?"
+msgstr ""
+
+#: includes/settings.php:84
+msgid "New window/tab"
+msgstr ""
+
+#: includes/settings.php:84
+msgid "Same window/tab"
+msgstr ""
+
+#: includes/settings.php:88
+msgid "Sort Results"
+msgstr ""
+
+#: includes/settings.php:91
+msgid "How do you want live search results ot be displayed?"
+msgstr ""
+
+#: includes/settings.php:93
+msgid "Date (ascending)"
+msgstr ""
+
+#: includes/settings.php:94 includes/settings.php:96
+msgid "Date (descending)"
+msgstr ""
+
+#: includes/settings.php:95
+msgid "Title (ascending)"
+msgstr ""
+
+#: includes/settings.php:101
+msgid "Max. Results"
+msgstr ""
+
+#: includes/settings.php:104
+msgid "Maximum number of results to display."
+msgstr ""
+
+#: includes/settings.php:110
+msgid "Live Search Results Styles"
+msgstr ""
+
+#: includes/settings.php:112
+msgid "These options control the look of the live search results"
+msgstr ""
+
+#: includes/settings.php:115
+msgid "Section Background Color"
+msgstr ""
+
+#: includes/settings.php:118
+msgid ""
+"Color of the background on which the live search results are shown"
+msgstr ""
+
+#: includes/settings.php:122
+msgid "Topic Title Color"
+msgstr ""
+
+#: includes/settings.php:125
+msgid "Color of the topics / results that are shown"
+msgstr ""

@@ -1,0 +1,1623 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Awesome Support: Report Widgets\n"
+"POT-Creation-Date: 2017-05-31 20:51-0500\n"
+"PO-Revision-Date: 2017-02-13 22:03-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: report-widgets.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/settings/settings-defaults.php:13
+msgid "Report Widgets #3"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:16
+msgid "Defaults For Charts"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:17
+msgid ""
+"These settings are the ones used for all charts unless overwritten by a "
+"report-specific option."
+msgstr ""
+
+#: includes/settings/settings-defaults.php:22
+#: includes/settings/settings-old-not-used.php:686
+msgid "Default Color For Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:28
+#: includes/settings/settings-old-not-used.php:692
+msgid "Default Line Width For Line Charts"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:36
+#: includes/settings/settings-old-not-used.php:700
+msgid "Default Width For Data Points"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:38
+#: includes/settings/settings-detail-reports.php:114
+#: includes/settings/settings-old-not-used.php:89
+#: includes/settings/settings-old-not-used.php:150
+#: includes/settings/settings-old-not-used.php:250
+#: includes/settings/settings-old-not-used.php:350
+#: includes/settings/settings-old-not-used.php:450
+#: includes/settings/settings-old-not-used.php:550
+#: includes/settings/settings-old-not-used.php:702
+#: includes/settings/settings-summary-reports.php:62
+#: includes/settings/settings-summary-reports.php:195
+#: includes/settings/settings-summary-reports.php:327
+#: includes/settings/settings-summary-reports.php:460
+#: includes/settings/settings-summary-reports.php:594
+msgid ""
+"The width of chart elements such as bars and columns - generally used for "
+"charts that are not line charts"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:44
+#: includes/settings/settings-old-not-used.php:708
+msgid "Default Margins"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:46
+#: includes/settings/settings-old-not-used.php:710
+msgid "Offset of chart from left margin - negative margins are valid"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:53
+#: includes/settings/settings-old-not-used.php:717
+msgid "Default Chart Type"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:55
+#: includes/settings/settings-old-not-used.php:719
+msgid ""
+"Please select one of the 9 chart types below. If you select a bar or column "
+"chart you might want to change the data point width above to something "
+"smaller."
+msgstr ""
+
+#: includes/settings/settings-defaults.php:59
+#: includes/settings/settings-detail-reports.php:41
+#: includes/settings/settings-detail-reports.php:93
+#: includes/settings/settings-detail-reports.php:240
+#: includes/settings/settings-detail-reports.php:285
+#: includes/settings/settings-detail-reports.php:330
+#: includes/settings/settings-detail-reports.php:375
+#: includes/settings/settings-detail-reports.php:420
+#: includes/settings/settings-old-not-used.php:68
+#: includes/settings/settings-old-not-used.php:129
+#: includes/settings/settings-old-not-used.php:191
+#: includes/settings/settings-old-not-used.php:229
+#: includes/settings/settings-old-not-used.php:291
+#: includes/settings/settings-old-not-used.php:329
+#: includes/settings/settings-old-not-used.php:391
+#: includes/settings/settings-old-not-used.php:429
+#: includes/settings/settings-old-not-used.php:491
+#: includes/settings/settings-old-not-used.php:529
+#: includes/settings/settings-old-not-used.php:661
+#: includes/settings/settings-old-not-used.php:723
+#: includes/settings/settings-summary-reports.php:41
+#: includes/settings/settings-summary-reports.php:174
+#: includes/settings/settings-summary-reports.php:306
+#: includes/settings/settings-summary-reports.php:439
+#: includes/settings/settings-summary-reports.php:573
+msgid "Line"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:60
+#: includes/settings/settings-detail-reports.php:42
+#: includes/settings/settings-detail-reports.php:94
+#: includes/settings/settings-detail-reports.php:241
+#: includes/settings/settings-detail-reports.php:286
+#: includes/settings/settings-detail-reports.php:331
+#: includes/settings/settings-detail-reports.php:376
+#: includes/settings/settings-detail-reports.php:421
+#: includes/settings/settings-old-not-used.php:69
+#: includes/settings/settings-old-not-used.php:130
+#: includes/settings/settings-old-not-used.php:192
+#: includes/settings/settings-old-not-used.php:230
+#: includes/settings/settings-old-not-used.php:292
+#: includes/settings/settings-old-not-used.php:330
+#: includes/settings/settings-old-not-used.php:392
+#: includes/settings/settings-old-not-used.php:430
+#: includes/settings/settings-old-not-used.php:492
+#: includes/settings/settings-old-not-used.php:530
+#: includes/settings/settings-old-not-used.php:662
+#: includes/settings/settings-old-not-used.php:724
+#: includes/settings/settings-summary-reports.php:42
+#: includes/settings/settings-summary-reports.php:175
+#: includes/settings/settings-summary-reports.php:307
+#: includes/settings/settings-summary-reports.php:440
+#: includes/settings/settings-summary-reports.php:574
+msgid "Column"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:61
+#: includes/settings/settings-detail-reports.php:43
+#: includes/settings/settings-detail-reports.php:95
+#: includes/settings/settings-detail-reports.php:242
+#: includes/settings/settings-detail-reports.php:287
+#: includes/settings/settings-detail-reports.php:332
+#: includes/settings/settings-detail-reports.php:377
+#: includes/settings/settings-detail-reports.php:422
+#: includes/settings/settings-old-not-used.php:70
+#: includes/settings/settings-old-not-used.php:131
+#: includes/settings/settings-old-not-used.php:193
+#: includes/settings/settings-old-not-used.php:231
+#: includes/settings/settings-old-not-used.php:293
+#: includes/settings/settings-old-not-used.php:331
+#: includes/settings/settings-old-not-used.php:393
+#: includes/settings/settings-old-not-used.php:431
+#: includes/settings/settings-old-not-used.php:493
+#: includes/settings/settings-old-not-used.php:531
+#: includes/settings/settings-old-not-used.php:663
+#: includes/settings/settings-old-not-used.php:725
+#: includes/settings/settings-summary-reports.php:43
+#: includes/settings/settings-summary-reports.php:176
+#: includes/settings/settings-summary-reports.php:308
+#: includes/settings/settings-summary-reports.php:441
+#: includes/settings/settings-summary-reports.php:575
+msgid "Bar"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:62
+#: includes/settings/settings-detail-reports.php:44
+#: includes/settings/settings-detail-reports.php:96
+#: includes/settings/settings-detail-reports.php:243
+#: includes/settings/settings-detail-reports.php:288
+#: includes/settings/settings-detail-reports.php:333
+#: includes/settings/settings-detail-reports.php:378
+#: includes/settings/settings-detail-reports.php:423
+#: includes/settings/settings-old-not-used.php:71
+#: includes/settings/settings-old-not-used.php:132
+#: includes/settings/settings-old-not-used.php:194
+#: includes/settings/settings-old-not-used.php:232
+#: includes/settings/settings-old-not-used.php:294
+#: includes/settings/settings-old-not-used.php:332
+#: includes/settings/settings-old-not-used.php:394
+#: includes/settings/settings-old-not-used.php:432
+#: includes/settings/settings-old-not-used.php:494
+#: includes/settings/settings-old-not-used.php:532
+#: includes/settings/settings-old-not-used.php:664
+#: includes/settings/settings-old-not-used.php:726
+#: includes/settings/settings-summary-reports.php:44
+#: includes/settings/settings-summary-reports.php:177
+#: includes/settings/settings-summary-reports.php:309
+#: includes/settings/settings-summary-reports.php:442
+#: includes/settings/settings-summary-reports.php:576
+msgid "Spline"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:63
+#: includes/settings/settings-detail-reports.php:45
+#: includes/settings/settings-detail-reports.php:97
+#: includes/settings/settings-detail-reports.php:244
+#: includes/settings/settings-detail-reports.php:289
+#: includes/settings/settings-detail-reports.php:334
+#: includes/settings/settings-detail-reports.php:379
+#: includes/settings/settings-detail-reports.php:424
+#: includes/settings/settings-old-not-used.php:72
+#: includes/settings/settings-old-not-used.php:133
+#: includes/settings/settings-old-not-used.php:195
+#: includes/settings/settings-old-not-used.php:233
+#: includes/settings/settings-old-not-used.php:295
+#: includes/settings/settings-old-not-used.php:333
+#: includes/settings/settings-old-not-used.php:395
+#: includes/settings/settings-old-not-used.php:433
+#: includes/settings/settings-old-not-used.php:495
+#: includes/settings/settings-old-not-used.php:533
+#: includes/settings/settings-old-not-used.php:665
+#: includes/settings/settings-old-not-used.php:727
+#: includes/settings/settings-summary-reports.php:45
+#: includes/settings/settings-summary-reports.php:178
+#: includes/settings/settings-summary-reports.php:310
+#: includes/settings/settings-summary-reports.php:443
+#: includes/settings/settings-summary-reports.php:577
+msgid "Area"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:64
+#: includes/settings/settings-detail-reports.php:46
+#: includes/settings/settings-detail-reports.php:98
+#: includes/settings/settings-detail-reports.php:245
+#: includes/settings/settings-detail-reports.php:290
+#: includes/settings/settings-detail-reports.php:335
+#: includes/settings/settings-detail-reports.php:380
+#: includes/settings/settings-detail-reports.php:425
+#: includes/settings/settings-old-not-used.php:73
+#: includes/settings/settings-old-not-used.php:134
+#: includes/settings/settings-old-not-used.php:196
+#: includes/settings/settings-old-not-used.php:234
+#: includes/settings/settings-old-not-used.php:296
+#: includes/settings/settings-old-not-used.php:334
+#: includes/settings/settings-old-not-used.php:396
+#: includes/settings/settings-old-not-used.php:434
+#: includes/settings/settings-old-not-used.php:496
+#: includes/settings/settings-old-not-used.php:534
+#: includes/settings/settings-old-not-used.php:666
+#: includes/settings/settings-old-not-used.php:728
+#: includes/settings/settings-summary-reports.php:46
+#: includes/settings/settings-summary-reports.php:179
+#: includes/settings/settings-summary-reports.php:311
+#: includes/settings/settings-summary-reports.php:444
+#: includes/settings/settings-summary-reports.php:578
+msgid "Pie"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:65
+#: includes/settings/settings-detail-reports.php:47
+#: includes/settings/settings-detail-reports.php:99
+#: includes/settings/settings-detail-reports.php:246
+#: includes/settings/settings-detail-reports.php:291
+#: includes/settings/settings-detail-reports.php:336
+#: includes/settings/settings-detail-reports.php:381
+#: includes/settings/settings-detail-reports.php:426
+#: includes/settings/settings-old-not-used.php:74
+#: includes/settings/settings-old-not-used.php:135
+#: includes/settings/settings-old-not-used.php:197
+#: includes/settings/settings-old-not-used.php:235
+#: includes/settings/settings-old-not-used.php:297
+#: includes/settings/settings-old-not-used.php:335
+#: includes/settings/settings-old-not-used.php:397
+#: includes/settings/settings-old-not-used.php:435
+#: includes/settings/settings-old-not-used.php:497
+#: includes/settings/settings-old-not-used.php:535
+#: includes/settings/settings-old-not-used.php:667
+#: includes/settings/settings-old-not-used.php:729
+#: includes/settings/settings-summary-reports.php:47
+#: includes/settings/settings-summary-reports.php:180
+#: includes/settings/settings-summary-reports.php:312
+#: includes/settings/settings-summary-reports.php:445
+#: includes/settings/settings-summary-reports.php:579
+msgid "Spline Area"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:66
+#: includes/settings/settings-detail-reports.php:48
+#: includes/settings/settings-detail-reports.php:100
+#: includes/settings/settings-detail-reports.php:247
+#: includes/settings/settings-detail-reports.php:292
+#: includes/settings/settings-detail-reports.php:337
+#: includes/settings/settings-detail-reports.php:382
+#: includes/settings/settings-detail-reports.php:427
+#: includes/settings/settings-old-not-used.php:75
+#: includes/settings/settings-old-not-used.php:136
+#: includes/settings/settings-old-not-used.php:198
+#: includes/settings/settings-old-not-used.php:236
+#: includes/settings/settings-old-not-used.php:298
+#: includes/settings/settings-old-not-used.php:336
+#: includes/settings/settings-old-not-used.php:398
+#: includes/settings/settings-old-not-used.php:436
+#: includes/settings/settings-old-not-used.php:498
+#: includes/settings/settings-old-not-used.php:536
+#: includes/settings/settings-old-not-used.php:668
+#: includes/settings/settings-old-not-used.php:730
+#: includes/settings/settings-summary-reports.php:48
+#: includes/settings/settings-summary-reports.php:181
+#: includes/settings/settings-summary-reports.php:313
+#: includes/settings/settings-summary-reports.php:446
+#: includes/settings/settings-summary-reports.php:580
+msgid "Step Line"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:67
+#: includes/settings/settings-detail-reports.php:49
+#: includes/settings/settings-detail-reports.php:101
+#: includes/settings/settings-detail-reports.php:248
+#: includes/settings/settings-detail-reports.php:293
+#: includes/settings/settings-detail-reports.php:338
+#: includes/settings/settings-detail-reports.php:383
+#: includes/settings/settings-detail-reports.php:428
+#: includes/settings/settings-old-not-used.php:76
+#: includes/settings/settings-old-not-used.php:137
+#: includes/settings/settings-old-not-used.php:199
+#: includes/settings/settings-old-not-used.php:237
+#: includes/settings/settings-old-not-used.php:299
+#: includes/settings/settings-old-not-used.php:337
+#: includes/settings/settings-old-not-used.php:399
+#: includes/settings/settings-old-not-used.php:437
+#: includes/settings/settings-old-not-used.php:499
+#: includes/settings/settings-old-not-used.php:537
+#: includes/settings/settings-old-not-used.php:669
+#: includes/settings/settings-old-not-used.php:731
+#: includes/settings/settings-summary-reports.php:49
+#: includes/settings/settings-summary-reports.php:182
+#: includes/settings/settings-summary-reports.php:314
+#: includes/settings/settings-summary-reports.php:447
+#: includes/settings/settings-summary-reports.php:581
+msgid "Step Area"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:71
+#: includes/settings/settings-old-not-used.php:735
+msgid "Default Chart Theme"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:73
+#: includes/settings/settings-defaults.php:86
+#: includes/settings/settings-old-not-used.php:737
+#: includes/settings/settings-old-not-used.php:750
+msgid "BETA: Option for future use"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:77
+#: includes/settings/settings-defaults.php:90
+#: includes/settings/settings-old-not-used.php:741
+#: includes/settings/settings-old-not-used.php:754
+msgid "None"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:78
+#: includes/settings/settings-old-not-used.php:742
+msgid "Theme #1"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:79
+#: includes/settings/settings-old-not-used.php:743
+msgid "Theme #2"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:80
+#: includes/settings/settings-old-not-used.php:744
+msgid "Theme #3"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:84
+#: includes/settings/settings-old-not-used.php:748
+msgid "Default Colorset"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:91
+#: includes/settings/settings-old-not-used.php:755
+msgid "Set #1"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:92
+#: includes/settings/settings-old-not-used.php:756
+msgid "Set #2"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:93
+#: includes/settings/settings-old-not-used.php:757
+msgid "Set #3"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:98
+#: includes/settings/settings-old-not-used.php:762
+msgid "Default Colors For Barcharts and Column Charts"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:99
+#: includes/settings/settings-old-not-used.php:763
+msgid "Set the colors used for each column/bar on the charts"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:103
+#: includes/settings/settings-old-not-used.php:767
+msgid "Default Color Today"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:109
+#: includes/settings/settings-old-not-used.php:773
+msgid "Default Color Yesterday"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:115
+#: includes/settings/settings-old-not-used.php:779
+msgid "Default Color 2 days ago"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:121
+#: includes/settings/settings-old-not-used.php:785
+msgid "Default Color 3 days ago"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:127
+#: includes/settings/settings-old-not-used.php:791
+msgid "Default Color 4 days ago"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:133
+#: includes/settings/settings-old-not-used.php:797
+msgid "Default Color 5 days ago"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:139
+#: includes/settings/settings-old-not-used.php:803
+msgid "Default Color additional data point #1"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:145
+#: includes/settings/settings-old-not-used.php:809
+msgid "Default Color additional data point #2"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:151
+#: includes/settings/settings-old-not-used.php:815
+msgid "Default Color additional data point #3"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:157
+#: includes/settings/settings-old-not-used.php:821
+msgid "Default Color additional data point #4"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:164
+#: includes/settings/settings-old-not-used.php:828
+msgid "Default Axis And Grid Colors"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:165
+#: includes/settings/settings-old-not-used.php:829
+msgid ""
+"You can type the word 'transparent' into the color picker field to remove "
+"colors completely."
+msgstr ""
+
+#: includes/settings/settings-defaults.php:169
+#: includes/settings/settings-old-not-used.php:833
+msgid "X-Axis Line Color"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:175
+#: includes/settings/settings-old-not-used.php:839
+msgid "Y-Axis Line Color"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:181
+#: includes/settings/settings-old-not-used.php:845
+msgid "Grid Lines Color"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:187
+#: includes/settings/settings-old-not-used.php:851
+msgid "X-Axis Font Color"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:193
+#: includes/settings/settings-old-not-used.php:857
+msgid "Y-Axis Font Color"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:200
+#: includes/settings/settings-old-not-used.php:864
+msgid "Default Colors For Other Chart Types"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:201
+#: includes/settings/settings-old-not-used.php:865
+msgid "Set the colors used for charts not set elsewhere"
+msgstr ""
+
+#: includes/settings/settings-defaults.php:205
+#: includes/settings/settings-old-not-used.php:869
+msgid "Default Color For Other Chart Types"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:13
+msgid "Report Widgets #1"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:16
+#: includes/settings/settings-old-not-used.php:16
+msgid "General Reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:17
+#: includes/settings/settings-old-not-used.php:17
+msgid "This section include options to turn on and off the basic reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:21
+#: includes/settings/settings-old-not-used.php:21
+msgid "Show Open Tickets Widget?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:24
+#: includes/settings/settings-old-not-used.php:24
+msgid ""
+"The open tickets widget is a simple chart of the count of open tickets by "
+"day for the last 5 days"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:28
+#: includes/settings/settings-old-not-used.php:28
+msgid "Show Closed Tickets Widget?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:31
+#: includes/settings/settings-old-not-used.php:31
+msgid ""
+"The closed tickets widget shows the number of tickets closed for 8 different "
+"periods"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:35
+msgid "Chart Type For Open Tickets Widget"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:37
+#: includes/settings/settings-detail-reports.php:89
+#: includes/settings/settings-detail-reports.php:236
+#: includes/settings/settings-detail-reports.php:281
+#: includes/settings/settings-detail-reports.php:326
+#: includes/settings/settings-detail-reports.php:371
+#: includes/settings/settings-detail-reports.php:416
+#: includes/settings/settings-old-not-used.php:64
+#: includes/settings/settings-old-not-used.php:125
+#: includes/settings/settings-old-not-used.php:187
+#: includes/settings/settings-old-not-used.php:225
+#: includes/settings/settings-old-not-used.php:287
+#: includes/settings/settings-old-not-used.php:325
+#: includes/settings/settings-old-not-used.php:387
+#: includes/settings/settings-old-not-used.php:425
+#: includes/settings/settings-old-not-used.php:487
+#: includes/settings/settings-old-not-used.php:525
+#: includes/settings/settings-old-not-used.php:657
+#: includes/settings/settings-summary-reports.php:37
+#: includes/settings/settings-summary-reports.php:170
+#: includes/settings/settings-summary-reports.php:302
+#: includes/settings/settings-summary-reports.php:435
+#: includes/settings/settings-summary-reports.php:569
+msgid ""
+"Please select one of the 9 chart types above. If you select a bar or column "
+"chart you might want to change the default data point width in the default "
+"section below to something smaller."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:53
+msgid "Color For Open Tickets Widget Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:55
+msgid "Sets the color of the line used in the open tickets line charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:60
+#: includes/settings/settings-old-not-used.php:35
+msgid "Show The Recent Tickets Widget?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:63
+#: includes/settings/settings-old-not-used.php:38
+msgid "This widget will show the last 5 tickets opened in Awesome Suppport"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:68
+#: includes/settings/settings-old-not-used.php:43
+msgid "Tickets By Status"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:70
+#: includes/settings/settings-old-not-used.php:45
+msgid ""
+"The tickets by status widgets include two separate widgets for OPEN tickets. "
+"One displays numbers and the other shows a chart. Both widgets show a count "
+"of open tickets by status."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:73
+#: includes/settings/settings-old-not-used.php:48
+msgid "Open Tickets By Status Summary"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:76
+#: includes/settings/settings-old-not-used.php:51
+msgid ""
+"Show the open tickets by status summary report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:80
+#: includes/settings/settings-old-not-used.php:55
+msgid "Open Tickets By Status Chart"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:83
+#: includes/settings/settings-old-not-used.php:58
+msgid ""
+"Show the open tickets by status chart report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:87
+#: includes/settings/settings-old-not-used.php:62
+#: includes/settings/settings-old-not-used.php:123
+#: includes/settings/settings-old-not-used.php:223
+#: includes/settings/settings-old-not-used.php:323
+#: includes/settings/settings-old-not-used.php:423
+#: includes/settings/settings-old-not-used.php:523
+#: includes/settings/settings-summary-reports.php:35
+#: includes/settings/settings-summary-reports.php:168
+#: includes/settings/settings-summary-reports.php:300
+#: includes/settings/settings-summary-reports.php:433
+#: includes/settings/settings-summary-reports.php:567
+msgid "Chart Type For Report"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:105
+#: includes/settings/settings-old-not-used.php:80
+#: includes/settings/settings-old-not-used.php:141
+#: includes/settings/settings-old-not-used.php:241
+#: includes/settings/settings-old-not-used.php:341
+#: includes/settings/settings-old-not-used.php:441
+#: includes/settings/settings-old-not-used.php:541
+#: includes/settings/settings-summary-reports.php:53
+#: includes/settings/settings-summary-reports.php:186
+#: includes/settings/settings-summary-reports.php:318
+#: includes/settings/settings-summary-reports.php:451
+#: includes/settings/settings-summary-reports.php:585
+msgid "Color For Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:107
+#: includes/settings/settings-old-not-used.php:82
+msgid ""
+"Sets the color of the line used in the open tickets by status line charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:112
+#: includes/settings/settings-old-not-used.php:87
+#: includes/settings/settings-old-not-used.php:148
+#: includes/settings/settings-old-not-used.php:248
+#: includes/settings/settings-old-not-used.php:348
+#: includes/settings/settings-old-not-used.php:448
+#: includes/settings/settings-old-not-used.php:548
+#: includes/settings/settings-summary-reports.php:60
+#: includes/settings/settings-summary-reports.php:193
+#: includes/settings/settings-summary-reports.php:325
+#: includes/settings/settings-summary-reports.php:458
+#: includes/settings/settings-summary-reports.php:592
+msgid "Width For Data Points"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:120
+#: includes/settings/settings-old-not-used.php:556
+#: includes/settings/settings-summary-reports.php:68
+#: includes/settings/settings-summary-reports.php:201
+#: includes/settings/settings-summary-reports.php:333
+#: includes/settings/settings-summary-reports.php:466
+#: includes/settings/settings-summary-reports.php:600
+msgid "Chart Margin"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:122
+#: includes/settings/settings-old-not-used.php:558
+#: includes/settings/settings-summary-reports.php:70
+#: includes/settings/settings-summary-reports.php:203
+#: includes/settings/settings-summary-reports.php:335
+#: includes/settings/settings-summary-reports.php:468
+#: includes/settings/settings-summary-reports.php:602
+msgid ""
+"Set margin for this chart measured from left of chart container.  The best "
+"is zero but negative values are allowed."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:129
+#: includes/settings/settings-old-not-used.php:95
+msgid "Maximum Number Of Statuses To Show On Chart"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:131
+#: includes/settings/settings-old-not-used.php:97
+msgid ""
+"The chart area is small so its best to limit the number of statuses to 5 or "
+"less"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:139
+#: includes/settings/settings-old-not-used.php:574
+#: includes/settings/settings-summary-reports.php:86
+#: includes/settings/settings-summary-reports.php:219
+#: includes/settings/settings-summary-reports.php:351
+#: includes/settings/settings-summary-reports.php:484
+#: includes/settings/settings-summary-reports.php:618
+msgid "Color For X-axis"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:141
+#: includes/settings/settings-old-not-used.php:576
+#: includes/settings/settings-summary-reports.php:88
+#: includes/settings/settings-summary-reports.php:221
+#: includes/settings/settings-summary-reports.php:353
+#: includes/settings/settings-summary-reports.php:486
+#: includes/settings/settings-summary-reports.php:620
+msgid "Sets the color used for the x-axis line for this chart"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:146
+#: includes/settings/settings-old-not-used.php:581
+#: includes/settings/settings-summary-reports.php:93
+#: includes/settings/settings-summary-reports.php:226
+#: includes/settings/settings-summary-reports.php:358
+#: includes/settings/settings-summary-reports.php:491
+#: includes/settings/settings-summary-reports.php:625
+msgid "Color For Y-axis"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:148
+#: includes/settings/settings-old-not-used.php:583
+#: includes/settings/settings-summary-reports.php:95
+#: includes/settings/settings-summary-reports.php:228
+#: includes/settings/settings-summary-reports.php:360
+#: includes/settings/settings-summary-reports.php:493
+#: includes/settings/settings-summary-reports.php:627
+msgid "Sets the color used for the y-axis line for this chart"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:154
+#: includes/settings/settings-old-not-used.php:589
+#: includes/settings/settings-summary-reports.php:101
+#: includes/settings/settings-summary-reports.php:233
+#: includes/settings/settings-summary-reports.php:366
+#: includes/settings/settings-summary-reports.php:499
+#: includes/settings/settings-summary-reports.php:633
+msgid "X-axis Font Color"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:160
+#: includes/settings/settings-old-not-used.php:595
+#: includes/settings/settings-summary-reports.php:107
+#: includes/settings/settings-summary-reports.php:239
+#: includes/settings/settings-summary-reports.php:372
+#: includes/settings/settings-summary-reports.php:505
+#: includes/settings/settings-summary-reports.php:639
+msgid "Y-axis Font Color"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:166
+#: includes/settings/settings-old-not-used.php:601
+#: includes/settings/settings-summary-reports.php:113
+#: includes/settings/settings-summary-reports.php:245
+#: includes/settings/settings-summary-reports.php:378
+#: includes/settings/settings-summary-reports.php:511
+#: includes/settings/settings-summary-reports.php:645
+msgid "X-axis Font Size"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:169
+#: includes/settings/settings-old-not-used.php:604
+#: includes/settings/settings-summary-reports.php:116
+#: includes/settings/settings-summary-reports.php:248
+#: includes/settings/settings-summary-reports.php:381
+#: includes/settings/settings-summary-reports.php:514
+#: includes/settings/settings-summary-reports.php:648
+msgid ""
+"Sets the size of the font used for the x-axis line for this chart. Set to "
+"zero for automatic sizing. Change to a manual value if all data-points on "
+"the x-axis are not being labelled and you need to see the labels."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:174
+#: includes/settings/settings-old-not-used.php:609
+#: includes/settings/settings-summary-reports.php:121
+#: includes/settings/settings-summary-reports.php:253
+#: includes/settings/settings-summary-reports.php:386
+#: includes/settings/settings-summary-reports.php:519
+#: includes/settings/settings-summary-reports.php:653
+msgid "Y-axis Font Size"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:176
+#: includes/settings/settings-old-not-used.php:611
+#: includes/settings/settings-summary-reports.php:123
+#: includes/settings/settings-summary-reports.php:255
+#: includes/settings/settings-summary-reports.php:388
+#: includes/settings/settings-summary-reports.php:521
+#: includes/settings/settings-summary-reports.php:655
+msgid ""
+"Sets the size of the font used for the y-axis line for this chart. Set to "
+"zero for automatic sizing."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:182
+#: includes/settings/settings-old-not-used.php:617
+#: includes/settings/settings-summary-reports.php:129
+#: includes/settings/settings-summary-reports.php:261
+#: includes/settings/settings-summary-reports.php:394
+#: includes/settings/settings-summary-reports.php:527
+#: includes/settings/settings-summary-reports.php:661
+msgid "Show Index Labels?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:185
+#: includes/settings/settings-old-not-used.php:620
+#: includes/settings/settings-summary-reports.php:132
+#: includes/settings/settings-summary-reports.php:264
+#: includes/settings/settings-summary-reports.php:397
+#: includes/settings/settings-summary-reports.php:530
+#: includes/settings/settings-summary-reports.php:664
+msgid ""
+"Index labels appear at the top of bar/column charts and in tooltips for each "
+"data point on the chart"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:189
+#: includes/settings/settings-old-not-used.php:624
+#: includes/settings/settings-summary-reports.php:136
+#: includes/settings/settings-summary-reports.php:268
+#: includes/settings/settings-summary-reports.php:401
+#: includes/settings/settings-summary-reports.php:534
+#: includes/settings/settings-summary-reports.php:668
+msgid "Index Label Direction"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:192
+#: includes/settings/settings-old-not-used.php:627
+#: includes/settings/settings-summary-reports.php:139
+#: includes/settings/settings-summary-reports.php:271
+#: includes/settings/settings-summary-reports.php:404
+#: includes/settings/settings-summary-reports.php:537
+#: includes/settings/settings-summary-reports.php:671
+msgid ""
+"Horizontal is appropriate for bar charts while vertical is appropriate for "
+"column charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:194
+#: includes/settings/settings-old-not-used.php:629
+#: includes/settings/settings-summary-reports.php:141
+#: includes/settings/settings-summary-reports.php:273
+#: includes/settings/settings-summary-reports.php:406
+#: includes/settings/settings-summary-reports.php:539
+#: includes/settings/settings-summary-reports.php:673
+msgid "Vertical"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:195
+#: includes/settings/settings-old-not-used.php:630
+#: includes/settings/settings-summary-reports.php:142
+#: includes/settings/settings-summary-reports.php:274
+#: includes/settings/settings-summary-reports.php:407
+#: includes/settings/settings-summary-reports.php:540
+#: includes/settings/settings-summary-reports.php:674
+msgid "Horizontal"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:200
+#: includes/settings/settings-summary-reports.php:147
+#: includes/settings/settings-summary-reports.php:279
+#: includes/settings/settings-summary-reports.php:412
+#: includes/settings/settings-summary-reports.php:545
+#: includes/settings/settings-summary-reports.php:679
+msgid "Widget Height"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:202
+#: includes/settings/settings-summary-reports.php:149
+#: includes/settings/settings-summary-reports.php:281
+#: includes/settings/settings-summary-reports.php:414
+#: includes/settings/settings-summary-reports.php:547
+#: includes/settings/settings-summary-reports.php:681
+msgid ""
+"Set this to match the height of the data shown in your chart. This will "
+"prevent widgets with summary charts from overlapping."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:208
+#: includes/settings/settings-old-not-used.php:104
+msgid "Statuses To Exclude"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:210
+#: includes/settings/settings-old-not-used.php:106
+msgid ""
+"Exclude these statuses from the chart - separate each value with a comma. "
+"The values entered here should be the user visible text, NOT the slug. Note: "
+"This is an experimental feature."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:215
+#: includes/settings/settings-old-not-used.php:166
+msgid "Product Detail Report Widgets"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:217
+#: includes/settings/settings-old-not-used.php:168
+msgid ""
+"There are two widgets for product details. One shows charts based on tickets "
+"that are still open; the other shows numbers for closed tickets. Each widget "
+"shows one chart or block of numbers for each product - which means that "
+"these two widgets can be quite lengthy if you have a lot of products"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:220
+#: includes/settings/settings-old-not-used.php:171
+msgid "Open Tickets By Product (Charts)"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:223
+#: includes/settings/settings-old-not-used.php:174
+msgid ""
+"Show the open tickets by product aging report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:227
+#: includes/settings/settings-old-not-used.php:178
+msgid "Closed Tickets By Product"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:230
+#: includes/settings/settings-old-not-used.php:181
+msgid ""
+"Show the closed tickets by product aging report widget on the admin "
+"dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:234
+#: includes/settings/settings-old-not-used.php:185
+msgid "Chart Type For Product Reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:252
+#: includes/settings/settings-old-not-used.php:203
+msgid "Color For Product Report Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:254
+#: includes/settings/settings-old-not-used.php:205
+msgid "Sets the color of the line used in the product line charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:260
+#: includes/settings/settings-old-not-used.php:266
+msgid "Priority Detail Report Widgets"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:262
+#: includes/settings/settings-old-not-used.php:268
+msgid ""
+"There are two widgets for priority details. One shows charts based on "
+"tickets that are still open; the other shows numbers for closed tickets. "
+"Each widget shows one chart or block of numbers for each priority - which "
+"means that these two widgets can be quite lengthy if you have a lot of "
+"priorities defined."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:265
+#: includes/settings/settings-old-not-used.php:271
+msgid "Open Tickets By Priority (Charts)"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:268
+#: includes/settings/settings-old-not-used.php:274
+msgid ""
+"Show the open tickets by priority aging report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:272
+#: includes/settings/settings-old-not-used.php:278
+msgid "Closed Tickets By priority"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:275
+#: includes/settings/settings-old-not-used.php:281
+msgid ""
+"Show the closed tickets by priority aging report widget on the admin "
+"dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:279
+#: includes/settings/settings-old-not-used.php:285
+msgid "Chart Type For Priority Reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:297
+#: includes/settings/settings-old-not-used.php:303
+msgid "Color For Priority Report Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:299
+#: includes/settings/settings-old-not-used.php:305
+msgid "Sets the color of the line used in the priority line charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:305
+#: includes/settings/settings-old-not-used.php:366
+msgid "Channel Detail Report Widgets"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:307
+#: includes/settings/settings-old-not-used.php:368
+msgid ""
+"There are two widgets for channel details. One shows charts based on tickets "
+"that are still open; the other shows numbers for closed tickets. Each widget "
+"shows one chart or block of numbers for each channel - which means that "
+"these two widgets can be quite lengthy if you have a lot of channels that "
+"are actively used."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:310
+#: includes/settings/settings-old-not-used.php:371
+msgid "Open Tickets By Channel (Charts)"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:313
+#: includes/settings/settings-old-not-used.php:374
+msgid ""
+"Show the open tickets by channel aging report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:317
+#: includes/settings/settings-old-not-used.php:378
+msgid "Closed Tickets By Channel"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:320
+#: includes/settings/settings-old-not-used.php:381
+msgid ""
+"Show the closed tickets by channel aging report widget on the admin "
+"dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:324
+#: includes/settings/settings-old-not-used.php:385
+msgid "Chart Type For Channel Reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:342
+#: includes/settings/settings-old-not-used.php:403
+msgid "Color For Channel Report Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:344
+#: includes/settings/settings-old-not-used.php:405
+msgid "Sets the color of the line used in the channel line charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:350
+#: includes/settings/settings-old-not-used.php:466
+msgid "Department Detail Report Widgets (Charts)"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:352
+#: includes/settings/settings-old-not-used.php:468
+msgid ""
+"There are two widgets for department details. One shows charts based on "
+"tickets that are still open; the other shows numbers for closed tickets. "
+"Each widget shows one chart or block of numbers for each department - which "
+"means that these two widgets can be quite lengthy if you have a lot of "
+"departments."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:355
+#: includes/settings/settings-old-not-used.php:471
+msgid "Open Tickets By Department"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:358
+#: includes/settings/settings-old-not-used.php:474
+msgid ""
+"Show the open tickets by department aging report widget on the admin "
+"dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:362
+#: includes/settings/settings-old-not-used.php:478
+msgid "Closed Tickets By Department"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:365
+#: includes/settings/settings-old-not-used.php:481
+msgid ""
+"Show the closed tickets by department aging report widget on the admin "
+"dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:369
+#: includes/settings/settings-old-not-used.php:485
+msgid "Chart Type For Department Reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:387
+#: includes/settings/settings-old-not-used.php:503
+msgid "Color For Department Report Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:389
+#: includes/settings/settings-old-not-used.php:505
+msgid "Sets the color of the line used in the department line charts"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:395
+#: includes/settings/settings-old-not-used.php:636
+msgid "Agent Detail Report Widgets (Charts)"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:397
+#: includes/settings/settings-old-not-used.php:638
+msgid ""
+"There are two widgets for agent details. One shows charts based on tickets "
+"that are still open; the other shows numbers for closed tickets. Each widget "
+"shows one chart or block of numbers for each agent - which means that these "
+"two widgets can be quite lengthy if you have a lot of agents defined."
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:400
+#: includes/settings/settings-old-not-used.php:641
+msgid "Open Tickets By Agent"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:403
+#: includes/settings/settings-old-not-used.php:644
+msgid ""
+"Show the open tickets by agent aging report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:407
+#: includes/settings/settings-old-not-used.php:648
+msgid "Closed Tickets By Agent"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:410
+#: includes/settings/settings-old-not-used.php:651
+msgid ""
+"Show the closed tickets by agent aging report widget on the admin dashboard?"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:414
+#: includes/settings/settings-old-not-used.php:655
+msgid "Chart Type For Agent Reports"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:432
+#: includes/settings/settings-old-not-used.php:673
+msgid "Color For Agent Report Chart Elements"
+msgstr ""
+
+#: includes/settings/settings-detail-reports.php:434
+#: includes/settings/settings-old-not-used.php:675
+msgid "Sets the color of the line used in the agent line chart reports"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:13
+msgid "Report Widgets"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:111
+#: includes/settings/settings-summary-reports.php:23
+msgid "Product Summary Chart Widget"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:113
+#: includes/settings/settings-summary-reports.php:25
+msgid "This widget shows the open tickets for each product on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:116
+#: includes/settings/settings-summary-reports.php:28
+msgid "Show The Product Summary Chart?"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:119
+#: includes/settings/settings-summary-reports.php:31
+msgid ""
+"Displays the number of open tickets for each product - one bar or data point "
+"for each product is shown on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:143
+#: includes/settings/settings-summary-reports.php:55
+msgid ""
+"Sets the color of the line used in the open tickets by product line charts"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:156
+#: includes/settings/settings-summary-reports.php:77
+msgid "Maximum Number Of Products To Show On Chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:158
+#: includes/settings/settings-summary-reports.php:79
+msgid ""
+"The chart area is small so its best to limit the number of products to 5 or "
+"less"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:211
+#: includes/settings/settings-summary-reports.php:156
+msgid "Priority Summary Chart Widget"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:213
+#: includes/settings/settings-summary-reports.php:158
+msgid "This widget shows the open tickets for each priority on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:216
+#: includes/settings/settings-summary-reports.php:161
+msgid "Show The Priority Summary Chart?"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:219
+#: includes/settings/settings-summary-reports.php:164
+msgid ""
+"Displays the number of open tickets for each priority - one bar or data "
+"point for each priority is shown on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:243
+#: includes/settings/settings-summary-reports.php:188
+msgid ""
+"Sets the color of the line used in the open tickets by priority line charts"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:256
+#: includes/settings/settings-summary-reports.php:210
+msgid "Maximum Number Of Priorities To Show On Chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:258
+#: includes/settings/settings-summary-reports.php:212
+msgid ""
+"The chart area is small so its best to limit the number of priorities to 5 "
+"or less"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:311
+#: includes/settings/settings-summary-reports.php:288
+msgid "Channel Summary Chart Widget"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:313
+#: includes/settings/settings-summary-reports.php:290
+msgid "This widget shows the open tickets for each channel on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:316
+#: includes/settings/settings-summary-reports.php:293
+msgid "Show The Channel Summary Chart?"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:319
+#: includes/settings/settings-summary-reports.php:296
+msgid ""
+"Displays the number of open tickets for each channel - one bar or data point "
+"for each channel is shown on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:343
+#: includes/settings/settings-summary-reports.php:320
+msgid ""
+"Sets the color of the line used in the open tickets by channel line charts"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:356
+#: includes/settings/settings-summary-reports.php:342
+msgid "Maximum Number Of Channels To Show On Chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:358
+#: includes/settings/settings-summary-reports.php:344
+msgid ""
+"The chart area is small so its best to limit the number of channels to 5 or "
+"less"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:411
+#: includes/settings/settings-summary-reports.php:421
+msgid "Department Summary Chart Widget"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:413
+#: includes/settings/settings-summary-reports.php:423
+msgid ""
+"This widget shows the open tickets for each department on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:416
+#: includes/settings/settings-summary-reports.php:426
+msgid "Show The Department Summary Chart?"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:419
+#: includes/settings/settings-summary-reports.php:429
+msgid ""
+"Displays the number of open tickets for each department - one bar or data "
+"point for each department is shown on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:443
+#: includes/settings/settings-summary-reports.php:453
+msgid ""
+"Sets the color of the line used in the open tickets by department line charts"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:456
+#: includes/settings/settings-summary-reports.php:475
+msgid "Maximum Number Of Departments To Show On Chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:458
+#: includes/settings/settings-summary-reports.php:477
+msgid ""
+"The chart area is small so its best to limit the number of departments to 5 "
+"or less"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:511
+#: includes/settings/settings-summary-reports.php:555
+msgid "Agent Summary Chart Widget"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:513
+#: includes/settings/settings-summary-reports.php:557
+msgid "This widget shows the open tickets for each agent on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:516
+#: includes/settings/settings-summary-reports.php:560
+msgid "Show The Agent Summary Chart?"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:519
+#: includes/settings/settings-summary-reports.php:563
+msgid ""
+"Displays the number of open tickets for each agent - one bar or data point "
+"for each agent is shown on a single chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:543
+#: includes/settings/settings-summary-reports.php:587
+msgid ""
+"Sets the color of the line used in the open tickets by agent line charts"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:565
+#: includes/settings/settings-summary-reports.php:609
+msgid "Maximum Number Of Agents To Show On Chart"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:567
+#: includes/settings/settings-summary-reports.php:611
+msgid ""
+"The chart area is small so its best to limit the number of agents to 5 or "
+"less"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:681
+msgid "Chart Defaults"
+msgstr ""
+
+#: includes/settings/settings-old-not-used.php:682
+msgid "Set default colors for certain chart elements"
+msgstr ""
+
+#: includes/settings/settings-summary-reports.php:13
+msgid "Report Widgets #2"
+msgstr ""
+
+#: includes/settings/settings-summary-reports.php:17
+msgid "About These Summary Reports"
+msgstr ""
+
+#: includes/settings/settings-summary-reports.php:18
+msgid ""
+"This section include options to control the behavior of the summary chart "
+"report widgets. The summary chart reports are each one row of a single chart "
+"that displays the open ticket count for the item being shown.  For example "
+"you can view a single barchart showing the ticket counts for all open "
+"tickets by priority.<br /> <br /> For all of these reports there is limited "
+"viewing space in the admin dashboard so it is recommended that you use the "
+"options below to limit the amount of items shown. "
+msgstr ""
+
+#: includes/widgets/open-closed-tickets-widget.php:20
+msgid "Open/Closed tickets"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:3
+#: includes/widgets/templates/custom-statuses.php:3
+#: includes/widgets/templates/most-recent-tickets.php:4
+#: includes/widgets/templates/open-closed-tickets.php:3
+#: includes/widgets/templates/open-tickets.php:3
+#: includes/widgets/templates/single-chart.php:3
+msgid "There are no tickets"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:16
+#: includes/widgets/templates/open-tickets.php:38
+#: includes/widgets/templates/single-chart.php:50
+msgid "Today"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:21
+#: includes/widgets/templates/open-tickets.php:39
+#: includes/widgets/templates/single-chart.php:51
+msgid "Yesterday"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:26
+msgid "This week"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:31
+msgid "Last week"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:39
+msgid "This month"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:44
+msgid "Last month"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:49
+msgid "This year"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:54
+msgid "Last year"
+msgstr ""
+
+#: includes/widgets/templates/closed-tickets.php:61
+msgid "All time"
+msgstr ""
+
+#: includes/widgets/templates/most-recent-tickets.php:30
+msgid "Submit"
+msgstr ""
+
+#: includes/widgets/templates/open-closed-tickets.php:19
+msgid "Opened"
+msgstr ""
+
+#: includes/widgets/templates/open-closed-tickets.php:24
+msgid "Closed"
+msgstr ""
+
+#: includes/widgets/templates/open-closed-tickets.php:28
+msgid "View open tickets"
+msgstr ""
+
+#: includes/widgets/templates/open-tickets.php:40
+#: includes/widgets/templates/single-chart.php:52
+msgid "2 Days"
+msgstr ""
+
+#: includes/widgets/templates/open-tickets.php:41
+#: includes/widgets/templates/single-chart.php:53
+msgid "3 Days"
+msgstr ""
+
+#: includes/widgets/templates/open-tickets.php:42
+#: includes/widgets/templates/single-chart.php:54
+msgid "4 days"
+msgstr ""
+
+#: includes/widgets/templates/open-tickets.php:43
+#: includes/widgets/templates/single-chart.php:55
+msgid "5 days"
+msgstr ""
+
+#: includes/widgets/templates/open-tickets.php:55
+msgid "over 6 days"
+msgstr ""
+
+#: report-widgets.php:192
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core plugin "
+"first."
+msgstr ""
+
+#: report-widgets.php:196
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: report-widgets.php:200
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the core "
+"plugin first."
+msgstr ""
+
+#: report-widgets.php:464
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you don't, "
+"your copy of Awesome Support: Report Widgets <strong>will never be updated</"
+"strong>."
+msgstr ""
+
+#: report-widgets.php:492
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin updates. "
+"<a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: report-widgets.php:603
+msgid "Open tickets"
+msgstr ""
+
+#: report-widgets.php:607
+msgid "Closed tickets"
+msgstr ""
+
+#: report-widgets.php:612 report-widgets.php:618
+msgid "Open tickets by agent"
+msgstr ""
+
+#: report-widgets.php:615
+msgid "Closed tickets by agent"
+msgstr ""
+
+#: report-widgets.php:623 report-widgets.php:629
+msgid "Open tickets by product"
+msgstr ""
+
+#: report-widgets.php:626
+msgid "Closed tickets by product"
+msgstr ""
+
+#: report-widgets.php:634 report-widgets.php:637
+msgid "Open tickets by status"
+msgstr ""
+
+#: report-widgets.php:643
+msgid "Most recent tickets"
+msgstr ""
+
+#: report-widgets.php:648 report-widgets.php:655
+msgid "Open tickets by priority"
+msgstr ""
+
+#: report-widgets.php:651
+msgid "Closed tickets by priority"
+msgstr ""
+
+#: report-widgets.php:660 report-widgets.php:666
+msgid "Open tickets by channel"
+msgstr ""
+
+#: report-widgets.php:663
+msgid "Closed tickets by channel"
+msgstr ""
+
+#: report-widgets.php:671 report-widgets.php:677
+msgid "Open tickets by department"
+msgstr ""
+
+#: report-widgets.php:674
+msgid "Closed tickets by department"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Awesome Support: Report Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://getawesomesupport.com/addons/?"
+"utm_source=internal&utm_medium=plugin_meta&utm_campaign=Addons_ReportWidgets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds a set of report widgets to the WordPress Admin Dashboard"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "The Awesome Support Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://getawesomesupport.com/"
+msgstr ""

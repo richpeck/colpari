@@ -1,0 +1,659 @@
+.rns-report-wrapper {
+	/* The conatiner of report pages */
+	margin: 0 auto;
+    max-width: 97%;
+    width: 97%;
+}
+.rns-front-page-main-heading {
+	/* The topmost title AREA of the main report page */
+	float: left;
+    margin: 20px 0;
+	width: 100%;
+	line-height:2em;
+}
+.rns-front-page-main-heading h1 {
+	/* The topmost title of the main report page */
+	/* No styling needed for now. */
+}
+.rns-full-width {
+	/* The main outer conatiner in which all the content comes. */
+    background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+.rns-front-page-header-report {
+	/* The sub-sections title areas of the front page */
+	float: left;
+	width: 100%;
+	background-color: #F1F1F1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;	
+	padding: 1em;
+	box-sizing: border-box;
+}
+.rns-front-page-header-report h2 {
+	/* The sub-sections/area text of the front page */
+	color: #676767 ;
+    box-sizing: border-box;
+	font-weight: bold;
+	margin-bottom:5px
+}
+.rns-front-page-main-heading h2 {
+	/* This used to be the topmost title area of the main report page but no longer used - the H1 area above this is now the one that works with no styling applied */
+    background: white; none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 10px;
+	color: #676767 ;
+}
+.rns-front-page-header-report .rns-front-page-subtitle {
+	/* The paragraph text under a subsection title on the front page. */
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	float: left;
+	width: 100%;
+} 
+
+/* ------------------ Start of The status bar of tickets ------------------  */
+.rns-tickets-ul {
+	border-bottom: none;
+	width: 100%;
+	box-sizing: border-box;
+	float: left;
+	margin: 20px 0;
+    padding: 0 10px;
+}
+.rns-tickets-ul li,
+.tickets-ul li.rns_non_colored_status {
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+.rns-tickets-ul li.rns_non_colored_status {
+	border: 1px solid #000;
+}
+.rns-tickets-ul li:last-child {
+	margin-right: 0;
+}
+.rns-tickets-ul li label, 
+.rns-tickets-ul li span {
+	color: #fff;
+	font-size: 14px;
+	vertical-align: inherit;
+}
+.rns-tickets-ul li.rns_non_colored_status label, 
+.rns-tickets-ul li.rns_non_colored_status span {
+	color: #000 !important;
+	
+}
+.rns-tickets-ul li a {
+	text-decoration: none;
+}
+.rns-tickets-ul li a:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #9F9FA0;
+}
+/* ------------------ End of The status bar of tickets ------------------  */
+
+.rns-top-border {
+    border-top: 1px solid #ccc;
+}
+
+/* ------------------ Start of the Core report list ------------------*/
+.rns-report-ul {
+	background-color: #FAFAFA;
+}
+.rns-report-ul li {
+	
+	/* This styles the "buttons" for the built-in primary reports */
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+	padding: 25px;
+	margin:0;
+	width: 16.5%;
+	height: 200px;
+	
+	/* Show a tint of color on the left border */
+	border-left-style: solid;
+	border-left-color: #2197EE;
+	border-left-width: 1px;		
+}
+/*.rns-report-ul li:nth-last-child(-n + 3):nth-child(3n + 1), 
+.rns-report-ul li:nth-last-child(-n + 3):nth-child(3n + 1) ~ li {
+	margin-bottom: 0;
+}*/
+.rns-report-ul li a {
+	float: left;
+    text-decoration: none;
+    width: 100%;
+}
+.rns-report-ul a:hover {
+	/* When user hovers on report name show an underline */
+	border-bottom-color: #2197EE ;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	margin-bottom: 7px;
+	padding-bottom: 7px;
+	
+}
+.rns-report-ul label {
+	color: #2C3F4E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    vertical-align: inherit;
+}
+/* ------------------ End of the Core report list* ------------------ */
+
+
+/* ------------------ Start of the Saved report list* ------------------ */
+.rns-saved-reports {   
+   	box-sizing: border-box;
+	float: left;
+	margin: 20px 0;
+    padding: 0 10px;
+    width: 100%;;
+}
+.rns-saved-reports li {
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    padding: 10px 0;
+    text-align: left;
+	width: 40%;
+	border-color: #EEEEEE;	
+	border-width: 1px;
+	border-style: solid;	
+}
+.rns-saved-reports li a {
+	text-decoration: none ;
+	margin-left: 2%;
+}
+
+.rns-saved-reports .rns-saved-reports-small-text {
+	margin-left: 2%;
+}
+
+.rns-saved-reports li:nth-last-child(-n + 5):nth-child(5n + 1), 
+.rns-saved-reports li:nth-last-child(-n + 5):nth-child(5n + 1) ~ li {
+	/* margin-bottom: 0; */
+	/* Do nothing for now...*/
+}
+.rns-saved-reports li:nth-child(5n+5) {
+	margin-right: 0;
+}
+.rns-saved-reports label {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.rns-saved-reports li:nth-child(5n+1) {
+	border-left-color: #F44336;
+}
+.rns-saved-reports li:nth-child(5n+2) {
+	border-left-color: #E91E63;
+}
+.rns-saved-reports li:nth-child(5n+3) {
+	border-left-color: #9C27B0;
+}
+.rns-saved-reports li:nth-child(5n+4) {
+	border-left-color: #3F51B5;
+}
+.rns-saved-reports li:nth-child(5n+5) {
+	border-left-color: #009688;
+}
+.rns-saved-reports a:hover {
+	/* When user hovers on a saved report name show an underline */
+	border-bottom-color: #2197EE ;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	margin-bottom: 1.2em;
+	padding-bottom: 1.2em;
+}
+/* ------------------ End of the Saved report list* ------------------ */
+
+.rns-no-border{
+	border:none;
+}
+.rns-margintop-20 {
+	margin-top: 20px;
+}
+.rns-marginbot-20 {
+	margin-bottom: 20px;
+}
+.rns-main-heading {
+	/* The topmost title AREA of individual report pages */
+	float: left;
+    margin: 20px 0;
+	width: 100%;
+}
+.rns-main-heading h2 {
+	/* The topmost title of individual report pages */
+    background: #ffffff; none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 10px;
+} 
+.rns-left-filters {
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+}
+.rns-right-container {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right;
+    margin-left: 5px;
+    padding: 10px;
+    width: 79.5%;
+}
+
+.rns-help-right-filters {
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: right ;
+    padding: 10px 5px;
+    width: 19%;
+	display:none;
+	margin-right:0.5%;
+}
+.rns-help-right-filters  p {
+	text-align:justify;
+}
+.rns-header-report {
+	/* The title area at the top of each individual report */
+	float: left;
+	width: 100%;
+}
+.rns-header-report > table {
+	/* The table under each individual chart */
+    margin: 0 auto;
+	margin-top: 3em; /* move the top of the table away from the legend or bottom of chart */
+	width: 700px;
+}
+.rns-header-report h3 {
+	/* The title text at the top of each individual report */
+	background: #2D3E4E;
+	color: white ;
+    box-sizing: border-box;
+	margin-bottom: 0;
+    padding: 10px;
+}
+
+
+.rns-filtet-list ul {
+	max-height: 200px;
+	overflow-y: scroll;
+	padding-left: 10px;
+}
+.rns-left-filters  h3 {
+    text-align: center;
+}
+.rns-filtet-list h3 {
+    background: #eee none repeat scroll 0 0;
+    padding: 10px;
+}
+.rns-outer-div {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.rns-right-filters {
+	float: left;
+	width: 100%;
+}
+.rns-right-filters ul {
+	float: left;
+	width: 100%;
+	margin-bottom:0 !important;
+}
+.rns-right-filters ul li {
+	box-sizing: border-box;
+    float: left;
+    padding-right: 10px;
+    width: 20%;
+	min-height:60px;
+}
+.rns-right-filters ul li:last-child {
+	padding-right: 0;
+}
+.rns-right-filters ul li input.rns-filter-textbox{
+	max-width:100% !important;	
+}
+.rns-right-filters ul li label {
+	float: left;
+	font-weight: 700;
+	line-height: 28px;
+	width: auto;
+}
+.rns-right-filters input, 
+.rns-right-filters select {
+	border: 1px solid #ccc;
+	color: #72777c;
+	padding: 3px 5px;
+	width: 100%;
+}
+.rns-right-filters select {
+	-moz-appearance: none;
+	background: #fff url(../images/select-arrow.png)no-repeat 95% center;
+	height: 28px !important;
+}
+.rns-fltr-wrapper {
+    margin: 0 auto;
+    max-width: 30%;
+}
+.rns-right-filters .rns-filter-btn li {
+    width: auto !important;
+}
+.rns-right-filters .rns-filter-btn li input {
+	width: auto;
+}
+.rns-padding_top_bottom{
+	padding:20px 10px;
+}
+.rns-graph-holder {
+    float: left;
+    width: 100%;
+}
+.canvas-holder {
+    margin: 0 auto;
+    max-width: 50%;
+    width: 100%;
+}
+.rns-form-table {
+    border-collapse: collapse;
+}
+.rns-form-table tr{
+	background:white none repeat scroll 0 0;
+	border-bottom:1px solid #eee;
+}
+.rns-form-table tr.rns-tf-heading th{
+	background: #f5f5f5 none repeat scroll 0 0;
+    border-color: #dfdfdf;
+    border-style: solid;
+    border-width: 1px;
+    color: #222222;
+    padding: 10px 20px;
+}
+.rns-tf-heading h3{
+	margin:0;
+}
+.rns-form-table tr th{
+	font-weight: 600;
+    line-height: 1.3;
+    padding: 20px 10px ;
+    text-align: left;
+    vertical-align: top;
+    width: 200px;
+}
+.rns-filter-textbox {
+ max-width:95% !important;	
+}
+.rns-field_err {
+	color:red !important;
+}
+
+/* Styles for SAVE REPORT form */
+.rns_saveform_view {
+	width:90%;
+	display:none;
+	background-color: white;
+	border-radius: 8px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 1%;
+	float: left;
+}
+
+.rns_saveform_view .rns-save-report-header-title-wrap {
+	/* Set background color of title area */
+	background-color: #2D3E4E;
+	
+	/* paddings and margins to make the area look better */
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.rns_saveform_view h1 {
+	/* Center form title */
+	text-align: Center;
+	
+	/* Set color of title */
+	color: white ;
+}
+
+.rns_saveform_view ul {
+	/* move form away from edges */
+	margin-left: 10px;
+}
+
+.rns_saveform_view .rns-save-form-field-label {
+	/* make form labels bigger */
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+.rns_saveform_view input.rns-save-form-field-text
+ {
+	/* Manage input fields */
+	width: 90%;
+	height: 1.75em;
+	font-size: 1.75em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+.rns_saveform_view textarea.rns-save-form-field-textarea {
+	/* Manage input fields - textarea type */
+	width: 90%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;	
+}
+
+.rns_saveform_view input.rns-save-form-field-number {
+	/* Manage input fields - number type */
+	font-size: 1.75em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;	
+}
+
+/* End Styles for SAVE REPORT form */
+
+.rns-scroll{
+	/* Used for scroll on table in responsive  */
+	overflow:auto;
+}
+.rns-graph-holder1,
+.rns-graph-holder2,
+.rns-graph-holder3 {
+    float: left;
+    width: 100%;
+}
+.rns-graph-holder2,
+.rns-graph-holder3{
+	margin-top:50px;
+}
+/* set  select2 dropbox width */
+.select2 {
+	min-width:180px !important;
+	max-width:180px !important;
+}
+/* set  clients select box width */
+.rns-cust-filter-list span.select2{
+	width:98% !important;
+	max-width:100% !important;
+	min-width:98% !important;
+}
+/* set  margin around clear link under client filter */
+.rns-filtet-list.rns-cust-filter-list > a {
+    margin: 10px;
+}
+
+/* set  drop zero rows position*/
+.rns_drop_outer > label {
+    float: right !important;
+    line-height: 1 !important;
+    width: 88% !important;
+}
+.rns_drop_outer > input {
+    float: left;
+    margin: 0 !important;
+    width: auto !important;
+}
+/*** 25-08-2017 ****/
+.rns_drop_outer {
+    padding-top: 10px;
+	min-height:inherit !important;
+}
+/*** 31-08-2017 *****/
+/*** trend analysis checkbox parller to other input fields ***/
+.rns_trends_vcenter{
+	align-items: center;
+	display:inline-flex;
+}
+.rns_trends_vcenter > label {
+	padding-left:4px;
+}
+.rns-checkbox{
+	margin:0 !important;
+}
+
+
+
+
+
+/*------ MEDIA QUERY------*/
+
+@media (max-width: 1700px) {
+
+	.rns-report-ul li {
+		width: 30%;
+		border-bottom-style: solid;
+		border-bottom-color: lightgray;
+		border-bottom-width: 1px;
+
+		border-right-style: solid;
+		border-right-color: #2197EE;
+		border-right-width: 1px;
+	}
+}
+
+@media (max-width: 1500px) {
+	
+	.rns-report-ul label {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.rns-left-filters {
+		width: 19.8%;
+	}
+	.rns-filtet-list.rns-cust-filter-list ul{
+		overflow-y:inherit !important;
+	}
+}
+
+@media(max-width:1024px){
+	.rns_drop_outer {
+    	width: 30% !important;
+	}
+}
+@media (max-width: 768px) {
+	.rns-fltr-wrapper {
+		max-width: 40%;
+	}
+	.rns-right-container, 
+	.rns-left-filters {
+		margin-left: 0;
+		width: 100%;
+	}
+	.rns-left-filters {
+		margin-top: 10px;
+	}
+	.rns_drop_outer > input{
+		height:0 !important;
+	}
+	.rns_drop_outer > label{
+		padding-left:5px !important;	
+	}
+	.rns-right-filters ul li{
+		min-height:inherit !important;
+	}
+	.rns-right-filters ul li{
+		width: 50% !important;
+	}
+	.rns_drop_outer {
+		align-items: center;
+		display: inline-flex;
+		width: 25% !important;
+	}
+
+}
+@media (max-width: 600px) {
+	
+	.rns-report-ul li {
+		height: 150px;
+	}
+	.rns-fltr-wrapper {
+		max-width: 50%;
+	}
+	.rns-right-filters ul li {
+		padding-right:0;
+		width: 100% !important;
+	}
+}
+@media (max-width: 480px) {
+
+	.rns-report-ul li, 
+	.rns-saved-reports li {
+		margin-right: 0;
+		width: 98% !important;
+		height: auto;
+	}
+	.rns-saved-reports li:nth-last-child(-n+5):nth-child(5n+1), 
+	.rns-saved-reports li:nth-last-child(-n+5):nth-child(5n+1) ~ li {
+		margin-bottom: 2%;
+	}
+	/*.rns-right-filters ul li,
+	.rns_drop_outer {
+		width: 50% !important;
+	}*/
+	.rns-right-filters ul li:nth-child(2n+2) {
+		padding-right: 0;
+	}
+	.rns-fltr-wrapper {
+		max-width: 60%;
+	}
+}
+@media (max-width: 350px) {
+	.rns-right-filters ul li, .rns_drop_outer, .rns_drop_outer.rns_trends_vcenter {
+    	width: 100% !important;
+	}
+	.rns-fltr-wrapper {
+		max-width: 100%;
+	}
+}

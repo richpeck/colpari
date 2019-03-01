@@ -1,0 +1,755 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Facebook Chat Bot\n"
+"POT-Creation-Date: 2018-05-01 00:35-0500\n"
+"PO-Revision-Date: 2016-11-08 17:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../awesome-support-smart-replies.php:170
+#, php-format
+msgid "You need Awesome Support to activate this addon. Please <a href=\"%s\" target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../awesome-support-smart-replies.php:192
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: ../awesome-support-smart-replies.php:196
+#, php-format
+msgid "Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: ../awesome-support-smart-replies.php:200
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: ../awesome-support-smart-replies.php:457
+#, php-format
+msgid "Please <a href=\"%s\">fill-in your product license</a> now. If you don't, your copy of Awesome Support: Facebook Chat Bot <strong>will never be updated</strong>."
+msgstr ""
+
+#: ../awesome-support-smart-replies.php:482
+#, php-format
+msgid "You must fill-in your product license in order to get future plugin updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: ../includes/fb/class-fb-chatbot-messaging.php:412
+msgid "More..."
+msgstr ""
+
+#: ../includes/fb/class-fb-chatbot-messaging.php:418
+msgid "Do you want to see more links ?"
+msgstr ""
+
+#: ../includes/functions.php:92 ../includes/functions.php:103
+msgid "We found some related information for you."
+msgstr ""
+
+#: ../includes/functions.php:114
+msgid "Click here for results."
+msgstr ""
+
+#: ../includes/functions.php:186
+msgid "Match text contain"
+msgstr ""
+
+#: ../includes/functions.php:187
+msgid "Exact match"
+msgstr ""
+
+#: ../includes/functions.php:188
+msgid "Match similar text"
+msgstr ""
+
+#: ../includes/functions.php:189
+msgid "Match regular expression"
+msgstr ""
+
+#: ../includes/functions.php:317
+#: ../includes/gnl/class-google-natural-language.php:275
+msgid "Here are more links"
+msgstr ""
+
+#: ../includes/functions.php:450
+msgid "Search Links"
+msgstr ""
+
+#: ../includes/functions.php:510
+msgid "No result found"
+msgstr ""
+
+#: ../includes/functions.php:532
+msgid "SMART CHAT"
+msgstr ""
+
+#: ../includes/functions.php:533
+msgid "CHAT"
+msgstr ""
+
+#: ../includes/functions.php:534
+msgid "Welcome to smart chat"
+msgstr ""
+
+#: ../includes/functions.php:535
+msgid "Type your message here..."
+msgstr ""
+
+#: ../includes/functions.php:572
+msgid "Thank you for submitting a ticket.  An agent will review it and get back to you shortly."
+msgstr ""
+
+#: ../includes/functions.php:573
+msgid "Unfortunately we did not find any results for your search. Please click this link to open a new ticket or please rephrase your question."
+msgstr ""
+
+#: ../includes/functions.php:577
+msgid "We wanted to get an answer to you as soon as possible so we conducted an automated smart search on our database to try to find an answer to your question.  Unfortunately we did not find anything useful.  Please sit tight and an agent will respond to your ticket shortly!"
+msgstr ""
+
+#: ../includes/functions.php:578
+msgid "We just conducted a smart search to try to find an answer to your question.  We found a few links that might be useful."
+msgstr ""
+
+#: ../includes/functions.php:579
+msgid "If these links helped with your issue please take a moment and close the ticket. We really appreciate it. Otherwise an agent will respond to your ticket soon!"
+msgstr ""
+
+#: ../includes/functions.php:698
+msgid "Dismiss this notice."
+msgstr ""
+
+#: ../includes/functions.php:750
+msgid "You don't have access to perform this action."
+msgstr ""
+
+#: ../includes/functions.php:780
+msgid "No smart reply found."
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:16 ../includes/gnl/gnl-functions.php:38
+msgid "Unknown"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:17
+msgid "Person"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:18 ../includes/smart_chat/settings.php:37
+msgid "Location"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:19
+msgid "Organization"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:20
+msgid "Event"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:21
+msgid "Work of art"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:22
+msgid "Consumer goods"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:23
+msgid "Other types"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:39
+msgid "Adjective"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:40
+msgid "Adposition (preposition and postposition)"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:41
+msgid "Adverb"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:42
+msgid "Conjunction"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:43
+msgid "Determiner"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:44
+msgid "Noun (common and proper)"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:45
+msgid "Cardinal number"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:46
+msgid "Pronoun"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:47
+msgid "Particle or other function word"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:48
+msgid "Punctuation"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:49
+msgid "Verb (all tenses and modes)"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:50
+msgid "Other: foreign words, typos, abbreviations"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:51
+msgid "Affix"
+msgstr ""
+
+#: ../includes/gnl/gnl-functions.php:187
+msgid "Recalculate GNL tags"
+msgstr ""
+
+#: ../includes/settings.php:17
+msgid "FB Chat Bot"
+msgstr ""
+
+#: ../includes/settings.php:21
+msgid "Facebook API"
+msgstr ""
+
+#: ../includes/settings.php:23
+msgid "Data needed to connnect to your FB APP.  Plesse see our documentation for more information!<br />"
+msgstr ""
+
+#: ../includes/settings.php:27
+msgid "Webhook URL"
+msgstr ""
+
+#: ../includes/settings.php:33
+msgid "Verification String"
+msgstr ""
+
+#: ../includes/settings.php:39
+msgid "Facebook Page Access Token"
+msgstr ""
+
+#: ../includes/settings.php:42
+msgid "Generate page access token from facebook app settings page and paste it here."
+msgstr ""
+
+#: ../includes/settings.php:49
+msgid "Smart Responses"
+msgstr ""
+
+#: ../includes/settings.php:53
+msgid "Responses"
+msgstr ""
+
+#: ../includes/settings.php:55
+msgid "Configure your responses to users messages.  You can choose to search selected posts or send back a fixed response. <br />"
+msgstr ""
+
+#: ../includes/settings.php:55
+msgid "These settings apply to responses sent back to Facebook Messenger, Smart Chat and Smart Replies (Automatic Ticket Replies)"
+msgstr ""
+
+#: ../includes/settings.php:59
+msgid "Text to Send Before Links"
+msgstr ""
+
+#: ../includes/settings.php:63
+msgid "This is the text that describes the list of links that are returned to the user. It will be included in search results sent to Facebook Messenger users as well as Smart Replies and Smart Chat"
+msgstr ""
+
+#: ../includes/settings.php:67 ../includes/smart_chat/settings.php:98
+#: ../includes/smart_reply/settings.php:53
+msgid "Fallback Message"
+msgstr ""
+
+#: ../includes/settings.php:70
+msgid "This message will be sent if no post or keywords matches the users message. This only applies to Facebook Messenger users."
+msgstr ""
+
+#: ../includes/settings.php:74
+msgid "Posts"
+msgstr ""
+
+#: ../includes/settings.php:79
+msgid "Select post types to search."
+msgstr ""
+
+#: ../includes/settings.php:83
+msgid "Google Natural Language"
+msgstr ""
+
+#: ../includes/settings.php:85
+msgid "You can use the Google Natural Language service to pre-process a message or ticket and extract relevant keywords. These keywords can then be used to drive the search functions.  Using just these keywords, the search functions generally return more relevant results."
+msgstr ""
+
+#: ../includes/settings.php:89
+msgid "Enable Google Natural Language"
+msgstr ""
+
+#: ../includes/settings.php:92 ../includes/smart_reply/settings.php:29
+#: ../includes/smart_reply/settings.php:80
+msgid "Enable"
+msgstr ""
+
+#: ../includes/settings.php:96
+msgid "Json Config"
+msgstr ""
+
+#: ../includes/settings.php:99
+msgid "Provide json config file content here - you can obtain this file from your Google Natural Language account - please see the documentation for more details."
+msgstr ""
+
+#: ../includes/settings.php:103
+msgid "Salience Score"
+msgstr ""
+
+#: ../includes/settings.php:106
+msgid "This is the minimum Salience Score for a keyword to be used, max is 1. The higher a salience score the more likely it is to be a relevant keyword."
+msgstr ""
+
+#: ../includes/settings.php:110
+msgid "Entity Types"
+msgstr ""
+
+#: ../includes/settings.php:116
+msgid "Select keyword entity types to use in posts search"
+msgstr ""
+
+#: ../includes/settings.php:121
+msgid "Part of speech"
+msgstr ""
+
+#: ../includes/settings.php:125
+msgid "Select keyword parts of speech to use in posts search"
+msgstr ""
+
+#: ../includes/settings.php:129
+msgid "Results per keyword"
+msgstr ""
+
+#: ../includes/settings.php:132
+msgid "Provide max results per keyword"
+msgstr ""
+
+#: ../includes/settings.php:136
+msgid "Dialogflow (API.ai)"
+msgstr ""
+
+#: ../includes/settings.php:138
+msgid ""
+"You can use the Google Dialogflow service (formerly API.ai) to return responses instead of searching WordPress post types. <br />\n"
+"\t\t\t\t\t\t\t\tDialogflow is a smart learning engine that uses artificial intelligence to determine appropriate responses to input."
+msgstr ""
+
+#: ../includes/settings.php:143
+msgid "Enable Dialogflow (API.ai)"
+msgstr ""
+
+#: ../includes/settings.php:146
+msgid "Enabling this will disable searches on post-types. To enable searches on post-types you will need to create a fulfillment hook inside the Google Dialogflow console"
+msgstr ""
+
+#: ../includes/settings.php:150
+msgid "Dialogflow Client Access Token"
+msgstr ""
+
+#: ../includes/settings.php:153
+msgid "Dialogflow (API.AI) Client Access Token"
+msgstr ""
+
+#: ../includes/settings.php:157
+msgid "Fulfillment Webhook URL"
+msgstr ""
+
+#: ../includes/settings.php:163
+msgid "Dialogflow : Text to Send Before Links"
+msgstr ""
+
+#: ../includes/settings.php:167
+msgid "This is the text that describes the link that is returned to the user via api.ai"
+msgstr ""
+
+#: ../includes/settings.php:171
+msgid "Dialogflow : Search page link text"
+msgstr ""
+
+#: ../includes/settings.php:175
+msgid "This is the text for search page link"
+msgstr ""
+
+#: ../includes/settings.php:179
+msgid "Miscellenaous"
+msgstr ""
+
+#: ../includes/settings.php:184
+msgid "Similar text match percent"
+msgstr ""
+
+#: ../includes/settings.php:190
+msgid "This setting applies only when matching a keyword using the SIMILARTEXT match function provided with PHP."
+msgstr ""
+
+#: ../includes/settings.php:194
+msgid "Enable Log"
+msgstr ""
+
+#: ../includes/settings.php:198
+msgid "Enable chat bot logs. "
+msgstr ""
+
+#: ../includes/settings.php:202 ../includes/settings.php:215
+msgid "Keywords"
+msgstr ""
+
+#: ../includes/settings.php:204
+msgid ""
+"Use keywords to return specific responses to user input.  \n"
+"\t\t\t\t\t\t\t\tFor example if the user simply enters HI or HELLO you can return a specific response such as HELLO, CHATBOT HERE - HOW CAN I HELP YOU?.  <br />\n"
+"\t\t\t\t\t\t\t\tYou can group similar keywords together if they return the same response - just separate them with a semi-colon. Eg: HELLO;HI;HOWDY "
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:17
+#: ../includes/smart_chat/settings.php:21
+msgid "Smart Chat"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:23
+msgid "Smart chat places a chat-like box on designated pages on your website.  Users can ask questions and answers can be returned using an automatic search. <br />"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:23
+msgid "You can configure the search parameters on the SMART RESPONSES tab."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:26
+msgid "Basic Configuration"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:30
+msgid "Enable Smart Chat On Site"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:51
+msgid "Minimized Title"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:55
+msgid "The title of the bubble"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:58
+msgid "Chat Box Title"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:62
+msgid "The title of the chat box when its active"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:66
+msgid "Messages"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:70
+msgid "Welcome Message"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:74
+msgid "The message that should be shown to the user when the chat box is first activated. TIP: You can also include links to your FAQs, Documentation, Contact form etc."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:77
+#: ../includes/smart_reply/settings.php:61
+msgid "Reply Header"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:81
+msgid "Add header text to smart chat reply."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:84
+#: ../includes/smart_reply/settings.php:69
+msgid "Reply Footer"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:88
+msgid "Add footer text to smart chat reply."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:91
+msgid "Placeholder Text For Message Box"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:95
+msgid "Chat box placeholder message"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:101
+msgid "This message will be sent if no post or keywords matches the users message"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:105
+msgid "UI Options"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:109
+msgid "Primary Color"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:113
+msgid "The primary color to be used for the chat box and bubble"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:116
+msgid "Title Font and Size"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:129
+msgid "The font and size to be used for the title of the box"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:132
+msgid "Closing \"X\" Font and Size"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:145
+msgid "The font and size to be used for closing X of the chat window"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:148
+msgid "User Font and Size"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:161
+msgid "The font and size to be used for questions asked by the user"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:165
+msgid "Message Field Font and Size"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:178
+msgid "The font and size to be used for message field"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:182
+msgid "Answer Font and Size"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:195
+msgid "The font and size to be used for answers provided by the bot."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:199
+msgid "Locations"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:203
+msgid "Show on all pages"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:207
+msgid "Show on all pages except excluded urls"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:210
+msgid "Include URLs"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:214
+msgid "The URLs where the chat box bubble is active"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:217
+msgid "Exclude URLs"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:221
+msgid "The URLS where the chat box bubble should not be shown"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:225
+msgid "New Ticket Options"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:229
+msgid "What should the chatbot do when there’s no answer found?"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:237
+msgid "When no answer is found the chatbot can return the fall-back message or ask the user to open a new ticket."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:240
+msgid "New ticket link message"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:244
+msgid "The message that the user will see if a new ticket needs to be opened."
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:247
+msgid "Include chat content in new ticket"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:251
+msgid "Whether to automatically include the contents of the chat in the ticket"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:254
+msgid "Success message after ticket is created"
+msgstr ""
+
+#: ../includes/smart_chat/settings.php:258
+msgid "This is the message that the user will see after ticket is successfully created"
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:237
+msgid "Unfortunately we did not find any results for your search. Click this link to open new support ticket or please rephrase your question."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:285
+msgid "The authenticity of your submission could not be validated. If this ticket is legitimate please try submitting again."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:290
+msgid "It is mandatory to provide a title for your issue."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:293
+msgid "It is mandatory to provide a description for your issue."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:296
+msgid "It is mandatory to provide a valid email address."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:347
+msgid "Only registered accounts can submit a ticket. Please register first."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:352
+msgid "You do not have the capacity to open a new ticket."
+msgstr ""
+
+#: ../includes/smart_chat/smart-chat.php:420
+msgid "The ticket couldn't be submitted for an unknown reason."
+msgstr ""
+
+#: ../includes/smart_reply/class-smart-reply.php:190
+msgid "Smart Reply"
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:19
+#: ../includes/smart_reply/settings.php:23
+msgid "Smart Replies"
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:25
+msgid "Smart replies will take new tickets that are received and send its contents through our search process in order to create an automatic reply that will be added to the ticket."
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:37
+msgid "Enable Manual"
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:41
+msgid "Enable manual smart replies."
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:45
+msgid "Send Fall-back Message"
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:57
+msgid "This message will be sent if no post or keywords matches the users message and the above checkbox is enabled"
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:65
+msgid "Content/text that will be added to the top of the search results."
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:73
+msgid "Content/text that will be added to the bottom of the search results."
+msgstr ""
+
+#: ../includes/smart_reply/settings.php:77
+msgid "Show Google Natural Languge Tags Below Ticket"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-add-cbot-keyword.php:71
+#: ../includes/titan_fields/class-option-multi-cbot-keyword.php:39
+msgid "Keyword match type"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-add-cbot-keyword.php:94
+#: ../includes/titan_fields/class-option-multi-cbot-keyword.php:65
+msgid "Include in smart replies search"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-add-cbot-keyword.php:98
+#: ../includes/titan_fields/class-option-add-cbot-keyword.php:99
+#: ../includes/titan_fields/class-option-multi-cbot-keyword.php:75
+msgid "Keyword"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-add-cbot-keyword.php:100
+#: ../includes/titan_fields/class-option-multi-cbot-keyword.php:84
+msgid "Delete"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-add-cbot-keyword.php:103
+#: ../includes/titan_fields/class-option-multi-cbot-keyword.php:88
+msgid "Response"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-search-post-type.php:72
+msgid "Exclude by Post Ids"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-search-post-type.php:79
+msgid "Enter post ids separate by comma"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-search-post-type.php:83
+msgid "Exclude by Post Dates"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-search-post-type.php:91
+msgid "Enter post dates separate by comma, format : yyyy-mm-dd"
+msgstr ""
+
+#: ../includes/titan_fields/class-option-search-post-type.php:100
+msgid "Exclude by Categories"
+msgstr ""
+
+#: ../views/open_ticket.php:27
+msgid "Open New Ticket"
+msgstr ""
+
+#: ../views/open_ticket.php:61
+msgid "Submit ticket"
+msgstr ""

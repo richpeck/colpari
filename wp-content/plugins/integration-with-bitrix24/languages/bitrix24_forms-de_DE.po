@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Free Live Chat And Web Form Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-10 11:34+0000\n"
+"PO-Revision-Date: 2016-10-10 11:37+0000\n"
+"Last-Translator: admin <antonds@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bitrix24_forms.php:42 bitrix24_forms.php:43
+msgid "Live Chat"
+msgstr "Onlinechat"
+
+#: bitrix24_forms.php:59
+msgid "Display on site"
+msgstr "Auf der Website anzeigen"
+
+#: bitrix24_forms.php:60
+msgid "Widget code"
+msgstr "Widget-Code"
+
+#. Name of the plugin
+msgid "Free Live Chat And Web Form Widget"
+msgstr "Kostenloses Widget für Onlinechat und CRM-Formulare"
+
+#. Description of the plugin
+msgid ""
+"This free Bitrix24 widget lets you insert live chat, call back request and "
+"various web forms into your website. All information from chat and forms is "
+"automatically imported into free Bitrix24 CRM. The widget supports up to 12 "
+"agents absolutely free, is easily customizable, and works on mobile, web and "
+"desktop apps."
+msgstr ""
+"Dieses kostenlose Bitrix24-Widget ermöglicht es Ihnen, einen Onlinechat, "
+"eine Rückruf-Anfrage oder auch verschiedene CRM-Formulare auf Ihre Website "
+"einzufügen. Alle Informationen aus dem Chat und aus den Formularen werden "
+"automatisch ins Bitrix24 CRM importiert. Das Widget unterstützt 12 "
+"Mitarbeiter absolut kostenlos, lässt sich einfach anpassen und kann mit der "
+"mobilen sowie mit der Desktop App benutzt werden."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.bitrix24.com"
+msgstr "https://www.bitrix24.de/"
+
+#. Author of the plugin
+msgid "Bitrix24"
+msgstr "Bitrix24"

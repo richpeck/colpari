@@ -1,0 +1,38 @@
+.mkb-attachments {
+  margin-bottom: 2em;
+  font-size: 1.112em;
+
+  .mkb-attachment-icon {
+    font-size: 1.2em;
+  }
+
+  .mkb-attachment-item {
+    margin-bottom: 0.2em;
+  }
+
+  h3 {
+    margin-bottom: 0.5em;
+  }
+}
+
+.mkb-attachments__title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #000;
+}
+
+.mkb-attachment-label {
+  margin-left: 0.2em;
+  color: #565758;
+  transition: all 0.1s ease-in;
+
+  &:hover {
+    color: #000;
+    border-bottom: 1px dotted #888;
+  }
+}
+
+.mkb-attachment-size {
+  color: #aaa;
+  margin-left: 0.2em;
+}

@@ -1,0 +1,101 @@
+/**
+ * Client common styles
+ */
+.mkb-container {
+  padding: 0 2em;
+  margin: 0 auto;
+  max-width: 100%;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.mkb-root {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 15px;
+  font-weight: 300;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.8em;
+    padding: 0;
+  }
+
+  .fa {
+    width: auto;
+    height: auto;
+    top: auto;
+    bottom: auto;
+    margin: auto;
+  }
+}
+
+.mkb-clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.mkb-hidden {
+  display: none;
+}
+
+.mkb-shortcode-container {
+  font-size: 15px;
+  color: #333;
+  font-weight: 300;
+}
+
+.mkb-section-title {
+  text-align: center;
+}
+
+@mixin label () {
+  font-size: .8rem;
+  line-height: 0.8rem;
+  padding: .3em .5em .3em;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: .5em;
+  background: #567585;
+  color: #fff;
+
+  &:hover,
+  &:focus,
+  &:visited,
+  &:active {
+    color: #fff;
+  }
+}
+
+.mkb-form-input-label {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 0.3em 0 0.3em;
+}
+
+.mkb-form-messages {
+  position: relative;
+  margin: 2em auto;
+  padding: 1em;
+  border: 2px solid;
+  background: #f8d7da;
+  color: #721c24;
+  border-color: #721c24;
+
+  &.mkb-form-success {
+    background: #d4edda;
+    color: #155724;
+    border-color: #155724;
+  }
+}

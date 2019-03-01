@@ -1,0 +1,59 @@
+.wpas-cf-heading {
+		background: #008ec2;
+		border: 1px solid #dfdfdf;
+}
+
+.wpas-cf-heading h3 {
+	color: #fff;
+}
+
+.wpas-cf-heading th, .wpas-cf-title {
+	padding: 10px 15px!important;
+}
+
+.wpas-cf-heading h3, .wpas-cf-title h3 {
+	margin: 0;
+}
+
+.wpas-cf-table tbody.wpas-cf-wrapper-object{
+	background: white;
+	border: 1px solid #dfdfdf;
+	border-bottom-width: 3px;
+}
+
+.wpas-cf-table tbody.wpas-cf-wrapper-object:nth-child(even) {
+    background-color: #efefef;
+}
+
+.wpas-cf-table th.first {
+	padding-left: 15px;
+}
+
+.wpas-cf-notification {
+	display: none;
+}
+
+.wpas-cf-notification-content {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+
+.wpas-cf-field-new .wpas-cf-options,
+.wpas-cf-field-new .wpas-cf-options-textarea,
+.wpas-cf-field-new .wpas-cf-options-upload,
+.wpas-cf-field-new .wpas-cf-options-wysiwyg,
+.wpas-cf-field-new .wpas-cf-options-taxonomy {
+	display: none;
+}
+
+.wpas-custom-fields input[type="radio"],
+.wpas-custom-fields input[type="checkbox"] {
+	width: auto !important;
+}
+
+.wpas-custom-fields textarea:not(.WPAS_CF_Wysiwyg) {
+	height: 100px;
+}

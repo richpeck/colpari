@@ -1,0 +1,400 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: tld\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.8.1\n"
+
+msgid "Styles are now applied to the website"
+msgstr "Styles werden nun auf die Website angewendet"
+
+msgid "The styles are applied"
+msgstr "Die Stile werden angewendet"
+
+msgid "Stop the selection"
+msgstr "Stoppen Sie die Auswahl"
+
+msgid "Inspector"
+msgstr "Inspektor"
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+msgid "Apply these styles to the current element"
+msgstr "Wenden Sie diese Stile auf das aktuelle Element an"
+
+msgid "Focus state"
+msgstr "Fokus Zustand"
+
+msgid "Mouse over state"
+msgstr "Maus über Zustand"
+
+msgid "Default state"
+msgstr "Standard Zustand"
+
+msgid "Phones only"
+msgstr "Nur Telefone"
+
+msgid "Tablets only"
+msgstr "Nur Tabletten"
+
+msgid "Tablets & Phones"
+msgstr "Tabletten und Telefone"
+
+msgid "Desktop & Tablets"
+msgstr "Computer & Tablets"
+
+msgid "Desktop only"
+msgstr "Nur Computer"
+
+msgid "All devices"
+msgstr "Alle Geräte"
+
+msgid "Styles"
+msgstr "Stile"
+
+msgid "Enter the target CSS classes separated by spaces"
+msgstr "Geben Sie die Ziel-CSS-Klassen getrennt durch Leerzeichen ein"
+
+msgid "All elements having CSS classes"
+msgstr "Alle Elemente mit CSS-Klassen"
+
+msgid "Only this element"
+msgstr "Nur dieses Element"
+
+msgid "Apply modifications to"
+msgstr "Wenden Sie Änderungen an"
+
+msgid "Selected element"
+msgstr "Ausgewähltes Element"
+
+msgid "Selection"
+msgstr "Auswahl"
+
+msgid "Form designer"
+msgstr "Formular-Designer"
+
+msgid "Reset styles"
+msgstr "Stil zurücksetzen"
+
+msgid "Save the modifications"
+msgstr "Speichern Sie die Änderungen"
+
+msgid "Edit the generated CSS code"
+msgstr "Bearbeiten Sie den generierten CSS-Code"
+
+msgid "All styles from the beginning"
+msgstr "Alle Stile von Anfang an"
+
+msgid "Only this session"
+msgstr "Nur diese Sitzung"
+
+msgid "Do you want to remove only the styles modified since the last save, or all styles that were created with this tool until now ?"
+msgstr "Möchten Sie nur die Styles entfernen, die seit dem letzten Speichern geändert wurden, oder alle Stile, die mit diesem Tool erstellt wurden, bis jetzt?"
+
+msgid "Reset the styles"
+msgstr "Setzen Sie die Stile zurück"
+
+msgid "Do you want to save the modified styles before editing the css code ?"
+msgstr "Möchten Sie die modifizierten Stile speichern, bevor Sie den CSS-Code bearbeiten ?"
+
+msgid "Save styles before editing ?"
+msgstr "Speichern vor dem Bearbeiten?"
+
+msgid "Do you want to apply the modified styles to the current element before saving ?"
+msgstr "Möchten Sie die modifizierten Stile vor dem Speichern auf das aktuelle Element anwenden ?"
+
+msgid "Apply styles to the current element ?"
+msgstr "Wenden Sie Stile auf das aktuelle Element an ?"
+
+msgid "Do you want to save the modifications you did before leaving ?"
+msgstr ""
+
+msgid "Do you want to save before leaving ?"
+msgstr "Möchten Sie vor dem Verlassen speichern ?"
+
+msgid "Return to the form management"
+msgstr "Kehren Sie zum Formularmanagement zurück"
+
+msgid "Select an element"
+msgstr "Wählen"
+
+msgid "Nothing"
+msgstr ""
+
+msgid "Text shadow"
+msgstr ""
+
+msgid "Text color"
+msgstr ""
+
+msgid "Underline"
+msgstr ""
+
+msgid "Italic"
+msgstr ""
+
+msgid "Bold"
+msgstr ""
+
+msgid "Text style"
+msgstr ""
+
+msgid "Line height"
+msgstr ""
+
+msgid "Line height type"
+msgstr ""
+
+msgid "Justify"
+msgstr ""
+
+msgid "Alignment"
+msgstr ""
+
+msgid "Font size"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Distance Y"
+msgstr ""
+
+msgid "Distance X"
+msgstr ""
+
+msgid "Outside"
+msgstr ""
+
+msgid "Inside"
+msgstr ""
+
+msgid "Shadow type"
+msgstr ""
+
+msgid "Shadow"
+msgstr ""
+
+msgid "Opacity"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Scroll Y"
+msgstr ""
+
+msgid "Visible"
+msgstr ""
+
+msgid "Scroll"
+msgstr ""
+
+msgid "Overlay"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Scroll X"
+msgstr ""
+
+msgid "Scroll & Visibility"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Height type"
+msgstr ""
+
+msgid "Width"
+msgstr ""
+
+msgid "Width type"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Position right"
+msgstr ""
+
+msgid "Position bottom"
+msgstr ""
+
+msgid "Position top"
+msgstr ""
+
+msgid "Position left"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Relative"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Absolute"
+msgstr ""
+
+msgid "Position type"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Float"
+msgstr ""
+
+msgid "Inline block"
+msgstr ""
+
+msgid "Inline"
+msgstr ""
+
+msgid "Block"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Display mode"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Padding right"
+msgstr ""
+
+msgid "Padding left"
+msgstr ""
+
+msgid "Padding bottom"
+msgstr ""
+
+msgid "Padding top"
+msgstr ""
+
+msgid "Paddings"
+msgstr ""
+
+msgid "Margin right"
+msgstr ""
+
+msgid "Margin left"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Margin bottom"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Flexible"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Margin top"
+msgstr ""
+
+msgid "Margins"
+msgstr ""
+
+msgid "Bottom right radius"
+msgstr ""
+
+msgid "Bottom left radius"
+msgstr ""
+
+msgid "Top right radius"
+msgstr ""
+
+msgid "Top left radius"
+msgstr ""
+
+msgid "Border color"
+msgstr ""
+
+msgid "Inset"
+msgstr ""
+
+msgid "Double"
+msgstr ""
+
+msgid "Dotted"
+msgstr ""
+
+msgid "Dashed"
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Border style"
+msgstr ""
+
+msgid "Border size"
+msgstr ""
+
+msgid "Borders"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Contain"
+msgstr ""
+
+msgid "Initial"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Image url"
+msgstr ""
+
+msgid "Background opacity"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Background type"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Center"
+msgstr ""

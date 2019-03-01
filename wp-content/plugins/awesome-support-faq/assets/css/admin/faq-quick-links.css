@@ -1,0 +1,13 @@
+#poststuff .asfaq_quick_reply_wrapper {
+	padding: 1.5em;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	background-color: #f1f1f1;
+}
+#poststuff .asfaq_quick_reply_wrapper h3 {
+	padding-top: 0;
+	padding-left: 0;
+}
+#poststuff .asfaq_quick_reply_select {
+	max-width: 30em;
+}

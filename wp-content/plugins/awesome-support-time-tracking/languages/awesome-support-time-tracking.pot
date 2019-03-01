@@ -1,0 +1,1031 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Time Tracking\n"
+"POT-Creation-Date: 2017-11-30 21:22-0600\n"
+"PO-Revision-Date: 2016-11-08 10:49+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../classes/admin-validator-class.php:79
+msgid "The current settings only allow for saving on the ticket level. No ticket reply can be entered."
+msgstr ""
+
+#: ../classes/admin-validator-class.php:96
+#: ../classes/admin-validator-class.php:113
+#: ../classes/admin-validator-class.php:130
+#: ../classes/admin-validator-class.php:192
+#: ../classes/admin-validator-class.php:297
+msgid "The "
+msgstr ""
+
+#: ../classes/admin-validator-class.php:150
+msgid "The ticket id entered does not belong to an existing ticket!"
+msgstr ""
+
+#: ../classes/admin-validator-class.php:169
+#: ../classes/admin-validator-class.php:174
+msgid "The ticket reply entered does not belong to the ticket entered!"
+msgstr ""
+
+#: ../classes/admin-validator-class.php:209
+msgid "The end date/time cannot be before the start date/time!"
+msgstr ""
+
+#: ../classes/admin-validator-class.php:248
+msgid "The ticket # and ticket reply # already belong to an existing tracked time!"
+msgstr ""
+
+#: ../classes/admin-validator-class.php:262
+msgid "The tracked time has been saved!"
+msgstr ""
+
+#: ../includes/as-time-tracking-admin-user.php:13
+#: ../includes/as-time-tracking-ticket.php:275
+msgid "$"
+msgstr ""
+
+#: ../includes/as-time-tracking-admin-user.php:27
+msgid "Awesome Support Agent Billing Rate"
+msgstr ""
+
+#: ../includes/as-time-tracking-admin-user.php:28
+msgid "Agent billing hourly rate"
+msgstr ""
+
+#: ../includes/as-time-tracking-admin-user.php:32
+msgid "Awesome Support Client Billing Rate"
+msgstr ""
+
+#: ../includes/as-time-tracking-admin-user.php:33
+msgid "Client hourly billing rate"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:25
+msgid "The CSV invoice file was not created. Please check the filter values or the permissions on the \"uploads\" directory."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:26
+msgid "The invoice CSV has been successfully created. You can download it through the below button and approve/dissaprove it."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:27
+msgid "The invoice CSV has been previously created and is awaiting approval/disapproval before another can be generated."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:28
+msgid "There was a problem cancelling the invoiced records. Please check that the CSV file has the correct permissions."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:29
+msgid "The invoice run have been successfully cancelled."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:30
+msgid "The invoiced records have been successfully approved."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:31
+msgid "There has been a problem approving the invoiced records. Please try again."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:232
+#: ../includes/as-time-tracking-post-type.php:1710
+msgid "Invoice Number"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:233
+msgid "First Name"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:234
+msgid "Last Name"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:235
+msgid "Email"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:236
+msgid "From Date"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:237
+msgid "To Date"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:238
+msgid "Total Minutes"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing-js.php:239
+msgid "Billing Total"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:19
+msgid "Time Tracking Invoicing"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:36
+msgid "Awesome Support - Tracked Times Invoicing"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:40
+#: ../includes/as-time-tracking-reporting.php:48
+msgid "Filter:"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:42
+#: ../includes/as-time-tracking-reporting.php:50
+msgid "From"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:44
+#: ../includes/as-time-tracking-reporting.php:52
+msgid "To"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:46
+msgid "*If the date range is left empty then the date range will be from the current day plus 30 days ahead."
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:50
+#: ../includes/as-time-tracking-reporting.php:57
+msgid "All agents"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:52
+#: ../includes/as-time-tracking-reporting.php:60
+msgid "Selected agents:"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:71
+#: ../includes/as-time-tracking-reporting.php:80
+msgid "All Customers"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:73
+#: ../includes/as-time-tracking-reporting.php:83
+msgid "Selected customers:"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:87
+#: ../includes/as-time-tracking-reporting.php:97
+msgid "All or closed tickets:"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:89
+#: ../includes/as-time-tracking-reporting.php:99
+msgid "All"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:90
+#: ../includes/as-time-tracking-post-type.php:1950
+#: ../includes/as-time-tracking-reporting.php:100
+msgid "Closed"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:95
+#: ../includes/as-time-tracking-reporting-js.php:45
+#: ../includes/as-time-tracking-reporting.php:105
+msgid "All tickets"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:97
+#: ../includes/as-time-tracking-reporting.php:107
+msgid "Selected tickets:"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:115
+msgid "Generate CSV"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:122
+msgid "Download Invoice File"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:125
+msgid "Approve"
+msgstr ""
+
+#: ../includes/as-time-tracking-invoicing.php:126
+msgid "Cancel invoice run"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:18
+#: ../includes/as-time-tracking-ticket-js.php:24
+msgid "Stop"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:19
+#: ../includes/as-time-tracking-js.php:103
+#: ../includes/as-time-tracking-ticket-js.php:25
+#: ../includes/as-time-tracking-ticket.php:77
+msgid "Start"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:20
+#: ../includes/as-time-tracking-ticket-js.php:26
+msgid "Resume"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:21
+#: ../includes/as-time-tracking-ticket-js.php:27
+#: ../includes/as-time-tracking-ticket.php:66
+msgid "Pause"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:22
+#: ../includes/as-time-tracking-ticket-js.php:28
+msgid "The time tracking hour(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:23
+#: ../includes/as-time-tracking-ticket-js.php:29
+msgid "The time tracking start hour(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:24
+#: ../includes/as-time-tracking-ticket-js.php:30
+msgid "The time tracking end hour(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:25
+#: ../includes/as-time-tracking-ticket-js.php:31
+msgid "The time tracking minute(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:26
+#: ../includes/as-time-tracking-ticket-js.php:32
+msgid "The time tracking start minute(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:27
+#: ../includes/as-time-tracking-ticket-js.php:33
+msgid "The time tracking end minute(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:28
+#: ../includes/as-time-tracking-ticket-js.php:34
+msgid "The time tracking second(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:29
+#: ../includes/as-time-tracking-ticket-js.php:35
+msgid "The time tracking start second(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:30
+#: ../includes/as-time-tracking-ticket-js.php:36
+msgid "The time tracking end second(s) must be a number!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:31
+#: ../includes/as-time-tracking-ticket-js.php:37
+msgid "The time tracking start date can't be empty!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:32
+#: ../includes/as-time-tracking-ticket-js.php:38
+msgid "The time tracking start date must be in a yyyy-mm-dd format!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:33
+#: ../includes/as-time-tracking-ticket-js.php:39
+msgid "The time tracking end date can't be empty!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:34
+#: ../includes/as-time-tracking-ticket-js.php:40
+msgid "The time tracking end date must be in a yyyy-mm-dd format!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:35
+#: ../includes/as-time-tracking-ticket-js.php:41
+msgid "The time tracking end date can't be before the start date!"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:36
+#: ../includes/as-time-tracking-ticket-js.php:42
+msgid "Timer is running..."
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:37
+#: ../includes/as-time-tracking-ticket-js.php:43
+msgid "images/clock_favicon.ico"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:38
+#: ../includes/as-time-tracking-ticket-js.php:44
+msgid "images/as_favicon.ico"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:100
+msgid "*the title will be auto generated when the ticket and reply ids are entered. Only valid ids will generate the title."
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:101
+#: ../includes/as-time-tracking-js.php:127
+#: ../includes/as-time-tracking-js.php:189
+#: ../includes/as-time-tracking-js.php:197
+#: ../includes/as-time-tracking-post-type.php:1703
+#: ../includes/as-time-tracking-reporting-js.php:37
+#: ../includes/as-time-tracking-reporting-js.php:47
+#: ../includes/as-time-tracking-ticket-js.php:125
+#: ../includes/as-time-tracking-ticket-js.php:127
+#: ../includes/as-time-tracking-ticket.php:634
+#: ../includes/as-time-tracking-ticket.php:644
+msgid "Ticket #"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:102
+#: ../includes/as-time-tracking-js.php:128
+#: ../includes/as-time-tracking-ticket-js.php:127
+#: ../includes/as-time-tracking-ticket.php:644
+msgid ", Ticket reply #"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:129
+#: ../includes/as-time-tracking-reporting-js.php:38
+msgid "Ticket Reply #"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:130
+msgid "Ticket Reply Content"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:131
+msgid "Availability"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:132
+#: ../includes/as-time-tracking-post-type.php:1702
+msgid "Ticket Title"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:133
+msgid "Status"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:134
+#: ../includes/as-time-tracking-post-type.php:1707
+#: ../includes/as-time-tracking-reporting-js.php:48
+msgid "Agent"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:135
+#: ../includes/as-time-tracking-post-type.php:1708
+msgid "Client/Customer"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:136
+msgid "Show more"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:198
+msgid " Ticket reply #"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:337
+msgid "Available for use."
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:349
+msgid "Already invoiced – cannot be used again"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:356
+msgid "Invoice In Process – cannot be used again"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:364
+msgid "Ticket # and Ticket Reply # already used for a Tracked Time - cannot be used again"
+msgstr ""
+
+#: ../includes/as-time-tracking-js.php:368
+#: ../includes/as-time-tracking-js.php:373
+msgid "Available to use"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:27
+msgctxt "post type general name"
+msgid "Time Tracking"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:28
+msgctxt "post type singular name"
+msgid "Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:29
+msgctxt "admin menu"
+msgid "Time Tracking"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:30
+msgctxt "add new on admin bar"
+msgid "Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:31
+msgctxt "book"
+msgid "Add Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:32
+msgid "Add New Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:33
+msgid "Edit Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:34
+msgid "New Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:35
+msgid "View Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:36
+msgid "View Tracked Times"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:37
+msgid "Search Tracked Times"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:38
+msgid "No Tracked Times found"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:39
+msgid "No Tracked Times found in trash"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:40
+#: ../includes/as-time-tracking-post-type.php:144
+#: ../includes/as-time-tracking-settings.php:25
+#: ../includes/as-time-tracking-ticket.php:139
+msgid "Time Tracking"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:41
+msgid "Tracked Time Archives"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:42
+msgid "Tracked Time Attributes"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:47
+msgid "Description."
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:98
+msgid "Clone/Copy"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:162
+#: ../includes/as-time-tracking-ticket.php:36
+msgid "Time Tracking Timer"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:187
+#: ../includes/as-time-tracking-post-type.php:190
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:194
+msgid "Move To Trash"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:211
+#, php-format
+msgid "Ticket #: %1$s, Ticket reply #: %2$s"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:579
+msgid "Time Tracking Fields"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:692
+msgid "Default start/end dates"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:700
+msgid "Save time at the ticket level (A Ticket Reply Id will not be required if this is turned on.)"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:728
+msgid "Ticket #:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:734
+msgid "*the ticket id must belong to an existing ticket"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:737
+msgid "Ticket Reply #:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:743
+msgid "*the ticket reply must belong to an existing ticket"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:746
+#: ../includes/as-time-tracking-ticket.php:196
+msgid "Start Date:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:750
+#: ../includes/as-time-tracking-ticket.php:201
+msgid "Start Time:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:757
+#: ../includes/as-time-tracking-post-type.php:783
+#: ../includes/as-time-tracking-post-type.php:801
+#: ../includes/as-time-tracking-post-type.php:863
+#: ../includes/as-time-tracking-reporting-js.php:41
+#: ../includes/as-time-tracking-ticket.php:207
+#: ../includes/as-time-tracking-ticket.php:244
+msgid "hour(s)"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:763
+#: ../includes/as-time-tracking-post-type.php:789
+#: ../includes/as-time-tracking-post-type.php:807
+#: ../includes/as-time-tracking-post-type.php:830
+#: ../includes/as-time-tracking-post-type.php:869
+#: ../includes/as-time-tracking-reporting-js.php:42
+#: ../includes/as-time-tracking-ticket.php:213
+#: ../includes/as-time-tracking-ticket.php:250
+#: ../includes/as-time-tracking-ticket.php:823
+msgid "minute(s)"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:769
+#: ../includes/as-time-tracking-post-type.php:795
+#: ../includes/as-time-tracking-post-type.php:875
+#: ../includes/as-time-tracking-ticket.php:219
+#: ../includes/as-time-tracking-ticket.php:256
+msgid "second(s)"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:772
+#: ../includes/as-time-tracking-ticket.php:233
+msgid "End Date:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:776
+#: ../includes/as-time-tracking-ticket.php:238
+msgid "End Time:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:798
+msgid "Total Time Recorded:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:816
+msgid "Use previously submitted time (this will pause the automatic timer)"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:827
+msgid "Total Time Adjustments:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:832
+msgid "*Enter a negative number for a time credit."
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:835
+msgid "Notes:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:843
+msgid "Agent:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:849
+msgid "*this field will update automatically when a correct ticket id has been entered"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:852
+msgid "Entry Date:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:856
+msgid "Entry Time:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:879
+msgid "Invoiced:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:883
+msgid "In progress"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:884
+msgid "Approved"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:889
+msgid "Invoice Number:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:893
+msgid "*the invoice number is automatically generated and assigned through the invoicing functionality"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:915
+msgid "Lookup ticket #"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:938
+msgid "Lookup ticket reply #"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1684
+msgid "Due to the \"Action when ticket deleted\" setting the following ticket(s) were unable to be binned:"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1701
+msgid "Title"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1704
+msgid "Current Ticket Status"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1705
+#: ../includes/as-time-tracking-reporting-js.php:34
+msgid "Entry Date"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1706
+msgid "Total Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1709
+msgid "Invoice Status"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1904
+msgid "All Status"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1948
+msgid "All States"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1949
+msgid "Open"
+msgstr ""
+
+#: ../includes/as-time-tracking-post-type.php:1973
+msgid "All Entry Dates"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:24
+msgid "Time Tracking For Each Agent"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:25
+msgid "Time Tracking For Each Client/Support User"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:26
+msgid "Time Tracking For Each Ticket"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:27
+msgid "Uninvoiced Time For Each Client/Support User"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:28
+msgid "No times found."
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:29
+msgid " Data was dropped because the original ticket was missing."
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:30
+msgid "Data was dropped from this report because the original ticket is missing."
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:31
+msgid "Total Time Recorded For "
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:32
+msgid "Time spent on "
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:33
+msgid "Uninvoiced time for "
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:35
+msgid "Start Date"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:36
+msgid "End Date"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:39
+msgid "Time Recorded (minutes)"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:40
+msgid "Total Time Spent: "
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:43
+msgid "All closed tickets"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:44
+msgid "Selected closed tickets"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting-js.php:46
+msgid "Selected tickets"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:17
+msgid "Time Tracking Reports"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:35
+msgid "Awesome Support - Time Tracking Reports"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:39
+msgid "Agent Report"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:40
+msgid "Client/Support User Report"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:41
+msgid "Ticket Report"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:42
+msgid "Invoice Report"
+msgstr ""
+
+#: ../includes/as-time-tracking-reporting.php:126
+msgid "Filter report"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:28
+msgid "Advanced Time Tracking Settings"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:32
+msgid "Timer Type"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:37
+msgid "<b>Automatic</b> will start the timer as soon as the agent views a ticket; <b>Manual</b> will allow the agent to decide when to turn on the timer and when to turn it off"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:40
+msgid "Time Tracking Section Background Color"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:44
+msgid "This is the background color of the time tracking data area shown under the reply section of the ticket"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:47
+msgid "Minimum Rounding Amount"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:49
+msgid "The minimum rounding amount in minutes. For example, if you would like to round to the nearest hour type 60. Any value above 60 will default to 1 minute."
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:54
+msgid "Billing Rate Access"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:58
+msgid "The roles allowed to have a billing rate."
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:63
+msgid "Action When Ticket Is Deleted"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:70
+msgid "Allow Multiple Time Entries Per Reply"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:72
+msgid "Most operations will only require one time entry per reply on a ticket. But sometimes you might want to allow an agent to manually enter multiple time entries for a particular reply. If you work that way then you should turn on this option."
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:78
+msgid "Allow Logging Of Time At The Ticket Level"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:80
+msgid "This will apply to the tickets page. Most time log entries are associated with a ticket reply.  However, you might want to log time without attaching it to a particular reply.  In that case you should turn this option on."
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:86
+msgid "Default Value for The Allow Logging Of Time At The Ticket Level Flag"
+msgstr ""
+
+#: ../includes/as-time-tracking-settings.php:88
+msgid "This will apply to the tickets page when the \"Allow Logging Of Time At The Ticket Level\" is enabled"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket-js.php:51
+msgid "Enter time spent in the timer metabox or start the timer to initiate automatic time tracking."
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket-js.php:52
+msgid "Time currently recorded for this reply is: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket-js.php:53
+msgid "Stop Timer and Create Time Entry"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket-js.php:54
+#: ../includes/as-time-tracking-ticket.php:99
+msgid "Create Time Entry"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket-js.php:57
+msgid "The Tracked Time entry has been successfully saved. To view the updated detailed time information you will need to reload the page."
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket-js.php:58
+msgid "There has been a problem creating the Tracked Time entry. Please try again."
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:56
+msgid "*The current rounding level is "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:96
+msgid "Save time on the ticket level"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:108
+msgid "Save Tracked Time"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:113
+msgid "Description"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:117
+msgid "Save"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:118
+msgid "Close"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:152
+msgid "Click here to add start/end times"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:274
+msgid "Ticket Billing Rate:"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:288
+msgid "Display detailed time information"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:298
+#, php-format
+msgid "All times recorded for Ticket # %s."
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:336
+msgid "Ticket reply # "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:338
+msgid "This time entry was saved on the ticket level"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:339
+msgid "Description: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:342
+msgid "Time recorded: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:343
+msgid "Adjusted time: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:356
+msgid "Total adjusted time: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:357
+msgid "Total calculated time: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:358
+msgid "Total final calculated time: "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:404
+#: ../includes/as-time-tracking-ticket.php:407
+msgid "Calculated Time Spent On Ticket:"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:405
+#: ../includes/as-time-tracking-ticket.php:446
+msgid " hour(s) "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:405
+msgid " minutes(s) "
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:408
+#: ../includes/as-time-tracking-ticket.php:449
+msgid "0 hour(s) 0 minute(s)"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:423
+#: ../includes/as-time-tracking-ticket.php:426
+msgid "Total Time Adjustments On Ticket:"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:427
+msgid "0 minute(s)"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:445
+#: ../includes/as-time-tracking-ticket.php:448
+msgid "Final Time Spent On Ticket:"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:446
+msgid " minute(s)"
+msgstr ""
+
+#: ../includes/as-time-tracking-ticket.php:823
+msgid "Tracked Time:"
+msgstr ""
+
+#: ../time-tracking.php:175
+#, php-format
+msgid "You need Awesome Support to activate this addon. Please <a href=\"%s\" target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../time-tracking.php:251
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: ../time-tracking.php:255
+#, php-format
+msgid "Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: ../time-tracking.php:259
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: ../time-tracking.php:518
+#, php-format
+msgid "Please <a href=\"%s\">fill-in your product license</a> now. If you don't, your copy of Awesome Support: Advanced Time Tracking <strong>will never be updated</strong>."
+msgstr ""
+
+#: ../time-tracking.php:543
+#, php-format
+msgid "You must fill-in your product license in order to get future plugin updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""

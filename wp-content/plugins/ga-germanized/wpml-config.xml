@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="gag_cc-banner-text" />
+        <key name="gag_cc-button-text" />
+        <key name="gag_cc-accept-button-text" />
+        <key name="gag_cc-deny-button-text" />
+        <key name="gag_cc-policy-link-text" />
+        <key name="gag_cc-policy-link" />
+    </admin-texts>
+</wpml-config>

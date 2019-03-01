@@ -1,0 +1,1103 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: E-Mail Support\n"
+"POT-Creation-Date: 2017-09-04 07:55-0500\n"
+"PO-Revision-Date: 2016-11-08 10:49+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-email-support.php:100
+#, php-format
+msgid "Note : The above reply was received From e-mail address %s and could not be matched so the reply was assumed to be from the ticket creator."
+msgstr ""
+
+#: ../class-email-support.php:106
+#, php-format
+msgid "Note : The above reply was received from an interested 3rd party with email address %s"
+msgstr ""
+
+#: ../class-email-support.php:188 ../includes/functions-cron.php:147
+msgid "WPAS ES Email Interval"
+msgstr ""
+
+#: ../class-email-support.php:233 ../email-support.php:172
+#, php-format
+msgid "You need Awesome Support to activate this addon. Please <a href=\"%s\" target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../class-email-support.php:256
+msgid "Settings"
+msgstr ""
+
+#: ../class-email-support.php:283
+msgid "Awesome Support is checking your inbox for new e-mails..."
+msgstr ""
+
+#: ../class-email-support.php:283
+msgid "Testing..."
+msgstr ""
+
+#: ../class-email-support.php:341
+msgctxt "post type general name"
+msgid "Unassigned Messages"
+msgstr ""
+
+#: ../class-email-support.php:342
+msgctxt "post type singular name"
+msgid "Unassigned Message"
+msgstr ""
+
+#: ../class-email-support.php:343
+msgctxt "admin menu"
+msgid "Unassigned Messages"
+msgstr ""
+
+#: ../class-email-support.php:344
+msgctxt "add new on admin bar"
+msgid "Unassigned Message"
+msgstr ""
+
+#: ../class-email-support.php:345
+msgctxt "unassigned message"
+msgid "Add New"
+msgstr ""
+
+#: ../class-email-support.php:346
+msgid "Add New Unassigned Message"
+msgstr ""
+
+#: ../class-email-support.php:347
+msgid "New Unassigned Message"
+msgstr ""
+
+#: ../class-email-support.php:348
+msgid "Edit Message"
+msgstr ""
+
+#: ../class-email-support.php:349
+msgid "View Message"
+msgstr ""
+
+#: ../class-email-support.php:350
+msgid "All Unassigned Messages"
+msgstr ""
+
+#: ../class-email-support.php:351
+msgid "Search Messages"
+msgstr ""
+
+#: ../class-email-support.php:352
+msgid "Parent Message:"
+msgstr ""
+
+#: ../class-email-support.php:353
+msgid "No messages found."
+msgstr ""
+
+#: ../class-email-support.php:354
+msgid "No messages found in Trash."
+msgstr ""
+
+#: ../class-email-support.php:409
+msgctxt "post type general name"
+msgid "AS Mailbox"
+msgstr ""
+
+#: ../class-email-support.php:410
+msgctxt "post type singular name"
+msgid "AS Mailbox"
+msgstr ""
+
+#: ../class-email-support.php:411
+msgctxt "admin menu"
+msgid "AS Mailboxes"
+msgstr ""
+
+#: ../class-email-support.php:412
+msgctxt "add new on admin bar"
+msgid "AS Mailbox"
+msgstr ""
+
+#: ../class-email-support.php:413
+msgctxt "as mailbox"
+msgid "New AS Mailbox Configuration"
+msgstr ""
+
+#: ../class-email-support.php:414
+msgid "Add New Mailbox Configuration"
+msgstr ""
+
+#: ../class-email-support.php:415
+msgid "New Mailbox Configuration"
+msgstr ""
+
+#: ../class-email-support.php:416
+msgid "Edit Mailbox Configuration"
+msgstr ""
+
+#: ../class-email-support.php:417
+msgid "View Mailbox Configuration"
+msgstr ""
+
+#: ../class-email-support.php:418
+msgid "All Mailboxes"
+msgstr ""
+
+#: ../class-email-support.php:419
+msgid "Search Mailbox Configurations"
+msgstr ""
+
+#: ../class-email-support.php:420
+msgid "Parent Mailbox:"
+msgstr ""
+
+#: ../class-email-support.php:421
+msgid "No mailbox found."
+msgstr ""
+
+#: ../class-email-support.php:422
+msgid "No mailbox found in Trash."
+msgstr ""
+
+#: ../class-email-support.php:479
+msgctxt "post type general name"
+msgid "Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:480
+msgctxt "post type singular name"
+msgid "Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:481
+msgctxt "admin menu"
+msgid "Inbox Rules"
+msgstr ""
+
+#: ../class-email-support.php:482
+msgctxt "add new on admin bar"
+msgid "Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:483
+msgctxt "as mailbox"
+msgid "New Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:484
+msgid "Add New Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:485
+msgid "New Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:486
+msgid "Edit Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:487
+msgid "View Inbox Rule"
+msgstr ""
+
+#: ../class-email-support.php:488
+msgid "All Inbox Rules"
+msgstr ""
+
+#: ../class-email-support.php:489
+msgid "Search Inbox Rules"
+msgstr ""
+
+#: ../class-email-support.php:490
+msgid "Parent Inbox Rule:"
+msgstr ""
+
+#: ../class-email-support.php:491
+msgid "No Inbox Rule Found."
+msgstr ""
+
+#: ../class-email-support.php:492
+msgid "No inbox rule found in Trash."
+msgstr ""
+
+#: ../class-email-support.php:553
+msgid "Inbox Configurations"
+msgstr ""
+
+#: ../class-email-support.php:554 ../class-email-support.php:871
+msgid "Inbox Rules"
+msgstr ""
+
+#: ../class-email-support.php:555
+msgid "Unassigned Messages"
+msgstr ""
+
+#: ../class-email-support.php:555
+msgid "Unassigned Emails"
+msgstr ""
+
+#: ../class-email-support.php:599
+msgid "Server"
+msgstr ""
+
+#: ../class-email-support.php:600
+#: ../includes/metaboxes/multi-mailbox-config.php:87
+#: ../includes/settings-email.php:34
+msgid "Protocol"
+msgstr ""
+
+#: ../class-email-support.php:601
+msgid "User Name"
+msgstr ""
+
+#: ../class-email-support.php:602
+#: ../includes/metaboxes/multi-mailbox-config.php:132
+#: ../includes/settings-email.php:64
+msgid "Port"
+msgstr ""
+
+#: ../class-email-support.php:603
+msgid "Secure?"
+msgstr ""
+
+#: ../class-email-support.php:604 ../class-email-support.php:697
+#: ../includes/metaboxes/multi-mailbox-config.php:184
+msgid "Active?"
+msgstr ""
+
+#: ../class-email-support.php:638
+msgid "***not configured!***"
+msgstr ""
+
+#: ../class-email-support.php:655 ../class-email-support.php:667
+#: ../class-email-support.php:735
+msgid "Y"
+msgstr ""
+
+#: ../class-email-support.php:675 ../class-email-support.php:750
+msgid "no-data"
+msgstr ""
+
+#: ../class-email-support.php:695
+#: ../includes/metaboxes/inbox-rules-config.php:71
+msgid "Rule Type"
+msgstr ""
+
+#: ../class-email-support.php:696
+msgid "Rule Area"
+msgstr ""
+
+#: ../class-email-support.php:698
+#: ../includes/metaboxes/inbox-rules-config.php:142
+msgid "Action"
+msgstr ""
+
+#: ../class-email-support.php:776 ../includes/metaboxes/details.php:83
+msgid "Details"
+msgstr ""
+
+#: ../class-email-support.php:787
+msgid "Attachments"
+msgstr ""
+
+#: ../class-email-support.php:798
+msgid "Actions"
+msgstr ""
+
+#: ../class-email-support.php:824
+msgid "An error occured while registering this metabox. Please contact support."
+msgstr ""
+
+#: ../class-email-support.php:830
+msgid "An error occured while loading this metabox. Please contact support."
+msgstr ""
+
+#: ../class-email-support.php:850
+msgid "Inbox Configuration (IMAP/POP3)"
+msgstr ""
+
+#: ../email-support.php:192
+#, php-format
+msgid "%s requires Awesome Support to be active. Please activate the core plugin first."
+msgstr ""
+
+#: ../email-support.php:196
+#, php-format
+msgid "Unfortunately, %s can not run on PHP versions older than %s. Read more information about <a href=\"%s\" target=\"_blank\">how you can update</a>."
+msgstr ""
+
+#: ../email-support.php:200
+#, php-format
+msgid "%s requires Awesome Support version %s or greater. Please update the core plugin first."
+msgstr ""
+
+#: ../email-support.php:204
+#, php-format
+msgid "%s requires the PHP function %s. This function is not available on your server. Please contact your host."
+msgstr ""
+
+#: ../email-support.php:492
+#, php-format
+msgid "Please <a href=\"%s\">fill-in your product license</a> now. If you don't, your copy of Awesome Suppport: Email Support <strong>will never be updated</strong>."
+msgstr ""
+
+#: ../email-support.php:493
+msgid "I do NOT want the updates, dismiss this message"
+msgstr ""
+
+#: ../email-support.php:519
+#, php-format
+msgid "You must fill-in your product license in order to get future plugin updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: ../email-support.php:564
+msgid "Required dependencies are missing. The e-mail addon will not be loaded."
+msgstr ""
+
+#: ../includes/class-wpas-email-mailbox.php:198
+msgid "You are trying to use an unsupported protocol for retrieving emails"
+msgstr ""
+
+#: ../includes/class-wpas-save-email.php:1298
+msgid "An e-mail reply was rejected by the system. Reason: cannot reply to closed tickets by email."
+msgstr ""
+
+#: ../includes/class-wpas-save-email.php:1325
+#, php-format
+msgid "An e-mail reply was rejected by the system. Reason: cannot reply to locked tickets. Email was sent by: %s"
+msgstr ""
+
+#: ../includes/class-wpas-save-email.php:1432
+msgid "Invalid Ticket ID"
+msgstr ""
+
+#: ../includes/class-wpas-save-email.php:1471
+msgid "An e-mail reply could not be saved. Maybe the reply has characters that WordPress does not like in posts? Check for UTF-8 encoded characters in the message that look like regular ansi characters!"
+msgstr ""
+
+#: ../includes/functions-debug.php:18
+msgid "Reset Mail Check Interval"
+msgstr ""
+
+#: ../includes/functions-debug.php:20
+msgid "Reset"
+msgstr ""
+
+#: ../includes/functions-debug.php:21
+msgid "Reset the e-mail checking interval."
+msgstr ""
+
+#: ../includes/functions-emails.php:22
+msgid "DEFAULT MAILBOX RESULTS: ERROR"
+msgstr ""
+
+#: ../includes/functions-emails.php:38
+msgid "DEFAULT MAILBOX RESULTS:"
+msgstr ""
+
+#: ../includes/functions-emails.php:89
+msgid "MAILBOX ERROR: "
+msgstr ""
+
+#: ../includes/functions-emails.php:108
+msgid "MAILBOX: "
+msgstr ""
+
+#: ../includes/functions-emails.php:121
+#, php-format
+msgid "Successfully imported %s e-mails from all mailboxes."
+msgstr ""
+
+#: ../includes/functions-emails.php:267
+msgid "Successful Emails Processed and Imported:"
+msgstr ""
+
+#: ../includes/functions-emails.php:268
+msgid "Replies Added:"
+msgstr ""
+
+#: ../includes/functions-emails.php:269
+msgid "Replies Rejected (These have been deleted):"
+msgstr ""
+
+#: ../includes/functions-emails.php:270
+msgid "Skipped Emails (These remain in your mailbox):"
+msgstr ""
+
+#: ../includes/functions-emails.php:271
+msgid "Tickets Closed:"
+msgstr ""
+
+#: ../includes/functions-emails.php:272
+msgid "Emails With Rules Failed (These have been deleted):"
+msgstr ""
+
+#: ../includes/functions-emails.php:273
+msgid "Emails that are duplicates (These have been deleted):"
+msgstr ""
+
+#: ../includes/functions-emails.php:331
+msgid "Connection successful"
+msgstr ""
+
+#: ../includes/functions-emails.php:368
+msgid "Fetch Mails"
+msgstr ""
+
+#: ../includes/functions-emails.php:462
+msgctxt "Delimiter text used in the e-mail body"
+msgid "Please type your reply above this line"
+msgstr ""
+
+#: ../includes/functions-unassigned-notification.php:15
+msgid "The post ID provided does not match any of the plugin post types"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:34
+msgid "Creator"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:35
+msgid "Select the creator of this reply from your database if he has an account."
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:77
+msgid "Create New Ticket"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:92 ../includes/metaboxes/details.php:55
+msgid "Ticket"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:93
+msgid "If you attach this reply to a closed ticket, the ticket will be re-opened."
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:97
+msgid "Add As Reply To This Ticket"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:100
+msgid "Please make sure you select a Creator above before clicking the Add As Reply Button!"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:118
+msgid "Save Selections But Stay On This Page"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:121
+msgid "Are you sure? There is no coming back!"
+msgstr ""
+
+#: ../includes/metaboxes/actions.php:121
+msgid "Delete"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:17
+msgid "Error reading the email headers."
+msgstr ""
+
+#: ../includes/metaboxes/details.php:25
+msgid "This message is unassigned because we are unable to identify the ticket it relates to nor the sender"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:27
+msgid "This message is unassigned because we are unable to identify the ticket it relates to"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:29
+msgid "This message is unassigned because we are unable to identify the sender"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:35
+msgid "Highlights"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:40
+msgid "Sender"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:66
+#, php-format
+msgid "Invalid (%s)"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:70
+msgid "Unknown"
+msgstr ""
+
+#: ../includes/metaboxes/details.php:76
+msgid "Sent On"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:65
+msgid "This screen is used to configure rules for incoming emails. Rules that are matched to incoming messages will have the specified ACTION applied to the email/ticket."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:78
+msgid "Normal"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:82
+msgid "Regex"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:83
+msgid "A normal rule will do a straight non-case sensitive string match. A regex rule will use PHP regular expressions to search for a match."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:90
+msgid "Rule"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:97
+msgid "Enter the rule criteria here.  Either a regex rule or a series of characters to be matched. Normal rules are NOT case-sensitive."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:103
+msgid "Where Should This Rule Apply?"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:110
+msgid "Email Subject Line"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:115
+msgid "Email Body"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:120
+msgid "Senders email address"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:127
+msgid "Is Rule Active?"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:149
+msgid "Delete the email without keeping a record of it"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:153
+msgid "Place the email in the UNASSIGNED tickets area"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:157
+msgid "Update the ticket with the values in the update section below"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:161
+msgid "Update the ticket with the values in the update section below and then close the ticket (reply will be added to ticket)"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:165
+msgid "Close the ticket (reply will not be added to ticket)"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:169
+msgid "Skip the message completely - do not process it and leave it in the inbox"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:176
+msgid "Notes"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:183
+msgid "Remind yourself what this rule is supposed to do - especially if this is a REGEX based rule."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:189
+msgid "Update Fields: If you choose the option to update the ticket above then use this section to configure the fields to be updated."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:195
+msgid "New Agent"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:204
+msgid "New Department"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:214
+msgid "New Product"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:224
+msgid "New Priority"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:234
+msgid "New Channel"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:244
+msgid "New status"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:251
+#: ../includes/metaboxes/inbox-rules-config.php:272
+#: ../includes/metaboxes/multi-mailbox-config.php:256
+msgid "This is a string that represents the custom status. Generally it is the same as the custom status value converted to lowercase characters but can ocasionally differ."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:252
+#: ../includes/metaboxes/multi-mailbox-config.php:257
+msgid "If there are spaces in your custom status then use a dash in place of the space - eg: my-custom-status."
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:258
+msgid "New Public/private Flag"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:265
+#: ../includes/metaboxes/multi-mailbox-config.php:270
+msgid "Public"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:270
+#: ../includes/metaboxes/multi-mailbox-config.php:275
+msgid "Private"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:279
+msgid "New Addl 3rd Party Email #1"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:292
+msgid "New Addl 3rd Party Email #2"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:305
+msgid "New Secondary Assignee/Agent"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:315
+msgid "New Tertiary Assignee/Agent"
+msgstr ""
+
+#: ../includes/metaboxes/inbox-rules-config.php:325
+msgid "Warning! Please keep in mind that the more rules you add, the slower importing emails will be.  Your host might not allow you the time needed to run a long script which could cause importing to timeout and fail when there are many rules."
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:71
+msgid "This screen should only be used to configure ADDITIONAL support e-mail inboxes.  If you have just one inbox, please configure it under the TICKETS->SETTINGS->E-mail Piping tab."
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:77
+#: ../includes/settings-email.php:28
+msgid "E-Mail Server"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:94
+msgid "Pop3"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:99
+msgid "IMAP"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:106
+#: ../includes/settings-email.php:41
+msgid "Email Account or Username"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:113
+#: ../includes/settings-email.php:45
+msgid "This is typically your email address but could be something else - check with your email service provider if you are unsure."
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:119
+#: ../includes/settings-email.php:48
+msgid "Password"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:139
+msgid "Usually: <b>995</b> for pop3 and <b>993</b> for imap when used with SSL security. This item should NOT be blank!"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:145
+msgid "Secure Protocol"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:153
+msgid "SSL"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:158
+msgid "TLS"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:163
+msgid "None"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:171
+#: ../includes/settings-email.php:79
+msgid "Timeout"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:192
+msgid "Check this to activate reading emails from this mailbox"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:199
+msgid "Default Assignee/Agent"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:209
+msgid "Default Department"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:219
+msgid "Default Product"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:229
+msgid "Default Priority"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:239
+msgid "Default Channel"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:249
+msgid "Default status"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:263
+msgid "Default Public Flag"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:282
+msgid "Default Addl 3rd Party Email #1"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:295
+msgid "Default Addl 3rd Party Email #2"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:308
+msgid "Default Secondary Assignee/Agent"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:318
+msgid "Default Tertiary Assignee/Agent"
+msgstr ""
+
+#: ../includes/metaboxes/multi-mailbox-config.php:328
+msgid "Warning! Please keep in mind that the more in-boxes you add, the slower importing emails will be.  Your host might not allow you the time needed to run a long script which could cause importing to timeout and fail when there are many inboxes."
+msgstr ""
+
+#: ../includes/settings-email.php:20
+msgid "E-Mail Piping"
+msgstr ""
+
+#: ../includes/settings-email.php:23
+msgid "Connection Information"
+msgstr ""
+
+#: ../includes/settings-email.php:24
+msgid "Use these settings for your first mailbox. If you have more than one mailbox then configure the rest of your mailboxes in TICKETS->Inbox Configurations"
+msgstr ""
+
+#: ../includes/settings-email.php:55 ../includes/settings-email.php:59
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../includes/settings-email.php:61
+msgid "If you don&#39;t know what the following options are, please do NOT modify them."
+msgstr ""
+
+#: ../includes/settings-email.php:68
+msgid "This should not be blank. Common ports are 993, 995 and 110"
+msgstr ""
+
+#: ../includes/settings-email.php:71
+msgid "Secure Port"
+msgstr ""
+
+#: ../includes/settings-email.php:76
+msgid "What type of secure connection should be used? Note: TLS support is experimental - if you need it you can try it to see if it works. But most servers use SSL for IMAP/POP3 incoming mailboxes."
+msgstr ""
+
+#: ../includes/settings-email.php:83
+msgid "The timeout value must be in seconds."
+msgstr ""
+
+#: ../includes/settings-email.php:86
+msgid "Testing"
+msgstr ""
+
+#: ../includes/settings-email.php:90
+msgid "Test Settings"
+msgstr ""
+
+#: ../includes/settings-email.php:94
+msgid "Please make sure to save any changed settings before testing the configuration."
+msgstr ""
+
+#: ../includes/settings-email.php:98
+msgid "Global Email Settings"
+msgstr ""
+
+#: ../includes/settings-email.php:101
+msgid "All sections below apply to ALL mailboxes!"
+msgstr ""
+
+#: ../includes/settings-email.php:105
+msgid "Email Handling"
+msgstr ""
+
+#: ../includes/settings-email.php:109
+msgid "Unassigned Email Handling"
+msgstr ""
+
+#: ../includes/settings-email.php:113
+msgid "How is incoming email without a ticket number handled? Please remember that some of this could be spam so be careful with your choice!"
+msgstr ""
+
+#: ../includes/settings-email.php:115
+msgid "Leave them in the \"Unassigned\" folder - an agent will manually review and move/assign/delete as necessary"
+msgstr ""
+
+#: ../includes/settings-email.php:116
+msgid "Create a new ticket and, if necessary, a new user "
+msgstr ""
+
+#: ../includes/settings-email.php:117
+msgid "Create new ticket if email address matches an existing user; otherwise leave in \"Unassigned\" folder."
+msgstr ""
+
+#: ../includes/settings-email.php:121
+msgid "Closed Tickets Replies"
+msgstr ""
+
+#: ../includes/settings-email.php:125
+msgid "What happens when a client replies to a ticket that&#039;s been closed?"
+msgstr ""
+
+#: ../includes/settings-email.php:127
+msgid "Reject reply (and send acknowledgment to client)"
+msgstr ""
+
+#: ../includes/settings-email.php:128
+msgid "Re-open the ticket"
+msgstr ""
+
+#: ../includes/settings-email.php:132
+msgid "User Name Construction"
+msgstr ""
+
+#: ../includes/settings-email.php:136
+msgid "How should we attempt to create a user name when a new user is detected? [Requires AS 4.0.3 or later]"
+msgstr ""
+
+#: ../includes/settings-email.php:138
+msgid "Default - Uses the first part of email address"
+msgstr ""
+
+#: ../includes/settings-email.php:139
+msgid "Use the entire email address"
+msgstr ""
+
+#: ../includes/settings-email.php:140
+msgid "Use a random number"
+msgstr ""
+
+#: ../includes/settings-email.php:141
+msgid "Use a GUID"
+msgstr ""
+
+#: ../includes/settings-email.php:142
+msgid "Use the full name as retrieved from the email headers"
+msgstr ""
+
+#: ../includes/settings-email.php:147
+msgid "HTML Handling"
+msgstr ""
+
+#: ../includes/settings-email.php:151
+msgid "Which HTML Tags Should Be Stripped?"
+msgstr ""
+
+#: ../includes/settings-email.php:155
+msgid "Please select which HTML Tags should be allowed or stripped out of incoming emails."
+msgstr ""
+
+#: ../includes/settings-email.php:157
+msgid "Strip All tags"
+msgstr ""
+
+#: ../includes/settings-email.php:158
+msgid "Allow the tags listed below ( NOTE: This is a BETA option - you might get unexpected formatting and behavior especially if your incoming emails include any javascript or extra line breaks.)"
+msgstr ""
+
+#: ../includes/settings-email.php:162
+msgid "Allowed HTML Tags"
+msgstr ""
+
+#: ../includes/settings-email.php:166
+msgid "Which HTML tags should be allowed in incoming emails? Enter just the opening tag, not the closing tag. <br /> eg: b, i, br, u, ul, ol, li, h1, h2, h3, h4, h5, h6, p, a, a[href] <br /> See the htmlpurifier.org HTML.Allowed directive for more information on what is allowed here. Do NOT leave this field blank!"
+msgstr ""
+
+#: ../includes/settings-email.php:169
+msgid "Character Set Conversion"
+msgstr ""
+
+#: ../includes/settings-email.php:171
+msgid "Do not change anything in this section unless absolutely necessary. Setting this incorrectly will cause all your emails to be silently rejected by the database."
+msgstr ""
+
+#: ../includes/settings-email.php:174
+msgid "Convert all data to this characterset"
+msgstr ""
+
+#: ../includes/settings-email.php:177
+#, php-format
+msgid "If your mysql server is using a different character set than the one most of your customers use then enter the character set here. <a href=\"%s\" target=\"_blank\">List of acceptable character sets.</a> Some common character sets include UTF-8, ASCII and ISO-8859-1. The default is utf-8. </b><b>Warning: This allows for the character set to be matched to the MYSQL server but could result in the loss of email data for strings or characters that cannot be converted!"
+msgstr ""
+
+#: ../includes/settings-email.php:182
+msgid "Duplicate Handling"
+msgstr ""
+
+#: ../includes/settings-email.php:184
+msgid "If your site is being bombarded by duplicate emails this can help you avoid creating unwanted tickets.  BUT, receiving many duplicate emails are generally symptoms of a configuration issue that creates a feedback loop. So this is only a stop-gap measure - you should investigate to find the source of the issue."
+msgstr ""
+
+#: ../includes/settings-email.php:188
+msgid "Prevent Duplicate Tickets"
+msgstr ""
+
+#: ../includes/settings-email.php:191
+msgid "Do not import emails that are duplicates"
+msgstr ""
+
+#: ../includes/settings-email.php:195
+msgid "Recent Tickets To Check"
+msgstr ""
+
+#: ../includes/settings-email.php:198
+msgid "Check for duplicates by looking at this number of most recent tickets"
+msgstr ""
+
+#: ../includes/settings-email.php:203
+msgid "Piping Settings"
+msgstr ""
+
+#: ../includes/settings-email.php:207
+msgid "Polling Mode"
+msgstr ""
+
+#: ../includes/settings-email.php:211
+msgid "Which polling method should trigger mail server checks?"
+msgstr ""
+
+#: ../includes/settings-email.php:213
+msgid "WP Cron (Recommended)"
+msgstr ""
+
+#: ../includes/settings-email.php:214
+msgid "jQuery Heartbeat"
+msgstr ""
+
+#: ../includes/settings-email.php:218
+msgid "Interval"
+msgstr ""
+
+#: ../includes/settings-email.php:223
+msgid "How often shall we check for new e-mails?"
+msgstr ""
+
+#: ../includes/settings-email.php:243
+msgid "Every Minute"
+msgstr ""
+
+#: ../includes/settings-email.php:244
+msgid "Every 5 Minutes"
+msgstr ""
+
+#: ../includes/settings-email.php:245
+msgid "Every 10 Minutes"
+msgstr ""
+
+#: ../includes/settings-email.php:246
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: ../includes/settings-email.php:247
+msgid "Every 20 Minutes"
+msgstr ""
+
+#: ../includes/settings-email.php:248
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: ../includes/settings-email.php:249
+msgid "Every Hour"
+msgstr ""
+
+#: ../includes/settings-email.php:250
+msgid "Twice Daily"
+msgstr ""
+
+#: ../includes/settings-email.php:251
+msgid "Once Daily"
+msgstr ""
+
+#: ../includes/settings-email.php:275
+msgid "E-Mail Reply Rejected"
+msgstr ""
+
+#: ../includes/settings-email.php:280 ../includes/settings-email.php:311
+#: ../includes/settings-email.php:340
+msgid "Enable"
+msgstr ""
+
+#: ../includes/settings-email.php:284 ../includes/settings-email.php:315
+#: ../includes/settings-email.php:344
+msgid "Do you want to activate this e-mail template?"
+msgstr ""
+
+#: ../includes/settings-email.php:288 ../includes/settings-email.php:319
+#: ../includes/settings-email.php:354
+msgid "Subject"
+msgstr ""
+
+#: ../includes/settings-email.php:291 ../includes/settings-email.php:322
+msgid "Reply rejected: {ticket_title}"
+msgstr ""
+
+#: ../includes/settings-email.php:295 ../includes/settings-email.php:326
+#: ../includes/settings-email.php:361
+msgid "Content"
+msgstr ""
+
+#: ../includes/settings-email.php:306
+msgid "E-Mail Reply Rejected Because of Ticket Lock"
+msgstr ""
+
+#: ../includes/settings-email.php:335
+msgid "Unassigned Ticket Created"
+msgstr ""
+
+#: ../includes/settings-email.php:348
+msgid "Recipients (Comma separated list of emails)"
+msgstr ""
+
+#: ../includes/settings-email.php:357
+msgid "Unassigned Ticket Created: {ticket_title}"
+msgstr ""

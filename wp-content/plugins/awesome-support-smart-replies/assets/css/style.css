@@ -1,0 +1,144 @@
+
+table.cbot_option_multi_keyword textarea {
+        width : 100%;
+}
+
+table.cbot_option_multi_keyword {
+        width : 100%;
+        position: relative;
+}
+
+
+table.cbot_option_multi_keyword .wpas_cbot_keyword_del_btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+
+
+table.cbot_option_add_keyword {
+        display: none;
+}
+
+
+
+.titan-framework-panel-wrap .form-table.cbot_option_multi_keyword tbody:first-child tr th:first-child, 
+.titan-framework-panel-wrap .form-table.cbot_option_multi_keyword tbody:first-child tr td:first-child {
+    border-left: 0;
+}
+
+
+.titan-framework-panel-wrap .form-table.cbot_option_multi_keyword tbody:first-child tr th:last-child, 
+.titan-framework-panel-wrap .form-table.cbot_option_multi_keyword tbody:first-child tr td:last-child {
+    border-right: 0;
+}
+
+
+
+
+table.cbot_option_multi_keyword tbody tr:last-child th,
+table.cbot_option_multi_keyword tbody tr:last-child td,
+table.cbot_option_multi_keyword tbody tr:last-child
+{
+        border-bottom: 0px;
+}
+
+.wpas_sc_mtext_field_group {
+        margin-bottom: 10px;
+}
+
+.wpas_sc_mtext_field_group .wpas_sc_add_mtext_field, .wpas_sc_mtext_field_group .wpas_sc_remove_mtext_field {
+        width: 22px;
+        height: 22px;
+        padding-top: 6px;
+        margin-left: 10px;
+        cursor: pointer;
+        display: inline-block;
+}
+
+
+
+
+.wpas_sc_mtext_field_group .wpas_sc_add_mtext_field {
+        background: url(../images/plus.png) no-repeat center center;
+}
+
+.wpas_sc_mtext_field_group .wpas_sc_remove_mtext_field {
+        background: url(../images/cross.png) no-repeat center center;
+}
+
+.wpas_multi_text_field_add_new .field_add_new_btn {
+        
+}
+
+.wpas_multi_text_field_add_new .wpas_sc_mtext_field_group {
+        display: none;
+}
+
+.wpas_backend_ticket_content_after_buttons li {
+        float: left;
+        margin-right: 30px;
+}
+
+.wpas_backend_ticket_content_after_buttons li.clear {
+        float: none;
+}
+
+.pf_msg {
+        display: none;
+}
+
+.entity_buttons, .pof_buttons {
+        margin-top: 10px;
+}
+
+
+.entity_buttons span , .pof_buttons span {
+        
+        font-weight: normal;
+}
+
+
+.entity_buttons span {
+        
+        background: darkgoldenrod;
+}
+
+
+.pof_buttons span {
+        
+        background: royalblue;
+}
+
+/* Smart Responses : Post types style */
+
+.wpas_cbot_exclude_post_fields {
+        padding-left: 30px; 
+        display: none;
+}
+
+.wpas_cbot_search_post_type {
+        margin: .25em 0 .5em;
+}
+
+.wpas_cbot_search_post_type.active .wpas_cbot_exclude_post_fields {
+        display: block;
+}
+
+
+.wpas_cbot_exclude_post_fields table {
+        width: 100%;
+}
+        
+.wpas_cbot_exclude_post_fields table th {
+        width : 170px;
+        border-left: none !important;
+}
+
+.wpas_cbot_exclude_post_fields table td:last-child {
+    border-right: none !important;
+}
+
+.wpas_cbot_exclude_post_fields table th, .wpas_cbot_exclude_post_fields table td {
+        padding: 6px !important;
+}

@@ -1,0 +1,58 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-21 16:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Author of the plugin
+#: bitrix24_forms.php:43 bitrix24_forms.php:44
+msgid "Bitrix24"
+msgstr ""
+
+#: bitrix24_forms.php:60
+msgid "Enable chat widget"
+msgstr ""
+
+#: bitrix24_forms.php:61
+msgid "Widget code"
+msgstr ""
+
+#. Name of the plugin
+msgid "Free Live Chat And Web Form Widget"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This free Bitrix24 widget lets you insert live chat, call back request and "
+"various web forms into your website. All information from chat and forms is "
+"automatically imported into free Bitrix24 CRM. The widget supports up to 12 "
+"agents absolutely free, is easily customizable, and works on mobile, web and "
+"desktop apps."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.bitrix24.com"
+msgstr ""
+
+msgid "Error, duplicate 1: Widget code"
+msgstr ""
+
+msgid "CRM connector URL"
+msgstr ""
+
+msgid "Internetional currency code"
+msgstr ""
+
+msgid "Enable CRM connector"
+msgstr ""

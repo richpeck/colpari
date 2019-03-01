@@ -1,0 +1,134 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Filestack\n"
+"POT-Creation-Date: 2016-08-08 12:23+0700\n"
+"PO-Revision-Date: 2016-08-08 12:21+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <contact@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"Language: en_US\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: class-as-filepicker.php:123
+msgid "Settings"
+msgstr ""
+
+#: class-as-filepicker.php:140
+#, php-format
+msgid ""
+"You have enabled Filepicker for uploading attachments but you didn&#39;"
+"t specify your API key. Please <a href=\"%s\">fill-in your API key</a> "
+"or disable the add-on."
+msgstr ""
+
+#: class-as-filepicker.php:426
+msgid "Attachments"
+msgstr ""
+
+#: class-as-filepicker.php:429
+msgid "This site only allows you to upload 2 files at a time"
+msgstr ""
+
+#: class-as-filepicker.php:429
+msgid "Click to upload file(s)"
+msgstr ""
+
+#: class-as-filepicker.php:430
+#, php-format
+msgid " You can upload up to %s files of the following types: %s"
+msgstr ""
+
+#: filepicker.php:157
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: filepicker.php:177
+#, php-format
+msgid ""
+"%s requires Awesome Support to be active. Please activate the core "
+"plugin first."
+msgstr ""
+
+#: filepicker.php:181
+#, php-format
+msgid ""
+"Unfortunately, %s can not run on PHP versions older than %s. Read more "
+"information about <a href=\"%s\" target=\"_blank\">how you can update</"
+"a>."
+msgstr ""
+
+#: filepicker.php:185
+#, php-format
+msgid ""
+"%s requires Awesome Support version %s or greater. Please update the "
+"core plugin first."
+msgstr ""
+
+#: filepicker.php:438
+#, php-format
+msgid ""
+"Please <a href=\"%s\">fill-in your product license</a> now. If you "
+"don't, your copy of the plugin <strong>will never be updated</strong>."
+msgstr ""
+
+#: filepicker.php:439
+msgid "I do NOT want the updates, dismiss this message"
+msgstr ""
+
+#: filepicker.php:460
+#, php-format
+msgid ""
+"You must fill-in your product license in order to get future plugin "
+"updates. <a href=\"%s\">Click here to do it</a>."
+msgstr ""
+
+#: settings.php:14
+msgid "Filepicker"
+msgstr ""
+
+#: settings.php:18
+msgid "API Key"
+msgstr ""
+
+#: settings.php:22
+#, php-format
+msgid ""
+"In order to get your API key, you need to <a href=\"%s\" target="
+"\"_blank\">create an application in Filepicker</a>."
+msgstr ""
+
+#: settings.php:26
+msgid "API Secret"
+msgstr ""
+
+#: settings.php:30
+msgid ""
+"The API secret is optional but recommended. It will enforce security "
+"of your files by limiting how users can interact with them."
+msgstr ""
+
+#: settings.php:34
+msgid "Enabled Services"
+msgstr ""
+
+#: settings.php:38
+msgid ""
+"Which services do you want to allow users to pick files from when "
+"using Filepicker? Some of these services may require a paid plan."
+msgstr ""

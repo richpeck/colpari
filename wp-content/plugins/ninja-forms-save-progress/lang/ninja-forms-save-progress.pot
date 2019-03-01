@@ -1,0 +1,61 @@
+# Copyright (C) 2017 Ninja Forms Save Progress
+# This file is distributed under the same license as the Ninja Forms Save Progress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ninja Forms Save Progress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/admin/savestable.php:81
+msgid "No saves found."
+msgstr ""
+
+#: includes/admin/savestable.php:115
+msgid "User"
+msgstr ""
+
+#: includes/admin/savestable.php:116
+msgid "Updated"
+msgstr ""
+
+#: includes/admin/savestable.php:140
+msgid "user_id"
+msgstr ""
+
+#: includes/admin/savestable.php:141
+msgid "updated"
+msgstr ""
+
+#: includes/admin/savestable.php:220
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/savestable.php:221
+msgid "Convert to Submission"
+msgstr ""
+
+#: includes/controllers/settings.php:22
+msgid "Active on Save"
+msgstr ""
+
+#: includes/controllers/settings.php:38
+msgid "Save Progress"
+msgstr ""
+
+#: includes/controllers/settings.php:50
+msgid "Allow multiple saves (Logged-In Only)"
+msgstr ""
+
+#: includes/controllers/settings.php:53
+msgid "Allow visitors to save multiple versions of their progress, if they are logged in."
+msgstr ""
+
+#: includes/controllers/settings.php:60
+msgid "Enable Local Browser Storage"
+msgstr ""
+
+#: includes/controllers/settings.php:63
+msgid "Saves field data to the visitor's browser using local storage (using a cookie), without needing to log-in."
+msgstr ""

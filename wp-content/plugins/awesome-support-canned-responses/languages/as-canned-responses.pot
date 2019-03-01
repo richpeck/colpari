@@ -1,0 +1,115 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Support: Canned Responses\n"
+"POT-Creation-Date: 2016-11-08 11:53+0700\n"
+"PO-Revision-Date: 2016-11-08 11:51+0700\n"
+"Last-Translator: \n"
+"Language-Team: Awesome Support <translate@getawesomesupport.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-canned-response.php:78
+#, php-format
+msgid ""
+"You need Awesome Support to activate this addon. Please <a href=\"%s\" "
+"target=\"_blank\">install Awesome Support</a> before continuing."
+msgstr ""
+
+#: ../class-canned-response.php:94 ../class-canned-response.php:209
+msgid "Canned Responses"
+msgstr ""
+
+#: ../class-canned-response.php:146
+msgctxt "post type general name"
+msgid "Canned Responses"
+msgstr ""
+
+#: ../class-canned-response.php:147
+msgctxt "post type singular name"
+msgid "Canned Response"
+msgstr ""
+
+#: ../class-canned-response.php:148
+msgctxt "admin menu"
+msgid "Canned Responses"
+msgstr ""
+
+#: ../class-canned-response.php:149
+msgctxt "add new on admin bar"
+msgid "Canned Response"
+msgstr ""
+
+#: ../class-canned-response.php:150
+msgctxt "book"
+msgid "Add New"
+msgstr ""
+
+#: ../class-canned-response.php:151
+msgid "Add New Canned Response"
+msgstr ""
+
+#: ../class-canned-response.php:152
+msgid "New Canned Response"
+msgstr ""
+
+#: ../class-canned-response.php:153
+msgid "Edit Canned Response"
+msgstr ""
+
+#: ../class-canned-response.php:154
+msgid "View Canned Response"
+msgstr ""
+
+#: ../class-canned-response.php:155
+msgid "All Canned Responses"
+msgstr ""
+
+#: ../class-canned-response.php:156
+msgid "Search Canned Responses"
+msgstr ""
+
+#: ../class-canned-response.php:157
+msgid "Parent Canned Response:"
+msgstr ""
+
+#: ../class-canned-response.php:158
+msgid "No canned responses found."
+msgstr ""
+
+#: ../class-canned-response.php:159
+msgid "No canned responses found in Trash."
+msgstr ""
+
+#: ../class-canned-response.php:233
+msgid "Tag"
+msgstr ""
+
+#: ../class-canned-response.php:233
+msgid "Description"
+msgstr ""
+
+#: ../class-canned-response.php:245
+msgid "Template Tags"
+msgstr ""
+
+#: ../class-canned-response.php:246
+#, php-format
+msgid ""
+"<p>When setting up your canned responses, you can use a certain number "
+"of template tags allowing you to dynamically add ticket-related "
+"information at the moment the reply is sent. Here is the list of "
+"available tags:</p>%s"
+msgstr ""

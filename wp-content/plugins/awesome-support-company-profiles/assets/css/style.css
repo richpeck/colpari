@@ -1,0 +1,151 @@
+
+
+/* Popup window style */
+.select2-container.select2-container--open {
+        z-index: 1000000;
+}
+
+.mfp-content select {
+        width: 100%;
+}
+
+
+.mfp-content .select2.select2-container{
+        width: 100% !important;
+}
+
+.wpas_win_footer {
+        margin-top: 20px;
+}
+
+.wpas_win_footer .submit, .wpas_win_footer .wpas_win_close_btn {
+        float: left;
+        padding: 0;
+        margin: 0;
+}
+
+.wpas_win_footer .wpas_win_close_btn {
+        margin-left: 20px;
+}
+
+.white-popup {
+        position: relative;
+        background: #FFF;
+        padding: 20px;
+        width:auto;
+        max-width: 500px;
+        margin: 20px auto;
+}
+
+
+/* Edit company profile page style */
+
+tr.wpas-cp-log>td {
+        padding-top: .75em;
+        padding-bottom: .75em;
+        text-align: center;
+        border: 1px solid #dedede;
+        color: #555;
+        background-color: #f5f5f5;
+        line-height: 1.3;
+        font-size: 13px;
+}
+
+.wpas-cp-company-details textarea {
+        height: 100px;
+}
+
+.wpas-cp-company-details textarea, .wpas-cp-company-details input[type=text] {
+        width: 100%
+}
+
+
+
+.cp_icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        text-decoration: none;
+}
+
+.wpas_cp_ui_item .su_user_name.primary {
+        background: url(../images/primary.png) no-repeat left center;
+        padding-left: 20px;
+                
+}
+
+.cp_edit_icon {
+        background: url(../images/edit.png) no-repeat center center;
+}
+
+.cp_delete_icon {
+        background: url(../images/delete.png) no-repeat center center;
+}
+
+
+.wpas_cp_ui_items .actions {
+        list-style: none;
+        margin: 0;
+}
+
+.wpas_cp_ui_item .actions {
+        float: right;
+}
+
+.wpas_cp_ui_item .actions li {
+        float: left;
+        margin-right: 14px;
+}
+
+.wpas_cp_ui_item .actions li:last-child {
+        
+        margin-right: 0;
+}
+
+
+
+.wpas_cp_ui_item .permissions, .wpas_cp_ui_item .permissions li {
+        margin: 0;
+}
+
+
+.wpas_cp_add_item_button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+}
+
+.wpas_cp_division {
+        margin: 0 2px;
+}
+
+
+.wpas_cp-status-trash {
+        background: #ffdddd;
+}
+
+
+body.post-type-wpas_company_profile #submitdiv #publishing-action input[type=submit] {
+        display: none;
+}
+
+
+body.post-type-wpas_company_profile #post-body-content #postdivrich {
+        display: none;
+}
+
+
+.select2-selection {
+        overflow: hidden;
+}
+
+.select2-selection__rendered {
+        white-space: normal !important;
+}
+
+
+@media screen and (max-width: 782px) {
+        
+        .mfp-content select {
+            padding: 2px !important;
+        }
+}

@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2016, 2:11:25 PM
+    Author     : Tahir
+*/
+
+.titan-framework-panel-wrap .form-table .warning-msg-table {
+    width: 100%;
+}
+
+.titan-framework-panel-wrap .form-table .warning-msg-table tr {
+    border-bottom: none;
+}
+
+
+.titan-framework-panel-wrap .form-table .warning-msg-table tr td, .titan-framework-panel-wrap .form-table .warning-msg-table tr th {
+    padding-top: 14px;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.autoclose_wm_field_header h3 {
+    float : left;
+}
+                
+.autoclose_wm_field_header .field_delete {
+    float : right;
+    cursor: pointer;
+}
+
+.new_wanring_msg_error {
+    float: right;
+    color: #FFF;
+    background: #fb5d5d;
+    padding: 4px 16px;
+    border-radius: 3px;
+    display : none;
+}
+
+
+
+.asac_new_warning_msg_form p.submit {
+    position: relative;
+}
+.asac_new_warning_msg_form p.submit .loading {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 15px;
+    left: 140px;
+    
+    display : none;
+}
+
+
+.asac_save_success_msg {
+    display: none;
+}
+
+.loading {
+    border: 5px solid #dfdfdf;
+    border-top: 5px solid #00709c;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
