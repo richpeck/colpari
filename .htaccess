@@ -1,3 +1,14 @@
+## Wordpress Rewrite Rules ##
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
 # BEGIN W3TC Browser Cache
 <IfModule mod_mime.c>
     AddType text/css .css
