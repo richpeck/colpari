@@ -68,10 +68,6 @@ define('NONCE_SALT',       'YPI6AJ_muTg:ZH)RSS#a<*V2e8rMub9T?yzYyX~<V!;e}mp<xQ@j
  */
 $table_prefix  = 'www_';
 
-define( 'NOBLOGREDIRECT', '' );  
-define( 'WP_HOME', 'https://colpari.herokuapp.com' );
-define( 'WP_SITEURL', 'https://colpari.herokuapp.com' );
-
 /**
  * For developers: WordPress debugging mode.
  *
